@@ -5,6 +5,7 @@ import ig from '../assets/ig.png';
 import lfg from '../assets/lfg.png';
 import nate from '../assets/nate.jpg';
 import emy from '../assets/emy.jpg';
+import {Link} from 'react-scroll';
 
 const Hero = () => {
     return ( 
@@ -28,7 +29,9 @@ const Hero = () => {
                     </div>
                 </div>
 
-                <button className='bg-purple text-ash font-bold rounded-xl hover:scale-110 outline-none mt-2 md:invisible visible mt-5'>Find some abbreve(tions)</button>        
+                <Link to="form" smooth={true} duration={500} spy={false} className='bg-purple text-ash font-bold rounded-xl hover:scale-110 mt-5 md:invisible visible mt-5 p-2'>Find an abbreve(tion)</Link>
+                    
+                
             </header>
 
             <div className='flex flex-wrap justify-center animate-breeze invisible md:visible'>
@@ -43,7 +46,7 @@ const Hero = () => {
                 <div className='md:w-1/2 md:pr-20 md:text-left text-center'>
                     <p className='text-purple font-bold text-3xl'><span className='text-ash'>Abbreve (A-bree-vay)</span> is an open source dictionary for <span className='text-ash'>slangs.</span> </p> 
                     <p className='text-purple font-bold text-3xl mt-2'>Curated by the community, for the community.</p>   
-                    <button className='bg-purple text-ash font-bold rounded-xl hover:scale-110 outline-none mt-2 invisible md:visible'>Find some abbreve(tions)</button>          
+                    
                 </div>
 
                 <div className='border-2 p-4 rounded-lg border-purple md:rotate-3 relative md:mt-0'>

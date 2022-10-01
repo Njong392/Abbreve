@@ -13,7 +13,8 @@
     "@fortawesome/free-solid-svg-icons": "^6.2.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-scroll": "^1.8.7"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",
