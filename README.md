@@ -6,7 +6,9 @@ Abbreve helps you keep up, by providing meanings to these abbreviations.
 # :movie_camera: Project Overview
 You can check out the live project [here](https://abbreve.vercel.app/)
 
-All you need to do is start entering a slang in the search bar, and the meaning will be provided. Below the main meaning of the slang are alternative meanings.
+All you need to do is start entering a slang in the search bar, and the meaning will be provided. Below the main meaning of the slang could be alternative meanings.
+![Screenshot of form section of page with 'lgtm' types into the search bar, it's meaning below it, and alternative meanings](https://user-images.githubusercontent.com/81039882/193478300-b950c00a-acf9-4c31-9e92-ee500e591588.png)
+
 
 # :mega: Want to contribute?
 We would love to have you! Abbreve is open source and we are keen on hearing what you have to say.
@@ -46,6 +48,7 @@ You need to have,
     - The first letter of each word in the definition and alternatives must be uppercase. For example, `Looks Good To Me`
 
 3. The Screenshot below could help
+    ![Screenshot of db.json file in IDE with highlighted section](https://user-images.githubusercontent.com/81039882/193478231-1b0159e1-dd20-41d2-80cb-d82816d6f8bc.png)
 
     - The highlighted section is an example of the way you would add an abbreviation. 
     - Before you add a new object, end the one above with a comma. If not, there will be errors in your JSON. Your IDE should indicate this.
