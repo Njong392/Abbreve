@@ -39,7 +39,7 @@ You need to have,
 ### Adding an abbreviation
 > For now, we use [JSON](https://www.w3schools.com/js/js_json_intro.asp) to store the abbreviations. We hope to improve on this as time goes on
 
-1. Open the `/server` folder and consequently, the `db.json` file you find in it. You can see that each slang is a JSON object of its own with a `definition` and `alternatives`.
+1. In the `/public` folder, open the `/server` folder and subsequently, the `db.json` file you find in it. You can see that each slang is a JSON object of its own with a `definition` and `alternatives`.
 
 2. To add a new abbreviation, you must append a new object to this file. 
     - The slang must be in lowercase. For example, `lgtm` not `LGTM`
