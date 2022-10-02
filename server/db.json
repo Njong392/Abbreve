@@ -1,0 +1,15 @@
+{
+    "lgtm":{
+        "definition":"Looks Good To Me",
+        "alternatives": "Looks Great To Me, Looks Great To Merge"
+    },
+
+    "lfg":{
+        "definition":"Let's Fucking Go",
+        "alternatives" : "Life Feels Good, Looking For Group"
+    },
+
+    "idk":{
+        "definition": "I Don't Know"
+    }
+}
