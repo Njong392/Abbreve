@@ -7,7 +7,7 @@ const Form = () => {
     const [userInput, setUserInput] = useState('');
    
     const fetchData = () => {
-        const url = 'https://njong392.github.io/data/server.json';
+        const url = './server/db.json';
         fetch(`${url}`)
         .then(response => {
             if(!response.ok){
@@ -53,7 +53,7 @@ const Form = () => {
 
                     {error && <div className="text-purple text-sm mt-2">Oopsie. Some error occured :(</div>}
                     {data && <div className="mt-2 text-purple font-bold text-xl ml-2"><p>{data[`${userInput}`]?.definition }</p></div>}
-                    {data && <div className="mt-2 text-purple font-bold text-sm ml-2"><p>{ data[`${userInput}`]?.alternatives }</p></div>}
+                    {data && <div className="mt-2 text-purple font-bold text-xs ml-2"><p>{ data[`${userInput}`]?.alternatives }</p></div>}
                     
 
                 </div>
