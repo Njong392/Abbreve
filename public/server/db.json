@@ -77,6 +77,18 @@
     
     "idc":{
         "definition": "I Don't Care"
+    },
+    "ttyl":{
+        "definition": "Talk To You Later"
+    },
+    "tc":{
+        "definition": "Take Care"
+    },
+    "rofl":{
+        "definition": "Rolling On The Floor, Laughing"
+    },
+    "ootd":{
+        "definition": "Outfit Of The Day"
     }
     
 }
