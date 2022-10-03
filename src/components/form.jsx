@@ -1,10 +1,12 @@
 import { useState } from "react";
 const Form = () => {
+    const DEFAULT_ERROR_MESSAGE = 'Oopsie. Some error occured :('
 
     const [data, setData] = useState(null);
     const [error, setError] = useState(false);
+    const [errorMessage, setErrorMessage] = useState(DEFAULT_ERROR_MESSAGE);
     const [userInput, setUserInput] = useState('');
-   
+    
     const fetchData = (e) => {
         e.preventDefault();
         const url = '/server/db.json';
@@ -16,13 +18,18 @@ const Form = () => {
             return response.json();
         })
         .then((data) => {
-            setData(data);
-            setError(false);
-            
+            if (!(userInput in data)) {
+                setError(true);    
+                setErrorMessage('The record you have entered is not available :(')
+            } else {
+                setData(data);
+                setError(false);
+            }
         })
         .catch(err => {
             console.log(err.message);
             setError(true);
+            setErrorMessage(DEFAULT_ERROR_MESSAGE);
         });
     }
 
@@ -50,7 +57,7 @@ const Form = () => {
                        
                    </form>
 
-                    {error && <div className="text-purple text-sm mt-2">Oopsie. Some error occured :(</div>}
+                    {error && <div className="text-purple text-sm mt-2">{errorMessage}</div>}
                     {data && <div className="mt-2 text-purple font-bold text-xl ml-2"><p role="region" aria-live="assertive">{data[`${userInput}`]?.definition }</p></div>}
                     {data && <div className="mt-2 text-purple font-bold text-xs ml-2"><p>{ data[`${userInput}`]?.alternatives }</p></div>}
 
