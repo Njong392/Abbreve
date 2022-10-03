@@ -109,6 +109,57 @@
     },
     "ootd":{
         "definition": "Outfit Of The Day"
-    }
-    
+    },
+    "cmiiw":{
+        "definition": "Correct me if i'm wrong"
+    },
+    "b2w":{
+        "definition": "Back to work"
+    },
+    "afk":{
+        "definition": "Away from Keyboard"
+    },
+    "cydm":{
+        "definition": "Check your Direct Message"
+    },
+    "ofc":{
+        "definition": "Of course"
+    },
+    "ama":{
+        "definition": "Ask Me Anything"
+    },
+    "awol":{
+        "definition": "Absence without Leave",
+        "alternatives": "Away without Leave"
+    },
+    "b4n":{
+        "definition": "Bye for Now"
+    },
+    "bak":{
+        "definition": "Back to Keyboard"
+    },
+    "bau":{
+        "definition": "Business As Usual"
+    },
+    "bitmt":{
+        "definition": "But in the maintime"
+    },
+    "dilligaf":{
+        "definition": "Did i look like i give a fuck"
+    },
+    "f2p":{
+        "definition": "Free to play"
+    },
+    "f2f":{
+        "definition": "Face to Face"
+    },
+    "ffa":{
+        "definition": "Free for All"
+    },
+    "gwhtlc":{
+        "definition": "Glad we had this little chat"
+    },
+    "icam":{
+        "definition": "I can't agree more"
+    }    
 }
