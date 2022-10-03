@@ -123,7 +123,7 @@
     "til":{
         "definition": "Today I Learn",
         "alternatives": "Today I Learned"
-
+    },
     "brb":{
         "definition": "Be Right Back"
     },
@@ -133,7 +133,7 @@
     },
     "tldr":{
         "definition": "Too Long, Didn't Read"
-
+    },
     "ttyl":{
         "definition": "Talk To You Later"
     },
