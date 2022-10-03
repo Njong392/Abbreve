@@ -18,7 +18,7 @@
     },
     
     "imho":{
-        "definition": "In My Humble Opinion"
+        "definition": "In My Honest Opinion"
     },
     "rtfm":{
         "definition": "Read The Fucking Manual"
@@ -69,6 +69,14 @@
     
     "lol":{
         "definition": "Laugh Out Loud"
+    },
+    
+    "lmk":{
+        "definition": "Let Me Know"
+    },
+    
+    "idc":{
+        "definition": "I Don't Care"
     }
     
 }
