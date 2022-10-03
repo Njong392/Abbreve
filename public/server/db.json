@@ -58,6 +58,10 @@
         "definition": "In Case You Missed It"
     },
 
+    "ikr": {
+        "definition": "I Know, Right?"
+    },
+
     "kiss":{
         "definition": "Keep It Simple Stupid",
         "alternatives": "Keep It Super Simple, Keep It Short And Simple"
@@ -77,6 +81,11 @@
     
     "idc":{
         "definition": "I Don't Care"
+    },
+
+    "til":{
+        "definition": "Today I Learn",
+        "alternatives": "Today I Learned"
     }
     
 }
