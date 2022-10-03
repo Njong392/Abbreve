@@ -11,5 +11,58 @@
 
     "idk":{
         "definition": "I Don't Know"
+    },
+
+    "imo":{
+        "definition": "I My Opinion"
+    },
+    
+    "imho":{
+        "definition": "In My Humble Opinion"
+    },
+    "rtfm":{
+        "definition": "Read The Fucking Manual"
+    },
+
+    "gtfo":{
+        "definition": "Get The Fuck Out"
+    },
+
+    "wtf":{
+        "definition": "What The Fuck"
+    },
+
+    "ig":{
+        "definition": "Instagram"
+    },
+
+    "fyi":{
+        "definition": "For Your Information"
+    },
+
+    "iykyk":{
+        "definition": "If You Know You Know"
+
+    },
+
+    "ifg":{
+        "definition": "I Feel Good"
+    },
+
+    "igtg":{
+        "definition": "I've Got To Go"
+    },
+
+    "icymi":{
+        "definition": "In Case You Missed It"
+    },
+
+    "kiss":{
+        "definition": "Keep It Simple Stupid",
+        "alternatives": "keep it super simple, keep it short and simple"
+    },
+
+    "hmu":{
+        "definition": "Hit Me Up"
     }
 }
