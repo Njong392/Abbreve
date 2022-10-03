@@ -65,5 +65,10 @@
 
     "hmu":{
         "definition": "Hit Me Up"
+    },
+    
+    "lol":{
+        "definition": "Laugh Out Loud"
     }
+    
 }
