@@ -19,13 +19,13 @@ Found a bug? Accessibility issue? Or do you want to add an abbreviation to our d
 
 ### Tech Stack
 This project uses;
-- [React](reactjs.org)
-- [TailwindCSS](tailwindcss.com)
+- [React](https://reactjs.org/)
+- [TailwindCSS](https://tailwindcss.com)
 
 To start contributing,
 ### Prerequisites
 You need to have, 
-- [Node](nodejs.org) installed
+- [Node](https://nodejs.org) installed
 - Basic knowledge of [Git](https://git-scm.com/)
 
 ### Steps
@@ -34,7 +34,7 @@ You need to have,
 3. Run `cd Abbreve` to navigate to project directory.
 4. Run `npm install` to add node_modules folder.
 5. To start the server on localhost, run `npm run dev`.
->This project uses [Vite](vitejs.dev), but that shouldn't overwhelm you. Everything works pretty much the same.
+>This project uses [Vite](https://vitejs.dev), but that shouldn't overwhelm you. Everything works pretty much the same.
 
 6. Make your changes, push, and open a pull request.
 
