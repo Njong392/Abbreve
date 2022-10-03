@@ -11,7 +11,7 @@ All you need to do is start entering a slang in the search bar, and the meaning 
 
 
 # :mega: Want to contribute?
-We would love to have you! Abbreve is open source and we are keen on hearing what you have to say.
+We would love to have you! Abbreve is open source and we are keen on hearing what you have to say. Do check out the [code of conduct](https://github.com/Njong392/Abbreve/blob/main/CODE_OF_CONDUCT.md) for rules and guidelines.
 
 ## :bulb: Getting Started
 Found a bug? Accessibility issue? Or do you want to add an abbreviation to our database? Then go right ahead and create an issue.
@@ -39,6 +39,8 @@ You need to have,
 6. Make your changes, push, and open a pull request.
 
 ### Adding an abbreviation
+Before adding an abbreviation, please make sure that the new entry does not already exist. You can easily check this by entering the slang on the live site to see if gives a result or not.
+
 > For now, we use [JSON](https://www.w3schools.com/js/js_json_intro.asp) to store the abbreviations. We hope to improve on this as time goes on
 
 1. In the `/public` folder, open the `/server` folder and subsequently, the `db.json` file you find in it. You can see that each slang is a JSON object of its own with a `definition` and `alternatives`.
@@ -58,5 +60,12 @@ You need to have,
 > Only English slangs are accepted as of yet.
 
 :bomb: Now, GO CREATE THOSE ISSUES AND PULL REQUESTS!
+
+# :key: License
+This project is licensed with [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)
+
+
+Don't forget to star :star: this project if you like it. All support is highly appreciated :100:
+
 
 
