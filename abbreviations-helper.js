@@ -2,6 +2,9 @@
   This script can:
     1. Review duplicate definitions
     2. Check if a definition is used in another word
+
+	!TODO:
+		1. Check if a slang-word is already present in the database (check the casing too)
 */
 
 import fs from "fs";
