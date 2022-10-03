@@ -42,8 +42,7 @@
     },
 
     "iykyk":{
-        "definition": "If You Know You Know"
-
+       "definition": "If You Know You Know"
     },
 
     "ifg":{
@@ -119,30 +118,36 @@
         "definition": "I Don't Care"
     },
 
-
     "til":{
         "definition": "Today I Learn",
         "alternatives": "Today I Learned"
     },
+    
     "brb":{
         "definition": "Be Right Back"
     },
+    
     "byob":{
         "definition": "Bring Your Own Beer",
         "alternatives": "Be Your Own Boss"
     },
+    
     "tldr":{
         "definition": "Too Long, Didn't Read"
     },
+    
     "ttyl":{
         "definition": "Talk To You Later"
     },
+    
     "tc":{
         "definition": "Take Care"
     },
+    
     "rofl":{
         "definition": "Rolling On The Floor, Laughing"
     },
+    
     "ootd":{
         "definition": "Outfit Of The Day"
     }
