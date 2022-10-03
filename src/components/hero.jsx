@@ -29,7 +29,7 @@ const Hero = () => {
                     </div>
                 </div>
 
-                <Link to="form" smooth={true} duration={500} spy={false} className='bg-purple text-ash font-bold rounded-xl hover:scale-110 mt-5 md:invisible visible mt-5 p-2'>Find an abbreve(tion)</Link>
+                <Link to="form" smooth={true} duration={500} spy={false} className='bg-purple text-ash font-bold rounded-xl hover:scale-110 md:invisible visible mt-5 p-2'>Find an abbreve(tion)</Link>
                     
                 
             </header>
@@ -116,4 +116,4 @@ const Hero = () => {
      );
 }
  
-export default Hero;   <div className='h-56 w-56 relative border-2 border-purple'></div>
+export default Hero;
