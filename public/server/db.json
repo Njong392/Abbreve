@@ -69,6 +69,46 @@
     
     "lol":{
         "definition": "Laugh Out Loud"
+    },
+
+    "stfu":{
+        "definition": "Shut The Fuck Up"
+    },
+
+    "ngl":{
+        "definition": "Not Gonna Lie"
+    },
+
+    "hru":{
+        "definition": "How Are You"
+    },
+
+    "srly":{
+        "definition": "Seriously"
+    },
+
+    "bff":{
+        "definition": "Best Friend Forever"
+    },
+
+    "tl":{
+        "definition": "Time Line"
+    },
+
+    "cl":{
+        "definition": "Contact List"
+    },
+
+    "lmao":{
+        "definition": "Laugh My Ass Out"
+    },
+
+    "nvm":{
+        "definition": "Never Mind"
+    },
+
+    "wyd":{
+        "definition": "What You Doing"
     }
     
 }
