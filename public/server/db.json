@@ -92,15 +92,11 @@
     },
 
     "tl":{
-        "definition": "Time Line"
+        "definition": "Timeline"
     },
 
     "cl":{
         "definition": "Contact List"
-    },
-
-    "lmao":{
-        "definition": "Laugh My Ass Out"
     },
 
     "nvm":{
@@ -109,6 +105,7 @@
 
     "wyd":{
         "definition": "What You Doing"
+    },
     
     "lmk":{
         "definition": "Let Me Know"
