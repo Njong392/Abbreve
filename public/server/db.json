@@ -77,6 +77,16 @@
     
     "idc":{
         "definition": "I Don't Care"
+    },
+    "brb":{
+        "definition": "Be Right Back"
+    },
+    "byob":{
+        "definition": "Bring Your Own Beer",
+        "alternatives": "Be Your Own Boss"
+    },
+    "tldr":{
+        "definition": "Too Long, Didn't Read"
     }
     
 }
