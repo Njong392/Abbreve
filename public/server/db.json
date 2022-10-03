@@ -150,6 +150,12 @@
     
     "ootd":{
         "definition": "Outfit Of The Day"
+    },
+    "goat":{
+        "definition": "Greatest Of All Time"
+    },
+    "tfw":{
+        "definition": "The Feeling When"
     }
     
 }
