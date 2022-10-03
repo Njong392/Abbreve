@@ -7,9 +7,11 @@ function App() {
   return(
     <div className="font-poppins">
       <Navbar />
+    
       <Hero />
       <Form />
       <Footer />
+
     </div>
 
   );

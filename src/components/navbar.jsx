@@ -3,7 +3,7 @@ import {Link} from 'react-scroll';
 
 const Navbar = () => {
    return (
-       <nav className='px-8'>
+       <nav className='px-8 bg-ash'>
             <div className='flex justify-between items-center p-2'>
                 <div className='logo'>
                     <img src={Logo} alt="letter a with a french accent aigu over it" className='h-12 w-12 md:w-14 md:h-14 animate-[breeze_1s_alternate-reverse_infinite]'/>
