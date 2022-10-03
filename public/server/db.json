@@ -33,7 +33,8 @@
     },
 
     "ig":{
-        "definition": "Instagram"
+        "definition": "Instagram",
+        "alternatives" : "I Guess"
     },
 
     "fyi":{
