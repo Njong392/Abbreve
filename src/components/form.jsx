@@ -53,7 +53,6 @@ const Form = () => {
                     {error && <div className="text-purple text-sm mt-2">Oopsie. Some error occured :(</div>}
                     {data && <div className="mt-2 text-purple font-bold text-xl ml-2"><p>{data[`${userInput}`]?.definition }</p></div>}
                     {data && <div className="mt-2 text-purple font-bold text-xs ml-2"><p>{ data[`${userInput}`]?.alternatives }</p></div>}
-                    {(!data[`${userInput}`] && userInput !== "")  && <div className="mt-2 text-purple font-bold text-xl ml-2"><p>Abbreviation not found</p></div>}                   
 
                 </div>
               
