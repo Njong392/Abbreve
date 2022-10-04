@@ -1,0 +1,7 @@
+{
+  "testEnvironment": "jsdom",
+  "moduleFileExtensions": [ "js", "jsx"],
+  "roots": [
+    "tests"
+  ]
+}
