@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useState } from "react";
 const Form = () => {
   
@@ -30,6 +31,10 @@ const Form = () => {
             setError(true);
         });
     }
+
+    useEffect(()=>{
+        setErrorMessage('');
+    }, [userInput]);
 
     return(
         <div className="bg-dark py-12 px-14" >
