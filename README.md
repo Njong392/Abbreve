@@ -18,30 +18,30 @@ Found a bug? Accessibility issue? Or do you want to add an abbreviation to our d
 
 
 ### Tech Stack
-This project uses;
+This project uses:
 - [React](https://reactjs.org/)
 - [TailwindCSS](https://tailwindcss.com)
 
 To start contributing,
 ### Prerequisites
-You need to have, 
+You need to have: 
 - [Node](https://nodejs.org) installed
 - Basic knowledge of [Git](https://git-scm.com/)
 
 ### Steps
-1. Fork this repositiory
+1. Fork this repository 
 2. In your terminal, clone your fork using `git clone <link to your fork>`
 3. Run `cd Abbreve` to navigate to project directory.
 4. Run `npm install` to add node_modules folder.
 5. To start the server on localhost, run `npm run dev`.
 >This project uses [Vite](https://vitejs.dev), but that shouldn't overwhelm you. Everything works pretty much the same.
 
-6. Make your changes, push, and open a pull request.
+6. Make your changes, push your code, and open a pull request.
 
 ### Adding an abbreviation
 Before adding an abbreviation, please make sure that the new entry does not already exist. You can easily check this by entering the slang on the live site to see if gives a result or not.
 
-> For now, we use [JSON](https://www.w3schools.com/js/js_json_intro.asp) to store the abbreviations. We hope to improve on this as time goes on
+> For now, we use [JSON](https://www.w3schools.com/js/js_json_intro.asp) to store the abbreviations. We hope to improve on this as time goes on.
 
 1. In the `/public` folder, open the `/server` folder and subsequently, the `db.json` file you find in it. You can see that each slang is a JSON object of its own with a `definition` and `alternatives`.
 
@@ -65,7 +65,7 @@ Before adding an abbreviation, please make sure that the new entry does not alre
 This project is licensed with [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
 
-Don't forget to star :star: this project if you like it. All support is highly appreciated :100:
+If you like [this](https://abbreve.vercel.app/) Project, Don't forget to leave a star :star: . All support is highly appreciated :100:
 
 
 
