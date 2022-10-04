@@ -169,28 +169,69 @@
         "definition": "Thanks In Advance"
     },
     
-  "smh": {
-    "definition": "Shaking My Head"
-  },
-  
-  "pov": {
-    "definition": "Point Of View"
-  },
-  
-  "tbf": {
-    "definition": "To Be Frank",
-    "alternatives": "To Be Fair"
-  },
-  
-  "fgs": {
-    "definition": "For God's sake"
-  },
+	"smh": {
+		"definition": "Shaking My Head"
+	},
+	
+	"pov": {
+		"definition": "Point Of View"
+	},
+	
+	"tbf": {
+		"definition": "To Be Frank",
+		"alternatives": "To Be Fair"
+	},
+	
+	"fgs": {
+		"definition": "For God's sake"
+	},
 
-  "tbh": {
-    "definition": "To Be Honest"
-  },
+	"tbh": {
+		"definition": "To Be Honest"
+	},
 
-  "asap": {
-    "definition": "As Soon As Possible"
-  }
+	"asap": {
+		"definition": "As Soon As Possible"
+	},
+
+	"ffs": {
+		"definition": "For Fuck Sake"
+	},
+
+	"ftw": {
+		"definition": "For The Win"
+	},
+
+	"afaik": {
+		"definition": "As Far As I Know"
+	},
+
+	"np": {
+		"definition": "No Problem"
+	},
+
+	"iirc": {
+		"definition": "If I Recall Correctly",
+		"alternatives": "If I Remember Correctly"
+	},
+
+	"jk": {
+		"definition": "Just kidding"
+	},
+
+	"fb": {
+		"definition": "Facebook"
+	},
+
+	"fwiw": {
+		"definition": "For What It's Worth"
+	},
+
+	"irl": {
+		"definition": "In Real Life"
+	},
+
+	"op": {
+		"definition": "Original Poster"
+	}
 }
