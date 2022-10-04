@@ -192,5 +192,11 @@
 
   "asap": {
     "definition": "As Soon As Possible"
-  }
+  },
+   "uk": {
+        "definition": "You Know"
+   },
+    "ik": {
+        "definition": "I Know"
+    }
 }
