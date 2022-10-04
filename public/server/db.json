@@ -346,6 +346,14 @@
   
   "fgs": {
     "definition": "For God's sake"
-  }
+  },
   
+  "wth": {
+    "definition": "What the hell"
+  },
+  "nm": {
+    "definition": "Nothing much",
+    "alternatives": "Never mind"
+  }
+
 }
