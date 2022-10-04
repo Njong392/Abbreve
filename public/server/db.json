@@ -130,7 +130,7 @@
     },
     "awol":{
         "definition": "Absent Without Official Leave",
-        "alternatives": "Away without Leave"
+        "alternatives": "Away Without Leave, Absent Without Leave"
     },
     "b4n":{
         "definition": "Bye for Now"
