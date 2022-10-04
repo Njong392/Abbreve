@@ -22,15 +22,14 @@ This project uses:
 - [React](https://reactjs.org/)
 - [TailwindCSS](https://tailwindcss.com)
 
-To start contributing,
 ### Prerequisites
-You need to have: 
+Before installation, you need to have the following: 
 - [Node](https://nodejs.org) installed
 - Basic knowledge of [Git](https://git-scm.com/)
 
 ### Steps
-1. Fork this repository 
-2. In your terminal, clone your fork using `git clone <link to your fork>`
+1. [Fork](https://github.com/Njong392/Abbreve/fork) this repository. 
+2. In your terminal, clone your fork using `git clone <link to your fork>`.
 3. Run `cd Abbreve` to navigate to project directory.
 4. Run `npm install` to add node_modules folder.
 5. To start the server on localhost, run `npm run dev`.
@@ -38,8 +37,8 @@ You need to have:
 
 6. Make your changes, push your code, and open a pull request.
 
-### Adding an abbreviation
-Before adding an abbreviation, please make sure that the new entry does not already exist. You can easily check this by entering the slang on the live site to see if gives a result or not.
+### Adding an Abbreviation
+Before adding an abbreviation, please make sure that the new entry does Not already exist. You can easily check this by entering the slang on the [live](https://abbreve.vercel.app/) site to see if gives a result or not.
 
 > For now, we use [JSON](https://www.w3schools.com/js/js_json_intro.asp) to store the abbreviations. We hope to improve on this as time goes on.
 
@@ -62,10 +61,10 @@ Before adding an abbreviation, please make sure that the new entry does not alre
 :bomb: Now, GO CREATE THOSE ISSUES AND PULL REQUESTS!
 
 # :key: License
-This project is licensed with [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)
+This project is licensed with [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
 
-If you like [this](https://abbreve.vercel.app/) Project, Don't forget to leave a star :star: . All support is highly appreciated :100:
+If you like the [project](https://abbreve.vercel.app/), Don't forget to leave a star :star: . All support is highly appreciated :100:
 
 
 
