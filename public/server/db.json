@@ -190,6 +190,7 @@
   "imho": {
     "definition": "In My Honest Opinion"
   },
+    
   "rtfm": {
     "definition": "Read The Fucking Manual"
   },
@@ -336,6 +337,15 @@
   
   "pov": {
     "definition": "Point Of View"
+  },
+  
+  "tbf": {
+    "definition": "To Be Frank",
+    "alternatives": "To Be Fair"
+  },
+  
+  "fgs": {
+    "definition": "For God's sake"
   }
   
 }
