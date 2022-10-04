@@ -2260,7 +2260,7 @@
   "jas": {
     "definition": "Just a second"
   },
-  "jc (j/c)": {
+  "jc": {
     "definition": "Just checking"
   },
   "jdi": {
@@ -2278,13 +2278,13 @@
   "jic": {
     "definition": "Just in case"
   },
-  "jj (j/j)": {
+  "jj": {
     "definition": "Just joking"
   },
   "jja": {
     "definition": "Just joking around"
   },
-  "jk (j/k)": {
+  "jk": {
     "definition": "Just kidding"
   },
   "jlmk": {
@@ -2297,7 +2297,7 @@
     "definition": "Just playing",
     "alternatives": "Jackpot (online gaming, bingo games)"
   },
-  "jt (j/t)": {
+  "jt": {
     "definition": "Just teasing"
   },
   "jtlyk": {
@@ -2312,15 +2312,12 @@
   "k": {
     "definition": "Okay"
   },
-  "k/b": {
-    "definition": "Keyboard"
-  },
-  "k8t": {
-    "definition": "Katie"
-  },
   "kb": {
     "definition": "Keyboard",
     "alternatives": "Kick butt (online gaming)"
+  },
+  "k8t": {
+    "definition": "Katie"
   },
   "kdfu": {
     "definition": "Means Cracking (K) the (D as in Da) *freak* up"
@@ -4186,7 +4183,7 @@
   "v": {
     "definition": "Very"
   },
-  "v/r": {
+  "vr": {
     "definition": "Very Respectfully"
   },
   "vat": {
