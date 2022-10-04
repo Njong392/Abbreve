@@ -392,6 +392,14 @@
 
   "ik": {
   	"definition": "I Know"
+  }, 
+
+  "ygir": {
+  	"definition": "You Got It Right"
+  }, 
+
+  "gtsyh": {
+  	"definition": "Good To See You Here"
   }
 
 }
