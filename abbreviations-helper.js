@@ -1,10 +1,7 @@
 /*
   This script can:
-    1. Review duplicate definitions
-    2. Check if a definition is used in another word
-
-	!TODO:
-		1. Check if a slang-word is already present in the database (check the casing too)
+    1. Filter the abbreviations.json file to remove duplicate words and sort them alphabetically
+    2. Check if a abbreviation is present
 */
 
 import fs from "fs";
@@ -19,33 +16,23 @@ const readline = readLine.createInterface({
 	output: process.stdout,
 });
 
-const reviewDuplicates = () => {
-	const duplicates = [];
+const filterAbbreviations = () => {
 	const words = Object.keys(db);
+	const uniqueWords = [...new Set(words)];
 
-	words.forEach((word) => {
-		const definition = db[word].definition;
-		const duplicate = words.find(
-			(w) => db[w].definition === definition && w !== word
-		);
+	const newDb = uniqueWords.reduce((acc, word) => {
+		acc[word] = db[word];
+		return acc;
+	}, {});
 
-		if (duplicate) {
-			duplicates.push({ word, duplicate });
-		}
-	});
-
-	if (duplicates.length) {
-		console.log("Duplicate definitions found:");
-		console.log(duplicates);
-	} else {
-		console.log("No duplicate definitions found");
-	}
+	fs.writeFileSync(dbPath, JSON.stringify(newDb, null, 2));
+	console.log("Filtering done");
 };
 
 const checkIfWordIsPresent = () => {
 	readline.question("Enter the word you want to check: ", (word) => {
 		const words = Object.keys(db);
-		const isPresent = words.find((w) => w === word);
+		const isPresent = words.find((w) => w.toLowerCase() === word.toLowerCase());
 
 		if (isPresent) {
 			console.log(`\x1b[31m${word} is already present\x1b[0m`);
@@ -58,12 +45,12 @@ const checkIfWordIsPresent = () => {
 };
 
 readline.question(
-	"What would you like to do? \n 1. Review duplicate definitions \n 2. Check if a word is present in the database \n",
+	"What would you like to do? \n 1. Filter abbreviations \n 2. Check if an abbreviation is present in the database \n",
 	(res) => {
 		if (res !== "1" && res !== "2") throw new Error("Invalid choice");
 		if (res === "1") {
-			console.log("Reviewing duplicate definitions...");
-			reviewDuplicates();
+			console.log("Filtering abbreviations...");
+			filterAbbreviations();
 			readline.close();
 		} else if (res === "2") {
 			checkIfWordIsPresent();

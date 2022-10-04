@@ -1,4 +1,70 @@
 {
+    "2": {
+        "meaning": "Meaning 'to' in SMS"
+    },
+    "4": {
+        "meaning": "Short for 'for' in SMS"
+    },
+    "9": {
+        "meaning": "Parent is watching (social media)"
+    },
+    "19": {
+        "meaning": "Zero hand (cribbage)"
+    },
+    "20": {
+        "meaning": "Meaning 'location' (trucking lingo)"
+    },
+    "81": {
+        "meaning": "Meaning Hells Angels (H=8th letter of alphabet, A=1st letter of alphabet)"
+    },
+    "86": {
+        "meaning": "Over, throw out (military/bartending)"
+    },
+    "88": {
+        "meaning": "Bye-bye (Mandarin Chinese txt msgs)",
+        "alternatives": "Hugs and kisses (amateur radio)"
+    },
+    "121": {
+        "meaning": "One-to-one (private chat initiation)"
+    },
+    "143": {
+        "meaning": "I love you"
+    },
+    "182": {
+        "meaning": "I hate you"
+    },
+    "404": {
+        "meaning": "I don't know"
+    },
+    "411": {
+        "meaning": "Meaning 'information'"
+    },
+    "420": {
+        "meaning": "Lets get high",
+        "alternatives": "Meaning 'Marijuana'"
+    },
+    "459": {
+        "meaning": "Means I love you (ILY is 459 using keypad numbers)"
+    },
+    "511": {
+        "meaning": "Too much information (more than 411)"
+    },
+    "555": {
+        "meaning": "Sobbing, crying. (Mandarin Chinese txt msgs)"
+    },
+    "831": {
+        "meaning": "I love you (8 letters, 3 words, 1 meaning)"
+    },
+    "1337": {
+        "meaning": "Leet, meaning 'elite'"
+    },
+    "1432": {
+        "meaning": "I love you too"
+    },
+    "55555": {
+        "meaning": "Crying your eyes out (Mandarin Chinese txt msgs)",
+        "alternatives": "Meaning Laughing (In Thai language the number 5 is pronounced 'ha'.)"
+    },
     "lgtm": {
         "definition": "Looks Good To Me",
         "alternatives": "Looks Great To Me, Looks Great To Merge"
@@ -18,9 +84,6 @@
     },
     "rtfm": {
         "definition": "Read The Fucking Manual"
-    },
-    "gtfo": {
-        "definition": "Get The Fuck Out"
     },
     "wtf": {
         "definition": "What The Fuck"
@@ -52,924 +115,4602 @@
         "definition": "Hit Me Up"
     },
     "lol": {
-        "definition": "Laugh Out Loud"
+        "definition": "Laughing Out Loud",
+        "alternatives": "Laugh out loud, Lots of love"
     },
-    "Hobnob": {
-        "definition": "Socialize with people of an artificially higher status"
+    ";S": {
+        "meaning": "Gentle warning, like 'Hmm? What did you say?'"
     },
-    "Chill": {
-        "definition": "Relax"
+    "?": {
+        "meaning": "I have a question",
+        "alternatives": "I don't understand what you mean"
     },
-    "Popo": {
-        "definition": "Police"
+    "?4U": {
+        "meaning": "I have a question for you"
     },
-    "Fuzz": {
-        "definition": "Police"
+    ".02": {
+        "meaning": "My (or your) two cents worth"
     },
-    "Airhead": {
-        "definition": "Silly/foolish person"
+    "@TEOTD": {
+        "meaning": "At the end of the day"
     },
-    "Cringe": {
-        "definition": "Really embarrassing"
+    "*s*": {
+        "meaning": "Meaning 'smile'"
     },
-    "Copium": {
-        "definition": "Fake drug to help twitch users deal with loss/failure"
+    "*w*": {
+        "meaning": "Meaning 'wink'"
     },
-    "Simp": {
-        "definition": "Person who does too much for who he/she likes"
+    "^^": {
+        "meaning": "Meaning 'read line' or 'read message' above"
     },
-    "Cram": {
-        "definition": "Study like crazy"
+    "^5": {
+        "meaning": "High-five"
     },
-    "Crash": {
-        "definition": "Sleep/pass out"
+    "^URS": {
+        "meaning": "Up yours"
     },
-    "Dms’": {
-        "definition": "Direct messages"
+    "<3": {
+        "meaning": "Meaning 'sideways heart' (love, friendship)"
     },
-    "Dead": {
-        "definition": "(Such as in a restaurant or bar) no one’s there"
+    "<3333": {
+        "meaning": "Meaning 'heart or love' (more 3s is a bigger heart)"
     },
-    "Steez": {
-        "definition": "Effortless style"
+    "10M": {
+        "meaning": "Ten man as in ten man squad in online gaming"
     },
-    "Spox": {
-        "definition": "Spokesperson"
+    "10Q": {
+        "meaning": "Thank you"
     },
-    "Sawbuck": {
-        "definition": "Us$10"
+    "10X": {
+        "meaning": "Thanks"
     },
-    "A-Game": {
-        "definition": "One’s best"
+    "14AA41": {
+        "meaning": "One for all, and all for one"
     },
-    "Oops!": {
-        "definition": "When someone messes up"
+    "1CE": {
+        "meaning": "Once"
     },
-    "Dude": {
-        "definition": "A guy"
+    "1DR": {
+        "meaning": "I wonder"
     },
-    "Nuts": {
-        "definition": "Crazy"
+    "1NAM": {
+        "meaning": "One in a million"
     },
-    "Dope!": {
-        "definition": "Cool"
+    "1TG, 2TG": {
+        "meaning": "1 to go or 2 to go. Meaning number of items needed for win (online bingo)"
     },
-    "Yuppie": {
-        "definition": "Young urban professional, white-collar worker"
+    "1UP": {
+        "meaning": "Meaning extra life (online gaming)"
     },
-    "White-Collar": {
-        "definition": "High-salary job that doesn’t involve manual labor, such as accountants and lawyers"
+    "2B": {
+        "meaning": "To be"
     },
-    "Blue-Collar": {
-        "definition": "Jobs focused on manual labor, such as farmers and miners"
+    "2EZ": {
+        "meaning": "Too easy"
     },
-    "Cray": {
-        "definition": "Crazy"
+    "2G2BT": {
+        "meaning": "Too good to be true"
     },
-    "Woke": {
-        "definition": "Aware of potential injustices"
+    "2M2H": {
+        "meaning": "Too much too handle"
     },
-    "Poppin’": {
-        "definition": "Excellent"
+    "2MI": {
+        "meaning": "Too much information"
     },
-    "Lit": {
-        "definition": "Drunk, or superb"
+    "2MOR": {
+        "meaning": "Tomorrow"
     },
-    "Swole": {
-        "definition": "Very muscular"
+    "2MORO": {
+        "meaning": "Tomorrow"
     },
-    "Drip": {
-        "definition": "Fashionable"
+    "2N8": {
+        "meaning": "Tonight"
     },
-    "Drownin’": {
-        "definition": "Unfashionable"
+    "2NTE": {
+        "meaning": "Tonight"
     },
-    "Salty": {
-        "definition": "Jealous (of someone)"
+    "4AO": {
+        "meaning": "For adults only"
     },
-    "Cool": {
-        "definition": "Great"
+    "4COL": {
+        "meaning": "For crying out loud"
     },
-    "Snatched": {
-        "definition": "Nice and cool"
+    "4EAE": {
+        "meaning": "Forever and ever"
     },
-    "Yeet!": {
-        "definition": "Expression of excitement"
+    "4EVA": {
+        "meaning": "Forever"
     },
-    "Yikes!": {
-        "definition": "No way! It can’t be!"
+    "4NR": {
+        "meaning": "Foreigner"
     },
-    "Finsta": {
-        "definition": "Fake/Private Instagram account"
+    "4SALE": {
+        "meaning": "For sale"
     },
-    "Periodt.": {
-        "definition": "End of discussion (for example, what a parent would say to the child)"
+    "6Y": {
+        "meaning": "Sexy"
     },
-    "Flex": {
-        "definition": "Show off"
+    "7K": {
+        "meaning": "Sick, really cool"
     },
-    "Low-key": {
-        "definition": "Modest, something you don’t want emphasized"
+    "A/N": {
+        "meaning": "Author's note"
     },
-    "Slay": {
-        "definition": "Excel at, win at"
+    "A/S/L": {
+        "meaning": "Age/sex/location"
     },
-    "Gucci": {
-        "definition": "Trendy"
+    "A3": {
+        "meaning": "Anytime, anywhere, anyplace"
     },
-    "Shook": {
-        "definition": "Emotionally bothered/shaken"
+    "AA": {
+        "meaning": "Alcoholics Anonymous",
+        "alternatives": "As above, Ask about"
     },
-    "Curve": {
-        "definition": "Rejecting someone’s advances (e.g. from a classmate)"
+    "AAF": {
+        "meaning": "As a matter of fact",
+        "alternatives": "As a friend"
     },
-    "Stan": {
-        "definition": "Obsessive fan"
+    "AAK": {
+        "meaning": "Asleep at keyboard",
+        "alternatives": "Alive and kicking"
     },
-    "Sus": {
-        "definition": "Suspect/suspicious"
+    "AAMOF": {
+        "meaning": "As a matter of fact"
     },
-    "Turnt": {
-        "definition": "Intoxicated, energized"
+    "AAMOI": {
+        "meaning": "As a matter of interest"
     },
-    "Bae": {
-        "definition": "A best friend/loved one"
+    "AAP": {
+        "meaning": "Always a pleasure"
     },
-    "Fleek": {
-        "definition": "Really good, stylish"
+    "AAR": {
+        "meaning": "At any rate"
     },
-    "Cheugy": {
-        "definition": "Out of style"
+    "AAS": {
+        "meaning": "Alive and smiling"
     },
-    "Emo": {
-        "definition": "Overly angsty/emotional"
+    "AASHTA": {
+        "meaning": "As always, Sheldon has the answer (Bike mechanic Sheldon Brown)"
     },
-    "E-Girl/E-Boy": {
-        "definition": "An emo girl/boy"
+    "AATK": {
+        "meaning": "Always at the keyboard"
     },
-    "Fam": {
-        "definition": "Family"
+    "AAYF": {
+        "meaning": "As always, your friend"
     },
-    "Smol": {
-        "definition": "Small/cute"
+    "ABBR": {
+        "meaning": "Meaning abbreviation"
     },
-    "Snack": {
-        "definition": "Someone who’s attractive"
+    "ABC": {
+        "meaning": "Already been chewed"
     },
-    "Wig": {
-        "definition": "That’s so cool!"
+    "ABD": {
+        "meaning": "Already been done"
     },
-    "Lewk": {
-        "definition": "Someone’s personal style"
+    "ABT": {
+        "meaning": "About"
     },
-    "Hot": {
-        "definition": "Attractive"
+    "ABT2": {
+        "meaning": "Meaning 'About to'"
     },
-    "Sick": {
-        "definition": "Cool, great"
+    "ABTA": {
+        "meaning": "Meaning Good-bye (signoff)"
     },
-    "Shady": {
-        "definition": "Suspicious"
+    "ABU": {
+        "meaning": "All bugged up"
     },
-    "Bomb": {
-        "definition": "Really good, tasty"
+    "AC": {
+        "meaning": "Acceptable content"
     },
-    "Boujee": {
-        "definition": "Fancy and extravagant"
+    "ACC": {
+        "meaning": "Anyone can come"
     },
-    "Dank": {
-        "definition": "Excellent"
+    "ACD": {
+        "meaning": "ALT / CONTROL / DELETE"
     },
-    "Flakey": {
-        "definition": "Indecisive"
+    "ACDNT": {
+        "meaning": "Accident (e-mail, Government)"
     },
-    "Finna": {
-        "definition": "I am going to"
+    "ACE": {
+        "meaning": "Meaning marijuana cigarette, or 3.5-4 grams of weed"
     },
-    "Ghost": {
-        "definition": "Suddenly start ignoring"
+    "ACK": {
+        "meaning": "Acknowledge"
     },
-    "Hypebeast": {
-        "definition": "Someone who only wants to be popular"
+    "ACPT": {
+        "meaning": "Accept (e-mail, Government)"
     },
-    "W": {
-        "definition": "A win"
+    "ACQSTN": {
+        "meaning": "Acquisition (e-mail, Government)"
     },
-    "L": {
-        "definition": "A loss"
+    "ADAD": {
+        "meaning": "Another day, another dollar"
     },
-    "Whip": {
-        "definition": "Car"
+    "ADBB": {
+        "meaning": "All done, bye-bye"
     },
-    "Hip": {
-        "definition": "Popular, trendy"
+    "ADD": {
+        "meaning": "Address"
     },
-    "Lemon": {
-        "definition": "Bad person"
+    "ADDY": {
+        "meaning": "Address"
     },
-    "Babe": {
-        "definition": "Attractive woman, your significant other"
+    "ADIH": {
+        "meaning": "Another day in hell"
     },
-    "Grub": {
-        "definition": "Food"
+    "ADIP": {
+        "meaning": "Another day in paradise"
     },
-    "Jacked": {
-        "definition": "Muscular"
+    "ADMIN": {
+        "meaning": "Administrator"
     },
-    "Chicken": {
-        "definition": "Coward"
+    "ADMINR": {
+        "meaning": "Administrator (Government)"
     },
-    "Ex": {
-        "definition": "Former girlfriend or boyfriend"
+    "ADN": {
+        "meaning": "Any day now"
     },
-    "Whiz": {
-        "definition": "A smart person"
+    "ADR": {
+        "meaning": "Address"
     },
-    "Dump": {
-        "definition": "End a relationship"
+    "AE": {
+        "meaning": "Area effect (online gaming)"
     },
-    "Jonesing (For)": {
-        "definition": "Really want something"
+    "AEAP": {
+        "meaning": "As early as possible"
     },
-    "Wack": {
-        "definition": "Bad, not cool"
+    "AF": {
+        "meaning": "April Fools",
+        "alternatives": "As *Freak*, Aggression factor (online gaming)"
     },
-    "Score": {
-        "definition": "Get what you want"
+    "AFAIAA": {
+        "meaning": "As far as I am aware"
     },
-    "Corny": {
-        "definition": "(Things like movies and jokes) silly"
+    "AFAIC": {
+        "meaning": "As far as I am concerned"
     },
-    "Cheesy": {
-        "definition": "(Things like movies and jokes) silly"
+    "AFAIK": {
+        "meaning": "As far as I know"
     },
-    "Flick": {
-        "definition": "Movie"
+    "AFAIUI": {
+        "meaning": "As far as I understand it"
     },
-    "Bummer": {
-        "definition": "Disappointment"
+    "AFAP": {
+        "meaning": "As far as possible"
     },
-    "Wasted": {
-        "definition": "Intoxicated"
+    "AFC": {
+        "meaning": "Away from computer"
     },
-    "Booze": {
-        "definition": "Alcohol"
+    "AFFA": {
+        "meaning": "Angels Forever, Forever Angels"
     },
-    "Yas!": {
-        "definition": "(Celebratory) yes!"
+    "AFJ": {
+        "meaning": "April Fool's joke"
     },
-    "In the bag": {
-        "definition": "A certainty (usually for something that you want, like in sports or a contest)"
+    "AFK": {
+        "meaning": "Away from keyboard"
     },
-    "Once in a blue moon": {
-        "definition": "Rarely"
+    "AFPOE": {
+        "meaning": "A fresh pair of eyes"
     },
-    "You bet": {
-        "definition": "You’re welcome"
+    "AFZ": {
+        "meaning": "Acronym Free Zone"
     },
-    "I don’t buy that": {
-        "definition": "I don’t believe you"
+    "AGI": {
+        "meaning": "Meaning 'agility' (online gaming)"
     },
-    "That’s rad": {
-        "definition": "That’s cool"
+    "AH": {
+        "meaning": "At home"
     },
-    "Never mind": {
-        "definition": "Let’s change the subject"
+    "AIAMU": {
+        "meaning": "And I am a money's uncle"
     },
-    "Keep in touch": {
-        "definition": "(When leaving someone) Let’s stay in contact"
+    "AIGHT": {
+        "meaning": "Alright"
     },
-    "I can’t even!": {
-        "definition": "I can’t tolerate that anymore!"
+    "AIR": {
+        "meaning": "As I remember"
     },
-    "No biggie": {
-        "definition": "Not a problem"
+    "AISB": {
+        "meaning": "As it should be",
+        "alternatives": "As I said before"
     },
-    "No big deal": {
-        "definition": "Not a problem"
+    "AISI": {
+        "meaning": "As I see it"
     },
-    "No sweat": {
-        "definition": "Not a problem"
+    "AITR": {
+        "meaning": "Adult in the room"
     },
-    "Show up": {
-        "definition": "Go to, do better than someone"
+    "AKA": {
+        "meaning": "Also known as"
     },
-    "Have a crush (on someone)": {
-        "definition": "Like someone, want to ask someone out on a date"
+    "ALCON": {
+        "meaning": "All concerned"
     },
-    "Get hitched": {
-        "definition": "Get married"
+    "ALOL": {
+        "meaning": "Actually laughing out loud"
     },
-    "Tie the knot": {
-        "definition": "Get married"
+    "AMA": {
+        "meaning": "Ask me anything (Reddit)"
     },
-    "I’m beat": {
-        "definition": "I’m tired"
+    "AMAP": {
+        "meaning": "As much as possible"
     },
-    "Get under one’s skin": {
-        "definition": "Annoy"
+    "AMBW": {
+        "meaning": "All my best wishes"
     },
-    "A turn off": {
-        "definition": "Something you don’t like about someone/somewhere"
+    "AML": {
+        "meaning": "All my love"
     },
-    "Couch potato": {
-        "definition": "Someone who’s always watching tv"
+    "AMOF": {
+        "meaning": "As a matter of fact"
     },
-    "Party animal": {
-        "definition": "Someone who is always partying"
+    "AO": {
+        "meaning": "Anarchy Online (online gaming)"
     },
-    "Hang out": {
-        "definition": "Spend time with people"
+    "AOC": {
+        "meaning": "Available on cell"
     },
-    "It sucked": {
-        "definition": "It was bad"
+    "AOE": {
+        "meaning": "Area of effect (online game)"
     },
-    "I’m game": {
-        "definition": "I can join you/I will do it"
+    "AOM": {
+        "meaning": "Age of majority",
+        "alternatives": "Age of Mythology (online gaming)"
     },
-    "I’m down": {
-        "definition": "I can join you/I will do it"
+    "AOTA": {
+        "meaning": "All of the above"
     },
-    "I’m in": {
-        "definition": "I can join you/I will do it"
+    "AOYP": {
+        "meaning": "Angel on your pillow"
     },
-    "Have a blast": {
-        "definition": "Having a great time"
+    "APAC": {
+        "meaning": "All praise and credit"
     },
-    "Get fired": {
-        "definition": "Lose one’s job"
+    "API": {
+        "meaning": "Application Programming Interface"
     },
-    "Hit the books": {
-        "definition": "Study"
+    "APP": {
+        "meaning": "Application",
+        "alternatives": "Appreciate"
     },
-    "Rip (someone) off": {
-        "definition": "Overcharge"
+    "AQAP": {
+        "meaning": "As quick (or quiet) as possible"
     },
-    "Ride shotgun": {
-        "definition": "Sit in the front passenger seat"
+    "ARC": {
+        "meaning": "Archive (compressed files)"
     },
-    "The bomb": {
-        "definition": "Excellent"
+    "ARE": {
+        "meaning": "Acronym rich environment"
     },
-    "Have dibs on": {
-        "definition": "Make a claim on/to"
-    },
-    "Suck up": {
-        "definition": "Win someone’s approval by being servile"
-    },
-    "Kiss ass": {
-        "definition": "Win someone’s approval by being servile"
-    },
-    "Fresh meat": {
-        "definition": "New target for humiliation"
-    },
-    "Loose cannon": {
-        "definition": "Someone dangerously uncontrollable"
-    },
-    "Pass the buck": {
-        "definition": "Make someone else responsible"
-    },
-    "My bad": {
-        "definition": "My mistake"
-    },
-    "Take for granted": {
-        "definition": "Assume"
-    },
-    "Hit the road": {
-        "definition": "Leave (to go somewhere)"
-    },
-    "Go dutch": {
-        "definition": "Every person pays for their own food/drinks"
-    },
-    "Hit the spot": {
-        "definition": "(Said after food/drink) Really satisfying"
-    },
-    "Wrap up": {
-        "definition": "Finish doing something"
-    },
-    "Are you kidding me?": {
-        "definition": "Phrase to represent excitement/frustration"
-    },
-    "Around the clock": {
-        "definition": "All the time, 24 hours a day, 7 seven days a week"
-    },
-    "Take a rain check": {
-        "definition": "Do at a later time"
-    },
-    "What’s up?": {
-        "definition": "How are you? How’s it going?"
-    },
-    "You’re telling me!": {
-        "definition": "I know!"
-    },
-    "All-ears": {
-        "definition": "Has your undivided attention"
-    },
-    "All-nighter": {
-        "definition": "Staying up all night to do homework/chat with friends"
-    },
-    "I’m baby": {
-        "definition": "I’m innocent/cute"
-    },
-    "Glow up": {
-        "definition": "A makeover (transformed from ugly to less ugly)"
-    },
-    "Open up pandora’s box": {
-        "definition": "Cause/start trouble/problems"
-    },
-    "In the zone": {
-        "definition": "Performing as well as or better than one can"
-    },
-    "Tune out": {
-        "definition": "Stop paying attention"
-    },
-    "Armchair CEO": {
-        "definition": "Offering expertise on"
-    },
-    "Off the hook": {
-        "definition": "Freed from blame"
-    },
-    "Off the chain": {
-        "definition": "Really good"
-    },
-    "Bye, Felicia": {
-        "definition": "Said when you’re done with a conversation. Meaning “that’s it. I’m done.”"
-    },
-    "(To) ace": {
-        "definition": "Excel at (a test)"
-    },
-    "(To) nail": {
-        "definition": "Excel at (a test, a race)"
-    },
-    "(To) screw over": {
-        "definition": "Cheat or exploit someone"
-    },
-    "Amped up": {
-        "definition": "Filled with enthusiasm/energy"
-    },
-    "On point": {
-        "definition": "Relevant and appropriate, really good"
-    },
-    "No cap": {
-        "definition": "Not lying"
-    },
-    "Straight fire": {
-        "definition": "Trendy"
-    },
-    "Spill the tea/spill the beans": {
-        "definition": "Share the gossip/secret"
-    },
-    "Netflix and chill": {
-        "definition": "Watch Netflix and have sex"
-    },
-    "Big mad": {
-        "definition": "Really angry"
-    },
-    "Diamond hands": {
-        "definition": "Taking a major financial risk"
-    },
-    "Fauci ouchie": {
-        "definition": "COVID-19 vaccine"
-    },
-    "Cancel culture": {
-        "definition": "Online shaming/embarrassment of someone due to their views"
-    },
-    "Grill": {
-        "definition": "Angrily stare at someone"
-    },
-    "Real talk": {
-        "definition": "Used to get someone’s attention to talk about something serious"
-    },
-    "Cake/Cheese": {
-        "definition": "Money"
-    },
-    "Mad": {
-        "definition": "Very"
-    },
-    "Frontin’": {
-        "definition": "Pretending to be skilled to impress others"
-    },
-    "Dead-Ass": {
-        "definition": "Serious about something"
-    },
-    "Tight": {
-        "definition": "Stylish, cool"
-    },
-    "Ratchet": {
-        "definition": "A woman who has made some bad lifestyle choices"
-    },
-    "Brick": {
-        "definition": "Freezing"
-    },
-    "Schmear": {
-        "definition": "Lots of cream cheese"
-    },
-    "Pie": {
-        "definition": "Pizza (pie)"
-    },
-    "Schvitz": {
-        "definition": "Sweating"
-    },
-    "Stoop": {
-        "definition": "Steps in front of a building"
-    },
-    "Dumb": {
-        "definition": "Really, very"
-    },
-    "Gotham": {
-        "definition": "Nickname for New York City (from Batman)"
-    },
-    "Bodega": {
-        "definition": "Small neighborhood shop"
-    },
-    "Cop": {
-        "definition": "Buy, feel (inappropriately)"
-    },
-    "Buggin’": {
-        "definition": "Acting crazy"
-    },
-    "Ice": {
-        "definition": "Jewelry"
-    },
-    "Wylin’/Wildin’": {
-        "definition": "Acting crazy"
-    },
-    "Crusty": {
-        "definition": "Unclean"
-    },
-    "Snuff": {
-        "definition": "Hit/punch, drugs"
-    },
-    "Schlep": {
-        "definition": "Impatiently going between places"
-    },
-    "Regular coffee": {
-        "definition": "Coffee made with cream and sugar"
-    },
-    "Have beef": {
-        "definition": "Have a problem with/want to fight with someone"
-    },
-    "Are you down?": {
-        "definition": "Want to do it/join us?"
-    },
-    "NoHo": {
-        "definition": "North Hollywood"
-    },
-    "SigAlert": {
-        "definition": "Traffic alert/warning"
-    },
-    "Yeah no": {
-        "definition": "No"
-    },
-    "SoCal": {
-        "definition": "Southern California"
-    },
-    "NorCal": {
-        "definition": "Northern California"
-    },
-    "Gnarly": {
-        "definition": "Good or bad (depends on the context)"
-    },
-    "Rad": {
-        "definition": "Cool"
-    },
-    "Stoked": {
-        "definition": "Excited"
-    },
-    "Hyphy": {
-        "definition": "Overly excited"
-    },
-    "Outta pocket": {
-        "definition": "Inappropriate"
-    },
-    "Slaps": {
-        "definition": "Really good (music)"
-    },
-    "Yadadamean": {
-        "definition": "Do you know what I mean?"
-    },
-    "Phubbing": {
-        "definition": "Ignoring someone by using their phone"
-    },
-    "Stealth mode": {
-        "definition": "Secret"
-    },
-    "Three commas club": {
-        "definition": "Billionaires"
-    },
-    "Unicorn": {
-        "definition": "A start-up valued at over $1 billion"
-    },
-    "Zombie mood": {
-        "definition": "Staring at one’s phone"
-    },
-    "Fixin’ to": {
-        "definition": "About to do"
-    },
-    "Bless your heart": {
-        "definition": "Used either to show sympathy, or to soften an insult"
-    },
-    "Might could": {
-        "definition": "Maybe"
-    },
-    "All hat, no cattle": {
-        "definition": "Someone who is arrogant Without anything to show for it"
-    },
-    "Corn-fed": {
-        "definition": "Big/fat (describing people)"
-    },
-    "Dag gum it!": {
-        "definition": "Darn it!/damn it!"
-    },
-    "All git-out": {
-        "definition": "The (for example, best/worst) most extreme of something"
-    },
-    "Pitch a hissy fit": {
-        "definition": "Throw a tantrum/act up"
-    },
-    "Come hell or high water": {
-        "definition": "(Do something) at any cost, no matter if you get injured/make enemies"
-    },
-    "Whole 'nuther": {
-        "definition": "Entirely different situation"
-    },
-    "Worsh": {
-        "definition": "Wash"
-    },
-    "(Wp/down) Yonder": {
-        "definition": "(Over) there, (down) there (describing a location)"
-    },
-    "Acere": {
-        "definition": "Pal, friend, buddy"
-    },
-    "Bih": {
-        "definition": "A person or a thing"
-    },
-    "Bussin": {
-        "definition": "Tasty"
-    },
-    "Dale": {
-        "definition": "Hurry up"
-    },
-    "Florida bath": {
-        "definition": "Swimming in the pool (as opposed to taking a shower)"
-    },
-    "Florida Happy Meal": {
-        "definition": "Something for the adults, like liquor or cigarettes"
-    },
-    "Florida Man": {
-        "definition": "Someone who shows bizarre or stupid behavior"
-    },
-    "Hundid": {
-        "definition": "Hundred"
-    },
-    "Jit": {
-        "definition": "Referring to someone younger than the speaker"
-    },
-    "Oye": {
-        "definition": "Hello"
-    },
-    "Pub sub": {
-        "definition": "Sandwich from Publix supermarket chain"
-    },
-    "Vibin’": {
-        "definition": "Relaxing"
-    },
-    "Parked in Goofy": {
-        "definition": "When you park your car in the further away parking lot"
-    },
-    "Manapua": {
-        "definition": "Pork bun"
-    },
-    "Aloha": {
-        "definition": "Hello, goodbye"
-    },
-    "Da Kine": {
-        "definition": "“The kind,” representing a person, place, or something abstract"
-    },
-    "Grindz": {
-        "definition": "Food"
-    },
-    "Hapa": {
-        "definition": "Someone whose ancestry is partially Pacific Islander or East Asian"
-    },
-    "Haole": {
-        "definition": "A non-native Hawaiian, generally a caucasian person"
-    },
-    "Kapu": {
-        "definition": "Prohibited"
-    },
-    "Lolo": {
-        "definition": "Crazy"
-    },
-    "Mahalo": {
-        "definition": "Thank you"
-    },
-    "Shoots!": {
-        "definition": "O.K.!, Understood!"
-    },
-    "Pinch the tail and suck the head": {
-        "definition": "How you eat crawfish"
-    },
-    "Po’boy": {
-        "definition": "Baguette sandwich"
-    },
-    "Dressed": {
-        "definition": "The way you want your po’boy made"
-    },
-    "Laissez les bon temps rouler (lay-ZEH leh BAWN taw ROO-leh)": {
-        "definition": "“Let the good times roll”, something said before you’re about to celebrate"
-    },
-    "Throw me somethin’": {
-        "definition": "What many Mardi Gras attendees say to people on parade floats, when they want souvenirs like beads or necklaces"
-    },
-    "Holy Trinity": {
-        "definition": "(In Cajun cooking) onions, bell peppers, celery"
-    },
-    "Cher": {
-        "definition": "(My) love, (my) dear"
-    },
-    "Snoball": {
-        "definition": "Finely shaved ice with sugar syrup"
-    },
-    "How’s ya mama an’ them?": {
-        "definition": "How are your mother and your family?"
-    },
-    "Envie": {
-        "definition": "A desire to eat something"
-    },
-    "Parish": {
-        "definition": "Louisiana equivalent of county"
-    },
-    "Gris gris": {
-        "definition": "A voodoo term used in jest (for example, “do as your parents tell you, or they might put the gris gris on you”)"
-    },
-    "Lagniappe": {
-        "definition": "Little gift, little extra something"
-    },
-    "Down the shore": {
-        "definition": "To the beach (Jersey shore)"
-    },
-    "Disco fries": {
-        "definition": "French fries covered in cheese and gravy"
-    },
-    "Fat sandwich": {
-        "definition": "A sandwich that includes almost everything on the menu"
-    },
-    "Hit the MAC": {
-        "definition": "Go to an ATM to take money out"
-    },
-    "Hoagie": {
-        "definition": "Sandwich on a baguette"
-    },
-    "Exit": {
-        "definition": "Giving directions based on a highway/turnpike exit"
-    },
-    "Benny": {
-        "definition": "Someone from Bayonne, Elizabeth, Newark, or New York City, invariably causing trouble in the rest of the state"
-    },
-    "Shoobie": {
-        "definition": "Someone from South Jersey, invariably causing trouble in the rest of the state"
-    },
-    "J’eet yet?": {
-        "definition": "Did you eat yet?"
-    },
-    "SPK": {
-        "definition": "Salt, pepper, ketchup"
-    },
-    "Jersey slide": {
-        "definition": "Quickly going from the leftmost lane to the exit (which is on the right)"
-    },
-    "Cabbage night": {
-        "definition": "The night before Halloween when some kid are very mischievous"
-    },
-    "Piney": {
-        "definition": "Someone who lives in the Pine Barrens, a rustic part of the southern coast of the state"
-    },
-    "Tats": {
-        "definition": "Tattoos"
-    },
-    "Twentyregularcash": {
-        "definition": "In New Jersey they don’t pump their own gas, so to get $20 of gas, this phrase is said"
-    },
-    "The Boss": {
-        "definition": "New Jersey-born musician Bruce Springsteen"
-    },
-    "Pork roll": {
-        "definition": "A sandwich made with New Jersey’s own Taylor ham"
-    },
-    "Ripper": {
-        "definition": "Deep-fried hot dog with a slit down the middle"
-    },
-    "The City": {
-        "definition": "Depending on which part of New Jersey you’re in, it’s either New York City or Philadelphia"
-    },
-    "Frunchroom": {
-        "definition": "Entertainment space"
-    },
-    "Pop": {
-        "definition": "Soft drink, soda"
-    },
-    "Goes": {
-        "definition": "Past/present-tense of “say”"
-    },
-    "Da": {
-        "definition": "“The” (for example, “da bears”)"
-    },
-    "The lake": {
-        "definition": "Lake Michigan, with which Chicago shares a coastline"
-    },
-    "The bean": {
-        "definition": "The Anish Kapoor sculpture, formally known as Cloud Gate, in Millennium Park"
-    },
-    "The “l”": {
-        "definition": "Elevated train in downtown Chicago"
-    },
-    "Prairie": {
-        "definition": "Vacant lot"
-    },
-    "Grabowski": {
-        "definition": "Blue-collar hard-working type of person"
-    },
-    "LSD": {
-        "definition": "Lakeshore Drive (along Lake Michigan)"
-    },
-    "A couple": {
-        "definition": "A few"
-    },
-    "Yous": {
-        "definition": "Indicates that the speaker is talking to everyone (not just one person)"
-    },
-    "Sammich": {
-        "definition": "Sandwich"
-    },
-    "Grachki": {
-        "definition": "Garage key"
-    },
-    "Tbh": {
-        "definition": "To be honest"
-    },
-    "Hmu": {
-        "definition": "Hit me up"
-    },
-    "Lmk": {
-        "definition": "Let me know"
-    },
-    "Smh": {
-        "definition": "Shake my head"
-    },
-    "Psa": {
-        "definition": "Public service announcement"
-    },
-    "Wbu": {
-        "definition": "What about you?"
-    },
-    "CD9": {
-        "definition": "Can’t talk; parents are here!"
-    },
-    "OOMF": {
-        "definition": "One of my friends/one of my followers (e.g. on social media)"
-    },
-    "wth": {
-        "definition": "What the hell?"
-    },
-    "a/s/l": {
-        "definition": "Age/sex/location"
-    },
-    "LMIRL": {
-        "definition": "Let’s meet in real life"
-    },
-    "SOB": {
-        "definition": "Son of a bitch"
-    },
-    "GOAT": {
-        "definition": "Greatest of all time"
-    },
-    "BAE": {
-        "definition": "Before anyone else"
-    },
-    "FOMO": {
-        "definition": "Fear of missing out"
-    },
-    "CEO": {
-        "definition": "Chief executive officer"
-    },
-    "TFW": {
-        "definition": "That feeling when"
-    },
-    "OMG": {
-        "definition": "Oh my god"
+    "ARG": {
+        "meaning": "Argument"
     },
     "ASAP": {
-        "definition": "As soon as possible"
+        "meaning": "As soon as possible"
     },
-    "RSVP": {
-        "definition": "“repondez, s’il vous plait”-- please respond"
+    "ASIG": {
+        "meaning": "And so it goes"
+    },
+    "ASL": {
+        "meaning": "Age/sex/location"
+    },
+    "ASLA": {
+        "meaning": "Age/sex/location/availability"
+    },
+    "AT": {
+        "meaning": "At your terminal"
+    },
+    "ATB": {
+        "meaning": "All the best"
+    },
+    "ATEOTD": {
+        "meaning": "At the end of the day"
+    },
+    "ATM": {
+        "meaning": "At the moment"
+    },
+    "ATSITS": {
+        "meaning": "All the stars in the sky"
+    },
+    "ATSL": {
+        "meaning": "Along the same line (or lines)"
+    },
+    "AWC": {
+        "meaning": "After awhile crocodile"
+    },
+    "AWESO": {
+        "meaning": "Awesome"
+    },
+    "AWOL": {
+        "meaning": "Away without leaving",
+        "alternatives": "Absent without leave"
+    },
+    "AYBABTU": {
+        "meaning": "All your base are belong to us (online gaming)"
+    },
+    "AYDY": {
+        "meaning": "Are you done yet?"
+    },
+    "AYEC": {
+        "meaning": "At your earliest convenience"
+    },
+    "AYOR": {
+        "meaning": "At your own risk"
+    },
+    "AYS": {
+        "meaning": "Are you serious?"
+    },
+    "AYSOS": {
+        "meaning": "Are you stupid or something?"
+    },
+    "AYT": {
+        "meaning": "Are you there?"
+    },
+    "AYTMTB": {
+        "meaning": "And you're telling me this because"
+    },
+    "AYV": {
+        "meaning": "Are you vertical?"
+    },
+    "AYW": {
+        "meaning": "As you were",
+        "alternatives": "As you want / As you wish"
+    },
+    "AZN": {
+        "meaning": "Asian"
+    },
+    "B": {
+        "meaning": "Back",
+        "alternatives": "Be"
+    },
+    "B-DAY": {
+        "meaning": "Birthday"
+    },
+    "B/C": {
+        "meaning": "Because"
+    },
+    "B/F": {
+        "meaning": "Boyfriend"
+    },
+    "B/G": {
+        "meaning": "Background (personal information request)"
+    },
+    "B&": {
+        "meaning": "Banned"
+    },
+    "B2B": {
+        "meaning": "Business-to-business"
+    },
+    "B2C": {
+        "meaning": "Business-to-consumer"
+    },
+    "B2W": {
+        "meaning": "Back to work"
+    },
+    "B4": {
+        "meaning": "Before"
+    },
+    "B4N": {
+        "meaning": "Bye for now"
+    },
+    "B8": {
+        "meaning": "Bait (person teased or joked with, or under-aged person/teen)"
+    },
+    "B9": {
+        "meaning": "Boss is watching"
+    },
+    "BA": {
+        "meaning": "Bad *a*"
+    },
+    "BAE": {
+        "meaning": "Before anyone else",
+        "alternatives": "Meaning Babe or baby"
+    },
+    "BAFO": {
+        "meaning": "Best and final offer"
+    },
+    "BAG": {
+        "meaning": "Busting a gut"
+    },
+    "BAK": {
+        "meaning": "Back at keyboard"
+    },
+    "BAM": {
+        "meaning": "Below average mentality"
+    },
+    "BAMF": {
+        "meaning": "Bad *a* mother *f*"
+    },
+    "BAO": {
+        "meaning": "Be aware of"
+    },
+    "BAS": {
+        "meaning": "Big 'butt' smile"
+    },
+    "BASIC": {
+        "meaning": "Meaning anything mainstream"
+    },
+    "BASOR": {
+        "meaning": "Breathing a sigh of relief"
+    },
+    "BAU": {
+        "meaning": "Business as usual"
+    },
+    "BAY": {
+        "meaning": "Back at ya"
+    },
+    "BB": {
+        "meaning": "Be back",
+        "alternatives": "Big brother, Bebi / Baby (Spanish SMS)"
+    },
+    "BBC": {
+        "meaning": "Big bad challenge"
+    },
+    "BBIAB": {
+        "meaning": "Be back in a bit"
+    },
+    "BBIAF": {
+        "meaning": "Be back in a few"
+    },
+    "BBIAM": {
+        "meaning": "Be back in a minute"
+    },
+    "BBIAS": {
+        "meaning": "Be back in a sec"
+    },
+    "BBL": {
+        "meaning": "Be back later"
+    },
+    "BBN": {
+        "meaning": "Bye, bye now"
+    },
+    "BBQ": {
+        "meaning": "Barbeque, 'Ownage', shooting score/frag (online gaming)"
+    },
+    "BBS": {
+        "meaning": "Be back soon"
+    },
+    "BBT": {
+        "meaning": "Be back tomorrow"
+    },
+    "BC": {
+        "meaning": "Because",
+        "alternatives": "Be cool"
+    },
+    "BCNU": {
+        "meaning": "Be seeing you"
+    },
+    "BCO": {
+        "meaning": "Big crush on"
+    },
+    "BCOS": {
+        "meaning": "Because"
+    },
+    "BCOY": {
+        "meaning": "Big crush on you"
+    },
+    "BD": {
+        "meaning": "Big deal"
+    },
+    "BDAY": {
+        "meaning": "Birthday"
+    },
+    "BDN": {
+        "meaning": "Big darn number"
+    },
+    "BEG": {
+        "meaning": "Big evil grin"
+    },
+    "BELF": {
+        "meaning": "Meaning 'Blood Elf' (online gaming)"
+    },
+    "BF": {
+        "meaning": "Boyfriend",
+        "alternatives": "Brain fart, Best friend"
+    },
+    "BF2": {
+        "meaning": "Battlefield 2 (online gaming)"
+    },
+    "BFAW": {
+        "meaning": "Best friend at work"
+    },
+    "BFD": {
+        "meaning": "Big freaking deal"
+    },
+    "BFF": {
+        "meaning": "Best friends forever"
+    },
+    "BFFL": {
+        "meaning": "Best friends for life"
+    },
+    "BFFLNMW": {
+        "meaning": "Best friends for life, no matter what"
+    },
+    "BFFN": {
+        "meaning": "Best friend for now"
+    },
+    "BFG": {
+        "meaning": "Big freaking grin"
+    },
+    "BFN": {
+        "meaning": "Bye for now"
+    },
+    "BG": {
+        "meaning": "Big grin"
+    },
+    "BGWM": {
+        "meaning": "Be gentle with me"
+    },
+    "BHL8": {
+        "meaning": "Be home late"
+    },
+    "BIB": {
+        "meaning": "Boss is back"
+    },
+    "BIBO": {
+        "meaning": "Beer in, beer out"
+    },
+    "BIC": {
+        "meaning": "Butt in chair"
+    },
+    "BIF": {
+        "meaning": "Before I forget"
+    },
+    "BIH": {
+        "meaning": "Burn in hell"
+    },
+    "BIL": {
+        "meaning": "Brother in law"
+    },
+    "BIO": {
+        "meaning": "Meaning 'I'm going to the bathroom' (or) 'Bathroom break'"
+    },
+    "BION": {
+        "meaning": "Believe it or not"
+    },
+    "BIOYA": {
+        "meaning": "Blow it out your *a*"
+    },
+    "BIOYN": {
+        "meaning": "Blow it out your nose"
+    },
+    "BIS": {
+        "meaning": "Best in slot (online gaming)"
+    },
+    "BISFLATM": {
+        "meaning": "Boy, I sure feel like a turquoise monkey! (unverified)"
+    },
+    "BITMT": {
+        "meaning": "But in the meantime"
+    },
+    "BL": {
+        "meaning": "Belly laugh"
+    },
+    "BLNT": {
+        "meaning": "Better luck next time"
+    },
+    "Bloke": {
+        "meaning": "Meaning Man (Discord)"
+    },
+    "BM": {
+        "meaning": "Bite me"
+    },
+    "BM&Y": {
+        "meaning": "Between me and you"
+    },
+    "BME": {
+        "meaning": "Based on my experience"
+    },
+    "BMS": {
+        "meaning": "Broke my scale, used when rating someone"
+    },
+    "BN": {
+        "meaning": "Bad news"
+    },
+    "BO": {
+        "meaning": "Body Odor"
+    },
+    "BOB": {
+        "meaning": "Back off *buddy*"
+    },
+    "BOE": {
+        "meaning": "Meaning 'bind on equip' (online gaming)"
+    },
+    "BOGO": {
+        "meaning": "Buy One Get One (Free)"
+    },
+    "BOHICA": {
+        "meaning": "Bend over here it comes again"
+    },
+    "BOL": {
+        "meaning": "Best of luck"
+    },
+    "BOLO": {
+        "meaning": "Be on the look out"
+    },
+    "BOM": {
+        "meaning": "*b* of mine"
+    },
+    "BOOMS": {
+        "meaning": "Bored out of my skull"
+    },
+    "BOP": {
+        "meaning": "Meaning 'bind on pickup' (online gaming)"
+    },
+    "BOPUS": {
+        "meaning": "Buy Online, Pick Up In Store"
+    },
+    "BOSMKL": {
+        "meaning": "Bending over smacking my knee laughing"
+    },
+    "BOT": {
+        "meaning": "Back on topic",
+        "alternatives": "Be on that"
+    },
+    "BOYF": {
+        "meaning": "Boyfriend"
+    },
+    "BPLM": {
+        "meaning": "Big person little mind"
+    },
+    "BR": {
+        "meaning": "Best regards"
+    },
+    "BRB": {
+        "meaning": "Be right back"
+    },
+    "BRBB": {
+        "meaning": "Be right back *b*"
+    },
+    "BRD": {
+        "meaning": "Bored"
+    },
+    "BRH": {
+        "meaning": "Be right here"
+    },
+    "BRNC": {
+        "meaning": "Be right back, nature calls"
+    },
+    "BRT": {
+        "meaning": "Be right there"
+    },
+    "BSF": {
+        "meaning": "But seriously folks"
+    },
+    "BSOD": {
+        "meaning": "Blue screen of death"
+    },
+    "BSTS": {
+        "meaning": "Better safe than sorry"
+    },
+    "BT": {
+        "meaning": "Bite this",
+        "alternatives": "Between technologies"
+    },
+    "BTA": {
+        "meaning": "But then again"
+    },
+    "BTDT": {
+        "meaning": "Been there, done that"
+    },
+    "BTS": {
+        "meaning": "Behind The Scenes"
+    },
+    "BTW": {
+        "meaning": "By the way"
+    },
+    "BTYCL": {
+        "meaning": "Meaning 'Bootycall'"
+    },
+    "BUBU": {
+        "meaning": "Slang term for the most beautiful of women"
+    },
+    "Buff": {
+        "meaning": "Meaning 'changed and is now stronger' (online gaming)"
+    },
+    "BUMP": {
+        "meaning": "Bring Up My Post"
+    },
+    "BURN": {
+        "meaning": "Used to reference an insult"
+    },
+    "BWL": {
+        "meaning": "Bursting with laughter"
+    },
+    "BYOB": {
+        "meaning": "Bring your own beer"
+    },
+    "BYOC": {
+        "meaning": "Bring your own computer"
+    },
+    "BYOD": {
+        "meaning": "Bring your own device"
+    },
+    "BYOH": {
+        "meaning": "Bat you on (the) head"
+    },
+    "BYOP": {
+        "meaning": "Bring your own paint (paintball)"
+    },
+    "BYTM": {
+        "meaning": "Better you than me"
+    },
+    "C/P": {
+        "meaning": "Cross post"
+    },
+    "C&G": {
+        "meaning": "Chuckle & grin"
+    },
+    "C2C": {
+        "meaning": "Customer to Customer"
+    },
+    "C4N": {
+        "meaning": "Ciao for now"
+    },
+    "CAD": {
+        "meaning": "Control + Alt + Delete",
+        "alternatives": "Short for Canada/Canadian"
+    },
+    "Cakeday": {
+        "meaning": "Meaning Birthday (Reddit)"
+    },
+    "CAM": {
+        "meaning": "Camera (SMS)"
+    },
+    "CB": {
+        "meaning": "Coffee break",
+        "alternatives": "Chat break, Crazy *b*"
+    },
+    "CC": {
+        "meaning": "Carbon Copy"
+    },
+    "CD9": {
+        "meaning": "Code 9, Meaning 'parents are around'"
+    },
+    "CFS": {
+        "meaning": "Care for secret?"
+    },
+    "CFY": {
+        "meaning": "Calling for you"
+    },
+    "CHK": {
+        "meaning": "Check"
+    },
+    "CIAO": {
+        "meaning": "Good-bye (Italian word)"
+    },
+    "CICO": {
+        "meaning": "Coffee in, coffee out"
+    },
+    "CID": {
+        "meaning": "Crying in disgrace",
+        "alternatives": "Consider it done"
+    },
+    "CLAB": {
+        "meaning": "Crying like a baby"
+    },
+    "CLD": {
+        "meaning": "Could"
+    },
+    "CLK": {
+        "meaning": "Click"
+    },
+    "CM": {
+        "meaning": "Call me"
+    },
+    "CMAP": {
+        "meaning": "Cover my *a* partner (online gaming)"
+    },
+    "CMB": {
+        "meaning": "Call me back"
+    },
+    "CMGR": {
+        "meaning": "Meaning 'Community manager'"
+    },
+    "CMIIW": {
+        "meaning": "Correct me if I'm wrong"
+    },
+    "CMON": {
+        "meaning": "Come on"
+    },
+    "CMS": {
+        "meaning": "Content Management System"
+    },
+    "CNP": {
+        "meaning": "Continued (in) next post"
+    },
+    "COB": {
+        "meaning": "Close of business"
+    },
+    "COH": {
+        "meaning": "City of Heroes (online gaming)"
+    },
+    "COS": {
+        "meaning": "Because"
+    },
+    "CP": {
+        "meaning": "Chat post (or continue in IM)"
+    },
+    "CPC": {
+        "meaning": "Cost Per Click"
+    },
+    "CPM": {
+        "meaning": "Cost Per Mile (Used for ad impressions)"
+    },
+    "CR": {
+        "meaning": "Conversion Rate"
+    },
+    "CR8": {
+        "meaning": "Create"
+    },
+    "CRA CRA": {
+        "meaning": "Slang term meaning 'crazy'"
+    },
+    "CRAFT": {
+        "meaning": "Can't remember a *freaking* thing"
+    },
+    "Cray": {
+        "meaning": "Meaning crazy"
+    },
+    "CRB": {
+        "meaning": "Come right back"
+    },
+    "CRBT": {
+        "meaning": "Crying really big tears"
+    },
+    "CRE8": {
+        "meaning": "Create"
+    },
+    "CRIT": {
+        "meaning": "Meaning 'critical hit' (online gaming)"
+    },
+    "CRS": {
+        "meaning": "Can't remember *stuff*"
+    },
+    "CRZ": {
+        "meaning": "Crazy"
+    },
+    "CS": {
+        "meaning": "Career Suicide"
+    },
+    "CSG": {
+        "meaning": "Chuckle, snicker, grin"
+    },
+    "CSL": {
+        "meaning": "Can't stop laughing"
+    },
+    "CSS": {
+        "meaning": "Counter-Strike Source (online gaming)"
+    },
+    "CT": {
+        "meaning": "Can't talk"
+    },
+    "CTA": {
+        "meaning": "Call To Action"
+    },
+    "CTC": {
+        "meaning": "Care to chat?"
+    },
+    "CTHU": {
+        "meaning": "Cracking the *heck* up"
+    },
+    "CTN": {
+        "meaning": "Can't talk now"
+    },
+    "CTO": {
+        "meaning": "Check this out"
+    },
+    "CTR": {
+        "meaning": "Click Through Rate"
+    },
+    "CU": {
+        "meaning": "See you too",
+        "alternatives": "See you"
+    },
+    "CU2": {
+        "meaning": "See you"
+    },
+    "CUA": {
+        "meaning": "See you around"
+    },
+    "CUL": {
+        "meaning": "See you later"
+    },
+    "CUL8R": {
+        "meaning": "See you later"
+    },
+    "CULA": {
+        "meaning": "See you later alligator"
+    },
+    "CUMID": {
+        "meaning": "See you in my dreams"
+    },
+    "CURLO": {
+        "meaning": "See you around like a donut"
+    },
+    "CWD": {
+        "meaning": "Comment when done"
+    },
+    "CWOT": {
+        "meaning": "Complete waste of time"
+    },
+    "CWYL": {
+        "meaning": "Chat with you later"
+    },
+    "CX": {
+        "meaning": "Meaning 'Correction'",
+        "alternatives": "Customer Experience"
+    },
+    "CYA": {
+        "meaning": "See you"
+    },
+    "CYAL8R": {
+        "meaning": "See you later"
+    },
+    "CYE": {
+        "meaning": "Check your e-mail"
+    },
+    "CYEP": {
+        "meaning": "Close your eyes partner (online gaming)"
+    },
+    "CYO": {
+        "meaning": "See you online"
+    },
+    "D/L": {
+        "meaning": "Download"
+    },
+    "d00d": {
+        "meaning": "Dude"
+    },
+    "D2": {
+        "meaning": "Dedos / fingers (Spanish SMS)"
+    },
+    "D46?": {
+        "meaning": "Down for sex?"
+    },
+    "DA": {
+        "meaning": "Meaning 'The'"
+    },
+    "DAE": {
+        "meaning": "Does anyone else?"
+    },
+    "DAFUQ": {
+        "meaning": "(What) the *Freak*?"
+    },
+    "DAM": {
+        "meaning": "Don't annoy me"
+    },
+    "DAoC": {
+        "meaning": "Dark Age of Camelot (online gaming)"
+    },
+    "DBAU": {
+        "meaning": "Doing business as usual"
+    },
+    "DBEYR": {
+        "meaning": "Don't believe everything you read"
+    },
+    "DC": {
+        "meaning": "Disconnect"
+    },
+    "DD": {
+        "meaning": "Dear (or Darling) daughter",
+        "alternatives": "Due diligence"
+    },
+    "DDG": {
+        "meaning": "Drop dead gorgeous"
+    },
+    "DEEZ NUTZ": {
+        "meaning": "A phrase used in online chat to annoy or frustrate those involved in the conversation."
+    },
+    "DEGT": {
+        "meaning": "Dear (or Darling) daughter"
+    },
+    "DERP": {
+        "meaning": "Meaning stupid or silly"
+    },
+    "DF": {
+        "meaning": "Don't even go there"
+    },
+    "DFL": {
+        "meaning": "Dead *freaking* last (online gaming)"
+    },
+    "DGA": {
+        "meaning": "Don't go anywhere"
+    },
+    "DGAF": {
+        "meaning": "Don't give a *freak*"
+    },
+    "DGT": {
+        "meaning": "Don't go there"
+    },
+    "DGTG": {
+        "meaning": "Don't go there, girlfriend"
+    },
+    "DGYF": {
+        "meaning": "Dang, girl you fine"
+    },
+    "DH": {
+        "meaning": "Dear (or Darling) husband"
+    },
+    "DHU": {
+        "meaning": "Dinosaur hugs (used to show support)"
+    },
+    "DIIK": {
+        "meaning": "Darned if I know"
+    },
+    "DIKU": {
+        "meaning": "Do I know you?"
+    },
+    "DILLIGAF": {
+        "meaning": "Do I look like I give a *freak*?"
+    },
+    "DILLIGAS": {
+        "meaning": "Do I look like I give a sugar?"
+    },
+    "DIS": {
+        "meaning": "Did I say?"
+    },
+    "DITYID": {
+        "meaning": "Did I tell you I'm distressed?"
+    },
+    "DIY": {
+        "meaning": "Do it yourself"
+    },
+    "DKDC": {
+        "meaning": "Don't know, don't care"
+    },
+    "DKP": {
+        "meaning": "Dragon kill points (online gaming)"
+    },
+    "DL": {
+        "meaning": "Download",
+        "alternatives": "Down low, Dead link"
+    },
+    "DLBBB": {
+        "meaning": "Don't let (the) bed bugs bite"
+    },
+    "DLTBBB": {
+        "meaning": "Don't let the bed bugs bite"
+    },
+    "DM": {
+        "meaning": "Doesn't matter",
+        "alternatives": "Direct message (Twitter slang), Do me, Dungeon Master (online gaming)"
+    },
+    "DMNO": {
+        "meaning": "Dude Man No Offense"
+    },
+    "DMY": {
+        "meaning": "Don't mess yourself"
+    },
+    "DN": {
+        "meaning": "Down"
+    },
+    "DNC": {
+        "meaning": "Do not compute (meaning I do not understand)"
+    },
+    "DNR": {
+        "meaning": "Dinner (SMS)"
+    },
+    "DNT": {
+        "meaning": "Don't"
+    },
+    "DOE": {
+        "meaning": "Daughter of Eve"
+    },
+    "DORBS": {
+        "meaning": "Meaning 'Adorable'"
+    },
+    "DOT": {
+        "meaning": "Damage over time (online gaming)"
+    },
+    "Downvote": {
+        "meaning": "Voting negatively on a thread using Reddit s voting system (Reddit)"
+    },
+    "DPS": {
+        "meaning": "Damage per second (online gaming)"
+    },
+    "DQMOT": {
+        "meaning": "Don't quote me on this"
+    },
+    "DR": {
+        "meaning": "Didn't read"
+    },
+    "DS": {
+        "meaning": "Dear (or Darling) son"
+    },
+    "DTR": {
+        "meaning": "Define the relationship"
+    },
+    "DTRT": {
+        "meaning": "Do the right thing"
+    },
+    "DTS": {
+        "meaning": "Don't think so"
+    },
+    "DTTD": {
+        "meaning": "Don't touch that dial"
+    },
+    "DUPE": {
+        "meaning": "Duplicate"
+    },
+    "DUR": {
+        "meaning": "Do you remember?"
+    },
+    "DV8": {
+        "meaning": "Deviate"
+    },
+    "DW": {
+        "meaning": "Dear (or Darling) wife"
+    },
+    "DWBH": {
+        "meaning": "Don’t Worry, Be Happy"
+    },
+    "DWF": {
+        "meaning": "Divorced white female"
+    },
+    "DWH": {
+        "meaning": "During Work Hours"
+    },
+    "DWM": {
+        "meaning": "Divorced white male"
+    },
+    "DXNRY": {
+        "meaning": "Dictionary"
+    },
+    "DYFI": {
+        "meaning": "Did you find it?"
+    },
+    "DYFM": {
+        "meaning": "Dude, you fascinate me"
+    },
+    "DYJHIW": {
+        "meaning": "Don't you just hate it when...?"
+    },
+    "DYK": {
+        "meaning": "Did You Know"
+    },
+    "DYNWUTB": {
+        "meaning": "Do you know what you are talking about?"
+    },
+    "DYOR": {
+        "meaning": "Do your own research (common stock market chat slang)"
+    },
+    "E": {
+        "meaning": "Ecstasy",
+        "alternatives": "Enemy (online gaming)"
+    },
+    "E1": {
+        "meaning": "Everyone"
+    },
+    "E123": {
+        "meaning": "Easy as one, two, three"
+    },
+    "E2EG": {
+        "meaning": "Ear to ear grin"
+    },
+    "EAK": {
+        "meaning": "Eating at keyboard"
+    },
+    "EBKAC": {
+        "meaning": "Error between keyboard and chair"
+    },
+    "ED": {
+        "meaning": "Erase display"
+    },
+    "EF4T": {
+        "meaning": "Effort"
+    },
+    "EG": {
+        "meaning": "Evil grin"
+    },
+    "EI": {
+        "meaning": "Eat it"
+    },
+    "EIP": {
+        "meaning": "Editing in progress"
+    },
+    "ELI5": {
+        "meaning": "Explain like I'm 5"
+    },
+    "EM": {
+        "meaning": "E-mail (Twitter slang)"
+    },
+    "EMA": {
+        "meaning": "E-mail address (Twitter slang)"
+    },
+    "EMBAR": {
+        "meaning": "Meaning 'Embarassing'"
+    },
+    "EMFBI": {
+        "meaning": "Excuse me for butting in",
+        "alternatives": "Excuse me for jumping in"
+    },
+    "EMSG": {
+        "meaning": "E-mail message"
+    },
+    "ENUF": {
+        "meaning": "Enough"
+    },
+    "EOD": {
+        "meaning": "End of day",
+        "alternatives": "End of discussion"
+    },
+    "EOL": {
+        "meaning": "End of lecture",
+        "alternatives": "End of life"
+    },
+    "EOM": {
+        "meaning": "End of message"
+    },
+    "EOS": {
+        "meaning": "End of show"
+    },
+    "EOT": {
+        "meaning": "End of transmission"
+    },
+    "EQ": {
+        "meaning": "EverQuest (online gaming)"
+    },
+    "ERP": {
+        "meaning": "Meaning 'Erotic Role-Play' (online gaming)"
+    },
+    "ERS2": {
+        "meaning": "Eres tz / are you (Spanish SMS)"
+    },
+    "ES": {
+        "meaning": "Erase screen"
+    },
+    "ESAD": {
+        "meaning": "Eat *S* and die!"
+    },
+    "ESP": {
+        "meaning": "Email Service Provider"
+    },
+    "ETA": {
+        "meaning": "Estimated time (of) arrival",
+        "alternatives": "Edited to add"
+    },
+    "EVA": {
+        "meaning": "Ever"
+    },
+    "EVO": {
+        "meaning": "Evolution"
+    },
+    "EWG": {
+        "meaning": "Evil wicked grin (in fun, teasing)"
+    },
+    "EWI": {
+        "meaning": "Emailing while intoxicated"
+    },
+    "EXTRA": {
+        "meaning": "Meaning over the top"
+    },
+    "EYC": {
+        "meaning": "Excitable, yet calm"
+    },
+    "EZ": {
+        "meaning": "Easy"
+    },
+    "EZY": {
+        "meaning": "Easy"
+    },
+    "F": {
+        "meaning": "Meaning female"
+    },
+    "F2F": {
+        "meaning": "Face to face"
+    },
+    "F2P": {
+        "meaning": "Free to play (online gaming)"
+    },
+    "F4F": {
+        "meaning": "Follow for follow (Instagram)"
+    },
+    "FAAK": {
+        "meaning": "Falling asleep at keyboard"
+    },
+    "FAB": {
+        "meaning": "Fabulous"
+    },
+    "Facepalm": {
+        "meaning": "Used to represent the gesture of 'smacking your forehead with your palm' to express embarrassment or frustration"
+    },
+    "FAF": {
+        "meaning": "Funny as *freak*"
+    },
+    "FAM": {
+        "meaning": "FFamily, but not limited to actual family members. Could mean friends."
+    },
+    "FAQ": {
+        "meaning": "Frequently asked questions"
+    },
+    "FAY": {
+        "meaning": "*Freak* all you"
+    },
+    "FB": {
+        "meaning": "Facebook"
+    },
+    "FBB": {
+        "meaning": "Meaning 'Facebook buddy'"
+    },
+    "FBC": {
+        "meaning": "Facebook chat"
+    },
+    "FBF": {
+        "meaning": "Flashback Friday",
+        "alternatives": "Meaning 'Facebook friend', Fat boy food (e.g. pizza, burgers, fries)"
+    },
+    "FBFR": {
+        "meaning": "FaceBook friend"
+    },
+    "FBM": {
+        "meaning": "Fine by me"
+    },
+    "FBO": {
+        "meaning": "Facebook official (An official update from Facebook)"
+    },
+    "FBOW": {
+        "meaning": "For better or worse"
+    },
+    "FC": {
+        "meaning": "Fingers crossed",
+        "alternatives": "Full card (online gaming)"
+    },
+    "FC'INGO": {
+        "meaning": "For crying out loud"
+    },
+    "FCOL": {
+        "meaning": "For crying out loud"
+    },
+    "Feelsbadman": {
+        "meaning": "A social meme that means to feel negative."
+    },
+    "Feelsbatman": {
+        "meaning": "A social meme taking 'feelsbadman' to the extreme. This references the DC super hero Batmanbecause he witnessed the murder of his parents."
+    },
+    "Feelsgoodman": {
+        "meaning": "A social meme that means to feel positive."
+    },
+    "FEITCTAJ": {
+        "meaning": "*Freak* 'em if they can't take a joke"
+    },
+    "FF": {
+        "meaning": "Follow Friday (Twitter slang)"
+    },
+    "FFA": {
+        "meaning": "Free for all (online gaming)"
+    },
+    "FFS": {
+        "meaning": "For *freak'*sakes"
+    },
+    "FICCL": {
+        "meaning": "Frankly I couldn't care a less"
+    },
+    "FIF": {
+        "meaning": "*Freak* I'm funny"
+    },
+    "FIIK": {
+        "meaning": "*Freaked* if I know"
+    },
+    "FIIOOH": {
+        "meaning": "Forget it, I'm out of here"
+    },
+    "FIL": {
+        "meaning": "Father in law"
+    },
+    "FIMH": {
+        "meaning": "Forever in my heart"
+    },
+    "Finna": {
+        "meaning": "Means 'Going to'"
+    },
+    "Finsta": {
+        "meaning": "A second Instagram account where someone can post things that they're too afraid to post on their main account."
+    },
+    "FIOS": {
+        "meaning": "Fiber Optic Service"
+    },
+    "FISH": {
+        "meaning": "First in, still here"
+    },
+    "FITB": {
+        "meaning": "Fill in the blank"
+    },
+    "FML": {
+        "meaning": "*Freak* My Life"
+    },
+    "FOAD": {
+        "meaning": "*Freak* off and die"
+    },
+    "FOAF": {
+        "meaning": "Friend of a friend"
+    },
+    "FOMC": {
+        "meaning": "Falling off my chair"
+    },
+    "FOMCL": {
+        "meaning": "Falling off my chair laughing"
+    },
+    "FOMO": {
+        "meaning": "Fear of missing out (definition)"
+    },
+    "FRT": {
+        "meaning": "For real though"
+    },
+    "FTBOMH": {
+        "meaning": "From the bottom of my heart"
+    },
+    "FTFY": {
+        "meaning": "Fixed that for you"
+    },
+    "FTL": {
+        "meaning": "For the loss"
+    },
+    "FTW": {
+        "meaning": "For the win"
+    },
+    "FU": {
+        "meaning": "*Freak* you"
+    },
+    "FUBAR": {
+        "meaning": "Fouled up beyond all recognition"
+    },
+    "FUBB": {
+        "meaning": "Fouled up beyond belief"
+    },
+    "FUD": {
+        "meaning": "Face up deal (online gaming)"
+    },
+    "FUTAB": {
+        "meaning": "Feet up, take a break"
+    },
+    "FW": {
+        "meaning": "Forward"
+    },
+    "FWB": {
+        "meaning": "Friend with benefits"
+    },
+    "FWIW": {
+        "meaning": "For what it's worth"
+    },
+    "FWM": {
+        "meaning": "Fine with me"
+    },
+    "FWP": {
+        "meaning": "First world problems"
+    },
+    "FYA": {
+        "meaning": "For your amusement"
+    },
+    "FYE": {
+        "meaning": "Fire, something that is cool"
+    },
+    "FYEO": {
+        "meaning": "For your eyes only"
+    },
+    "FYP": {
+        "meaning": "For You Page; For Your Page"
+    },
+    "G": {
+        "meaning": "Grin",
+        "alternatives": "Giggle"
+    },
+    "G/F": {
+        "meaning": "Girlfriend"
+    },
+    "G+": {
+        "meaning": "Google+"
+    },
+    "G2CU": {
+        "meaning": "Good to see you"
+    },
+    "G2G": {
+        "meaning": "Got to go"
+    },
+    "G2GICYAL8ER": {
+        "meaning": "Got to go I'll see you later"
+    },
+    "G2R": {
+        "meaning": "Got to run"
+    },
+    "G2TU": {
+        "meaning": "Got to tell u (you)"
+    },
+    "G4C": {
+        "meaning": "Going for coffee"
+    },
+    "G9": {
+        "meaning": "Genius"
+    },
+    "GA": {
+        "meaning": "Go ahead",
+        "alternatives": "Google Analytics"
+    },
+    "GAC": {
+        "meaning": "Get a clue"
+    },
+    "GAFC": {
+        "meaning": "Get a *freaking* clue"
+    },
+    "GAL": {
+        "meaning": "Get a life"
+    },
+    "GANK": {
+        "meaning": "Meaning a player ambush or unfair player kill (online gaming)"
+    },
+    "GAS": {
+        "meaning": "Got a second?",
+        "alternatives": "Greetings and salutations"
+    },
+    "GB": {
+        "meaning": "Goodbye"
+    },
+    "GBTW": {
+        "meaning": "Get back to work"
+    },
+    "GBU": {
+        "meaning": "God bless you"
+    },
+    "GD": {
+        "meaning": "Good"
+    },
+    "GD/R": {
+        "meaning": "Grinning, ducking, and running"
+    },
+    "GDR": {
+        "meaning": "Grinning, ducking, and running"
+    },
+    "GF": {
+        "meaning": "Girl friend"
+    },
+    "GFI": {
+        "meaning": "Go for it"
+    },
+    "GFN": {
+        "meaning": "Gone for now"
+    },
+    "GG": {
+        "meaning": "Gotta Go",
+        "alternatives": "Good Game (online gaming), Brother (Mandarin Chinese txt msgs)"
+    },
+    "GGA": {
+        "meaning": "Good game, all (online gaming)"
+    },
+    "GGE1": {
+        "meaning": "Good game, everyone (online gaming)"
+    },
+    "GGMSOT": {
+        "meaning": "Gotta get me some of that"
+    },
+    "GGOH": {
+        "meaning": "Gotta Get Outa Here"
+    },
+    "GGP": {
+        "meaning": "Got to go pee"
+    },
+    "GGU2": {
+        "meaning": "Good game, you too"
+    },
+    "GH": {
+        "meaning": "Good hand (online gaming)"
+    },
+    "GIAR": {
+        "meaning": "Give it a rest"
+    },
+    "GIC": {
+        "meaning": "Gift in crib (online gaming)"
+    },
+    "GIF": {
+        "meaning": "Graphics Interchange Format (Image File)"
+    },
+    "GIGO": {
+        "meaning": "Garbage in, garbage out"
+    },
+    "GIRL": {
+        "meaning": "Guy in real life"
+    },
+    "GJ": {
+        "meaning": "Good job"
+    },
+    "GL": {
+        "meaning": "Good luck"
+    },
+    "GL/HF": {
+        "meaning": "Good luck, have fun (online gaming)"
+    },
+    "GL2U": {
+        "meaning": "Good luck to you (online gaming)"
+    },
+    "GLA": {
+        "meaning": "Good luck all (online gaming)"
+    },
+    "GLE": {
+        "meaning": "Good luck everyone (online gaming)"
+    },
+    "GLE1": {
+        "meaning": "Good luck everyone (online gaming)"
+    },
+    "GLNG": {
+        "meaning": "Good luck next game (online gaming)"
+    },
+    "GMBA": {
+        "meaning": "Giggling my butt off"
+    },
+    "GMTA": {
+        "meaning": "Great minds think alike"
+    },
+    "GMV": {
+        "meaning": "Got my vote"
+    },
+    "GN": {
+        "meaning": "Good night"
+    },
+    "GNA": {
+        "meaning": "Good night all"
+    },
+    "GNE1": {
+        "meaning": "Good night everyone"
+    },
+    "GNIGHT": {
+        "meaning": "Good night"
+    },
+    "GNITE": {
+        "meaning": "Good night"
+    },
+    "GNSD": {
+        "meaning": "Good night, sweet dreams"
+    },
+    "GOAT": {
+        "meaning": "Greatest of all Time(s)"
+    },
+    "GOI": {
+        "meaning": "Get over it"
+    },
+    "GOL": {
+        "meaning": "Giggling out loud"
+    },
+    "GOMB": {
+        "meaning": "Get off my back"
+    },
+    "GPOY": {
+        "meaning": "Gratuitous picture of yourself"
+    },
+    "GR&D": {
+        "meaning": "Grinning, running and ducking"
+    },
+    "GR8": {
+        "meaning": "Great"
+    },
+    "GRAS": {
+        "meaning": "Generally Recognized As Safe"
+    },
+    "GRATZ": {
+        "meaning": "Congratulations"
+    },
+    "GRL": {
+        "meaning": "Girl"
+    },
+    "GRWG": {
+        "meaning": "Get right with God"
+    },
+    "GS": {
+        "meaning": "Good shot",
+        "alternatives": "Good split (online gaming)"
+    },
+    "GT": {
+        "meaning": "Good try"
+    },
+    "GTFOH": {
+        "meaning": "Get the *freak* outta here"
+    },
+    "GTG": {
+        "meaning": "Got to go; Good to Go"
+    },
+    "GTM": {
+        "meaning": "Giggling to myself"
+    },
+    "GTR": {
+        "meaning": "Got To Run"
+    },
+    "GTRM": {
+        "meaning": "Going to read mail"
+    },
+    "GTSY": {
+        "meaning": "Great (or good) to see you"
+    },
+    "GUCCI": {
+        "meaning": "Good"
+    },
+    "GUD": {
+        "meaning": "Good"
+    },
+    "GWHTLC": {
+        "meaning": "Glad we had this little chat"
+    },
+    "H": {
+        "meaning": "Hug"
+    },
+    "H-BDAY": {
+        "meaning": "Happy Birthday"
+    },
+    "H-FDAY": {
+        "meaning": "Happy Father's Day"
+    },
+    "H-MDAY": {
+        "meaning": "Happy Mother's Day"
+    },
+    "H&K": {
+        "meaning": "Hugs & kisses"
+    },
+    "H2CUS": {
+        "meaning": "Hope to see you soon"
+    },
+    "H8": {
+        "meaning": "Hate"
+    },
+    "H8TTU": {
+        "meaning": "Hate to be you"
+    },
+    "HAG1": {
+        "meaning": "Have a good one"
+    },
+    "HAGN": {
+        "meaning": "Have a good night"
+    },
+    "HAGO": {
+        "meaning": "Have a good one"
+    },
+    "HAK": {
+        "meaning": "Hug and kiss",
+        "alternatives": "Hugs And Kisses"
+    },
+    "HALP": {
+        "meaning": "Help (Discord)"
+    },
+    "HAND": {
+        "meaning": "Have a nice day"
+    },
+    "HAU": {
+        "meaning": "How about you?"
+    },
+    "HAWT": {
+        "meaning": "Have a wonderful day (out-dated, see next in list)",
+        "alternatives": "Meaning 'sexy' or 'attractive'"
+    },
+    "HB": {
+        "meaning": "Hurry back",
+        "alternatives": "Hug back"
+    },
+    "HBD": {
+        "meaning": "Happy birthday"
+    },
+    "HBU": {
+        "meaning": "How about you?"
+    },
+    "HF": {
+        "meaning": "Have fun"
+    },
+    "HFAC": {
+        "meaning": "Holy flipping animal crackers"
+    },
+    "HHIS": {
+        "meaning": "Head hanging in shame"
+    },
+    "HIFW": {
+        "meaning": "How I felt when... (Used with photo or gif)"
+    },
+    "HL": {
+        "meaning": "Half Life (online gaming)"
+    },
+    "HLA": {
+        "meaning": "Hola / hello (Spanish SMS)"
+    },
+    "HMB": {
+        "meaning": "Hit Me Back"
+    },
+    "HNL": {
+        "meaning": "(w)Hole 'nother level"
+    },
+    "HOAS": {
+        "meaning": "Hold on a second"
+    },
+    "HP": {
+        "meaning": "Hit points / Health points (online gaming)"
+    },
+    "HRU": {
+        "meaning": "How are you?"
+    },
+    "HT": {
+        "meaning": "Hat Tip (a way to say thanks)"
+    },
+    "HTH": {
+        "meaning": "Hope this helps; Happy to Help"
+    },
+    "HTML": {
+        "meaning": "Hyper Text Markup Language (coding lingo)"
+    },
+    "HUB": {
+        "meaning": "Head up butt"
+    },
+    "HUYA": {
+        "meaning": "Head up your *butt*"
+    },
+    "HV": {
+        "meaning": "Have"
+    },
+    "HVH": {
+        "meaning": "Heroic Violet Hold (online gaming)"
+    },
+    "HW": {
+        "meaning": "Homework"
+    },
+    "HYFR": {
+        "meaning": "Hell yeah, *Freaking* right!"
+    },
+    "I2": {
+        "meaning": "I too (me too)"
+    },
+    "IA8": {
+        "meaning": "I already ate"
+    },
+    "IAAA": {
+        "meaning": "I am an accountant"
+    },
+    "IAAD": {
+        "meaning": "I am a doctor"
+    },
+    "IAAL": {
+        "meaning": "I am a lawyer"
+    },
+    "IAC": {
+        "meaning": "In any case"
+    },
+    "IAE": {
+        "meaning": "In any event"
+    },
+    "IANAC": {
+        "meaning": "I am not a crook"
+    },
+    "IANAD": {
+        "meaning": "I Am Not A Doctor"
+    },
+    "IANAL": {
+        "meaning": "I am not a lawyer"
+    },
+    "IAO": {
+        "meaning": "I am out (of here)"
+    },
+    "IB": {
+        "meaning": "I'm back",
+        "alternatives": "I'm back, Inspired By"
+    },
+    "IC": {
+        "meaning": "I see"
+    },
+    "ICAM": {
+        "meaning": "I couldn't agree more"
+    },
+    "ICBW": {
+        "meaning": "It could be worse"
+    },
+    "ICEDI": {
+        "meaning": "I can't even discuss it"
+    },
+    "ICFILWU": {
+        "meaning": "I could fall in love with you"
+    },
+    "IDBI": {
+        "meaning": "I don't believe it"
+    },
+    "IDC": {
+        "meaning": "I don't care"
+    },
+    "IDGAF": {
+        "meaning": "I don't give a *freak*"
+    },
+    "IDTS": {
+        "meaning": "I don't think so"
+    },
+    "IDUNNO": {
+        "meaning": "I don't know"
+    },
+    "IFYP": {
+        "meaning": "I feel your pain"
+    },
+    "IG2R": {
+        "meaning": "I got to run"
+    },
+    "IGHT": {
+        "meaning": "I got high tonight"
+    },
+    "IGN": {
+        "meaning": "I (I've) got nothing"
+    },
+    "IGP": {
+        "meaning": "I got to (go) pee"
+    },
+    "IHNI": {
+        "meaning": "I have no idea"
+    },
+    "IIIO": {
+        "meaning": "Intel inside, idiot outside"
+    },
+    "IIRC": {
+        "meaning": "If I remember correctly"
+    },
+    "IK": {
+        "meaning": "I know"
+    },
+    "IKR": {
+        "meaning": "I know, right?"
+    },
+    "ILBL8": {
+        "meaning": "I'll be late"
+    },
+    "ILU": {
+        "meaning": "I love you"
+    },
+    "ILUM": {
+        "meaning": "I love you man"
+    },
+    "ILY": {
+        "meaning": "I love you"
+    },
+    "ILYSM": {
+        "meaning": "I love you so much"
+    },
+    "IM": {
+        "meaning": "Instant message"
+    },
+    "IMAO": {
+        "meaning": "In my arrogant opinion"
+    },
+    "ImL": {
+        "meaning": "(in Arial font) Means I love you (a way of using the American sign language in text)"
+    },
+    "IMNSHO": {
+        "meaning": "In my not so humble opinion"
+    },
+    "IMS": {
+        "meaning": "I am sorry"
+    },
+    "IMSB": {
+        "meaning": "I am so bored"
+    },
+    "IMTM": {
+        "meaning": "I am the man"
+    },
+    "IMU": {
+        "meaning": "I miss u (you)"
+    },
+    "INAL": {
+        "meaning": "I'm not a lawyer"
+    },
+    "INC": {
+        "meaning": "Meaning 'incoming' (online gaming)"
+    },
+    "Inspoo": {
+        "meaning": "Inspiration"
+    },
+    "INV": {
+        "meaning": "Meaning 'Invite'"
+    },
+    "IO": {
+        "meaning": "Insertion Order (marketing lingo)"
+    },
+    "IOMH": {
+        "meaning": "In over my head"
+    },
+    "IOW": {
+        "meaning": "In other words"
+    },
+    "IRL": {
+        "meaning": "In real life"
+    },
+    "IRMC": {
+        "meaning": "I rest my case"
+    },
+    "ISLY": {
+        "meaning": "I still love you"
+    },
+    "ISO": {
+        "meaning": "In search of"
+    },
+    "ISP": {
+        "meaning": "Internet Service Provider"
+    },
+    "ISTG": {
+        "meaning": "I Swear To God"
+    },
+    "ITAM": {
+        "meaning": "It's The Accounting, Man (financial blogs)"
+    },
+    "ITT": {
+        "meaning": "In This Thread"
+    },
+    "ITYK": {
+        "meaning": "I thought you knew"
+    },
+    "IU2U": {
+        "meaning": "It’s Up To You"
+    },
+    "IUSS": {
+        "meaning": "If you say so"
+    },
+    "IWALU": {
+        "meaning": "I will always love you"
+    },
+    "IWAWO": {
+        "meaning": "I want a way out"
+    },
+    "IWIAM": {
+        "meaning": "Idiot wrapped in a moron"
+    },
+    "IWNDWYT": {
+        "meaning": "I Will Not Drink With You Today (Reddit slang)"
+    },
+    "IWSN": {
+        "meaning": "I want sex now"
+    },
+    "IYKWIM": {
+        "meaning": "If you know what I mean"
+    },
+    "IYO": {
+        "meaning": "In your opinion"
+    },
+    "IYQ": {
+        "meaning": "Meaning 'I like you'"
+    },
+    "IYSS": {
+        "meaning": "If you say so"
+    },
+    "j00": {
+        "meaning": "You"
+    },
+    "j00r": {
+        "meaning": "Your"
+    },
+    "JAC": {
+        "meaning": "Just a second"
+    },
+    "JAM": {
+        "meaning": "Just a minute"
+    },
+    "JAS": {
+        "meaning": "Just a second"
+    },
+    "JC (J/C)": {
+        "meaning": "Just checking"
+    },
+    "JDI": {
+        "meaning": "Just do it"
+    },
+    "JELLY": {
+        "meaning": "Meaning 'jealous'"
+    },
+    "JFF": {
+        "meaning": "Just for fun"
+    },
+    "JFGI": {
+        "meaning": "Just *freaking* Google it"
+    },
+    "JIC": {
+        "meaning": "Just in case"
+    },
+    "JJ (J/J)": {
+        "meaning": "Just joking"
+    },
+    "JJA": {
+        "meaning": "Just joking around"
+    },
+    "JK (J/K)": {
+        "meaning": "Just kidding"
+    },
+    "JLMK": {
+        "meaning": "Just let me know"
+    },
+    "JMO": {
+        "meaning": "Just my opinion"
+    },
+    "JP": {
+        "meaning": "Just playing",
+        "alternatives": "Jackpot (online gaming, bingo games)"
+    },
+    "JT (J/T)": {
+        "meaning": "Just teasing"
+    },
+    "JTLYK": {
+        "meaning": "Just to let you know"
+    },
+    "JV": {
+        "meaning": "Joint venture"
+    },
+    "JW": {
+        "meaning": "Just wondering"
+    },
+    "K": {
+        "meaning": "Okay"
+    },
+    "k/b": {
+        "meaning": "Keyboard"
+    },
+    "K8T": {
+        "meaning": "Katie"
+    },
+    "KB": {
+        "meaning": "Keyboard",
+        "alternatives": "Kick butt (online gaming)"
+    },
+    "KDFU": {
+        "meaning": "Means Cracking (K) the (D as in Da) *freak* up"
+    },
+    "KEWL": {
+        "meaning": "Cool"
+    },
+    "KEYA": {
+        "meaning": "I will key you later"
+    },
+    "KEYME": {
+        "meaning": "Key me when you get in"
+    },
+    "KFY": {
+        "meaning": "Kiss for you"
+    },
+    "KIA": {
+        "meaning": "Know it all"
+    },
+    "KIR": {
+        "meaning": "Keep it real"
+    },
+    "KIT": {
+        "meaning": "Keep in touch"
+    },
+    "KK": {
+        "meaning": "Knock, knock",
+        "alternatives": "Okay, Okay!"
+    },
+    "KMA": {
+        "meaning": "Kiss my *a*"
+    },
+    "KMK": {
+        "meaning": "Kiss my keister"
+    },
+    "KMS": {
+        "meaning": "Killing myself"
+    },
+    "KMT": {
+        "meaning": "Kiss my tushie"
+    },
+    "KNIM": {
+        "meaning": "Know what I mean?"
+    },
+    "KNOW": {
+        "meaning": "Meaning 'knowledge'"
+    },
+    "KOC": {
+        "meaning": "Kiss on cheek"
+    },
+    "KOL": {
+        "meaning": "Key opinion leader"
+    },
+    "Koreaboo": {
+        "meaning": "Someone obsessed with Korean culture"
+    },
+    "KOS": {
+        "meaning": "Kid over shoulder",
+        "alternatives": "Kill on sight (online gaming)"
+    },
+    "KOTC": {
+        "meaning": "Kiss on the cheek"
+    },
+    "KOTD": {
+        "meaning": "Kicks of the day (Instagram)"
+    },
+    "KOTL": {
+        "meaning": "Kiss on the lips"
+    },
+    "KOW": {
+        "meaning": "Knock on wood"
+    },
+    "KPC": {
+        "meaning": "Keeping parents clueless"
+    },
+    "KPI": {
+        "meaning": "Key Performance Indicator"
+    },
+    "KS": {
+        "meaning": "Kill then steal (online gaming)"
+    },
+    "KSC": {
+        "meaning": "Kind (of) sort (of) chuckle"
+    },
+    "KT": {
+        "meaning": "Katie"
+    },
+    "KUTGW": {
+        "meaning": "Keep up the good work"
+    },
+    "KYS": {
+        "meaning": "Kill yourself"
+    },
+    "L2G": {
+        "meaning": "Like to go?",
+        "alternatives": "(would) Love to go"
+    },
+    "L2K": {
+        "meaning": "Like to come"
+    },
+    "L2P": {
+        "meaning": "Learn to play"
+    },
+    "l33t": {
+        "meaning": "Leet, meaning 'elite'"
+    },
+    "L4L": {
+        "meaning": "Like for like (Instagram)"
+    },
+    "L8R": {
+        "meaning": "Later"
+    },
+    "L8RG8R": {
+        "meaning": "Later, gator"
+    },
+    "LAB": {
+        "meaning": "Life's a *b*"
+    },
+    "LBAY": {
+        "meaning": "Laughing back at you"
+    },
+    "LBS": {
+        "meaning": "Laughing, but serious"
+    },
+    "LBVS": {
+        "meaning": "Laughing, but very serious",
+        "alternatives": "Laughing But Very Serious"
+    },
+    "LD": {
+        "meaning": "Later, dude",
+        "alternatives": "Long distance"
+    },
+    "LDO": {
+        "meaning": "Like, duh obviously"
+    },
+    "LEMENO": {
+        "meaning": "Let me know"
+    },
+    "LERK": {
+        "meaning": "Leaving easy reach of keyboard"
+    },
+    "LFD": {
+        "meaning": "Left for day"
+    },
+    "LFM": {
+        "meaning": "Looking for more (online gaming)"
+    },
+    "LGH": {
+        "meaning": "Lets get high"
+    },
+    "LH6": {
+        "meaning": "Lets have sex"
+    },
+    "LHM": {
+        "meaning": "Lord help me"
+    },
+    "LHO": {
+        "meaning": "Laughing head off"
+    },
+    "LHSX": {
+        "meaning": "Lets have sex"
+    },
+    "LI": {
+        "meaning": "LinkedIn"
+    },
+    "LIC": {
+        "meaning": "Like I care"
+    },
+    "LIK": {
+        "meaning": "Meaning liquor"
+    },
+    "LIMT": {
+        "meaning": "Laugh in my tummy"
+    },
+    "LIT": {
+        "meaning": "Meaning really good or something fun and exciting",
+        "alternatives": "Extremely intoxicated"
+    },
+    "LLGB": {
+        "meaning": "Love, later, God bless"
+    },
+    "LLS": {
+        "meaning": "Laughing like *silly*"
+    },
+    "LMAO": {
+        "meaning": "Laughing my *a* off"
+    },
+    "LMBO": {
+        "meaning": "Laughing my butt off"
+    },
+    "LMFAO": {
+        "meaning": "Laughing my freaking *a* off"
+    },
+    "LMIRL": {
+        "meaning": "Lets meet in real life"
+    },
+    "LMK": {
+        "meaning": "Let me know"
+    },
+    "LMMFAO": {
+        "meaning": "Laughing my mother freaking a** off"
+    },
+    "LMNK": {
+        "meaning": "Leave my name out"
+    },
+    "LMS": {
+        "meaning": "Like my status (Facebook)"
+    },
+    "LNT": {
+        "meaning": "Meaning lost in translation"
+    },
+    "LOA": {
+        "meaning": "List of acronyms"
+    },
+    "LOLH": {
+        "meaning": "Laughing out loud hysterically"
+    },
+    "LOLO": {
+        "meaning": "Lots of love"
+    },
+    "LOLWTF": {
+        "meaning": "Laughing out loud (saying) 'What the *freak*?'"
+    },
+    "LOTI": {
+        "meaning": "Laughing on the inside"
+    },
+    "LOTR": {
+        "meaning": "Lord of The Rings (online gaming)"
+    },
+    "LQTM": {
+        "meaning": "Laughing quietly to myself"
+    },
+    "LSHMBH": {
+        "meaning": "Laugh so hard my belly hurts"
+    },
+    "LSV": {
+        "meaning": "Language, sex and violence"
+    },
+    "LTD": {
+        "meaning": "Living the dream"
+    },
+    "LTK": {
+        "meaning": "Like To Know"
+    },
+    "LTLWDLS": {
+        "meaning": "Let's twist like we did last summer"
+    },
+    "LTNS": {
+        "meaning": "Long time no see"
+    },
+    "LTOD": {
+        "meaning": "Laptop of death"
+    },
+    "LTS": {
+        "meaning": "Laughing to self"
+    },
+    "LULT": {
+        "meaning": "Love you long time"
+    },
+    "LULZ": {
+        "meaning": "Meaning joke, or for laughs"
+    },
+    "LVM": {
+        "meaning": "Left voice mail"
+    },
+    "LWOS": {
+        "meaning": "Laughing without smiling"
+    },
+    "LY": {
+        "meaning": "Love ya"
+    },
+    "LYLAS": {
+        "meaning": "Love you like a sis"
+    },
+    "LYLC": {
+        "meaning": "Love you like crazy"
+    },
+    "LYSM": {
+        "meaning": "Love you so much"
+    },
+    "M$": {
+        "meaning": "Microsoft"
+    },
+    "M8": {
+        "meaning": "Mate"
+    },
+    "MB": {
+        "meaning": "Mamma's boy"
+    },
+    "MBS": {
+        "meaning": "Mom behind shoulder"
+    },
+    "MC": {
+        "meaning": "Merry Christmas"
+    },
+    "MCM": {
+        "meaning": "Man Crush Monday"
+    },
+    "MDIAC": {
+        "meaning": "My Dad is a cop"
+    },
+    "MEGO": {
+        "meaning": "My eyes glaze over"
+    },
+    "MEH": {
+        "meaning": "Meaning a 'shrug' or shrugging shoulders",
+        "alternatives": "Meaning a 'so-so' or 'just okay'"
+    },
+    "MEHH": {
+        "meaning": "Meaning a 'sigh' or sighing"
+    },
+    "MEZ": {
+        "meaning": "Meaning 'mesmerize' (online gaming)"
+    },
+    "MFI": {
+        "meaning": "Mad for it"
+    },
+    "MFW": {
+        "meaning": "My face when... (Used with photo or gif)"
+    },
+    "MGB": {
+        "meaning": "May God bless"
+    },
+    "MGMT": {
+        "meaning": "Management"
+    },
+    "MHOTY": {
+        "meaning": "My hat (is) off to you"
+    },
+    "MIRL": {
+        "meaning": "Me in real life",
+        "alternatives": "Meet in real life"
+    },
+    "MISS.(number)": {
+        "meaning": "Meaning 'child and her age'. Miss.3 would be a 3-year old daughter"
+    },
+    "MKAY": {
+        "meaning": "Meaning 'Mmm, okay'"
+    },
+    "MLM": {
+        "meaning": "Meaning give the middle finger",
+        "alternatives": "Multi Level Marketing"
+    },
+    "MM": {
+        "meaning": "Sister (Mandarin Chinese txt msg)"
+    },
+    "MMK": {
+        "meaning": "Meaning okay? (as a question)"
+    },
+    "MNC": {
+        "meaning": "Mother nature calls"
+    },
+    "MNSG": {
+        "meaning": "Mensaje (message in Spanish)"
+    },
+    "MOD": {
+        "meaning": "Moderator",
+        "alternatives": "Modification (online gaming)"
+    },
+    "MOMBOY": {
+        "meaning": "Mamma's boy"
+    },
+    "MOO": {
+        "meaning": "My own opinion"
+    },
+    "MOOS": {
+        "meaning": "Member of the opposite sex"
+    },
+    "MORF": {
+        "meaning": "Male or female?"
+    },
+    "MOS": {
+        "meaning": "Mother over shoulder"
+    },
+    "MOSS": {
+        "meaning": "Member of same sex"
+    },
+    "MP": {
+        "meaning": "Mana points (online gaming)"
+    },
+    "MR.(number)": {
+        "meaning": "Meaning 'child and his age'. Mr.3 would be a 3-year old son"
+    },
+    "MRT": {
+        "meaning": "Modified ReTweet (Twitter slang)"
+    },
+    "MRW": {
+        "meaning": "My reaction when... (Used with photo or gif)"
+    },
+    "MSG": {
+        "meaning": "Message"
+    },
+    "MTF": {
+        "meaning": "More to follow"
+    },
+    "MTFBWU": {
+        "meaning": "May the force be with you"
+    },
+    "MTFBWY": {
+        "meaning": "May The Force Be With You (Star Wars movie slang)"
+    },
+    "MU": {
+        "meaning": "Miss U (you)"
+    },
+    "MUAH": {
+        "meaning": "Multiple unsuccessful attempts (at/to) humor"
+    },
+    "MUSM": {
+        "meaning": "Miss you so much"
+    },
+    "MWAH": {
+        "meaning": "Meaning 'kiss' (it is is the sound made when kissing through the air)"
+    },
+    "MYO": {
+        "meaning": "Mind your own (business)"
+    },
+    "MYOB": {
+        "meaning": "Mind your own business"
+    },
+    "n00b": {
+        "meaning": "Noob, newbie"
+    },
+    "N1": {
+        "meaning": "Nice one"
+    },
+    "N2M": {
+        "meaning": "Nothing too much"
+    },
+    "NADT": {
+        "meaning": "Not a darn thing"
+    },
+    "NALOPKT": {
+        "meaning": "Not a lot of people know that"
+    },
+    "NANA": {
+        "meaning": "Not now, no need"
+    },
+    "NBD": {
+        "meaning": "No big deal"
+    },
+    "NBFAB": {
+        "meaning": "No bad for a beginner (online gaming)"
+    },
+    "NC": {
+        "meaning": "Nice crib (online gaming)"
+    },
+    "ND": {
+        "meaning": "Nice double (online gaming)"
+    },
+    "NE": {
+        "meaning": "Any"
+    },
+    "NE1": {
+        "meaning": "Anyone"
+    },
+    "NERF": {
+        "meaning": "Meaning 'Changed and is now weaker' (online gaming)"
+    },
+    "NFM": {
+        "meaning": "None for me / Not for me",
+        "alternatives": "Not for me"
+    },
+    "NFS": {
+        "meaning": "Need for Speed (online gaming)",
+        "alternatives": "Not for sale"
+    },
+    "NFW": {
+        "meaning": "No *freaking* way",
+        "alternatives": "Not for work"
+    },
+    "NFWS": {
+        "meaning": "Not for work safe"
+    },
+    "NGL": {
+        "meaning": "Not gonna (going to) lie"
+    },
+    "NH": {
+        "meaning": "Nice hand (online gaming)"
+    },
+    "NIFOC": {
+        "meaning": "Naked in front of computer"
+    },
+    "NIGI": {
+        "meaning": "Now I get it"
+    },
+    "NIMBY": {
+        "meaning": "Not in my back yard"
+    },
+    "NIROK": {
+        "meaning": "Not in reach of keyboard"
+    },
+    "NLT": {
+        "meaning": "No later than"
+    },
+    "NM": {
+        "meaning": "Nothing much",
+        "alternatives": "Never mind, Nice meld (online gaming)"
+    },
+    "NMH": {
+        "meaning": "Not much here"
+    },
+    "NMJC": {
+        "meaning": "Nothing much, just chilling"
+    },
+    "NMU": {
+        "meaning": "Not much, you?"
+    },
+    "NO1": {
+        "meaning": "No one"
+    },
+    "NOOB": {
+        "meaning": "Meaning someone who is bad at (online) games"
+    },
+    "NOWL": {
+        "meaning": "Meaning 'knowledge'"
+    },
+    "NOYB": {
+        "meaning": "None of your business"
+    },
+    "NP": {
+        "meaning": "No problem"
+    },
+    "NPC": {
+        "meaning": "Non-playing character (online gaming)"
+    },
+    "NQT": {
+        "meaning": "Newly qualified teacher"
+    },
+    "NR": {
+        "meaning": "Nice roll (online gaming)"
+    },
+    "NRN": {
+        "meaning": "No response/reply necessary"
+    },
+    "NS": {
+        "meaning": "Nice score (online gaming)",
+        "alternatives": "Nice split (online gaming)"
+    },
+    "NSA": {
+        "meaning": "No strings attached"
+    },
+    "NSFL": {
+        "meaning": "Not safe for life"
+    },
+    "NSFW": {
+        "meaning": "Not safe for work"
+    },
+    "NSISR": {
+        "meaning": "Not sure if spelled right"
+    },
+    "NT": {
+        "meaning": "Nice try"
+    },
+    "NTH": {
+        "meaning": "Nice To Have"
+    },
+    "NTHING": {
+        "meaning": "Nothing (SMS)"
+    },
+    "NTS": {
+        "meaning": "Note to self"
+    },
+    "NVM": {
+        "meaning": "Never mind"
+    },
+    "NVR": {
+        "meaning": "Never"
+    },
+    "NW": {
+        "meaning": "No way"
+    },
+    "NWO": {
+        "meaning": "No way out"
+    },
+    "O": {
+        "meaning": "Opponent (online gaming)",
+        "alternatives": "Meaning 'hugs', Over"
+    },
+    "O4U": {
+        "meaning": "Only for you"
+    },
+    "OA": {
+        "meaning": "Online auctions (see more auction abbreviations)"
+    },
+    "OAN": {
+        "meaning": "On Another Note"
+    },
+    "OATUS": {
+        "meaning": "On a totally unrelated subject"
+    },
+    "OB": {
+        "meaning": "Oh baby",
+        "alternatives": "Oh brother"
+    },
+    "OBV": {
+        "meaning": "Obviously"
+    },
+    "OC": {
+        "meaning": "Original Content"
+    },
+    "OFC": {
+        "meaning": "Of course"
+    },
+    "OG": {
+        "meaning": "Original gangster"
+    },
+    "OGIM": {
+        "meaning": "Oh God, it's Monday"
+    },
+    "OH": {
+        "meaning": "Overheard"
+    },
+    "OHHEMMGEE": {
+        "meaning": "Meaning 'Oh My God' (alternate of OMG)"
+    },
+    "OI": {
+        "meaning": "Operator indisposed"
+    },
+    "OIB": {
+        "meaning": "Oh, I'm back"
+    },
+    "OIC": {
+        "meaning": "Oh, I see"
+    },
+    "OJ": {
+        "meaning": "Only joking"
+    },
+    "OL": {
+        "meaning": "Old lady"
+    },
+    "OLL": {
+        "meaning": "Online love"
+    },
+    "OM": {
+        "meaning": "Old man",
+        "alternatives": "Oh, my"
+    },
+    "OMAA": {
+        "meaning": "Oh, my aching *A* (butt)"
+    },
+    "OMDB": {
+        "meaning": "Over my dead body"
+    },
+    "OMFG": {
+        "meaning": "Oh my *freaking* God"
+    },
+    "OMG": {
+        "meaning": "Oh my God",
+        "alternatives": "Oh my gosh"
+    },
+    "OMGYG2BK": {
+        "meaning": "Oh my God, you got to be kidding"
+    },
+    "OMGYS": {
+        "meaning": "Oh my gosh you suck"
+    },
+    "OML": {
+        "meaning": "Oh My Lord"
+    },
+    "OMS": {
+        "meaning": "On my soul (meaning 'promise')"
+    },
+    "OMW": {
+        "meaning": "On my way"
+    },
+    "ONL": {
+        "meaning": "Online"
+    },
+    "OO": {
+        "meaning": "Over and out"
+    },
+    "OOC": {
+        "meaning": "Out of character"
+    },
+    "OOH": {
+        "meaning": "Out of here"
+    },
+    "OOMF": {
+        "meaning": "One of my followers"
+    },
+    "OOO": {
+        "meaning": "Out Of Office"
+    },
+    "OOTD": {
+        "meaning": "One of these days",
+        "alternatives": "Outfit of the day (Instagram)"
+    },
+    "OOTO": {
+        "meaning": "Out of the office"
+    },
+    "OP": {
+        "meaning": "On phone",
+        "alternatives": "Original Poster (Reddit slang)"
+    },
+    "ORLY": {
+        "meaning": "Oh really?"
+    },
+    "OS": {
+        "meaning": "Operating system"
+    },
+    "OT": {
+        "meaning": "Off topic (discussion forums)",
+        "alternatives": "Off Topic"
+    },
+    "OTB": {
+        "meaning": "Off to bed"
+    },
+    "OTFL": {
+        "meaning": "On the floor laughing"
+    },
+    "OTL": {
+        "meaning": "Out to lunch"
+    },
+    "OTOH": {
+        "meaning": "On the other hand"
+    },
+    "OTP": {
+        "meaning": "On the phone",
+        "alternatives": "One true pairing; two people you would love to see as a couple"
+    },
+    "OTT": {
+        "meaning": "Over the top"
+    },
+    "OTTOMH": {
+        "meaning": "Off the top of my head"
+    },
+    "OTW": {
+        "meaning": "Off to work"
+    },
+    "OVA": {
+        "meaning": "Over"
+    },
+    "OYO": {
+        "meaning": "On your own"
+    },
+    "P": {
+        "meaning": "Partner (online gaming)"
+    },
+    "P2P": {
+        "meaning": "Parent to parent",
+        "alternatives": "Peer to peer, Pay to play (online gaming)"
+    },
+    "P911": {
+        "meaning": "Parents coming into room alert"
+    },
+    "PAP": {
+        "meaning": "Post a picture"
+    },
+    "PAT": {
+        "meaning": "Meaning 'patrol' (online gaming)"
+    },
+    "PAW": {
+        "meaning": "Parents are watching"
+    },
+    "PBOOK": {
+        "meaning": "Phonebook (e-mail)"
+    },
+    "PC": {
+        "meaning": "Player character (online gaming)"
+    },
+    "PCM": {
+        "meaning": "Please call me"
+    },
+    "PDA": {
+        "meaning": "Personal display (of) affection"
+    },
+    "PDH": {
+        "meaning": "Pretty darn happy"
+    },
+    "PDQ": {
+        "meaning": "Pretty darn quick"
+    },
+    "PDS": {
+        "meaning": "Please don't shoot"
+    },
+    "PEEPS": {
+        "meaning": "People"
+    },
+    "PFT": {
+        "meaning": "Pretty *freaking* tight"
+    },
+    "PIC": {
+        "meaning": "Picture"
+    },
+    "PIN": {
+        "meaning": "Personal Identification Number"
+    },
+    "PIP": {
+        "meaning": "Peeing in pants (laughing hard)"
+    },
+    "PIR": {
+        "meaning": "Parents in room"
+    },
+    "PISS": {
+        "meaning": "Put in some sugar"
+    },
+    "PITA": {
+        "meaning": "Pain in the *butt*"
+    },
+    "PKI": {
+        "meaning": "Public Key Infrastructure"
+    },
+    "PKMN": {
+        "meaning": "Pokemon (online gaming)"
+    },
+    "PL8": {
+        "meaning": "Plate"
+    },
+    "PLD": {
+        "meaning": "Played"
+    },
+    "PLMK": {
+        "meaning": "Please let me know"
+    },
+    "PLS": {
+        "meaning": "Please"
+    },
+    "PLU": {
+        "meaning": "People like us"
+    },
+    "PLZ": {
+        "meaning": "Please"
+    },
+    "PLZTLME": {
+        "meaning": "Please tell me"
+    },
+    "PM": {
+        "meaning": "Private Message"
+    },
+    "PMFI": {
+        "meaning": "Pardon me for interrupting"
+    },
+    "PMFJI": {
+        "meaning": "Pardon me for jumping in"
+    },
+    "PMSL": {
+        "meaning": "Pee myself laughing"
+    },
+    "POAHF": {
+        "meaning": "Put on a happy face"
+    },
+    "POIDH": {
+        "meaning": "Picture, or it didn't happen"
+    },
+    "POS": {
+        "meaning": "Parent over shoulder"
+    },
+    "POT": {
+        "meaning": "Meaning 'potion' (online gaming)"
+    },
+    "POTD": {
+        "meaning": "Photo of the day (Instagram)"
+    },
+    "POV": {
+        "meaning": "Point of view",
+        "alternatives": "Privately owned vehicle (originally used to differentiate an individual's vehicle from a military vehicle)"
+    },
+    "PP": {
+        "meaning": "Profile Picture"
+    },
+    "PPL": {
+        "meaning": "People"
+    },
+    "PPU": {
+        "meaning": "Pending pick-up"
+    },
+    "PR": {
+        "meaning": "Page Rank; Public Relations"
+    },
+    "PRESH": {
+        "meaning": "Precious"
+    },
+    "PROBS": {
+        "meaning": "Probably"
+    },
+    "PROGGY": {
+        "meaning": "Meaning computer program"
+    },
+    "PROLLY": {
+        "meaning": "Probably"
+    },
+    "PRON": {
+        "meaning": "Meaning pornography"
+    },
+    "PRT": {
+        "meaning": "Party",
+        "alternatives": "Please Retweet (Twitter slang)"
+    },
+    "PRW": {
+        "meaning": "People/parents are watching"
+    },
+    "PSA": {
+        "meaning": "Public Service Announcement"
+    },
+    "PSOS": {
+        "meaning": "Parent standing over shoulder"
+    },
+    "PSP": {
+        "meaning": "Playstation Portable"
+    },
+    "PST": {
+        "meaning": "Please send tell (online gaming)"
+    },
+    "PTB": {
+        "meaning": "Please Text Back"
+    },
+    "PTFO": {
+        "meaning": "Pass the *freak* out"
+    },
+    "PTIYPASI": {
+        "meaning": "Put that in your pipe and smoke it"
+    },
+    "PTL": {
+        "meaning": "Praise the Lord"
+    },
+    "PTMM": {
+        "meaning": "Please tell me more"
+    },
+    "PTO": {
+        "meaning": "Paid time off",
+        "alternatives": "Personal time off, Parent Teacher Organization"
+    },
+    "PU": {
+        "meaning": "That stinks!"
+    },
+    "PUG": {
+        "meaning": "Pick up group (online gaming)"
+    },
+    "PUKS": {
+        "meaning": "Pick up kids (SMS)"
+    },
+    "PV": {
+        "meaning": "Page Views"
+    },
+    "PVE": {
+        "meaning": "Player vs enemy, Player versus environment (online gaming)"
+    },
+    "PVP": {
+        "meaning": "Player versus player (online gaming)"
+    },
+    "PWN": {
+        "meaning": "Meaning 'own'"
+    },
+    "PXT": {
+        "meaning": "Please explain that"
+    },
+    "PYT": {
+        "meaning": "Pretty young thing"
+    },
+    "PZ": {
+        "meaning": "Peace"
+    },
+    "PZA": {
+        "meaning": "Pizza"
+    },
+    "Q": {
+        "meaning": "Queue"
+    },
+    "Q4U": {
+        "meaning": "(I have a) question for you"
+    },
+    "QC": {
+        "meaning": "Quality control"
+    },
+    "QFE": {
+        "meaning": "Question for everyone"
+    },
+    "QFI": {
+        "meaning": "Quoted for idiocy",
+        "alternatives": "Quoted for irony"
+    },
+    "QFT": {
+        "meaning": "Quoted for truth"
+    },
+    "QIK": {
+        "meaning": "Quick"
+    },
+    "QL": {
+        "meaning": "Quit laughing"
+    },
+    "QOTD": {
+        "meaning": "Quote of the day"
+    },
+    "QQ": {
+        "meaning": "Quick question"
+    },
+    "QQ (qq) (Q_Q)": {
+        "meaning": "Meaning 'crying eyes'"
+    },
+    "QSL": {
+        "meaning": "Reply"
+    },
+    "QSO": {
+        "meaning": "Conversation"
+    },
+    "QT": {
+        "meaning": "Cutie"
+    },
+    "QTPI": {
+        "meaning": "Cutie pie"
+    },
+    "R": {
+        "meaning": "Meaning 'are'"
+    },
+    "R8": {
+        "meaning": "Rate (SMS)"
+    },
+    "RAK": {
+        "meaning": "Random Act (of) Kindness"
+    },
+    "RBAY": {
+        "meaning": "Right back at you"
+    },
+    "RFN": {
+        "meaning": "Right *freaking* now"
+    },
+    "RGR": {
+        "meaning": "Roger (I agree, I understand)"
+    },
+    "RHIP": {
+        "meaning": "Rank has its privileges"
+    },
+    "RIP": {
+        "meaning": "Rest in peace"
+    },
+    "RL": {
+        "meaning": "Real life"
+    },
+    "RLY": {
+        "meaning": "Really"
+    },
+    "RME": {
+        "meaning": "Rolling my eyes"
+    },
+    "RMLB": {
+        "meaning": "Read my lips baby"
+    },
+    "RMMM": {
+        "meaning": "Read my mail man"
+    },
+    "RN": {
+        "meaning": "Right Now"
+    },
+    "ROFL": {
+        "meaning": "Rolling on floor laughing"
+    },
+    "ROFLCOPTER": {
+        "meaning": "Rolling on floor laughing and spinning around"
+    },
+    "ROFLMAO": {
+        "meaning": "Rolling on the floor, laughing my *butt* off"
+    },
+    "ROI": {
+        "meaning": "Return on Investment"
+    },
+    "ROTFL": {
+        "meaning": "Rolling on the floor laughing"
+    },
+    "ROTFLUTS": {
+        "meaning": "Rolling on the floor laughing unable to speak"
+    },
+    "RS": {
+        "meaning": "Runescape (online gaming)"
+    },
+    "RSN": {
+        "meaning": "Real soon now"
+    },
+    "RSS": {
+        "meaning": "Rich Site Summary"
+    },
+    "RT": {
+        "meaning": "Roger that",
+        "alternatives": "Retweet (Twitter slang), Real Time"
+    },
+    "RTBS": {
+        "meaning": "Reason to be single"
+    },
+    "RTD": {
+        "meaning": "Real Time Data"
+    },
+    "RTFQ": {
+        "meaning": "Read the *freaking* question"
+    },
+    "RTHX": {
+        "meaning": "Meaning 'Thanks for the RT (Retweet)' (Twitter slang)"
+    },
+    "RTMS": {
+        "meaning": "Read the manual, stupid"
+    },
+    "RTNTN": {
+        "meaning": "Retention (email, Government)"
+    },
+    "RTRCTV": {
+        "meaning": "Retroactive (email, Government)"
+    },
+    "RTRMT": {
+        "meaning": "Retirement (email, Government)"
+    },
+    "RTSM": {
+        "meaning": "Read the stupid manual"
+    },
+    "RTWFQ": {
+        "meaning": "Read the whole *freaking* question"
+    },
+    "RU": {
+        "meaning": "Are you?"
+    },
+    "RUMOF": {
+        "meaning": "Are you male or female?"
+    },
+    "RUOK": {
+        "meaning": "Are you okay?"
+    },
+    "RUT": {
+        "meaning": "Are u (you) there?"
+    },
+    "RW": {
+        "meaning": "Real world"
+    },
+    "RX": {
+        "meaning": "Regards",
+        "alternatives": "Meaning drugs or prescriptions"
+    },
+    "RYB": {
+        "meaning": "Read your Bible"
+    },
+    "RYO": {
+        "meaning": "Roll your own"
+    },
+    "RYS": {
+        "meaning": "Read your screen",
+        "alternatives": "Are you single?"
+    },
+    "S'OK": {
+        "meaning": "Meaning It' (s) okay (ok)"
+    },
+    "S2R": {
+        "meaning": "Send to receive (meaning send me your picture to get mine)"
+    },
+    "S2S": {
+        "meaning": "Sorry to say"
+    },
+    "S4L": {
+        "meaning": "Spam for life"
+    },
+    "SaaS": {
+        "meaning": "Software As A Service"
+    },
+    "SAL": {
+        "meaning": "Such a laugh"
+    },
+    "SAT": {
+        "meaning": "Sorry about that"
+    },
+    "SAVAGE": {
+        "meaning": "Slang for a shockingly careless expression or response to an event or message"
+    },
+    "SB": {
+        "meaning": "Snap back (Snapchat)",
+        "alternatives": "Should be, Smiling back"
+    },
+    "SBIA": {
+        "meaning": "Meaning Standing back in amazement"
+    },
+    "SBT": {
+        "meaning": "Sorry 'bout that"
+    },
+    "SC": {
+        "meaning": "Stay cool"
+    },
+    "SD": {
+        "meaning": "Sweet dreams"
+    },
+    "SDMB": {
+        "meaning": "Sweet dreams, my baby"
+    },
+    "SELFIE": {
+        "meaning": "A photo that is taken of oneself for social media sharing (definition)"
+    },
+    "SEM": {
+        "meaning": "Search Engine Marketing"
+    },
+    "SENPAI": {
+        "meaning": "Meaning someone older than you, someone you look up to"
+    },
+    "SEO": {
+        "meaning": "Search engine optimization"
+    },
+    "SERP": {
+        "meaning": "Search Engine Results Page"
+    },
+    "SETE": {
+        "meaning": "Smiling Ear-to-Ear"
+    },
+    "SFAIK": {
+        "meaning": "So far as I know"
+    },
+    "SFLR": {
+        "meaning": "Sorry For (the) Late Reply"
+    },
+    "SFW": {
+        "meaning": "Safe For Work"
+    },
+    "SG": {
+        "meaning": "Sounds Good"
+    },
+    "SH": {
+        "meaning": "Same here"
+    },
+    "SH^": {
+        "meaning": "Shut up"
+    },
+    "SHID": {
+        "meaning": "Slapping head in disgust"
+    },
+    "SHIP": {
+        "meaning": "Slang for 'wishing two people were in a relationship'"
+    },
+    "SICNR": {
+        "meaning": "Sorry, I could not resist"
+    },
+    "SIG2R": {
+        "meaning": "Sorry, I got to run"
+    },
+    "SIHTH": {
+        "meaning": "Stupidity is hard to take"
+    },
+    "SIMYC": {
+        "meaning": "Sorry I missed your call"
+    },
+    "SIR": {
+        "meaning": "Strike it rich"
+    },
+    "SIS": {
+        "meaning": "Snickering in silence",
+        "alternatives": "Meaning sister"
+    },
+    "SIT": {
+        "meaning": "Stay in touch"
+    },
+    "SITD": {
+        "meaning": "Still in the dark"
+    },
+    "SJW": {
+        "meaning": "Social justice warrior"
+    },
+    "SK8": {
+        "meaning": "Skate"
+    },
+    "SK8NG": {
+        "meaning": "Skating"
+    },
+    "SK8R": {
+        "meaning": "Skater"
+    },
+    "SK8RBOI": {
+        "meaning": "Skater Boy"
+    },
+    "SLAP": {
+        "meaning": "Sounds like a plan"
+    },
+    "Slay": {
+        "meaning": "To succeed at something"
+    },
+    "SM": {
+        "meaning": "Social media"
+    },
+    "SMART": {
+        "meaning": "Specific, measurable, attainable, realistic, time"
+    },
+    "SMAZED": {
+        "meaning": "Smoky haze (marijuana stoned)"
+    },
+    "SMB": {
+        "meaning": "Small to midsize business"
+    },
+    "SMEXI": {
+        "meaning": "Combination of sexy and Mexican, used to describe attractive people"
+    },
+    "SMH": {
+        "meaning": "Shaking my head"
+    },
+    "SMHID": {
+        "meaning": "Scratching my head in disbelief"
+    },
+    "SMM": {
+        "meaning": "Social Media Marketing"
+    },
+    "SMO": {
+        "meaning": "Social Media Optimization"
+    },
+    "SMP": {
+        "meaning": "Social Media Platform"
+    },
+    "SMS": {
+        "meaning": "Short Message Service (Text Message)"
+    },
+    "SNAFU": {
+        "meaning": "Situation normal all fouled up"
+    },
+    "SNERT": {
+        "meaning": "Snot nosed egotistical rude teenager"
+    },
+    "SNR": {
+        "meaning": "Streaks and Recents (Snapchat)"
     },
     "SO": {
-        "definition": "Significant other"
+        "meaning": "Significant other"
     },
-    "j/k": {
-        "definition": "Just kidding"
+    "SOAB": {
+        "meaning": "Son of a *B*"
+    },
+    "SOL": {
+        "meaning": "Sooner or later"
+    },
+    "SOML": {
+        "meaning": "Story Of My Life"
+    },
+    "SOMY": {
+        "meaning": "Sick of me yet?"
+    },
+    "SOP": {
+        "meaning": "Standard Operating Procedure"
+    },
+    "SorG": {
+        "meaning": "Straight or Gay?"
+    },
+    "SOS": {
+        "meaning": "Meaning help",
+        "alternatives": "Son of Sam"
+    },
+    "SOT": {
+        "meaning": "Short of time"
+    },
+    "SOTMG": {
+        "meaning": "Short of time, must go"
+    },
+    "SOV": {
+        "meaning": "Share Of Voice"
+    },
+    "SOWM": {
+        "meaning": "Someone with me"
+    },
+    "SPK": {
+        "meaning": "Speak (SMS)"
+    },
+    "SPST": {
+        "meaning": "Same place, same time"
+    },
+    "SPTO": {
+        "meaning": "Spoke to"
+    },
+    "SQ": {
+        "meaning": "Square"
+    },
+    "SRP": {
+        "meaning": "Social Relationship Platform"
+    },
+    "SRSLY": {
+        "meaning": "Seriously"
+    },
+    "SRY": {
+        "meaning": "Sorry"
+    },
+    "SS": {
+        "meaning": "So sorry"
+    },
+    "SSDD": {
+        "meaning": "Same stuff, different day"
+    },
+    "SSIF": {
+        "meaning": "So stupid it's funny"
+    },
+    "SSINF": {
+        "meaning": "So stupid it's not funny"
+    },
+    "SSL": {
+        "meaning": "Secure Sockets Layer"
+    },
+    "ST&D": {
+        "meaning": "Stop texting and drive"
+    },
+    "Stan": {
+        "meaning": "Meaning a die-hard fan of someone (Snapchat)"
+    },
+    "STFU": {
+        "meaning": "Shut the *freak* up"
+    },
+    "STR8": {
+        "meaning": "Straight"
+    },
+    "STW": {
+        "meaning": "Search the Web"
+    },
+    "SU": {
+        "meaning": "Shut up"
+    },
+    "SUITM": {
+        "meaning": "See you in the morning"
+    },
+    "SUL": {
+        "meaning": "See you later"
+    },
+    "SUP": {
+        "meaning": "What's up?"
+    },
+    "SUTH": {
+        "meaning": "So use(d) to haters (Facebook)"
+    },
+    "SUX": {
+        "meaning": "Meanings sucks or 'it sucks'"
+    },
+    "SUYF": {
+        "meaning": "Shut up you fool"
+    },
+    "SWAG": {
+        "meaning": "Meaning free stuff and giveaways from tech tradeshows (definition)",
+        "alternatives": "Scientific wild *a* guess"
+    },
+    "SWAK": {
+        "meaning": "Sent (or sealed) with a kiss"
+    },
+    "SWALK": {
+        "meaning": "Sealed (or sealed) with a loving kiss"
+    },
+    "SWAT": {
+        "meaning": "Scientific wild *butt* guess"
+    },
+    "SWL": {
+        "meaning": "Screaming with laughter"
+    },
+    "SWMBO": {
+        "meaning": "She who must be obeyed. Meaning wife or partner"
+    },
+    "SYL": {
+        "meaning": "See you later"
+    },
+    "SYS": {
+        "meaning": "See you soon"
+    },
+    "SYY": {
+        "meaning": "Shut your yapper"
+    },
+    "T:)T": {
+        "meaning": "Think happy thoughts"
+    },
+    "T+": {
+        "meaning": "Think positive"
+    },
+    "T4BU": {
+        "meaning": "Thanks for being you"
+    },
+    "TA": {
+        "meaning": "Thanks a lot"
+    },
+    "TAFN": {
+        "meaning": "That's all for now"
+    },
+    "TAM": {
+        "meaning": "Tomorro a.m."
+    },
+    "TANK": {
+        "meaning": "Meaning really strong"
+    },
+    "TANKED": {
+        "meaning": "Meaning 'owned'"
+    },
+    "TANKING": {
+        "meaning": "Meaning 'owning'"
+    },
+    "TARFU": {
+        "meaning": "Things Are Really *fouled* Up."
+    },
+    "TAU": {
+        "meaning": "Thinking about u (you)"
+    },
+    "TAUMUALU": {
+        "meaning": "Thinking about you miss you always love you"
+    },
+    "TBA": {
+        "meaning": "To Be Announced"
+    },
+    "TBAG": {
+        "meaning": "Process of disgracing a corpse, taunting a fragged/killed player (online gaming)"
+    },
+    "TBBH": {
+        "meaning": "To be brutally honest"
+    },
+    "TBC": {
+        "meaning": "To be continued"
+    },
+    "TBD": {
+        "meaning": "To be determined"
+    },
+    "TBH": {
+        "meaning": "To be honest"
+    },
+    "TBL": {
+        "meaning": "Text back later"
+    },
+    "TBT": {
+        "meaning": "Throwback Thursday (Twitter slang)"
+    },
+    "TC": {
+        "meaning": "Take care"
+    },
+    "TCB": {
+        "meaning": "Take care of business"
+    },
+    "TCOY": {
+        "meaning": "Take care of yourself"
+    },
+    "TD": {
+        "meaning": "Tower defense (online gaming)"
+    },
+    "TD2M": {
+        "meaning": "Talk dirty to me"
+    },
+    "TDTM": {
+        "meaning": "Talk dirty to me"
+    },
+    "TEA": {
+        "meaning": "Meaning gossip"
+    },
+    "TFF": {
+        "meaning": "Too *freaking* funny"
+    },
+    "TFS": {
+        "meaning": "Thanks for sharing"
+    },
+    "TFTF": {
+        "meaning": "Thanks for the follow (Twitter slang)"
+    },
+    "TFTI": {
+        "meaning": "Thanks for the invitation"
+    },
+    "TFTT": {
+        "meaning": "Thanks for this tweet (Twitter slang)"
+    },
+    "TFW": {
+        "meaning": "That Feeling When"
+    },
+    "TG": {
+        "meaning": "Thank goodness"
+    },
+    "TGIF": {
+        "meaning": "Thank God it's Friday"
+    },
+    "THNQ": {
+        "meaning": "Thank-you (SMS)"
+    },
+    "THNX": {
+        "meaning": "Thanks"
+    },
+    "THOT": {
+        "meaning": "That wh*re over there"
+    },
+    "THT": {
+        "meaning": "Think happy thoughts"
+    },
+    "THX": {
+        "meaning": "Thanks"
+    },
+    "TIA": {
+        "meaning": "Thanks in advance"
+    },
+    "TIAD": {
+        "meaning": "Tomorrow is another day"
+    },
+    "TIC": {
+        "meaning": "Tongue-in-cheek"
+    },
+    "TIL": {
+        "meaning": "Today I learned"
+    },
+    "TILIS": {
+        "meaning": "Tell it like it is"
+    },
+    "TIME": {
+        "meaning": "Tears In My Eyes"
+    },
+    "TIR": {
+        "meaning": "Teacher in room"
+    },
+    "TL": {
+        "meaning": "Too long"
+    },
+    "TL;DR": {
+        "meaning": "Too long; didn't read"
+    },
+    "TLK2UL8R": {
+        "meaning": "Talk to you later"
+    },
+    "TM": {
+        "meaning": "Trust me"
+    },
+    "TMA": {
+        "meaning": "Take my advice"
+    },
+    "TMB": {
+        "meaning": "Text me back",
+        "alternatives": "Tweet me back (Twitter slang)"
+    },
+    "TMI": {
+        "meaning": "Too much information"
+    },
+    "TMOT": {
+        "meaning": "Trust me on this"
+    },
+    "TMRW": {
+        "meaning": "Tomorrow"
+    },
+    "TMTH": {
+        "meaning": "Too much to handle"
+    },
+    "TMWFI": {
+        "meaning": "Take my word for it"
+    },
+    "TMYL": {
+        "meaning": "Tell me your location"
+    },
+    "TNSTAAFL": {
+        "meaning": "There's no such thing as a free lunch"
+    },
+    "TNT": {
+        "meaning": "Til next time"
+    },
+    "TNTL": {
+        "meaning": "Trying Not To Laugh"
+    },
+    "TOJ": {
+        "meaning": "Tears of joy"
+    },
+    "TOS": {
+        "meaning": "Terms of service"
+    },
+    "TOTES": {
+        "meaning": "Totally"
+    },
+    "TOU": {
+        "meaning": "Thinking of you"
+    },
+    "TOY": {
+        "meaning": "Thinking of you"
+    },
+    "TPM": {
+        "meaning": "Tomorrow p.m."
+    },
+    "TPTB": {
+        "meaning": "The powers that be"
+    },
+    "TQ": {
+        "meaning": "Te quiero / I love you (Spanish SMS)"
+    },
+    "TSH": {
+        "meaning": "Tripping so hard"
+    },
+    "TSL": {
+        "meaning": "Transport Layer Security"
+    },
+    "TSNF": {
+        "meaning": "That's so not fair"
+    },
+    "TSTB": {
+        "meaning": "The sooner, the better"
+    },
+    "TT": {
+        "meaning": "Trending topic (Twitter slang)"
+    },
+    "TTFN": {
+        "meaning": "Ta ta for now"
+    },
+    "TTG": {
+        "meaning": "Time to go"
+    },
+    "TTLY": {
+        "meaning": "Totally"
+    },
+    "TTP": {
+        "meaning": "To The Point"
+    },
+    "TTTT": {
+        "meaning": "These things take time"
+    },
+    "TTUL": {
+        "meaning": "Talk to you later"
+    },
+    "TTYAFN": {
+        "meaning": "Talk to you awhile from now"
+    },
+    "TTYL": {
+        "meaning": "Talk to you later"
+    },
+    "TTYS": {
+        "meaning": "Talk to you soon"
+    },
+    "TU": {
+        "meaning": "Thank you"
+    },
+    "TUI": {
+        "meaning": "Turning you in"
+    },
+    "TURNT": {
+        "meaning": "Meaning excitement, turned up"
+    },
+    "TWSS": {
+        "meaning": "That's what she said"
+    },
+    "TX": {
+        "meaning": "Thanks"
+    },
+    "TY": {
+        "meaning": "Thank you"
+    },
+    "TYAFY": {
+        "meaning": "Thank you and *freak* you"
+    },
+    "TYFC": {
+        "meaning": "Thank you for charity (online gaming)"
+    },
+    "TYFYC": {
+        "meaning": "Thank you for your comment"
+    },
+    "TYS": {
+        "meaning": "Told you so"
+    },
+    "TYSO": {
+        "meaning": "Thank you so much"
+    },
+    "TYT": {
+        "meaning": "Take your time"
+    },
+    "TYVM": {
+        "meaning": "Thank you very much"
+    },
+    "U-L": {
+        "meaning": "Meaning 'You will'"
+    },
+    "UCMU": {
+        "meaning": "You crack me up"
+    },
+    "UDI": {
+        "meaning": "Unidentified drinking injury (meaning bruise, scratch, ache and so on)"
+    },
+    "UDM": {
+        "meaning": "U (You) da (the) man"
+    },
+    "UDS": {
+        "meaning": "Ugly domestic scene"
+    },
+    "UFB": {
+        "meaning": "Un *freaking* believable"
+    },
+    "UFN": {
+        "meaning": "Until further notice"
+    },
+    "UFWM": {
+        "meaning": "You *freaking* with me?"
+    },
+    "UGC": {
+        "meaning": "User Generated Content"
+    },
+    "UGTBK": {
+        "meaning": "You've got to be kidding"
+    },
+    "UHGTBSM": {
+        "meaning": "You have got to be s#$t*ing me!"
+    },
+    "UI": {
+        "meaning": "User Interface"
+    },
+    "UKTR": {
+        "meaning": "You know that's right"
+    },
+    "UL": {
+        "meaning": "Upload"
+    },
+    "UN4TUN8": {
+        "meaning": "Unfortunate"
+    },
+    "UNA": {
+        "meaning": "Use no acronyms"
+    },
+    "UNBLEFBLE": {
+        "meaning": "Unbelievable"
+    },
+    "UNCRTN": {
+        "meaning": "Uncertain"
+    },
+    "UNPC": {
+        "meaning": "Un- (not) politically correct"
+    },
+    "UOK": {
+        "meaning": "(Are) You ok?"
+    },
+    "UR": {
+        "meaning": "You are / You're"
+    },
+    "UR2YS4ME": {
+        "meaning": "You are too wise for me"
+    },
+    "URA*": {
+        "meaning": "You are a star"
+    },
+    "URH": {
+        "meaning": "You are hot (U R Hot)"
+    },
+    "URL": {
+        "meaning": "Uniform resource locator (the website address)"
+    },
+    "URSKTM": {
+        "meaning": "You are so kind to me"
+    },
+    "URTM": {
+        "meaning": "You are the man"
+    },
+    "URW": {
+        "meaning": "You are welcome"
+    },
+    "USBCA": {
+        "meaning": "Until something better comes along"
+    },
+    "USU": {
+        "meaning": "Usually"
+    },
+    "UT": {
+        "meaning": "Unreal Tournament (online gaming)"
+    },
+    "UT2L": {
+        "meaning": "You take too long"
+    },
+    "UTM": {
+        "meaning": "You tell me"
+    },
+    "UV": {
+        "meaning": "Unpleasant visual",
+        "alternatives": "Unique Views (Number of page visitors)"
+    },
+    "UW": {
+        "meaning": "You're welcome"
+    },
+    "UX": {
+        "meaning": "User experience"
+    },
+    "V": {
+        "meaning": "Very"
+    },
+    "V/R": {
+        "meaning": "Very Respectfully"
+    },
+    "VAT": {
+        "meaning": "Value added tax"
+    },
+    "VBL": {
+        "meaning": "Visible bra line"
+    },
+    "VBS": {
+        "meaning": "Very big smile"
+    },
+    "VC": {
+        "meaning": "Voice chat"
+    },
+    "VEG": {
+        "meaning": "Very evil grin"
+    },
+    "VFF": {
+        "meaning": "Very freaking funny"
+    },
+    "VFM": {
+        "meaning": "Value for money"
+    },
+    "VGC": {
+        "meaning": "Very good condition"
+    },
+    "VGG": {
+        "meaning": "Very good game (online gaming)"
+    },
+    "VGH": {
+        "meaning": "Very good hand (online gaming)"
+    },
+    "VIN": {
+        "meaning": "Vehicle Identification Number"
+    },
+    "VIP": {
+        "meaning": "Very important person"
+    },
+    "VM": {
+        "meaning": "Voice mail"
+    },
+    "VN": {
+        "meaning": "Very nice"
+    },
+    "VNH": {
+        "meaning": "Very nice hand (online gaming)"
+    },
+    "VoIP": {
+        "meaning": "Voice over Internet Protocol (definition)"
+    },
+    "VRY": {
+        "meaning": "Very"
+    },
+    "VSC": {
+        "meaning": "Very soft chuckle"
+    },
+    "VSF": {
+        "meaning": "Very sad face"
+    },
+    "VWD": {
+        "meaning": "Very well done (online gaming)"
+    },
+    "VWP": {
+        "meaning": "Very well played (online gaming)"
+    },
+    "W@": {
+        "meaning": "What?"
+    },
+    "W/": {
+        "meaning": "With"
+    },
+    "W/B": {
+        "meaning": "Welcome back",
+        "alternatives": "Write back"
+    },
+    "W/E": {
+        "meaning": "Whatever"
+    },
+    "W/END": {
+        "meaning": "Weekend"
+    },
+    "W/O": {
+        "meaning": "Without"
+    },
+    "W3": {
+        "meaning": "WWW (Web address)"
+    },
+    "W8": {
+        "meaning": "Wait"
+    },
+    "WAH": {
+        "meaning": "Working at home"
+    },
+    "WAJ": {
+        "meaning": "What a jerk"
+    },
+    "WAM": {
+        "meaning": "Wait a minute"
+    },
+    "WAN2": {
+        "meaning": "Want to? (SMS)"
+    },
+    "WAN2TLK": {
+        "meaning": "Want to talk"
+    },
+    "WAREZ": {
+        "meaning": "Meaning pirated (illegally gained) software"
+    },
+    "WAS": {
+        "meaning": "Wait a second",
+        "alternatives": "Wild *a* guess"
+    },
+    "WAT": {
+        "meaning": "What"
+    },
+    "WAWA": {
+        "meaning": "Where are we at?"
+    },
+    "WAYF": {
+        "meaning": "Where are you from?"
+    },
+    "WB": {
+        "meaning": "Welcome back"
+    },
+    "WBS": {
+        "meaning": "Write back soon"
+    },
+    "WBU": {
+        "meaning": "What about you?"
+    },
+    "WBW": {
+        "meaning": "Way Back Wednesday"
+    },
+    "WC": {
+        "meaning": "Welcome",
+        "alternatives": "Who cares"
+    },
+    "WCA": {
+        "meaning": "Who cares anyway"
+    },
+    "WCW": {
+        "meaning": "Women Crush Wednesday"
+    },
+    "WDALYIC": {
+        "meaning": "Who died and left you in charge"
+    },
+    "WDYK": {
+        "meaning": "What do you know?"
+    },
+    "WDYM": {
+        "meaning": "What Do You Mean"
+    },
+    "WDYT": {
+        "meaning": "What do you think?"
+    },
+    "WE": {
+        "meaning": "Whatever"
+    },
+    "WEBO": {
+        "meaning": "Webopedia"
+    },
+    "WEEBO": {
+        "meaning": "Describes a person obsessed with of Japanese culture"
+    },
+    "WEP": {
+        "meaning": "Weapon (online gaming)"
+    },
+    "WFH": {
+        "meaning": "Work From Home"
+    },
+    "WGACA": {
+        "meaning": "What do you think?"
+    },
+    "WH5": {
+        "meaning": "Who, what, when, where, why"
+    },
+    "WHATEVES": {
+        "meaning": "Whatever"
+    },
+    "WIBNI": {
+        "meaning": "Wouldn't it be nice if"
+    },
+    "WIIFM": {
+        "meaning": "What's in it for me?"
+    },
+    "WISP": {
+        "meaning": "Winning is so pleasurable"
+    },
+    "WITP": {
+        "meaning": "What is the point?"
+    },
+    "WITW": {
+        "meaning": "What in the world"
+    },
+    "WIU": {
+        "meaning": "Wrap it up"
+    },
+    "WK": {
+        "meaning": "Week"
+    },
+    "WKD": {
+        "meaning": "Weekend"
+    },
+    "WL": {
+        "meaning": "Whatta loser"
+    },
+    "WOA": {
+        "meaning": "Work of Art"
+    },
+    "WOKE": {
+        "meaning": "Slang for people who are aware of current social issues, and politics"
+    },
+    "WOM": {
+        "meaning": "Word of Mouth"
+    },
+    "WOMBAT": {
+        "meaning": "Waste of money, brains and time"
+    },
+    "WOW": {
+        "meaning": "World of Warcraft (online gaming)"
+    },
+    "WRK": {
+        "meaning": "Work"
+    },
+    "WRT": {
+        "meaning": "With regard to"
+    },
+    "WRU": {
+        "meaning": "Where are you?"
+    },
+    "WRU@": {
+        "meaning": "Where are you at?"
+    },
+    "WRUD": {
+        "meaning": "What are you doing?"
+    },
+    "WTB": {
+        "meaning": "Want to buy (online gaming)"
+    },
+    "WTFE": {
+        "meaning": "What the *freak* ever"
+    },
+    "WTFO": {
+        "meaning": "What the *freak* ?, over."
+    },
+    "WTG": {
+        "meaning": "Way to go"
+    },
+    "WTGP": {
+        "meaning": "Want to go private (talk out of public chat area)"
+    },
+    "WTH": {
+        "meaning": "What the heck?"
+    },
+    "WTM": {
+        "meaning": "Who's the man?"
+    },
+    "WTS": {
+        "meaning": "Want to sell? (online gaming)"
+    },
+    "WTT": {
+        "meaning": "Want to trade? (online gaming)"
+    },
+    "WU": {
+        "meaning": "What's up?"
+    },
+    "WUCIWUG": {
+        "meaning": "What you see is what you get"
+    },
+    "WUF": {
+        "meaning": "Where are you from?"
+    },
+    "WUP": {
+        "meaning": "What's up?"
+    },
+    "WUT": {
+        "meaning": "Meaning 'what'"
+    },
+    "WUU2": {
+        "meaning": "What are you up to?"
+    },
+    "WUW": {
+        "meaning": "What u (you) want?"
+    },
+    "WUZ": {
+        "meaning": "Meaning 'was'"
+    },
+    "WWJD": {
+        "meaning": "What would Jesus do?",
+        "alternatives": "What Would Judd Do? (Artist Donald Judd, who was known to do things in his own compulsive way.)"
+    },
+    "WWNC": {
+        "meaning": "Will wonders never cease"
+    },
+    "WWYC": {
+        "meaning": "Write when you can"
+    },
+    "WYCM": {
+        "meaning": "Will you call me?"
+    },
+    "WYD": {
+        "meaning": "What (are) you doing?"
+    },
+    "WYGAM": {
+        "meaning": "When you get a minute"
+    },
+    "WYHAM": {
+        "meaning": "When you have a minute"
+    },
+    "WYLEI": {
+        "meaning": "When you least expect it"
+    },
+    "WYSIWYG": {
+        "meaning": "What you see is what you get"
+    },
+    "WYWH": {
+        "meaning": "Wish you were here"
+    },
+    "X": {
+        "meaning": "Kiss"
+    },
+    "X-1-10": {
+        "meaning": "Meaning 'Exciting'"
+    },
+    "X!": {
+        "meaning": "Meaning 'a typical woman'"
+    },
+    "XD": {
+        "meaning": "Meaning 'really hard laugh' (where D is a smiley mouth)",
+        "alternatives": "Meaning a 'devilish smile'"
+    },
+    "XLNT": {
+        "meaning": "Excellent"
+    },
+    "XLR8": {
+        "meaning": "Meaning 'faster' or 'going faster'"
+    },
+    "XME": {
+        "meaning": "Excuse Me"
+    },
+    "XOXOXO": {
+        "meaning": "Hugs & Kisses"
+    },
+    "XPOST": {
+        "meaning": "Meaning Cross-post. A link posted to a subreddit that was already shared on a different subreddit (Reddit)"
+    },
+    "XYL": {
+        "meaning": "Ex-young lady, meaning wife. (amateur radio)"
+    },
+    "XYZ": {
+        "meaning": "Examine your zipper"
+    },
+    "Y": {
+        "meaning": "Meaning Yawn"
+    },
+    "Y?": {
+        "meaning": "Why?"
+    },
+    "Y2K": {
+        "meaning": "You're too kind"
+    },
+    "YA": {
+        "meaning": "Your"
+    },
+    "YAA": {
+        "meaning": "Yet another acronym"
+    },
+    "YABA": {
+        "meaning": "Yet another bloody acronym"
+    },
+    "YARLY": {
+        "meaning": "Ya, really?"
+    },
+    "YAS": {
+        "meaning": "Meaning 'praise'"
+    },
+    "YBIC": {
+        "meaning": "Your brother in Christ"
+    },
+    "YBS": {
+        "meaning": "You'll be sorry"
+    },
+    "YCDBWYCID": {
+        "meaning": "You can't do business when your computer is down"
+    },
+    "YCHT": {
+        "meaning": "You can have them"
+    },
+    "YCLIU": {
+        "meaning": "You can look it up"
+    },
+    "YCMU": {
+        "meaning": "You crack me up"
+    },
+    "YCT": {
+        "meaning": "Meaning Your comment to?"
+    },
+    "YD": {
+        "meaning": "Yesterday"
+    },
+    "YEET": {
+        "meaning": "Meaning excitement, approval or display of energy (i.e. throwing something)"
+    },
+    "YF": {
+        "meaning": "Wife"
+    },
+    "YG": {
+        "meaning": "Young gentleman"
+    },
+    "YGG": {
+        "meaning": "You go girl"
+    },
+    "YGM": {
+        "meaning": "You Get Me"
+    },
+    "YGTBKM": {
+        "meaning": "You've got to be kidding me"
+    },
+    "YGTI": {
+        "meaning": "You Get The Idea"
+    },
+    "YGTR": {
+        "meaning": "You got that right"
+    },
+    "YHBT": {
+        "meaning": "You have been trolled"
+    },
+    "YHBW": {
+        "meaning": "You have been warned"
+    },
+    "YHL": {
+        "meaning": "You have lost"
+    },
+    "YIU": {
+        "meaning": "Yes, I understand"
+    },
+    "YKW": {
+        "meaning": "You know what"
+    },
+    "YKWYCD": {
+        "meaning": "You know what you can do"
+    },
+    "YL": {
+        "meaning": "Young lady"
+    },
+    "YMMV": {
+        "meaning": "Your mileage may vary"
+    },
+    "YNK": {
+        "meaning": "You never know"
+    },
+    "YOLO": {
+        "meaning": "You only live once"
+    },
+    "YP": {
+        "meaning": "Yes, Please"
+    },
+    "YR": {
+        "meaning": "Your",
+        "alternatives": "Yeah right"
+    },
+    "YRYOCC": {
+        "meaning": "You're running your own cuckoo clock"
+    },
+    "YSIC": {
+        "meaning": "Your sister in Christ"
+    },
+    "YSK": {
+        "meaning": "You Should Know"
+    },
+    "YSYD": {
+        "meaning": "Yeah sure you do"
+    },
+    "YT": {
+        "meaning": "YouTube",
+        "alternatives": "You there?"
+    },
+    "YTB": {
+        "meaning": "You're the best",
+        "alternatives": "Youth talk back"
+    },
+    "YTG": {
+        "meaning": "You're the greatest"
+    },
+    "YTTL": {
+        "meaning": "You take too long"
+    },
+    "YW": {
+        "meaning": "You're welcome"
+    },
+    "YWHNB": {
+        "meaning": "Yes, we have no bananas"
+    },
+    "YWHOL": {
+        "meaning": "Yelling 'woohoo' out loud"
+    },
+    "YWSYLS": {
+        "meaning": "You win some, you lose some"
+    },
+    "YYSSW": {
+        "meaning": "Yeah, yeah, sure, sure, whatever"
+    },
+    "Z": {
+        "meaning": "Zero",
+        "alternatives": "Zs are calling (meaning going to bed/sleep), Meaning 'Said'"
+    },
+    "Z%": {
+        "meaning": "Zoo"
+    },
+    "ZH": {
+        "meaning": "Zero hour, sleeping hour"
+    },
+    "ZOMG": {
+        "meaning": "Used in World of Warcraft to mean OMG (Oh My God)"
+    },
+    "ZOT": {
+        "meaning": "Zero tolerance"
+    },
+    "ZUP": {
+        "meaning": "Meaning 'What's up?'"
+    },
+    "ZZZZ": {
+        "meaning": "Sleeping (or bored)"
     }
 }
