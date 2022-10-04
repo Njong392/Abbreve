@@ -17,15 +17,20 @@ const readline = readLine.createInterface({
 });
 
 const filterAbbreviations = () => {
-	const words = Object.keys(db);
-	const uniqueWords = [...new Set(words)];
+	const filteredAbbreviations = Object.keys(db)
+		.filter((word, index, self) => self.indexOf(word) === index)
+		.sort((a, b) => a.localeCompare(b))
+		.reduce((obj, key) => {
+			obj[key.toLowerCase()] = db[key];
+			return obj;
+		}, {});
 
-	const newDb = uniqueWords.reduce((acc, word) => {
-		acc[word] = db[word];
-		return acc;
-	}, {});
+	fs.writeFileSync(
+		dbPath,
+		JSON.stringify(filteredAbbreviations, null, 2),
+		"utf8"
+	);
 
-	fs.writeFileSync(dbPath, JSON.stringify(newDb, null, 2));
 	console.log("Filtering done");
 };
 
