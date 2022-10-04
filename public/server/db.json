@@ -183,7 +183,14 @@
   },
   
   "fgs": {
-    "definition": "For God's Sake"
+    "definition": "For God's sake"
+  },
+
+  "tbh": {
+    "definition": "To Be Honest"
+  },
+
+  "asap": {
+    "definition": "As Soon As Possible"
   }
-  
 }
