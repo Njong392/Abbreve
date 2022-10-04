@@ -156,6 +156,12 @@
     },
     "tfw":{
         "definition": "The Feeling When"
+    },
+    "fomo":{
+        "definition": "Fear Of Missing Out"
+    },
+    "tia": {
+        "definition": "Thanks In Advance"
     }
     
 }
