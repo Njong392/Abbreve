@@ -9,7 +9,7 @@ const Form = () => {
 
   const fetchData = (e) => {
     e.preventDefault();
-    const url = "/server/db.json";
+    const url = `/server/db/${userInput}.json`;
     fetch(`${url}`)
       .then((response) => {
         if (!response.ok) {
@@ -18,6 +18,7 @@ const Form = () => {
         return response.json();
       })
       .then((data) => {
+
         if (userInput.trim().length === 0) {
           setIsUserInputBlank(true);
         } else if (!(userInput in data)) {
@@ -29,6 +30,7 @@ const Form = () => {
           setErrorMessage(false);
           setIsUserInputBlank(false);
         }
+
       })
       .catch((err) => {
         console.log(err.message);
@@ -100,7 +102,7 @@ const Form = () => {
           {data && (
             <div className="mt-2 text-purple font-bold text-xl ml-2">
               <p role="region" aria-live="assertive">
-                {data[`${userInput}`]?.definition}
+                {data.definition}
               </p>
             </div>
           )}
