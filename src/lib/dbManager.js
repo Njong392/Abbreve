@@ -1,4 +1,6 @@
 import fs from 'fs';
+import { dirname, resolve } from 'path';
+import { fileURLToPath } from 'url';
 
 /**
  *
@@ -21,8 +23,6 @@ import fs from 'fs';
  * It returns a promise which resolves to the number of successful
  * abbreviations ejected
  *
- * TODO: Make provisions for abbreviations with special characters that
- * can't be used as a filename
  *
  * @param { string | Db } db
  * @param {string} directory
@@ -90,8 +90,43 @@ export function createAbbrev(abbrev, details, ejectDirectory) {
         return false;
     }
 
+    let encodedAbbrMappingsFile = resolve(
+        dirname(fileURLToPath(import.meta.url)),
+        '../../public/server'
+    );
+    encodedAbbrMappingsFile += '/encodedAbbrMappings.json';
+    let fileMappings;
+
+    try {
+        fileMappings = JSON.parse(
+            fs.readFileSync(encodedAbbrMappingsFile, {
+                encoding: 'utf-8',
+            })
+        );
+    } catch (e) {
+        if (e.code !== 'ENOENT') {
+            return false;
+        }
+
+        fileMappings = {};
+    }
+
+    const encodedFileName = encodeURIComponent(abbrev);
+
+    if (encodedFileName !== abbrev) {
+        fileMappings[encodedFileName] = abbrev;
+    }
+
     fs.writeFileSync(
-        `${ejectDirectory}/${abbrev}.json`,
+        encodedAbbrMappingsFile,
+        JSON.stringify(fileMappings, null, 2),
+        {
+            flag: 'w',
+        }
+    );
+
+    fs.writeFileSync(
+        `${ejectDirectory}/${encodedFileName}.json`,
         JSON.stringify(details, null, 2),
         {
             flag: 'w',
