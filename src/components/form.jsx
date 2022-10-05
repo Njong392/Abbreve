@@ -1,5 +1,5 @@
-import { useEffect } from "react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+
 const Form = () => {
   const [data, setData] = useState(null);
   const [error, setError] = useState(false);
@@ -71,8 +71,7 @@ const Form = () => {
                 viewBox="0 0 24 24"
                 strokeWidth={2.5}
                 stroke="currentColor"
-                className="w-6 h-6 text-purple"
-              >
+                className="w-6 h-6 text-purple">
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -93,8 +92,7 @@ const Form = () => {
 
             <button
               onClick={fetchData}
-              className="bg-purple text-ash font-bold rounded-xl hover:scale-110 p-2 mt-2 md:mt-0"
-            >
+              className="bg-purple text-ash font-bold rounded-xl hover:scale-110 p-2 mt-2 md:mt-0">
               Submit
             </button>
           </form>
@@ -117,6 +115,7 @@ const Form = () => {
             <div className="text-purple text-sm mt-2">
               Oops. Some connection error occured.
             </div>
+          
           )}
 
           {isUserInputBlank && (
@@ -136,8 +135,8 @@ const Form = () => {
                 1. You can help us add this by creating a{" "}
                 <a
                   href="https://github.com/Njong392/Abbreve"
-                  className="text-ash text-purple"
-                >
+                  className="text-ash text-purple">
+
                   github issue
                 </a>
               </p>
