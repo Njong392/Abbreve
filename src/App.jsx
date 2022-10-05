@@ -3,18 +3,15 @@ import Navbar from "./components/navbar";
 import Form from "./components/form";
 import Footer from "./components/footer";
 
-function App() {
-  return(
+const App = () => {
+  return (
     <div className="font-poppins">
       <Navbar />
-    
       <Hero />
       <Form />
       <Footer />
-
     </div>
-
   );
-}
+};
 
-export default App
+export default App;

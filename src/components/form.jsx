@@ -1,5 +1,5 @@
-import { useEffect } from "react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+
 const Form = () => {
   const [data, setData] = useState(null);
   const [error, setError] = useState(false);
@@ -40,12 +40,12 @@ const Form = () => {
       <section className="block justify-center pb-16 md:flex">
         <div className="md:w-1/2 md:pr-20 md:text-left text-center">
           <h2 className="text-purple font-bold text-3xl">
-            <span className="text-ash">Start by entering a slang,</span> and our dictionary will
-            spit out an abbreviation.{" "}
+            <span className="text-ash">Start by entering a slang,</span> and our
+            dictionary will spit out an abbreviation.{" "}
           </h2>
           <p className="text-gray text-sm mt-5">
-            *For now, abbreviations are one-way. For example, Idk can only translate to 'I don't
-            know', and not the other way round.
+            *For now, abbreviations are one-way. For example, Idk can only
+            translate to 'I don't know', and not the other way round.
           </p>
 
           <p className="text-sm mt-5 text-ash">
@@ -65,8 +65,7 @@ const Form = () => {
                 viewBox="0 0 24 24"
                 strokeWidth={2.5}
                 stroke="currentColor"
-                className="w-6 h-6 text-purple"
-              >
+                className="w-6 h-6 text-purple">
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -79,14 +78,15 @@ const Form = () => {
                 placeholder="Search slang full meaning..."
                 className="flex-1 w-1/2 h-11 rounded-full ml-2 border-none outline-none text-gray text-lg bg-ash"
                 value={userInput}
-                onChange={(e) => setUserInput(e.target.value.toLocaleLowerCase())}
+                onChange={(e) =>
+                  setUserInput(e.target.value.toLocaleLowerCase())
+                }
               />
             </div>
 
             <button
               onClick={fetchData}
-              className="bg-purple text-ash font-bold rounded-xl hover:scale-110 p-2 mt-2 md:mt-0"
-            >
+              className="bg-purple text-ash font-bold rounded-xl hover:scale-110 p-2 mt-2 md:mt-0">
               Submit
             </button>
           </form>
@@ -106,15 +106,21 @@ const Form = () => {
           )}
 
           {error && (
-            <div className="text-purple text-sm mt-2">Oops. Some connection error occured.</div>
+            <div className="text-purple text-sm mt-2">
+              Oops. Some connection error occured.
+            </div>
           )}
 
           {errorMessage && (
             <div className="mt-4">
-              <p className="text-purple">This entry does not exist in our records as of yet :(</p>
+              <p className="text-purple">
+                This entry does not exist in our records as of yet :(
+              </p>
               <p className="text-ash mt-2">
                 1. You can help us add this by creating a{" "}
-                <a href="https://github.com/Njong392/Abbreve" className="text-ash text-purple">
+                <a
+                  href="https://github.com/Njong392/Abbreve"
+                  className="text-ash text-purple">
                   github issue
                 </a>
               </p>

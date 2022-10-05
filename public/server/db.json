@@ -1,187 +1,186 @@
 {
+  "lgtm": {
+    "definition": "Looks Good To Me",
+    "alternatives": "Looks Great To Me, Looks Great To Merge"
+  },
 
-    "lgtm":{
-        "definition":"Looks Good To Me",
-        "alternatives": "Looks Great To Me, Looks Great To Merge"
-    },
+  "lfg": {
+    "definition": "Let's Fucking Go",
+    "alternatives": "Life Feels Good, Looking For Group"
+  },
 
-    "lfg":{
-        "definition":"Let's Fucking Go",
-        "alternatives" : "Life Feels Good, Looking For Group"
-    },
+  "idk": {
+    "definition": "I Don't Know"
+  },
 
-    "idk":{
-        "definition": "I Don't Know"
-    },
+  "imo": {
+    "definition": "In My Opinion"
+  },
 
-    "imo":{
-        "definition": "In My Opinion"
-    },
-    
-    "imho":{
-        "definition": "In My Honest Opinion"
-    },
-    "rtfm":{
-        "definition": "Read The Fucking Manual"
-    },
+  "imho": {
+    "definition": "In My Honest Opinion"
+  },
+  "rtfm": {
+    "definition": "Read The Fucking Manual"
+  },
 
-    "gtfo":{
-        "definition": "Get The Fuck Out"
-    },
+  "gtfo": {
+    "definition": "Get The Fuck Out"
+  },
 
-    "wtf":{
-        "definition": "What The Fuck"
-    },
+  "wtf": {
+    "definition": "What The Fuck"
+  },
 
-    "ig":{
-        "definition": "Instagram",
-        "alternatives" : "I Guess"
-    },
+  "ig": {
+    "definition": "Instagram",
+    "alternatives": "I Guess"
+  },
 
-    "fyi":{
-        "definition": "For Your Information"
-    },
+  "fyi": {
+    "definition": "For Your Information"
+  },
 
-    "iykyk":{
-       "definition": "If You Know You Know"
-    },
+  "iykyk": {
+    "definition": "If You Know You Know"
+  },
 
-    "ifg":{
-        "definition": "I Feel Good"
-    },
+  "ifg": {
+    "definition": "I Feel Good"
+  },
 
-    "igtg":{
-        "definition": "I've Got To Go"
-    },
+  "igtg": {
+    "definition": "I've Got To Go"
+  },
 
-    "icymi":{
-        "definition": "In Case You Missed It"
-    },
+  "icymi": {
+    "definition": "In Case You Missed It"
+  },
 
-    "ikr": {
-        "definition": "I Know, Right?"
-    },
+  "ikr": {
+    "definition": "I Know, Right?"
+  },
 
-    "kiss":{
-        "definition": "Keep It Simple Stupid",
-        "alternatives": "Keep It Super Simple, Keep It Short And Simple"
-    },
+  "kiss": {
+    "definition": "Keep It Simple Stupid",
+    "alternatives": "Keep It Super Simple, Keep It Short And Simple"
+  },
 
-    "hmu":{
-        "definition": "Hit Me Up"
-    },
-    
-    "lol":{
-        "definition": "Laugh Out Loud"
-    },
+  "hmu": {
+    "definition": "Hit Me Up"
+  },
 
-    "stfu":{
-        "definition": "Shut The Fuck Up"
-    },
+  "lol": {
+    "definition": "Laugh Out Loud"
+  },
 
-    "ngl":{
-        "definition": "Not Gonna Lie"
-    },
+  "stfu": {
+    "definition": "Shut The Fuck Up"
+  },
 
-    "hru":{
-        "definition": "How Are You"
-    },
+  "ngl": {
+    "definition": "Not Gonna Lie"
+  },
 
-    "srly":{
-        "definition": "Seriously"
-    },
+  "hru": {
+    "definition": "How Are You"
+  },
 
-    "bff":{
-        "definition": "Best Friend Forever"
-    },
+  "srly": {
+    "definition": "Seriously"
+  },
 
-    "tl":{
-        "definition": "Timeline"
-    },
+  "bff": {
+    "definition": "Best Friend Forever"
+  },
 
-    "cl":{
-        "definition": "Contact List"
-    },
+  "tl": {
+    "definition": "Timeline"
+  },
 
-    "nvm":{
-        "definition": "Never Mind"
-    },
+  "cl": {
+    "definition": "Contact List"
+  },
 
-    "wyd":{
-        "definition": "What You Doing"
-    },
-    
-    "lmk":{
-        "definition": "Let Me Know"
-    },
-    
-    "idc":{
-        "definition": "I Don't Care"
-    },
+  "nvm": {
+    "definition": "Never Mind"
+  },
 
-    "til":{
-        "definition": "Today I Learn",
-        "alternatives": "Today I Learned"
-    },
-    
-    "brb":{
-        "definition": "Be Right Back"
-    },
-    
-    "byob":{
-        "definition": "Bring Your Own Beer",
-        "alternatives": "Be Your Own Boss"
-    },
-    
-    "tldr":{
-        "definition": "Too Long, Didn't Read"
-    },
-    
-    "ttyl":{
-        "definition": "Talk To You Later"
-    },
-    
-    "tc":{
-        "definition": "Take Care"
-    },
-    
-    "rofl":{
-        "definition": "Rolling On The Floor, Laughing"
-    },
-    
-    "ootd":{
-        "definition": "Outfit Of The Day"
-    },
-    
-    "goat":{
-        "definition": "Greatest Of All Time"
-    },
-    
-    "tfw":{
-        "definition": "The Feeling When"
-    },
-    
-    "fomo":{
-        "definition": "Fear Of Missing Out"
-    },
-    
-    "tia": {
-        "definition": "Thanks In Advance"
-    },
-    
+  "wyd": {
+    "definition": "What You Doing"
+  },
+
+  "lmk": {
+    "definition": "Let Me Know"
+  },
+
+  "idc": {
+    "definition": "I Don't Care"
+  },
+
+  "til": {
+    "definition": "Today I Learn",
+    "alternatives": "Today I Learned"
+  },
+
+  "brb": {
+    "definition": "Be Right Back"
+  },
+
+  "byob": {
+    "definition": "Bring Your Own Beer",
+    "alternatives": "Be Your Own Boss"
+  },
+
+  "tldr": {
+    "definition": "Too Long, Didn't Read"
+  },
+
+  "ttyl": {
+    "definition": "Talk To You Later"
+  },
+
+  "tc": {
+    "definition": "Take Care"
+  },
+
+  "rofl": {
+    "definition": "Rolling On The Floor, Laughing"
+  },
+
+  "ootd": {
+    "definition": "Outfit Of The Day"
+  },
+
+  "goat": {
+    "definition": "Greatest Of All Time"
+  },
+
+  "tfw": {
+    "definition": "The Feeling When"
+  },
+
+  "fomo": {
+    "definition": "Fear Of Missing Out"
+  },
+
+  "tia": {
+    "definition": "Thanks In Advance"
+  },
+
   "smh": {
     "definition": "Shaking My Head"
   },
-  
+
   "pov": {
     "definition": "Point Of View"
   },
-  
+
   "tbf": {
     "definition": "To Be Frank",
     "alternatives": "To Be Fair"
   },
-  
+
   "fgs": {
     "definition": "For God's sake"
   },
@@ -201,16 +200,16 @@
   "asap": {
     "definition": "As Soon As Possible"
   },
-   "uk": {
-        "definition": "You Know"
-   },
-    "ik": {
-        "definition": "I Know"
-    },
-    "hbd": {
-        "definition": "Happy Birthday"
-    },
-    "mgl": {
-        "definition": "More Good Life"
-    }
+  "uk": {
+    "definition": "You Know"
+  },
+  "ik": {
+    "definition": "I Know"
+  },
+  "hbd": {
+    "definition": "Happy Birthday"
+  },
+  "mgl": {
+    "definition": "More Good Life"
+  }
 }
