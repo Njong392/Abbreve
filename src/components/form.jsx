@@ -77,7 +77,7 @@ const Form = () => {
               <input
                 type="text"
                 placeholder="Search slang full meaning..."
-                className="flex-1 w-1/2 h-11 rounded-full ml-2 border-none outline-none text-gray text-lg bg-ash"
+                className="flex-1 w-1/2 h-11 rounded-full ml-2 border-none outline-none text-gray text-lg bg-ash placeholder:text-base"
                 value={userInput}
                 onChange={(e) => setUserInput(e.target.value.toLocaleLowerCase())}
               />
@@ -85,7 +85,7 @@ const Form = () => {
 
             <button
               onClick={fetchData}
-              className="bg-purple text-ash font-bold rounded-xl hover:scale-110 p-2 mt-2 md:mt-0"
+              className="bg-purple text-ash font-bold rounded-xl hover:scale-105 py-2 px-3 mt-2 md:mt-0 duration-300 ease-in-out transition"
             >
               Submit
             </button>
