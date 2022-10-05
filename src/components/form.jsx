@@ -5,6 +5,7 @@ const Form = () => {
   const [error, setError] = useState(false);
   const [errorMessage, setErrorMessage] = useState(false);
   const [userInput, setUserInput] = useState("");
+  const [isUserInputBlank, setIsUserInputBlank] = useState(false);
 
   const fetchData = (e) => {
     e.preventDefault();
@@ -17,12 +18,16 @@ const Form = () => {
         return response.json();
       })
       .then((data) => {
-        if (!(userInput in data)) {
+        if (userInput.trim().length === 0) {
+          setIsUserInputBlank(true);
+        } else if (!(userInput in data)) {
+          setIsUserInputBlank(false);
           setErrorMessage(true);
         } else {
           setData(data);
           setError(false);
           setErrorMessage(false);
+          setIsUserInputBlank(false);
         }
       })
       .catch((err) => {
@@ -33,6 +38,7 @@ const Form = () => {
 
   useEffect(() => {
     setErrorMessage("");
+    setIsUserInputBlank(false)
   }, [userInput]);
 
   return (
@@ -109,6 +115,15 @@ const Form = () => {
             <div className="text-purple text-sm mt-2">
               Oops. Some connection error occured.
             </div>
+          
+          )}
+
+          {isUserInputBlank && (
+            <div className="mt-4">
+              <p className="text-purple">
+                Search bar 🔍 is Empty!. Please put abbreviation in search bar
+              </p>
+            </div>
           )}
 
           {errorMessage && (
@@ -121,6 +136,7 @@ const Form = () => {
                 <a
                   href="https://github.com/Njong392/Abbreve"
                   className="text-ash text-purple">
+
                   github issue
                 </a>
               </p>
