@@ -7,6 +7,7 @@ module.exports = {
   theme: {
     colors: {
       'purple': '#AC58F5',
+      'purpleHover': '#9326f2',
       'dark': '#0F172A',
       'gray': '#64748B',
       'ash' : '#F8FBFE'
