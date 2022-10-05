@@ -38,6 +38,7 @@ const Form = () => {
 
   useEffect(() => {
     setErrorMessage("");
+    setIsUserInputBlank(false)
   }, [userInput]);
 
   return (
