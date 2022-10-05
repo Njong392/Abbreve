@@ -26,7 +26,11 @@ a {
   text-decoration: inherit;
 }
 a:hover {
+<<<<<<< Updated upstream
   color: #ffffff;
+=======
+  color: #EAD6FA;
+>>>>>>> Stashed changes
 }
 
 body {
