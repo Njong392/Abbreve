@@ -73,12 +73,7 @@
     
     "lol":{
         "definition": "Laugh Out Loud",
-        "definition": "Lots Of Love",
-        "definition": "Lots Of Likes",
-        "definition": "Lots Of Looser",
-        "definition": "Lots Of Light",
-        "definition": "Lots Of Laugh"
-
+        "alternatives": "Lots Of Love, Lots Of Likes, Lots Of Loosers, Lots Of Light, Lots Of Laugh
     },
 
     "stfu":{
@@ -191,7 +186,7 @@
   "fgs": {
     "definition": "For God's sake"
   },
-
+  
   "tysm": {
     "definition": "Thank You So Much"
   },
@@ -212,29 +207,46 @@
   	"definition": "How About You"
   }, 
 
-  "wth": {
-  	"definition": "What The Hell"
-  }, 
-
   "imy": {
-  	"definition": "I Miss You"
+  	"definition": "I Missed You"
   }, 
 
   "ilu": {
   	"definition": "I Love You",
-  	"definition": "I Like You"
+  	"alternatives": "I Like You"
   }, 
 
   "sys": {
   	"definition": "See You Soon"
   }, 
 
-  "ik": {
-  	"definition": "I Know"
-  }, 
-
   "dygm": {
   	"definition": "Did You Get Me"
-  }
+  },
+
+  "wth": {
+    "definition": "What The Hell"
+  },
+  
+  "nm": {
+    "definition": "Nothing Much",
+    "alternatives": "Never Mind"
+  },
+
+  "tbh": {
+    "definition": "To Be Honest"
+  },
+
+  "asap": {
+    "definition": "As Soon As Possible"
+  },
+  
+   "uk": {
+        "definition": "You Know"
+   },
+   
+    "ik": {
+        "definition": "I Know"
+    }
 
 }
