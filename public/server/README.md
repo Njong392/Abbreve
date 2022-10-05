@@ -11,3 +11,4 @@ In your terminal run `compileDb.js`: `node ./compileDb.js`
   > NOTE: I've decided not to touch the app's search engine now cos we need to discuss first
 
 * Add instructions for contributing in main README.md
+* Add caching strategies for searched abbrevs
