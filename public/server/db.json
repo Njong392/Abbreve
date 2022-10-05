@@ -253,6 +253,31 @@
 
   "mgl": {
     "definition": "More Good Life"
+  },
+
+  "ss": {
+    "definition": "Screenshot",
+    "alternatives": "Snapshot"
+  },
+
+  "g2g": {
+    "definition": "Got To Go"
+  },
+
+  "ynk": {
+    "definition": "You Never Know"
+  },
+  
+  "jk": {
+    "definition": "Just Kidding"
+  },
+
+  "wbu": {
+    "definition": "What About You"
+  },
+
+  "wuwh": {
+    "definition": "Wish You Were Here"
   }
 
 }
