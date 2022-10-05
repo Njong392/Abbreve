@@ -46,7 +46,7 @@ export function ejectDb(db, directory, options = {}) {
             try {
                 parsedDb = JSON.parse(db);
             } catch {
-                reject('The provided string is not a valid object');
+                reject('The provided string is not a valid JSON');
             }
         }
 
