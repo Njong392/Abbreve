@@ -5,14 +5,16 @@ import ig from "../assets/ig.png";
 import lfg from "../assets/lfg.png";
 import nate from "../assets/nate.jpg";
 import emy from "../assets/emy.jpg";
-import { Link } from "react-scroll";
+import {Link} from 'react-scroll';
 
 const Hero = () => {
   return (
     <main className="bg-dark md:px-40 py-12 px-[24px]">
-      <header className="text-center md:text-2xl relative mt-12">
-        <h1 className="text-purple font-bold">Writing on the internet</h1>
-        <h1 className="text-ash font-bold mt-2">is changing. IYKYK</h1>
+      <header className="text-center relative mt-12">
+        <div className="text-4xl md:text-7xl mb-5">
+          <h1 className="text-purple font-bold">Writing on the internet</h1>
+          <h1 className="text-ash font-bold mt-2">is changing. IYKYK</h1>
+        </div>
 
         <div className="absolute right-14 bottom-20 lg:visible invisible">
           <div className="w-24 h-4 bg-deeppurple relative -rotate-6">
@@ -34,7 +36,7 @@ const Hero = () => {
           smooth={true}
           duration={500}
           spy={false}
-          className="bg-purple text-ash font-bold rounded-xl hover:scale-110 mt-5 md:invisible visible p-2">
+          className="bg-purple text-ash font-bold rounded-xl hover:scale-110 md:invisible visible p-2">
           Find an abbreve(tion)
         </Link>
       </header>
