@@ -253,6 +253,9 @@
 
   "mgl": {
     "definition": "More Good Life"
+  },
+  "foss": {
+    "definition":"Free Open-Source Software"
   }
 
 }
