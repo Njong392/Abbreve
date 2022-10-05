@@ -83,6 +83,7 @@ export function ejectDb(db, directory, options = {}) {
  *
  * @param {string} abbrev
  * @param {Abbrev} details
+ * @param {string} ejectDirectory
  */
 export function createAbbrev(abbrev, details, ejectDirectory) {
     if (!isAbbrevValid(details)) {
