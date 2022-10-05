@@ -188,6 +188,7 @@
   "wth": {
     "definition": "What The Hell"
   },
+
   "nm": {
     "definition": "Nothing Much",
     "alternatives": "Never Mind"
@@ -200,15 +201,19 @@
   "asap": {
     "definition": "As Soon As Possible"
   },
+
   "uk": {
     "definition": "You Know"
   },
+
   "ik": {
     "definition": "I Know"
   },
+
   "hbd": {
     "definition": "Happy Birthday"
   },
+
   "mgl": {
     "definition": "More Good Life"
   }
