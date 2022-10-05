@@ -167,7 +167,7 @@
   "tia": {
     "definition": "Thanks In Advance"
   },
-
+  
   "smh": {
     "definition": "Shaking My Head"
   },
@@ -183,6 +183,43 @@
 
   "fgs": {
     "definition": "For God's sake"
+  },
+  
+  "tysm": {
+    "definition": "Thank You So Much"
+  },
+
+  "ty": {
+    "definition": "Thank You"
+  },
+
+  "syl": {
+    "definition": "See You Later"
+  }, 
+
+  "hbty": {
+  	"definition": "Happy Birthday To You"
+  }, 
+
+  "hbu": {
+  	"definition": "How About You"
+  }, 
+
+  "imy": {
+  	"definition": "I Miss You"
+  }, 
+
+  "ilu": {
+  	"definition": "I Love You",
+  	"alternatives": "I Like You"
+  }, 
+
+  "sys": {
+  	"definition": "See You Soon"
+  }, 
+
+  "dygm": {
+  	"definition": "Do You Get Me"
   },
 
   "wth": {
@@ -217,4 +254,5 @@
   "mgl": {
     "definition": "More Good Life"
   }
+
 }
