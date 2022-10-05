@@ -1,5 +1,7 @@
+
 import Logo from "../assets/logo.png";
 import { Link } from "react-scroll";
+
 
 const Navbar = () => {
   return (
