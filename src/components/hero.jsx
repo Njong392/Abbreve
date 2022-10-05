@@ -15,14 +15,14 @@ const Hero = () => {
         <h1 className="text-ash font-bold mt-2">is changing. IYKYK</h1>
 
         <div className="absolute right-14 bottom-20 lg:visible invisible">
-          <div className="w-24 h-4 bg-purple relative -rotate-6">
+          <div className="w-24 h-4 bg-deeppurple relative -rotate-6">
             <div className="absolute top-[3px]">
               <p className="text-ash text-sm font-semibold">If You Know,</p>
             </div>
           </div>
         </div>
         <div className="absolute right-12 bottom-14 lg:visible invisible">
-          <div className="right-8 w-20 h-4 bg-purple relative -rotate-6">
+          <div className="right-8 w-20 h-4 bg-deeppurple relative -rotate-6">
             <div className="absolute top-[3px]">
               <p className="text-ash text-sm font-semibold">You Know.</p>
             </div>
@@ -112,14 +112,14 @@ const Hero = () => {
 
           <div className="flex justify-between items-center mt-2">
             <div className="h-8 w-3/4 bg-purple rounded-sm p-1">
-              <p className="text-ash">Always 😢</p>
+              <p className="text-dark">Always 😢</p>
             </div>
             <p className="text-ash">84.8%</p>
           </div>
 
           <div className="mt-2 flex justify-between items-center">
             <div className="h-8 md:w-1/4 w-1/2 bg-purple rounded-sm p-1">
-              <p className="text-ash">Never 🙂</p>
+              <p className="text-dark">Never 🙂</p>
             </div>
             <p className="text-ash">15.2%</p>
           </div>
