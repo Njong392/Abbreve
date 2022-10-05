@@ -9,7 +9,7 @@ const Form = () => {
 
   const fetchData = (e) => {
     e.preventDefault();
-    const url = `/server/db/${userInput}.json`;
+    const url = `/server/db.json`;
     fetch(`${url}`)
       .then((response) => {
         if (!response.ok) {
@@ -102,7 +102,7 @@ const Form = () => {
           {data && (
             <div className="mt-2 text-purple font-bold text-xl ml-2">
               <p role="region" aria-live="assertive">
-                {data.definition}
+              {data[`${userInput}`]?.definition}
               </p>
             </div>
           )}
