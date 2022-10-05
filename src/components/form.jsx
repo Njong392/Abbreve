@@ -21,6 +21,7 @@ const Form = () => {
         if (userInput.trim().length === 0) {
           setIsUserInputBlank(true);
         } else if (!(userInput in data)) {
+          setIsUserInputBlank(false);
           setErrorMessage(true);
         } else {
           setData(data);
