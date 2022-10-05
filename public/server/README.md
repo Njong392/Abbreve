@@ -8,4 +8,6 @@ In your terminal run `compileDb.js`: `node ./compileDb.js`
 
 * Integrate current db structure into app's search engine.
 
-> NOTE: I've decided not to touch the app's search engine now cos we need to discuss first
+  > NOTE: I've decided not to touch the app's search engine now cos we need to discuss first
+
+* Add instructions for contributing in main README.md
