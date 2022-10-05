@@ -18,7 +18,7 @@ try {
         })
         .catch((dbEjectError) => {
             console.log('An error occured whiles ejecting db\n====\n');
-            console.error(dbImportError);
+            console.error(dbEjectError);
         });
 } catch (dbImportError) {
     console.log('An error occured whiles importing db\n====\n');
