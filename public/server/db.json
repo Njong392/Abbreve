@@ -389,6 +389,21 @@
     },
     "icam":{
         "definition": "I Couldn't Agree More"
-    }    
+    },    
+    "ctfu":{
+        "definition": "Cracking The Fuck Up"
+    }, 
+    "cbf":{
+        "definition": "Can't Be Fucked"
+    }, 
+    "istg":{
+        "definition": "I Swear To God"
+    },
+    "omg":{
+        "definition": "Oh My God"
+    },
+    "cbb":{
+        "definition": "Can't Be Bothered"
+    }
 
 }
