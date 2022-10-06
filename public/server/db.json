@@ -1,5 +1,4 @@
-{
-    "lgtm":{
+{   "lgtm":{
         "definition":"Looks Good To Me",
         "alternatives": "Looks Great To Me, Looks Great To Merge"
     },
@@ -33,8 +32,8 @@
     },
 
     "ig":{
-        "definition": "Instagram",
-        "alternatives" : "I Guess"
+        "definition": "I Guess",
+        "alternatives" : "Instagram"
     },
 
     "fyi":{
@@ -42,8 +41,7 @@
     },
 
     "iykyk":{
-        "definition": "If You Know You Know"
-
+       "definition": "If You Know You Know"
     },
 
     "ifg":{
@@ -74,6 +72,42 @@
     "lol":{
         "definition": "Laugh Out Loud"
     },
+
+    "stfu":{
+        "definition": "Shut The Fuck Up"
+    },
+
+    "ngl":{
+        "definition": "Not Gonna Lie"
+    },
+
+    "hru":{
+        "definition": "How Are You"
+    },
+
+    "srly":{
+        "definition": "Seriously"
+    },
+
+    "bff":{
+        "definition": "Best Friend Forever"
+    },
+
+    "tl":{
+        "definition": "Timeline"
+    },
+
+    "cl":{
+        "definition": "Contact List"
+    },
+
+    "nvm":{
+        "definition": "Never Mind"
+    },
+
+    "wyd":{
+        "definition": "What You Doing"
+    },
     
     "lmk":{
         "definition": "Let Me Know"
@@ -83,33 +117,227 @@
         "definition": "I Don't Care"
     },
 
-
     "til":{
         "definition": "Today I Learn",
         "alternatives": "Today I Learned"
-
+    },
+    
     "brb":{
         "definition": "Be Right Back"
     },
+    
     "byob":{
         "definition": "Bring Your Own Beer",
         "alternatives": "Be Your Own Boss"
     },
+    
     "tldr":{
         "definition": "Too Long, Didn't Read"
-
+    },
+    
     "ttyl":{
         "definition": "Talk To You Later"
     },
+    
     "tc":{
         "definition": "Take Care"
     },
+    
     "rofl":{
         "definition": "Rolling On The Floor, Laughing"
     },
+    
     "ootd":{
         "definition": "Outfit Of The Day"
     },
+    
+    "goat":{
+        "definition": "Greatest Of All Time"
+    },
+    
+    "tfw":{
+        "definition": "The Feeling When"
+    },
+    
+    "fomo":{
+        "definition": "Fear Of Missing Out"
+    },
+    
+    "tia": {
+        "definition": "Thanks In Advance"
+    },
+    
+    "smh": {
+      "definition": "Shaking My Head"
+    },
+
+    "pov": {
+      "definition": "Point Of View"
+    },
+
+    "tbf": {
+      "definition": "To Be Frank",
+      "alternatives": "To Be Fair"
+    },
+
+    "fgs": {
+      "definition": "For God's sake"
+    },
+
+    "tbh": {
+      "definition": "To Be Honest"
+    },
+
+    "asap": {
+      "definition": "As Soon As Possible"
+    },
+
+    "ffs": {
+      "definition": "For Fuck Sake"
+    },
+
+    "ftw": {
+      "definition": "For The Win"
+    },
+
+    "afaik": {
+      "definition": "As Far As I Know"
+    },
+
+    "np": {
+      "definition": "No Problem"
+    },
+
+    "iirc": {
+      "definition": "If I Recall Correctly",
+      "alternatives": "If I Remember Correctly"
+    },
+
+    "jk": {
+      "definition": "Just kidding"
+    },
+
+    "fb": {
+      "definition": "Facebook"
+    },
+
+    "fwiw": {
+      "definition": "For What It's Worth"
+    },
+
+    "irl": {
+      "definition": "In Real Life"
+    },
+
+    "op": {
+      "definition": "Original Poster"
+    },
+
+    "tysm": {
+      "definition": "Thank You So Much"
+    },
+
+    "ty": {
+      "definition": "Thank You"
+    },
+
+    "syl": {
+      "definition": "See You Later"
+    },
+
+    "hbty": {
+      "definition": "Happy Birthday To You"
+    },
+
+    "hbu": {
+      "definition": "How About You"
+    },
+
+    "imy": {
+      "definition": "I Miss You"
+    },
+
+    "ilu": {
+      "definition": "I Love You",
+      "alternatives": "I Like You"
+    },
+
+    "sys": {
+      "definition": "See You Soon"
+    },
+
+    "dygm": {
+      "definition": "Do You Get Me"
+    },
+
+    "wth": {
+      "definition": "What The Hell"
+    },
+
+    "nm": {
+      "definition": "Nothing Much",
+      "alternatives": "Never Mind"
+    },
+
+    "asap": {
+      "definition": "As Soon As Possible"
+    },
+
+    "uk": {
+      "definition": "You Know"
+    },
+
+    "ik": {
+      "definition": "I Know"
+    },
+
+    "hbd": {
+      "definition": "Happy Birthday"
+    },
+
+    "mgl": {
+      "definition": "More Good Life"
+    },
+
+    "foss": {
+      "definition": "Free Open-Source Software"
+    },
+
+    "ss": {
+      "definition": "Screenshot",
+      "alternatives": "Snapshot"
+    },
+
+    "g2g": {
+      "definition": "Got To Go"
+    },
+
+    "ynk": {
+      "definition": "You Never Know"
+    },
+
+    "jk": {
+      "definition": "Just Kidding"
+    },
+
+    "wbu": {
+      "definition": "What About You"
+    },
+
+    "wuwh": {
+      "definition": "Wish You Were Here"
+    },
+
+    "wagmi": {
+      "definition": "We're All Gonna Make It"
+    },
+    "wullnp": {
+      "definition": "Wishing You Long Life And Prosperity"
+    },
+    "dyg": {
+      "definition": "Do You Get?"
+  },
+  
     "cmiiw":{
         "definition": "Correct Me If I'm Wrong"
     },
@@ -162,4 +390,5 @@
     "icam":{
         "definition": "I Couldn't Agree More"
     }    
+
 }
