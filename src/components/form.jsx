@@ -29,7 +29,6 @@ const Form = () => {
       })
       .then((data) => {        
           setData(data);
-          console.log(data);
           setError(false);
           setErrorMessage(false);
           setIsUserInputBlank(false);      
