@@ -10,38 +10,43 @@ const Form = () => {
   const fetchData = (e) => {
     e.preventDefault();
     const url = `/server/db/${userInput}.json`;
-    fetch(`${url}`)
+
+    if (userInput.trim().length === 0) {
+      setIsUserInputBlank(true);
+   }
+   
+    else {
+      fetch(`${url}`)
       .then((response) => {
-        if (!response.ok) {
-          throw Error("Resource not found.");
+        if (response.status === 404) {
+           setIsUserInputBlank(false);
+          setErrorMessage(true);     
+        }
+        else if(!response.ok){
+          throw Error('Resource not found');
         }
         return response.json();
       })
-      .then((data) => {
-
-        if (userInput.trim().length === 0) {
-          setIsUserInputBlank(true);
-        } else if (!(userInput in data)) {
-          setIsUserInputBlank(false);
-          setErrorMessage(true);
-        } else {
+      .then((data) => {        
           setData(data);
           console.log(data);
           setError(false);
           setErrorMessage(false);
-          setIsUserInputBlank(false);
-        }
+          setIsUserInputBlank(false);      
 
       })
       .catch((err) => {
         console.log(err.message);
-        setError(true);
-      });
+
+      })
+    }
   };
 
   useEffect(() => {
     setErrorMessage("");
+    setData(false)
     setIsUserInputBlank(false)
+    setError(false)
   }, [userInput]);
 
   return (
