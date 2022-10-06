@@ -9,7 +9,7 @@ const Form = () => {
 
   const fetchData = (e) => {
     e.preventDefault();
-    const url = `/server/db.json`;
+    const url = `/server/db/${userInput}.json`;
     fetch(`${url}`)
       .then((response) => {
         if (!response.ok) {
@@ -26,6 +26,7 @@ const Form = () => {
           setErrorMessage(true);
         } else {
           setData(data);
+          console.log(data);
           setError(false);
           setErrorMessage(false);
           setIsUserInputBlank(false);
@@ -102,14 +103,14 @@ const Form = () => {
           {data && (
             <div className="mt-2 text-purple font-bold text-xl ml-2">
               <p role="region" aria-live="assertive">
-              {data[`${userInput}`]?.definition}
+              {data.definition}
               </p>
             </div>
           )}
 
           {data && (
             <div className="mt-2 text-purple font-bold text-xs ml-2">
-              <p>{data[`${userInput}`]?.alternatives}</p>
+              <p>{data.alternatives}</p>
             </div>
           )}
 
@@ -124,7 +125,7 @@ const Form = () => {
           {isUserInputBlank && (
             <div className="mt-4">
               <p className="text-purple">
-                Search bar 🔍 is Empty!. Please put abbreviation in search bar
+                Search bar 🔍 is Empty! Please input a slang.
               </p>
             </div>
 
