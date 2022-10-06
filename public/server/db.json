@@ -1,6 +1,5 @@
 {
-  
-    "lgtm":{
+  "lgtm":{
         "definition":"Looks Good To Me",
         "alternatives": "Looks Great To Me, Looks Great To Merge"
     },
@@ -169,165 +168,175 @@
         "definition": "Thanks In Advance"
     },
     
-	"smh": {
-		"definition": "Shaking My Head"
-	},
-	
-	"pov": {
-		"definition": "Point Of View"
-	},
-	
-	"tbf": {
-		"definition": "To Be Frank",
-		"alternatives": "To Be Fair"
-	},
-	
-	"fgs": {
-		"definition": "For God's sake"
-	},
+    "smh": {
+      "definition": "Shaking My Head"
+    },
 
-	"tbh": {
-		"definition": "To Be Honest"
-	},
+    "pov": {
+      "definition": "Point Of View"
+    },
 
-	"asap": {
-		"definition": "As Soon As Possible"
-	},
+    "tbf": {
+      "definition": "To Be Frank",
+      "alternatives": "To Be Fair"
+    },
 
-	"ffs": {
-		"definition": "For Fuck Sake"
-	},
+    "fgs": {
+      "definition": "For God's sake"
+    },
 
-	"ftw": {
-		"definition": "For The Win"
-	},
+    "tbh": {
+      "definition": "To Be Honest"
+    },
 
-	"afaik": {
-		"definition": "As Far As I Know"
-	},
+    "asap": {
+      "definition": "As Soon As Possible"
+    },
 
-	"np": {
-		"definition": "No Problem"
-	},
+    "ffs": {
+      "definition": "For Fuck Sake"
+    },
 
-	"iirc": {
-		"definition": "If I Recall Correctly",
-		"alternatives": "If I Remember Correctly"
-	},
+    "ftw": {
+      "definition": "For The Win"
+    },
 
-	"jk": {
-		"definition": "Just kidding"
-	},
+    "afaik": {
+      "definition": "As Far As I Know"
+    },
 
-	"fb": {
-		"definition": "Facebook"
-	},
+    "np": {
+      "definition": "No Problem"
+    },
 
-	"fwiw": {
-		"definition": "For What It's Worth"
-	},
+    "iirc": {
+      "definition": "If I Recall Correctly",
+      "alternatives": "If I Remember Correctly"
+    },
 
-	"irl": {
-		"definition": "In Real Life"
-	},
+    "jk": {
+      "definition": "Just kidding"
+    },
 
-	"op": {
-		"definition": "Original Poster"
-	},
-  
-  "tysm": {
-    "definition": "Thank You So Much"
-  },
+    "fb": {
+      "definition": "Facebook"
+    },
 
-  "ty": {
-    "definition": "Thank You"
-  },
+    "fwiw": {
+      "definition": "For What It's Worth"
+    },
 
-  "syl": {
-    "definition": "See You Later"
-  },
+    "irl": {
+      "definition": "In Real Life"
+    },
 
-  "hbty": {
-    "definition": "Happy Birthday To You"
-  },
+    "op": {
+      "definition": "Original Poster"
+    },
 
-  "hbu": {
-    "definition": "How About You"
-  },
+    "tysm": {
+      "definition": "Thank You So Much"
+    },
 
-  "imy": {
-    "definition": "I Miss You"
-  },
+    "ty": {
+      "definition": "Thank You"
+    },
 
-  "ilu": {
-    "definition": "I Love You",
-    "alternatives": "I Like You"
-  },
+    "syl": {
+      "definition": "See You Later"
+    },
 
-  "sys": {
-    "definition": "See You Soon"
-  },
+    "hbty": {
+      "definition": "Happy Birthday To You"
+    },
 
-  "dygm": {
-    "definition": "Do You Get Me"
-  },
+    "hbu": {
+      "definition": "How About You"
+    },
 
-  "wth": {
-    "definition": "What The Hell"
-  },
+    "imy": {
+      "definition": "I Miss You"
+    },
 
-  "nm": {
-    "definition": "Nothing Much",
-    "alternatives": "Never Mind"
-  },
+    "ilu": {
+      "definition": "I Love You",
+      "alternatives": "I Like You"
+    },
 
-  "asap": {
-    "definition": "As Soon As Possible"
-  },
+    "sys": {
+      "definition": "See You Soon"
+    },
 
-  "uk": {
-    "definition": "You Know"
-  },
+    "dygm": {
+      "definition": "Do You Get Me"
+    },
 
-  "ik": {
-    "definition": "I Know"
-  },
+    "wth": {
+      "definition": "What The Hell"
+    },
 
-  "hbd": {
-    "definition": "Happy Birthday"
-  },
+    "nm": {
+      "definition": "Nothing Much",
+      "alternatives": "Never Mind"
+    },
 
-  "mgl": {
-    "definition": "More Good Life"
-  },
+    "asap": {
+      "definition": "As Soon As Possible"
+    },
 
-  "foss": {
-    "definition": "Free Open-Source Software"
-  },
+    "uk": {
+      "definition": "You Know"
+    },
 
-  "ss": {
-    "definition": "Screenshot",
-    "alternatives": "Snapshot"
-  },
+    "ik": {
+      "definition": "I Know"
+    },
 
-  "g2g": {
-    "definition": "Got To Go"
-  },
+    "hbd": {
+      "definition": "Happy Birthday"
+    },
 
-  "ynk": {
-    "definition": "You Never Know"
-  },
+    "mgl": {
+      "definition": "More Good Life"
+    },
 
-  "jk": {
-    "definition": "Just Kidding"
-  },
+    "foss": {
+      "definition": "Free Open-Source Software"
+    },
 
-  "wbu": {
-    "definition": "What About You"
-  },
+    "ss": {
+      "definition": "Screenshot",
+      "alternatives": "Snapshot"
+    },
 
-  "wuwh": {
-    "definition": "Wish You Were Here"
+    "g2g": {
+      "definition": "Got To Go"
+    },
+
+    "ynk": {
+      "definition": "You Never Know"
+    },
+
+    "jk": {
+      "definition": "Just Kidding"
+    },
+
+    "wbu": {
+      "definition": "What About You"
+    },
+
+    "wuwh": {
+      "definition": "Wish You Were Here"
+    },
+
+    "wagmi": {
+      "definition": "We're All Gonna Make It"
+    },
+    "wullnp": {
+      "definition": "Wishing You Long Life And Prosperity"
+    },
+    "dyg": {
+      "definition": "Do You Get?"
   }
 
 }
