@@ -6,9 +6,10 @@ module.exports = {
   ],
   theme: {
     colors: {
-      'purple': '#AC58F5',
+      'deeppurple': '#A143F4',
+      'purple':'#C890F9',
       'dark': '#0F172A',
-      'gray': '#64748B',
+      'gray': '#7C88A2',
       'ash' : '#F8FBFE'
     },
     fontFamily: {
