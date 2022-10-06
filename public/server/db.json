@@ -1,5 +1,4 @@
-{
-  "lgtm":{
+{   "lgtm":{
         "definition":"Looks Good To Me",
         "alternatives": "Looks Great To Me, Looks Great To Merge"
     },
@@ -337,6 +336,59 @@
     },
     "dyg": {
       "definition": "Do You Get?"
-  }
+  },
+  
+    "cmiiw":{
+        "definition": "Correct Me If I'm Wrong"
+    },
+    "b2w":{
+        "definition": "Back To Work"
+    },
+    "afk":{
+        "definition": "Away From Keyboard"
+    },
+    "cydm":{
+        "definition": "Check Your Direct Message"
+    },
+    "ofc":{
+        "definition": "Of Course"
+    },
+    "ama":{
+        "definition": "Ask Me Anything"
+    },
+    "awol":{
+        "definition": "Absent Without Official Leave",
+        "alternatives": "Away Without Leave, Absent Without Leave"
+    },
+    "b4n":{
+        "definition": "Bye For Now"
+    },
+    "bak":{
+        "definition": "Back To Keyboard"
+    },
+    "bau":{
+        "definition": "Business As Usual"
+    },
+    "bitmt":{
+        "definition": "But In The Maintime"
+    },
+    "dilligaf":{
+        "definition": "Do I Look Like I Give A Fuck"
+    },
+    "f2p":{
+        "definition": "Free To Play"
+    },
+    "f2f":{
+        "definition": "Face To Face"
+    },
+    "ffa":{
+        "definition": "Free For All"
+    },
+    "gwhtlc":{
+        "definition": "Glad We Had This Little Chat"
+    },
+    "icam":{
+        "definition": "I Couldn't Agree More"
+    }    
 
 }
