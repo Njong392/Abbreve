@@ -7,7 +7,7 @@ Abbreve helps you keep up, by providing meanings to these abbreviations.
 You can check out the live project [here](https://abbreve.vercel.app/)
 
 All you need to do is start entering a slang in the search bar, and the meaning will be provided. Below the main meaning of the slang could be alternative meanings.
-![Screenshot of form section of page with 'lgtm' types into the search bar, it's meaning below it, and alternative meanings](https://user-images.githubusercontent.com/81039882/193478300-b950c00a-acf9-4c31-9e92-ee500e591588.png)
+![abbreve](https://user-images.githubusercontent.com/66377818/194382033-ab47a242-868e-495e-a2ad-999cd91382a5.gif)
 
 
 # :mega: Want to contribute?
