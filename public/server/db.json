@@ -389,6 +389,28 @@
     },
     "icam":{
         "definition": "I Couldn't Agree More"
-    }    
+    },
+    "wdym": {
+      "definition":"What Do You Mean?"
+    },
+    "eta": {
+      "definition":"Estimated Time Of Arrival"
+    },
+    "dm": {
+      "definition":"Direct Message"
+    },
+    "am": {
+      "definition":"Ante Meridiem"
+    },
+    "pm": {
+      "definition":"Post Meridiem",
+      "alternatives":"Prime Minister"
+    },
+    "utc": {
+      "definition":"Universal Time Coordinated"
+    },
+    "ceo": {
+      "definition":"Chief Executive Officer"
+    }
 
 }
