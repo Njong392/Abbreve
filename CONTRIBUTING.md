@@ -8,7 +8,6 @@ Thank you for taking the time to contribute to our project. Please take a moment
 - [Prerequisites](#prerequisites)
 - [Setup](#setup)
 - [Making pull requests](#making-pull-requests)
-- [Financial Contribution](#financial-contribution)
 - [Credits](#credits)
 
 ## Appending new abbreviations
@@ -22,7 +21,7 @@ Thank you for taking the time to contribute to our project. Please take a moment
 ## Issues
 
 - Always create [issues](https://github.com/Njong392/Abbreve/issues) before making Pull Requests.
-- If you're not certain of the changes that you want to make, get in touch with us first!  You can [chat with us](Discord Link) or file an [issue](https://github.com/Njong392/Abbreve/issues).
+- Always ensure that your Pull Requests are linked to their corresponding Issues.
 
 ## Prerequisites
 
@@ -134,11 +133,6 @@ Now, it's time to make your PR
   
 > **Note**: Always fill the PR template properly. Failing to do so will result in getting your PR rejected.
 
-## Financial contribution
-
-This is an Open Source project without corporate backing. Therefore we are open to any form of financial assistance towards supporting the maintainers' work and expenses.
-[Become a sponsor through the GitHub Sponsors program](https://github.com/sponsors/eddiejaoude)
-
 ## Credits
 
 A big appreciation to all our wonderful contributors. You lot are awesome.
@@ -147,4 +141,4 @@ A big appreciation to all our wonderful contributors. You lot are awesome.
 
 ## Remarks
 
-If something is missing here, or you feel something is not well described, either directly open a PR or ask in one of the [Community platforms](Discord link or Discussions link if any).
+If something is missing here, or you feel something is not well described, either directly create a PR or [create an issue](https://github.com/Njong392/Abbreve/issues).
