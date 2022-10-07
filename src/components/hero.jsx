@@ -5,7 +5,7 @@ import ig from "../assets/ig.png";
 import lfg from "../assets/lfg.png";
 import nate from "../assets/nate.jpg";
 import emy from "../assets/emy.jpg";
-import {Link} from 'react-scroll';
+import { Link } from "react-scroll";
 
 const Hero = () => {
   return (
@@ -42,11 +42,11 @@ const Hero = () => {
       </header>
 
       <div className="flex flex-wrap justify-center animate-breeze invisible md:visible">
-        <img src={btw} alt="" className="rotate-2 h-[20%] w-[20%]" />
-        <img src={fyi} alt="" className="-rotate-3 h-[20%] w-[20%]" />
-        <img src={idk} alt="" className="rotate-3 h-[20%] w-[20%]" />
-        <img src={ig} alt="" className="rotate-6 h-[20%] w-[20%]" />
-        <img src={lfg} alt="" className="-rotate-6 h-[20%] w-[20%]" />
+        <img src={btw} alt="btw" className="rotate-2 h-[20%] w-[20%]" />
+        <img src={fyi} alt="fyi" className="-rotate-3 h-[20%] w-[20%]" />
+        <img src={idk} alt="idk" className="rotate-3 h-[20%] w-[20%]" />
+        <img src={ig} alt="if" className="rotate-6 h-[20%] w-[20%]" />
+        <img src={lfg} alt="lfg" className="-rotate-6 h-[20%] w-[20%]" />
       </div>
 
       <section className="block justify-center gap-10 mt-20 items-center md:flex">
