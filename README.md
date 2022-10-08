@@ -13,11 +13,9 @@ All you need to do is start entering a slang in the search bar, and the meaning 
 ![Gif of form section of page with 'various types into the search bar, it's meaning below it, and alternative meanings](![abbr](https://user-images.githubusercontent.com/12339188/194400070-58974868-221c-40fe-9f73-c19d22f764db.gif)
 
 # :mega: Want to contribute?
-
 We would love to have you! Abbreve is open source and we are keen on hearing what you have to say. Do check out the [code of conduct](https://github.com/Njong392/Abbreve/blob/main/CODE_OF_CONDUCT.md) for rules and guidelines.
 
 ## :bulb: Getting Started
-
 Found a bug? Accessibility issue? Or do you want to add an abbreviation to our database? Then go right ahead and create an issue.
 
 ### Tech Stack
