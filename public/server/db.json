@@ -398,6 +398,26 @@
     },
     "dm": {
       "definition":"Direct Message"
-    }
-    
+    }, 
+    "ufo":{
+       "definition":"Unidentified Flying Object"
+    }, 
+    "cfo":{
+       "definition":"Cheif Financial Officer"
+    }, 
+    "pip":{
+       "definition":"Picture In Picture",
+       "alternatives":"Pip Installs Python"
+    },
+    "sms":{
+       "definitions":"Short Message Service"
+    },
+    "nsfw":{
+       "definition":"Not Safe For Work"
+    },
+    "bt":{
+       "definition":"Bad Trip"
+     }
+           
+  
 }
