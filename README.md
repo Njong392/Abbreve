@@ -12,10 +12,10 @@ All you need to do is start entering a slang in the search bar, and the meaning 
 
 
 # :mega: Want to contribute?
-We would love to have you! Abbreve is open source and we are keen on hearing what you have to say. Do check out the [code of conduct](https://github.com/Njong392/Abbreve/blob/main/CODE_OF_CONDUCT.md) for rules and guidelines.
+We would love to have you! Abbreve is open source and we are keen on hearing what you have to say. Do check out the [code of conduct](https://github.com/Njong392/Abbreve/blob/main/CODE_OF_CONDUCT.md) for rules and guidelines, and our [CONTRIBUTING.md file](https://github.com/Njong392/Abbreve/blob/main/CONTRIBUTING.md) for any steps you might need.
 
 ## :bulb: Getting Started
-Found a bug? Accessibility issue? Or do you want to add an abbreviation to our database? Then go right ahead and create an issue.
+Found a bug? Accessibility issue? Or do you want to add an abbreviation to our database? Then go right ahead and create an issue. 
 
 
 ### Tech Stack
