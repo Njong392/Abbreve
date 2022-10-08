@@ -1,6 +1,4 @@
-{
-
-    "lgtm":{
+{   "lgtm":{
         "definition":"Looks Good To Me",
         "alternatives": "Looks Great To Me, Looks Great To Merge"
     },
@@ -34,8 +32,8 @@
     },
 
     "ig":{
-        "definition": "Instagram",
-        "alternatives" : "I Guess"
+        "definition": "I Guess",
+        "alternatives" : "Instagram"
     },
 
     "fyi":{
@@ -542,6 +540,252 @@
     "ama": {
     "definition": "Ask Me Anything"
   },
+
+    "smh": {
+      "definition": "Shaking My Head"
+    },
+
+    "pov": {
+      "definition": "Point Of View"
+    },
+
+    "tbf": {
+      "definition": "To Be Frank",
+      "alternatives": "To Be Fair"
+    },
+
+    "fgs": {
+      "definition": "For God's sake"
+    },
+
+    "tbh": {
+      "definition": "To Be Honest"
+    },
+
+    "asap": {
+      "definition": "As Soon As Possible"
+    },
+
+    "ffs": {
+      "definition": "For Fuck Sake"
+    },
+
+    "ftw": {
+      "definition": "For The Win"
+    },
+
+    "afaik": {
+      "definition": "As Far As I Know"
+    },
+
+    "np": {
+      "definition": "No Problem"
+    },
+
+    "iirc": {
+      "definition": "If I Recall Correctly",
+      "alternatives": "If I Remember Correctly"
+    },
+
+    "jk": {
+      "definition": "Just kidding"
+    },
+
+    "fb": {
+      "definition": "Facebook"
+    },
+
+    "fwiw": {
+      "definition": "For What It's Worth"
+    },
+
+    "irl": {
+      "definition": "In Real Life"
+    },
+
+    "op": {
+      "definition": "Original Poster"
+    },
+
+    "tysm": {
+      "definition": "Thank You So Much"
+    },
+
+    "ty": {
+      "definition": "Thank You"
+    },
+
+    "syl": {
+      "definition": "See You Later"
+    },
+
+    "hbty": {
+      "definition": "Happy Birthday To You"
+    },
+
+    "hbu": {
+      "definition": "How About You"
+    },
+
+    "imy": {
+      "definition": "I Miss You"
+    },
+
+    "ilu": {
+      "definition": "I Love You",
+      "alternatives": "I Like You"
+    },
+
+    "sys": {
+      "definition": "See You Soon"
+    },
+
+    "dygm": {
+      "definition": "Do You Get Me"
+    },
+
+    "wth": {
+      "definition": "What The Hell"
+    },
+
+    "nm": {
+      "definition": "Nothing Much",
+      "alternatives": "Never Mind"
+    },
+
+    "asap": {
+      "definition": "As Soon As Possible"
+    },
+
+    "uk": {
+      "definition": "You Know"
+    },
+
+    "ik": {
+      "definition": "I Know"
+    },
+
+    "hbd": {
+      "definition": "Happy Birthday"
+    },
+
+    "mgl": {
+      "definition": "More Good Life"
+    },
+
+    "foss": {
+      "definition": "Free Open-Source Software"
+    },
+
+    "ss": {
+      "definition": "Screenshot",
+      "alternatives": "Snapshot"
+    },
+
+    "g2g": {
+      "definition": "Got To Go"
+    },
+
+    "ynk": {
+      "definition": "You Never Know"
+    },
+
+    "jk": {
+      "definition": "Just Kidding"
+    },
+
+    "wbu": {
+      "definition": "What About You"
+    },
+
+    "wuwh": {
+      "definition": "Wish You Were Here"
+    },
+
+    "wagmi": {
+      "definition": "We're All Gonna Make It"
+    },
+    "wullnp": {
+      "definition": "Wishing You Long Life And Prosperity"
+    },
+    "dyg": {
+      "definition": "Do You Get?"
+  },
+  
+    "cmiiw":{
+        "definition": "Correct Me If I'm Wrong"
+    },
+    "b2w":{
+        "definition": "Back To Work"
+    },
+    "afk":{
+        "definition": "Away From Keyboard"
+    },
+    "cydm":{
+        "definition": "Check Your Direct Message"
+    },
+    "ofc":{
+        "definition": "Of Course"
+    },
+    "ama":{
+        "definition": "Ask Me Anything"
+    },
+    "awol":{
+        "definition": "Absent Without Official Leave",
+        "alternatives": "Away Without Leave, Absent Without Leave"
+    },
+    "b4n":{
+        "definition": "Bye For Now"
+    },
+    "bak":{
+        "definition": "Back To Keyboard"
+    },
+    "bau":{
+        "definition": "Business As Usual"
+    },
+    "bitmt":{
+        "definition": "But In The Maintime"
+    },
+    "dilligaf":{
+        "definition": "Do I Look Like I Give A Fuck"
+    },
+    "f2p":{
+        "definition": "Free To Play"
+    },
+    "f2f":{
+        "definition": "Face To Face"
+    },
+    "ffa":{
+        "definition": "Free For All"
+    },
+    "gwhtlc":{
+        "definition": "Glad We Had This Little Chat"
+    },
+    "icam":{
+        "definition": "I Couldn't Agree More"
+    },
+    "wdym": {
+      "definition":"What Do You Mean?"
+    },
+    "eta": {
+      "definition":"Estimated Time Of Arrival"
+    },
+    "dm": {
+      "definition":"Direct Message"
+    },
+    "am": {
+      "definition":"Ante Meridiem"
+    },
+    "pm": {
+      "definition":"Post Meridiem",
+      "alternatives":"Prime Minister"
+    },
+    "utc": {
+      "definition":"Universal Time Coordinated"
+    },
+    "ceo": {
+      "definition":"Chief Executive Officer"
+    }
 
 
 }

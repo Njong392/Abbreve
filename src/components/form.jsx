@@ -1,14 +1,15 @@
-import { useEffect } from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+
 const Form = () => {
   const [data, setData] = useState(null);
   const [error, setError] = useState(false);
   const [errorMessage, setErrorMessage] = useState(false);
   const [userInput, setUserInput] = useState("");
+  const [isUserInputBlank, setIsUserInputBlank] = useState(false);
 
   const fetchData = (e) => {
     e.preventDefault();
-    const url = "/server/db.json";
+    const url = `/server/db.json`;
     fetch(`${url}`)
       .then((response) => {
         if (!response.ok) {
@@ -17,13 +18,19 @@ const Form = () => {
         return response.json();
       })
       .then((data) => {
-        if (!(userInput in data)) {
+
+        if (userInput.trim().length === 0) {
+          setIsUserInputBlank(true);
+        } else if (!(userInput in data)) {
+          setIsUserInputBlank(false);
           setErrorMessage(true);
         } else {
           setData(data);
           setError(false);
           setErrorMessage(false);
+          setIsUserInputBlank(false);
         }
+
       })
       .catch((err) => {
         console.log(err.message);
@@ -33,6 +40,7 @@ const Form = () => {
 
   useEffect(() => {
     setErrorMessage("");
+    setIsUserInputBlank(false)
   }, [userInput]);
 
   return (
@@ -65,7 +73,7 @@ const Form = () => {
                 viewBox="0 0 24 24"
                 strokeWidth={2.5}
                 stroke="currentColor"
-                className="w-6 h-6 text-purple"
+                className="w-6 h-6 text-deeppurple"
               >
                 <path
                   strokeLinecap="round"
@@ -73,7 +81,7 @@ const Form = () => {
                   d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
                 />
               </svg>
-
+              
               <input
                 type="text"
                 placeholder="Search slang full meaning..."
@@ -85,7 +93,7 @@ const Form = () => {
 
             <button
               onClick={fetchData}
-              className="bg-purple text-ash font-bold rounded-xl hover:scale-110 p-2 mt-2 md:mt-0"
+              className="bg-deeppurple text-ash font-bold rounded-xl hover:scale-110 p-2 mt-2 md:mt-0"
             >
               Submit
             </button>
@@ -94,7 +102,7 @@ const Form = () => {
           {data && (
             <div className="mt-2 text-purple font-bold text-xl ml-2">
               <p role="region" aria-live="assertive">
-                {data[`${userInput}`]?.definition}
+              {data[`${userInput}`]?.definition}
               </p>
             </div>
           )}
@@ -106,7 +114,20 @@ const Form = () => {
           )}
 
           {error && (
-            <div className="text-purple text-sm mt-2">Oops. Some connection error occured.</div>
+
+            <div className="text-purple text-sm mt-2">
+              Oops. Some connection error occured.
+            </div>
+          
+          )}
+
+          {isUserInputBlank && (
+            <div className="mt-4">
+              <p className="text-purple">
+                Search bar 🔍 is Empty!. Please put abbreviation in search bar
+              </p>
+            </div>
+
           )}
 
           {errorMessage && (
@@ -114,7 +135,10 @@ const Form = () => {
               <p className="text-purple">This entry does not exist in our records as of yet :(</p>
               <p className="text-ash mt-2">
                 1. You can help us add this by creating a{" "}
-                <a href="https://github.com/Njong392/Abbreve" className="text-ash text-purple">
+
+                <a
+                  href="https://github.com/Njong392/Abbreve"
+                  className="text-ash text-purple">
                   github issue
                 </a>
               </p>
