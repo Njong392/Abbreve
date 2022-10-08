@@ -1,3 +1,12 @@
+## [0.2.2](https://github.com/Njong392/Abbreve/compare/v0.2.1...v0.2.2) (2022-10-08)
+
+
+### Bug Fixes
+
+* removed broken credits link ([5e51196](https://github.com/Njong392/Abbreve/commit/5e51196da3b473198b54b8a00950c6a6386dd6a9))
+
+
+
 ## [0.2.1](https://github.com/Njong392/Abbreve/compare/v0.1.0...v0.2.1) (2022-10-08)
 
 
