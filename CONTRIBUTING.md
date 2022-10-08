@@ -8,7 +8,7 @@ Thank you for taking the time to contribute to our project. Please take a moment
 - [Prerequisites](#prerequisites)
 - [Setup](#setup)
 - [Making pull requests](#making-pull-requests)
-- [Credits](#credits)
+
 
 ## Appending new abbreviations
 
