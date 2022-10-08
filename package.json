@@ -12,7 +12,7 @@
     "prepare": "husky install",
     "db:eject": "node public/server/scripts/compileDb.js",
     "db:cleanup": "node public/server/scripts/cleanupDb.js",
-    "db:entry": "./public/server/scripts/enterDb.js"
+    "db:entry": "node public/server/scripts/enterDb.js"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
