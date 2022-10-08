@@ -127,17 +127,8 @@ Now, it's time to make your PR
   
 - If fixing a bug:
   - The name of your PR should be a summary of the changes you are making. (For example fix: fix non-responsive navbar, feat: add prettier for code formatting)
-  Provide a detailed description of the bug in the PR. Live demo preferred.
-
-  - Your PR should only do what its name implies (fixing a specific bug, implementing a specific feature, etc). Do not introduce unrelated changes like code refactors, spelling/grammar changes, etc. Otherwise, your PR will be rejected. A PR should focus on the fix and not code style, this makes it easier to trace changes in the future.
+  Provide a detailed description of the bug in the PR. Screenshots are nice.
   
-> **Note**: Always fill the PR template properly. Failing to do so will result in getting your PR rejected.
-
-## Credits
-
-A big appreciation to all our wonderful contributors. You lot are awesome.
-
-[![Contributors](https://contrib.rocks/image?repo=Njong392/Abbreve)](https://github.com/Njong392/Abbreve/graphs/contributors)
 
 ## Remarks
 
