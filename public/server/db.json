@@ -33,8 +33,8 @@
   },
 
   "ig": {
-    "definition": "Instagram",
-    "alternatives": "I Guess"
+    "definition": "I Guess",
+    "alternatives": "Instagram"
   },
 
   "fyi": {
@@ -184,7 +184,56 @@
   "fgs": {
     "definition": "For God's sake"
   },
-  
+
+  "tbh": {
+    "definition": "To Be Honest"
+  },
+
+  "asap": {
+    "definition": "As Soon As Possible"
+  },
+
+  "ffs": {
+    "definition": "For Fuck Sake"
+  },
+
+  "ftw": {
+    "definition": "For The Win"
+  },
+
+  "afaik": {
+    "definition": "As Far As I Know"
+  },
+
+  "np": {
+    "definition": "No Problem"
+  },
+
+  "iirc": {
+    "definition": "If I Recall Correctly",
+    "alternatives": "If I Remember Correctly"
+  },
+
+  "jk": {
+    "definition": "Just kidding"
+  },
+
+  "fb": {
+    "definition": "Facebook"
+  },
+
+  "fwiw": {
+    "definition": "For What It's Worth"
+  },
+
+  "irl": {
+    "definition": "In Real Life"
+  },
+
+  "op": {
+    "definition": "Original Poster"
+  },
+
   "tysm": {
     "definition": "Thank You So Much"
   },
@@ -229,10 +278,6 @@
   "nm": {
     "definition": "Nothing Much",
     "alternatives": "Never Mind"
-  },
-
-  "tbh": {
-    "definition": "To Be Honest"
   },
 
   "asap": {
@@ -282,5 +327,194 @@
 
   "wuwh": {
     "definition": "Wish You Were Here"
+  },
+
+  "wagmi": {
+    "definition": "We're All Gonna Make It"
+  },
+  "wullnp": {
+    "definition": "Wishing You Long Life And Prosperity"
+  },
+  "dyg": {
+    "definition": "Do You Get?"
+  },
+
+  "cmiiw": {
+    "definition": "Correct Me If I'm Wrong"
+  },
+  "b2w": {
+    "definition": "Back To Work"
+  },
+  "afk": {
+    "definition": "Away From Keyboard"
+  },
+  "cydm": {
+    "definition": "Check Your Direct Message"
+  },
+  "ofc": {
+    "definition": "Of Course"
+  },
+  "ama": {
+    "definition": "Ask Me Anything"
+  },
+  "awol": {
+    "definition": "Absent Without Official Leave",
+    "alternatives": "Away Without Leave, Absent Without Leave"
+  },
+  "b4n": {
+    "definition": "Bye For Now"
+  },
+  "bak": {
+    "definition": "Back To Keyboard"
+  },
+  "bau": {
+    "definition": "Business As Usual"
+  },
+  "bitmt": {
+    "definition": "But In The Maintime"
+  },
+  "dilligaf": {
+    "definition": "Do I Look Like I Give A Fuck"
+  },
+  "f2p": {
+    "definition": "Free To Play"
+  },
+  "f2f": {
+    "definition": "Face To Face"
+  },
+  "ffa": {
+    "definition": "Free For All"
+  },
+  "gwhtlc": {
+    "definition": "Glad We Had This Little Chat"
+  },
+  "icam": {
+    "definition": "I Couldn't Agree More"
+  },
+  "wdym": {
+    "definition": "What Do You Mean?"
+  },
+  "eta": {
+    "definition": "Estimated Time Of Arrival"
+  },
+  "dm": {
+    "definition": "Direct Message"
+  },
+  "ufo": {
+    "definition": "Unidentified Flying Object"
+  },
+  "cfo": {
+    "definition": "Cheif Financial Officer"
+  },
+  "pip": {
+    "definition": "Picture In Picture",
+    "alternatives": "Pip Installs Python"
+  },
+  "sms": {
+    "definitions": "Short Message Service"
+  },
+  "nsfw": {
+    "definition": "Not Safe For Work"
+  },
+  "bt": {
+    "definition": "Bad Trip"
+  },
+  "ipnts": {
+    "definition": "I Prefer Not To Speak"
+  },
+  "wya": {
+    "definition": "Where You At?"
+  },
+  "fren": {
+    "definition": "Friend"
+  },
+  "jsyk": {
+    "definition": "Just So You Know"
+  },
+  "dkm": {
+    "definition": "Don't Kill Me",
+    "alternatives": "Dekameter"
+  },
+  "pfp": {
+    "definition": "Profile Picture",
+    "alternatives": "Picture For Proof"
+  },
+  "fyp": {
+    "definition": "For You page",
+    "alternatives": "For Your Pleasure"
+  },
+  "oomf": {
+    "definition": "One Of My Followers",
+    "alternatives": "One Of My Friends"
+  },
+  "asf": {
+    "definition": "As Fuck"
+  },
+  "fml": {
+    "definition": "Fuck My Life"
+  },
+  "tmi": {
+    "definition": "Too Much Information"
+  },
+  "s/o": {
+    "definition": "Shout Out",
+    "alternatives": "Significant Other"
+  },
+  "yt": {
+    "definition": "Whitey",
+    "alternatives": "YouTube"
+  },
+  "omg": {
+    "definition": "Oh My God!"
+  },
+  "ong": {
+    "definition": "On God"
+  },
+  "yktv": {
+    "definition": "You Know The Vibe!"
+  },
+  "yolo": {
+    "definition": "You Only Live Once!"
+  },
+  "iktr": {
+    "definition": "I Know That's Right!"
+  },
+  "dw": {
+    "definition": "Don't Worry",
+    "alternatives": "Dear Wife"
+  },
+  "yk": {
+    "definition": "You're Kidding",
+    "alternatives": "You Know"
+  },
+  "istg": {
+    "definition": "I Swear To God"
+  },
+  "wtaf": {
+    "definition": "What The Actual Fuck"
+  },
+  "ldr": {
+    "definition": "Long Distance Relationship",
+    "alternatives": "Light Dependent Resistor"
+  },
+  "loml": {
+    "definition": "Love Of My Life"
+  },
+  "atp": {
+    "definition": "At This Point",
+    "alternatives": "Adenosine Triphosphate"
+  },
+  "tw": {
+    "definition": "Trigger Warning"
+  },
+  "bipoc": {
+    "definition": "Black, Indigeneous and People Of Colour"
+  },
+  "gm": {
+    "definition": "Good Morning",
+    "alternatives": "General Manager"
+  },
+  "sahm": {
+    "definition": "Stay At Home Mom"
   }
 }
