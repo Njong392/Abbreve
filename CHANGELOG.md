@@ -1,3 +1,12 @@
+# [0.3.0](https://github.com/Njong392/Abbreve/compare/v0.2.2...v0.3.0) (2022-10-10)
+
+
+### Features
+
+* added new abbreviations to structure branch ([#118](https://github.com/Njong392/Abbreve/issues/118)) ([aa7cae2](https://github.com/Njong392/Abbreve/commit/aa7cae2c0936caf44eb9785304321703a4cd9aad))
+
+
+
 ## [0.2.2](https://github.com/Njong392/Abbreve/compare/v0.2.1...v0.2.2) (2022-10-08)
 
 
