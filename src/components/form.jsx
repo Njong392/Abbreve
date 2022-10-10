@@ -9,38 +9,43 @@ const Form = () => {
 
   const fetchData = (e) => {
     e.preventDefault();
-    const url = `/server/db.json`;
-    fetch(`${url}`)
+    const url = `/server/db/${userInput}.json`;
+
+    if (userInput.trim().length === 0) {
+      setIsUserInputBlank(true);
+   }
+   
+    else {
+      fetch(`${url}`)
       .then((response) => {
-        if (!response.ok) {
-          throw Error("Resource not found.");
+        if (response.status === 404) {
+           setIsUserInputBlank(false);
+          setErrorMessage(true);     
+        }
+        else if(!response.ok){
+          throw Error('Resource not found');
         }
         return response.json();
       })
-      .then((data) => {
-
-        if (userInput.trim().length === 0) {
-          setIsUserInputBlank(true);
-        } else if (!(userInput in data)) {
-          setIsUserInputBlank(false);
-          setErrorMessage(true);
-        } else {
+      .then((data) => {        
           setData(data);
           setError(false);
           setErrorMessage(false);
-          setIsUserInputBlank(false);
-        }
+          setIsUserInputBlank(false);      
 
       })
       .catch((err) => {
         console.log(err.message);
-        setError(true);
-      });
+
+      })
+    }
   };
 
   useEffect(() => {
     setErrorMessage("");
+    setData(false)
     setIsUserInputBlank(false)
+    setError(false)
   }, [userInput]);
 
   return (
@@ -102,14 +107,14 @@ const Form = () => {
           {data && (
             <div className="mt-2 text-purple font-bold text-xl ml-2">
               <p role="region" aria-live="assertive">
-              {data[`${userInput}`]?.definition}
+              {data.definition}
               </p>
             </div>
           )}
 
           {data && (
             <div className="mt-2 text-purple font-bold text-xs ml-2">
-              <p>{data[`${userInput}`]?.alternatives}</p>
+              <p>{data.alternatives}</p>
             </div>
           )}
 
@@ -124,7 +129,7 @@ const Form = () => {
           {isUserInputBlank && (
             <div className="mt-4">
               <p className="text-purple">
-                Search bar 🔍 is Empty!. Please put abbreviation in search bar
+                Search bar 🔍 is Empty! Please input a slang.
               </p>
             </div>
 

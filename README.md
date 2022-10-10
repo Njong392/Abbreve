@@ -43,19 +43,32 @@ Before adding an abbreviation, please make sure that the new entry does Not alre
 
 > For now, we use [JSON](https://www.w3schools.com/js/js_json_intro.asp) to store the abbreviations. We hope to improve on this as time goes on.
 
-1. In the `/public` folder, open the `/server` folder and subsequently, the `db.json` file you find in it. You can see that each slang is a JSON object of its own with a `definition` and `alternatives`.
+1. In the `/public` folder, open the `/server` folder and subsequently, the `/db` folder you find in it. You can see that each slang is a JSON file of its own.
 
-2. To add a new abbreviation, you must append a new object to this file. 
-    - The slang must be in lowercase. For example, `lgtm` not `LGTM`
-    - The first letter of each word in the definition and alternatives must be uppercase. For example, `Looks Good To Me`
+2. To add a new abbreviation, you must create a new file.
+    - The file name should be the slang you want to add. For example, `lgtm.json` is the file for the slang `lgtm`
+    - The file name must be in lowercase. For example, `lgtm.json` not `LGTM.json`
 
-3. The Screenshot below could help
-    ![Screenshot of db.json file in IDE with highlighted section](https://user-images.githubusercontent.com/81039882/193478231-1b0159e1-dd20-41d2-80cb-d82816d6f8bc.png)
+3. Inside the file you created, create a new object to store the defintion of the slang, and/or alternative definitions. Taking `lgtm` as an example again, 
 
-    - The highlighted section is an example of the way you would add an abbreviation. 
-    - Before you add a new object, end the one above with a comma. If not, there will be errors in your JSON. Your IDE should indicate this.
+```
+    {
+        "definition": "Looks Good To Me",
+        "alternatives": "Looks Great To Me, Looks Great To Merge"
+    }
+```
+`definition` is the most common abbreviation for the slang, and `alternatives` is/are other ways people use the slang.
 
-3. If a slang does not have alternatives, add only a `definition`
+4. As you can see above, the first letter of each word in both `definition` and `alternatives` is uppercase. 
+
+
+4. If a slang does not have alternatives, add only a `definition`. For example, in the `asap.json` file for the slang `asap`,
+
+``` 
+    {
+        "definition": "As Soon As Possible"
+    }
+```
 
 > Only English slangs are accepted as of yet.
 
