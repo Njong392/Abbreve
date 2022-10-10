@@ -23,6 +23,9 @@ Thank you for taking the time to contribute to our project. Please take a moment
 - Always create [issues](https://github.com/Njong392/Abbreve/issues) before making Pull Requests.
 - Always ensure that your Pull Requests are linked to their corresponding Issues.
 
+- Before you create an **Issue** ensure that there is no open issue that is similar to the one you want to create by visiting the [issues](https://github.com/Njong392/Abbreve/issues)
+
+
 ## Prerequisites
 
 - Open Source Etiquette: If you've never contributed to an open source project before, have a read of [Basic etiquette](https://developer.mozilla.org/en-US/docs/MDN/Contribute/GitHub_beginners) for open source projects.
@@ -31,7 +34,11 @@ Thank you for taking the time to contribute to our project. Please take a moment
 
 ## Setup
 
+
+### Setting up the project and making changes using CLI
+
 Setting up the project and making changes
+
 
 1. Fork this project by clicking the <a href="https://github.com/Njong392/Abbreve/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="15px" width="15px"></a> button in the top-right corner.
 2. Assuming that your GitHub username is **emy**, open your terminal and do the following:
@@ -94,6 +101,37 @@ git fetch upstream
 git merge upstream/main
 ```
 
+
+### Setting up the project using GUI
+
+#### NOTE
+
+- Ensure that you have GitHub Desktop installed
+- If not, then download it from [here](https://desktop.github.com/), getting the version for your system
+
+1. Fork this project by clicking the <a href="https://github.com/Njong392/Abbreve/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="15px" width="15px"></a> button in the top-right corner.
+
+2. Go to your forked repo in your account and click the green **code** dropdown button which presents you with a list of ways in which you can use to clone your fork
+
+3. Choose the **open with GitHub Desktop** which opens up GitHUb Desktop on your machine, follow the on-screen guide
+
+4. Click on the <a href="https://github.com/Njong392/Abbreve/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="15px" width="15px"></a> and create a new branch, which switches you to your new created branch
+
+5. Open the project in your favourite editor (GitHub Desktop has a button that lets you open the project in VS Code)
+
+6. Next, you'll want to start the local preview service to see how the changes you'll make would look in production. Once started, this preview would be available at `http://localhost:3000/` within your browser. To do this, open a **new** terminal and run the following:
+
+```sh
+# switch to a new terminal
+npm install
+npm run dev
+```
+
+7. Add your changes to your files and commit them by opening GitHub Desktop again (only if you closed it), type your commit message and commit your changes by simply clicking the **commit to yourBranchName**
+
+8. Push your changes to your remote by clicking the **push** button
+
+
 Now, it's time to make your PR
 
 ## Making pull requests
@@ -128,7 +166,7 @@ Now, it's time to make your PR
 - If fixing a bug:
   - The name of your PR should be a summary of the changes you are making. (For example fix: fix non-responsive navbar, feat: add prettier for code formatting)
   Provide a detailed description of the bug in the PR. Screenshots are nice.
-  
+
 
 ## Remarks
 

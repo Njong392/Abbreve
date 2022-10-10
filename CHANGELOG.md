@@ -1,4 +1,4 @@
-# 0.3.0 (2022-10-08)
+# 0.4.0 (2022-10-10)
 
 
 ### Bug Fixes
@@ -22,6 +22,7 @@
 * add more abbreviations ([79f14db](https://github.com/mathiasayivor/Abbreve/commit/79f14db3ad37a6f1dc73be9b77f28e48b570a0fb))
 * Add til and ikr ([3290b25](https://github.com/mathiasayivor/Abbreve/commit/3290b251bd1450ca7b2e2834a8422b9f08b23493))
 * added error handling for when a search term isn't found ([1de3427](https://github.com/mathiasayivor/Abbreve/commit/1de34272020e34b4708fc853b0851d165c507a89))
+* added new abbreviations to structure branch ([#118](https://github.com/mathiasayivor/Abbreve/issues/118)) ([aa7cae2](https://github.com/mathiasayivor/Abbreve/commit/aa7cae2c0936caf44eb9785304321703a4cd9aad))
 
 
 
