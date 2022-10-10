@@ -36,6 +36,8 @@ const Form = () => {
       })
       .catch((err) => {
         console.log(err.message);
+        setErrorMessage(true);
+        setIsUserInputBlank(false); 
 
       })
     }
