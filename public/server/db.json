@@ -399,104 +399,124 @@
     },
     "dm": {
       "definition":"Direct Message"
+    }, 
+    "ufo":{
+       "definition":"Unidentified Flying Object"
+    }, 
+    "cfo":{
+       "definition":"Cheif Financial Officer"
+    }, 
+    "pip":{
+       "definition":"Picture In Picture",
+       "alternatives":"Pip Installs Python"
+    },
+    "sms":{
+       "definitions":"Short Message Service"
+    },
+    "nsfw":{
+       "definition":"Not Safe For Work"
+    },
+    "bt":{
+       "definition":"Bad Trip"
     },
       "ipnts": {
     "definition": "I Prefer Not To Speak"
-  },
-  "wya": {
-    "definition": "Where You At?"
-  },
-  "fren": {
-    "definition": "Friend"
-  },
-  "jsyk": {
-    "definition": "Just So You Know"
-  },
-  "dkm": {
-    "definition": "Don't Kill Me",
-    "alternatives": "Dekameter"
-  },
-  "pfp": {
-    "definition": "Profile Picture",
-    "alternatives": "Picture For Proof"
-  },
-  "fyp": {
-    "definition": "For You page",
-    "alternatives": "For Your Pleasure"
-  },
-  "oomf": {
-    "definition": "One Of My Followers",
-    "alternatives": "One Of My Friends"
-  },
-  "asf": {
-    "definition": "As Fuck"
-  },
-  "fml": {
-    "definition": "Fuck My Life"
-  },
-  "tmi": {
-    "definition": "Too Much Information"
-  },
-  "s/o": {
-    "definition": "Shout Out",
-    "alternatives": "Significant Other"
-  },
-  "yt": {
-    "definition": "Whitey",
-    "alternatives": "YouTube"
-  },
-  "omg": {
-    "definition": "Oh My God!"
-  },
-  "ong": {
-    "definition": "On God"
-  },
-  "yktv": {
-    "definition": "You Know The Vibe!"
-  },
-  "yolo": {
-    "definition": "You Only Live Once!"
-  },
-  "iktr": {
-    "definition": "I Know That's Right!"
-  },
-  "dw": {
-    "definition": "Don't Worry",
-    "alternatives": "Dear Wife"
-  },
-  "yk": {
-    "definition": "You're Kidding",
-    "alternatives": "You Know"
-  },
-  "istg": {
-    "definition": "I Swear To God"
-  },
-  "wtaf": {
-    "definition": "What The Actual Fuck"
-  },
-  "ldr": {
-    "definition": "Long Distance Relationship",
-    "alternatives": "Light Dependent Resistor"
-  },
-  "loml": {
-    "definition": "Love Of My Life"
-  },
-  "atp": {
-    "definition": "At This Point",
-    "alternatives": "Adenosine Triphosphate"
-  },
-  "tw": {
-    "definition": "Trigger Warning"
-  },
-  "bipoc": {
-    "definition": "Black, Indigeneous and People Of Colour"
-  },
-  "gm": {
-    "definition": "Good Morning",
-    "alternatives": "General Manager"
-  },
-  "sahm": {
-    "definition": "Stay At Home Mom"
-  }
-    
+    },
+    "wya": {
+      "definition": "Where You At?"
+    },
+    "fren": {
+      "definition": "Friend"
+    },
+    "jsyk": {
+      "definition": "Just So You Know"
+    },
+    "dkm": {
+      "definition": "Don't Kill Me",
+      "alternatives": "Dekameter"
+    },
+    "pfp": {
+      "definition": "Profile Picture",
+      "alternatives": "Picture For Proof"
+    },
+    "fyp": {
+      "definition": "For You page",
+      "alternatives": "For Your Pleasure"
+    },
+    "oomf": {
+      "definition": "One Of My Followers",
+      "alternatives": "One Of My Friends"
+    },
+    "asf": {
+      "definition": "As Fuck"
+    },
+    "fml": {
+      "definition": "Fuck My Life"
+    },
+    "tmi": {
+      "definition": "Too Much Information"
+    },
+    "s/o": {
+      "definition": "Shout Out",
+      "alternatives": "Significant Other"
+    },
+    "yt": {
+      "definition": "Whitey",
+      "alternatives": "YouTube"
+    },
+    "omg": {
+      "definition": "Oh My God!"
+    },
+    "ong": {
+      "definition": "On God"
+    },
+    "yktv": {
+      "definition": "You Know The Vibe!"
+    },
+    "yolo": {
+      "definition": "You Only Live Once!"
+    },
+    "iktr": {
+      "definition": "I Know That's Right!"
+    },
+    "dw": {
+      "definition": "Don't Worry",
+      "alternatives": "Dear Wife"
+    },
+    "yk": {
+      "definition": "You're Kidding",
+      "alternatives": "You Know"
+    },
+    "istg": {
+      "definition": "I Swear To God"
+    },
+    "wtaf": {
+      "definition": "What The Actual Fuck"
+    },
+    "ldr": {
+      "definition": "Long Distance Relationship",
+      "alternatives": "Light Dependent Resistor"
+    },
+    "loml": {
+      "definition": "Love Of My Life"
+    },
+    "atp": {
+      "definition": "At This Point",
+      "alternatives": "Adenosine Triphosphate"
+    },
+    "tw": {
+      "definition": "Trigger Warning"
+    },
+    "bipoc": {
+      "definition": "Black, Indigeneous and People Of Colour"
+    },
+    "gm": {
+      "definition": "Good Morning",
+      "alternatives": "General Manager"
+    },
+    "sahm": {
+      "definition": "Stay At Home Mom"
+    }
+
 }
+
