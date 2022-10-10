@@ -8,7 +8,7 @@ You can check out the live project [here](https://abbreve.vercel.app/)
 
 All you need to do is start entering a slang in the search bar, and the meaning will be provided. Below the main meaning of the slang could be alternative meanings.
 
-![Gif of form section of page with 'various types into the search bar, it's meaning below it, and alternative meanings](![abbr](https://user-images.githubusercontent.com/12339188/194400070-58974868-221c-40fe-9f73-c19d22f764db.gif)
+![Gif of form section of page with 'various types into the search bar, it's meaning below it, and alternative meanings](https://user-images.githubusercontent.com/12339188/194400070-58974868-221c-40fe-9f73-c19d22f764db.gif)
 
 
 # :mega: Want to contribute?
