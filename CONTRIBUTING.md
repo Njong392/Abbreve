@@ -22,7 +22,9 @@ Thank you for taking the time to contribute to our project. Please take a moment
 
 - Always create [issues](https://github.com/Njong392/Abbreve/issues) before making Pull Requests.
 - Always ensure that your Pull Requests are linked to their corresponding Issues.
+
 - Before you create an **Issue** ensure that there is no open issue that is similar to the one you want to create by visiting the [issues](https://github.com/Njong392/Abbreve/issues)
+
 
 ## Prerequisites
 
@@ -32,7 +34,11 @@ Thank you for taking the time to contribute to our project. Please take a moment
 
 ## Setup
 
+
 ### Setting up the project and making changes using CLI
+
+Setting up the project and making changes
+
 
 1. Fork this project by clicking the <a href="https://github.com/Njong392/Abbreve/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="15px" width="15px"></a> button in the top-right corner.
 2. Assuming that your GitHub username is **emy**, open your terminal and do the following:
@@ -94,6 +100,7 @@ and then push the branch to your fork. Remember, the default name that
 git fetch upstream
 git merge upstream/main
 ```
+
 
 ### Setting up the project using GUI
 
