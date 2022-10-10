@@ -9,12 +9,14 @@
     "format": "prettier --ignore-path .gitignore --write \"**/*.{js,jsx,json}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "preview": "vite preview",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "register": "node ./src/lib/registerSlang.cjs"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
     "@fortawesome/free-solid-svg-icons": "^6.2.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "prompt-sync": "^4.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scroll": "^1.8.7"
