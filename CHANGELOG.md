@@ -1,3 +1,12 @@
+# [0.11.0](https://github.com/rupali-codes/Abbreve/compare/v0.10.0...v0.11.0) (2022-10-11)
+
+
+### Features
+
+* added isp.json ([ed04cfe](https://github.com/rupali-codes/Abbreve/commit/ed04cfe47a650ce0c290de3e4d32642e87feabbe))
+
+
+
 # [0.10.0](https://github.com/rupali-codes/Abbreve/compare/v0.9.0...v0.10.0) (2022-10-11)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * if.json ([71056b2](https://github.com/rupali-codes/Abbreve/commit/71056b226bcf6661d0ba05817ff3569832736776))
-
-
-
-# [0.6.0](https://github.com/rupali-codes/Abbreve/compare/v0.5.0...v0.6.0) (2022-10-11)
-
-
-### Features
-
-* added wru.json ([9642937](https://github.com/rupali-codes/Abbreve/commit/9642937cdbdc4924a5d13c98c4c64b486795a6a0))
 
 
 
