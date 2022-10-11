@@ -5,7 +5,6 @@ import ig from "../assets/ig.png";
 import lfg from "../assets/lfg.png";
 import nate from "../assets/nate.jpg";
 import emy from "../assets/emy.jpg";
-import { Link } from "react-scroll";
 import Form from "./form";
 
 const Hero = () => {
@@ -30,15 +29,6 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <Link
-          to="form"
-          smooth={true}
-          duration={500}
-          spy={false}
-          className="bg-purple text-ash font-bold rounded-xl hover:scale-110 md:invisible visible p-2">
-          Find an abbreve(tion)
-        </Link>
-        <Form />
       </header>
 
       <div className="hidden md:flex flex-wrap justify-center animate-breeze">
@@ -47,6 +37,10 @@ const Hero = () => {
         <img src={idk} alt="idk" className="rotate-3 h-[20%] w-[20%]" />
         <img src={ig} alt="if" className="rotate-6 h-[20%] w-[20%]" />
         <img src={lfg} alt="lfg" className="-rotate-6 h-[20%] w-[20%]" />
+      </div>
+
+      <div className="text-center">
+        <Form />
       </div>
 
       <section className="block justify-center gap-10 md:mt-20 items-center md:flex">
