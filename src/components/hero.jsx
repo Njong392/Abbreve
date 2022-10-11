@@ -6,6 +6,7 @@ import lfg from "../assets/lfg.png";
 import nate from "../assets/nate.jpg";
 import emy from "../assets/emy.jpg";
 import { Link } from "react-scroll";
+import Form from "./form";
 
 const Hero = () => {
   return (
@@ -15,7 +16,7 @@ const Hero = () => {
           <h1 className="text-purple font-bold">Writing on the internet</h1>
           <h1 className="text-ash font-bold mt-2">is changing. IYKYK</h1>
         </div>
-
+        <Form />
         <div className="absolute right-14 bottom-20 lg:visible invisible">
           <div className="w-24 h-4 bg-deeppurple relative -rotate-6">
             <div className="absolute top-[3px]">
