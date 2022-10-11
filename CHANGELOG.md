@@ -1,4 +1,13 @@
-# 0.4.0 (2022-10-11)
+# [0.5.0](https://github.com/rupali-codes/Abbreve/compare/v0.4.0...v0.5.0) (2022-10-11)
+
+
+### Features
+
+* added ihtg.json ([d697fe5](https://github.com/rupali-codes/Abbreve/commit/d697fe5d56ff61156c5d9cf4136206739466e233))
+
+
+
+# [0.4.0](https://github.com/rupali-codes/Abbreve/compare/02df9204cd353cc16dcf636355e5d198d1e54e0b...v0.4.0) (2022-10-11)
 
 
 ### Bug Fixes
