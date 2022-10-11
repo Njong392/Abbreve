@@ -1,3 +1,12 @@
+# [0.10.0](https://github.com/rupali-codes/Abbreve/compare/v0.9.0...v0.10.0) (2022-10-11)
+
+
+### Features
+
+* added cs.json ([6c5573e](https://github.com/rupali-codes/Abbreve/commit/6c5573e3811f031b5e69cb5af8cf0ebdb29d88ab))
+
+
+
 # [0.9.0](https://github.com/rupali-codes/Abbreve/compare/v0.8.0...v0.9.0) (2022-10-11)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * added wru.json ([9642937](https://github.com/rupali-codes/Abbreve/commit/9642937cdbdc4924a5d13c98c4c64b486795a6a0))
-
-
-
-# [0.5.0](https://github.com/rupali-codes/Abbreve/compare/v0.4.0...v0.5.0) (2022-10-11)
-
-
-### Features
-
-* added ihtg.json ([d697fe5](https://github.com/rupali-codes/Abbreve/commit/d697fe5d56ff61156c5d9cf4136206739466e233))
 
 
 
