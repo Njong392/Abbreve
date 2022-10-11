@@ -516,6 +516,14 @@
     },
     "sahm": {
       "definition": "Stay At Home Mom"
+    },
+    "idt": {
+      "definition": "I Don't Think"
+    },
+    "idts": {
+
+      "definition": "I Don't Think So"
+
     }
 
 }
