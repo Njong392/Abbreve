@@ -1,7 +1,4 @@
-
 import Logo from "../assets/logo.png";
-import { Link } from "react-scroll";
-
 
 const Navbar = () => {
   return (
@@ -28,19 +25,15 @@ const Navbar = () => {
               />
             </svg>
           </a>
-          <Link
-            to="form"
-            smooth={true}
-            duration={600}
-            className="bg-deeppurple text-ash font-bold rounded-xl p-2 hover:scale-110 outline-none hidden md:block ml-4 cursor-pointer">
+          <a
+            href="#form"
+            className="bg-deeppurple text-ash font-bold rounded-xl p-2 hover:scale-110 md:block ml-4 cursor-pointer">
             Get Started{" "}
-          </Link>
+          </a>
         </div>
       </div>
     </nav>
   );
 };
-
-               
 
 export default Navbar;
