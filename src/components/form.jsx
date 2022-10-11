@@ -47,7 +47,7 @@ const Form = () => {
 
   return (
     <div className="bg-dark py-12 px-[14px]">
-      <section className="block justify-center pb-16 md:flex items-center">
+      <section className="block justify-center md:pb-16 md:flex items-center">
         <div className="md:w-1/2 md:pr-20 md:text-left text-center">
           <h2 className="text-purple font-bold text-3xl">
             <span className="text-ash">Start by entering a slang,</span> and our

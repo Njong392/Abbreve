@@ -11,27 +11,25 @@ import Form from "./form";
 const Hero = () => {
   return (
     <main className="bg-dark md:px-40 py-12 px-[24px]">
-      <header className="text-center relative mt-12">
-        <div className="text-4xl md:text-7xl mb-5">
+      <header className="text-center mt-12">
+        <div className="text-4xl md:text-7xl mb-5 relative">
           <h1 className="text-purple font-bold">Writing on the internet</h1>
           <h1 className="text-ash font-bold mt-2">is changing. IYKYK</h1>
-        </div>
-        <Form />
-        <div className="absolute right-14 bottom-20 lg:visible invisible">
-          <div className="w-24 h-4 bg-deeppurple relative -rotate-6">
-            <div className="absolute top-[3px]">
-              <p className="text-ash text-sm font-semibold">If You Know,</p>
+          <div className="absolute right-14 bottom-9 lg:visible invisible">
+            <div className="w-24 h-4 bg-deeppurple relative -rotate-6">
+              <div className="absolute top-[3px]">
+                <p className="text-ash text-sm font-semibold">If You Know,</p>
+              </div>
+            </div>
+          </div>
+          <div className="absolute right-12 bottom-3 lg:visible invisible">
+            <div className="right-8 w-20 h-4 bg-deeppurple relative -rotate-6">
+              <div className="absolute top-[3px]">
+                <p className="text-ash text-sm font-semibold">You Know.</p>
+              </div>
             </div>
           </div>
         </div>
-        <div className="absolute right-12 bottom-14 lg:visible invisible">
-          <div className="right-8 w-20 h-4 bg-deeppurple relative -rotate-6">
-            <div className="absolute top-[3px]">
-              <p className="text-ash text-sm font-semibold">You Know.</p>
-            </div>
-          </div>
-        </div>
-
         <Link
           to="form"
           smooth={true}
@@ -40,9 +38,10 @@ const Hero = () => {
           className="bg-purple text-ash font-bold rounded-xl hover:scale-110 md:invisible visible p-2">
           Find an abbreve(tion)
         </Link>
+        <Form />
       </header>
 
-      <div className="flex flex-wrap justify-center animate-breeze invisible md:visible">
+      <div className="hidden md:flex flex-wrap justify-center animate-breeze">
         <img src={btw} alt="btw" className="rotate-2 h-[20%] w-[20%]" />
         <img src={fyi} alt="fyi" className="-rotate-3 h-[20%] w-[20%]" />
         <img src={idk} alt="idk" className="rotate-3 h-[20%] w-[20%]" />
@@ -50,7 +49,7 @@ const Hero = () => {
         <img src={lfg} alt="lfg" className="-rotate-6 h-[20%] w-[20%]" />
       </div>
 
-      <section className="block justify-center gap-10 mt-20 items-center md:flex">
+      <section className="block justify-center gap-10 md:mt-20 items-center md:flex">
         <div className="md:w-1/2 md:pr-20 md:text-left text-center">
           <p className="text-purple font-bold text-3xl">
             <span className="text-ash">Abbreve (A-bree-vay)</span> is an open
