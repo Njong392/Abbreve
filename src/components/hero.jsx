@@ -43,7 +43,7 @@ const Hero = () => {
         <Form />
       </div>
 
-      <section className="block justify-center gap-10 md:mt-20 items-center md:flex">
+      <section className="block justify-center gap-10 items-center md:flex">
         <div className="md:w-1/2 md:pr-20 md:text-left text-center">
           <p className="text-purple font-bold text-3xl">
             <span className="text-ash">Abbreve (A-bree-vay)</span> is an open
