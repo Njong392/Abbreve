@@ -1,3 +1,12 @@
+# [0.12.0](https://github.com/rupali-codes/Abbreve/compare/v0.11.0...v0.12.0) (2022-10-11)
+
+
+### Features
+
+* added dns.json ([9df2a43](https://github.com/rupali-codes/Abbreve/commit/9df2a43ff28e5833004ad921beadb39d100be45a))
+
+
+
 # [0.11.0](https://github.com/rupali-codes/Abbreve/compare/v0.10.0...v0.11.0) (2022-10-11)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * added it.json ([0ed2ea2](https://github.com/rupali-codes/Abbreve/commit/0ed2ea24a0f9e64d2ab33ed4a955c20cb1b7338a))
-
-
-
-# [0.7.0](https://github.com/rupali-codes/Abbreve/compare/v0.6.0...v0.7.0) (2022-10-11)
-
-
-### Features
-
-* if.json ([71056b2](https://github.com/rupali-codes/Abbreve/commit/71056b226bcf6661d0ba05817ff3569832736776))
 
 
 
