@@ -516,7 +516,46 @@
     },
     "sahm": {
       "definition": "Stay At Home Mom"
-    }
+    }, 
+    "gn": {
+      "definition": "Good Night"
+    }, 
+    "btw": {
+      "definition": "By The Way"
+    }, 
+    "yrr": {
+      "definition": "You Are Right"
+    }, 
+    "ihtg": {
+      "definition": "I Have To Go"
+    }, 
+    "wru": {
+      "definition": "Who Are You"
+    }, 
+    "if": {
+      "definition": "I'm Fine"
+    }, 
+    "it": {
+      "definition": "Information Technology"
+    }, 
+    "is": {
+      "definition": "Internet Services"
+    }, 
+    "ip": {
+      "definition": "Internet Protocol"
+    } 
+    "cs": {
+      "definition": "Computer Science"
+    }, 
+    "cse": {
+      "definition": "Computer Science & Engineering"
+    }, 
+    "isp": {
+      "definition": "Internet Service Provider"
+    }, 
+    "dns": {
+      "definition": "Domain Name Service"
+    } 
 
 }
 
