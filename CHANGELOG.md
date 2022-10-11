@@ -1,3 +1,12 @@
+# [0.8.0](https://github.com/rupali-codes/Abbreve/compare/v0.7.0...v0.8.0) (2022-10-11)
+
+
+### Features
+
+* added it.json ([0ed2ea2](https://github.com/rupali-codes/Abbreve/commit/0ed2ea24a0f9e64d2ab33ed4a955c20cb1b7338a))
+
+
+
 # [0.7.0](https://github.com/rupali-codes/Abbreve/compare/v0.6.0...v0.7.0) (2022-10-11)
 
 
