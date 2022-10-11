@@ -39,9 +39,7 @@ const Hero = () => {
         <img src={lfg} alt="lfg" className="-rotate-6 h-[20%] w-[20%]" />
       </div>
 
-      <div className="text-center">
-        <Form />
-      </div>
+      <Form />
 
       <section className="block justify-center gap-10 items-center md:flex">
         <div className="md:w-1/2 md:pr-20 md:text-left text-center">
