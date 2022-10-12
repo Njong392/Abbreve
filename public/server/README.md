@@ -1,8 +1,8 @@
-# HOW TO
+# USAGE
 
-## Generate Abbrevs from db.json
+## Generating Slangs from db.json
 
-In your terminal run the script `db:eject`: `npm run db:eject`
+In your terminal run the `db:eject` script: `npm run db:eject`
 > *WARNING*: `db:eject` script should **ONLY** be run if it's content is newer than the definitions in the `db` directory, since by default, all generated definitions in the `db` directory would be cleared before generating new ones.
 
 ## Adding New Abbreviations
