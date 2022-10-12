@@ -125,14 +125,16 @@ function addAbbr() {
         return "Please provide an abbreviation!";
       }
 
-      if (!isValidAbbr(abbr)) {
-        return `"${abbr}" does not follow our naming conventions`;
-      }
-
       return true;
     },
-  }).then(async ({ abbr }) => {
+  }).then(async ({ abbr: _abbr }) => {
     let isModification = false;
+    const abbr = _abbr.toLowerCase();
+
+    if (!isValidAbbr(_abbr)) {
+      console.log(chalk.bgBlueBright(`Using ${abbr} instead of ${_abbr}`));
+    }
+
     if (abbrExists(abbr)) {
       isModification = true;
 
