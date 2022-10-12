@@ -2,6 +2,7 @@ import { mkdir, rm, writeFile } from "fs";
 import { dirname, resolve } from "path";
 import { fileURLToPath } from "url";
 import chalk from "chalk";
+import inquirer from "inquirer";
 import { log } from "console";
 import { setAbbrFilesMap } from "../lib/dbManager.js";
 
@@ -59,12 +60,25 @@ export default function cleanupDb() {
   });
 }
 
-cleanupDb()
-  .then((message) => {
-    log(chalk.bgGreen("CLEAN UP JOB SUCCESSFUL!"), "\n====\n");
-    log(chalk.green(message));
+inquirer
+  .prompt({
+    name: "confirmed",
+    message: "**WARNING**: Are you sure you want to clean up DB",
+    type: "confirm",
+    default: false,
   })
-  .catch((err) => {
-    log(chalk.bgRed("CLEAN UP JOB FAILED!"), "\n====\n");
-    log(chalk.red(err));
+  .then(({ confirmed }) => {
+    if (!confirmed) {
+      return;
+    }
+
+    cleanupDb()
+      .then((message) => {
+        log(chalk.bgGreen("CLEAN UP JOB SUCCESSFUL!"), "\n====\n");
+        log(chalk.green(message));
+      })
+      .catch((err) => {
+        log(chalk.bgRed("CLEAN UP JOB FAILED!"), "\n====\n");
+        log(chalk.red(err));
+      });
   });
