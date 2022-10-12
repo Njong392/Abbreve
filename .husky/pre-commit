@@ -2,3 +2,13 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 npx lint-staged --concurrent false
+
+file_changed() {
+  git diff --name-only HEAD@{1} HEAD | grep "^$1" > /dev/null 2>&1
+}
+
+if file_changed "package.json"; then
+  echo "Changes detected in package.json, updating package-lock.json in progress."
+  npm i --package-lock-only
+  git add package-lock.json
+fi
