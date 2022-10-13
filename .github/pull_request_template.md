@@ -12,4 +12,4 @@ Closes #
 ### Describe the new changes you added.
 
 <!--Optional, but advised -->
-### Share a screeshot of new changes
+### Share a screenshot of new changes
