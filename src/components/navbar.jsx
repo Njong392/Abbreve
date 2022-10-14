@@ -16,7 +16,9 @@ const Navbar = () => {
         </div>
 
         <div className="flex items-center md:flex">
-          <a href="https://github.com/Njong392/Abbreve">
+          <a href="https://github.com/Njong392/Abbreve"
+            target="_blank"
+            rel="noopener noreferrer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
