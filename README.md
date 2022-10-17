@@ -1,6 +1,6 @@
 # :tada: Welcome to Abbreve
 
-Abbreve is an open source dictionary for slangs. Writing on the internet is currently the most common way of communication, but keeping up with the abbreviation-style is becoming difficult.
+Abbreve is an open source dictionary for slang. Writing on the internet is currently the most common way of communication, but keeping up with the abbreviation-style is becoming difficult.
 
 Abbreve helps you keep up, by providing meanings to these abbreviations.
 
@@ -92,8 +92,8 @@ Follow the steps below to manually add an abbreviation
 
 ### 2. Using the CLI
 
-Using our CLI to add slangs is very easy, as it handles all file naming issues and also validates the definitions to ensure that they follow our [naming conventions](#warning-important-naming-conventions).  
-Follow the steps below to add new slangs using our CLI
+Using our CLI to add slang is very easy, as it handles all file naming issues and also validates the definitions to ensure that they follow our [naming conventions](#warning-important-naming-conventions).  
+Follow the steps below to add new slang using our CLI
 
 1. From your terminal, run the `db:entry` script. E.g `npm run db:entry`
 2. Choose the first option (`Add a new abbreviation`)
@@ -103,7 +103,7 @@ Follow the steps below to add new slangs using our CLI
    > If you have other alternatives, enter the alternative and press `Enter` to add. When you are done add *all* your alternatives, press `Enter` without entering anything else
    >
    > :information_source: When adding multiple alternatives, do not separate them with a comma like you would do when manually entering into db. Instead, press `Enter` after each alternative entry until you are done with all your entries.
-5. If you have other slangs to add, press `y` and repeat from step 1. Else, press `n` and then `Enter`.
+5. If you have other slang to add, press `y` and repeat from step 1. Else, press `n` and then `Enter`.
 6. Review your changes in the `public/server/db` directory
 
 > If you encounter any error whiles using the CLI, kindly report it [here](https://github.com/Njong392/Abbreve/issues/new)
@@ -119,7 +119,7 @@ Before pushing your changes, please check and ensure that all your additions fol
 * The slang must be in lowercase. For example, `lol` and **not** `Lol` or `LOL`
 * The first letter of each word in the definition and alternatives **must** be *capitalized*. For example, `Looks Good To Me` and **not** `Looks good to me` or `looks good to me`
 
-> Only English slangs are accepted as of yet.
+> Only English slang are accepted as of yet.
 
 :bomb: Now, GO CREATE THOSE ISSUES AND PULL REQUESTS!
 
