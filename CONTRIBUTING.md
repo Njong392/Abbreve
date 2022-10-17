@@ -9,6 +9,7 @@ Thank you for taking the time to contribute to our project. Please take a moment
 - [Setup](#setup)
 - [Making pull requests](#making-pull-requests)
 
+
 ## Appending new abbreviations
 
 - You can append common abbreviations/acronyms used for communicating through the internet (social media) to the list of definitions in the abbreviations database.
@@ -24,6 +25,7 @@ Thank you for taking the time to contribute to our project. Please take a moment
 
 - Before you create an **Issue** ensure that there is no open issue that is similar to the one you want to create by visiting the [issues](https://github.com/Njong392/Abbreve/issues)
 
+
 ## Prerequisites
 
 - Open Source Etiquette: If you've never contributed to an open source project before, have a read of [Basic etiquette](https://developer.mozilla.org/en-US/docs/MDN/Contribute/GitHub_beginners) for open source projects.
@@ -32,16 +34,18 @@ Thank you for taking the time to contribute to our project. Please take a moment
 
 ## Setup
 
+
 ### Setting up the project and making changes using CLI
 
 Setting up the project and making changes
+
 
 1. Fork this project by clicking the <a href="https://github.com/Njong392/Abbreve/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="15px" width="15px"></a> button in the top-right corner.
 2. Assuming that your GitHub username is **emy**, open your terminal and do the following:
 
 ```sh
 cd ~/Desktop
-git clone git@github.com:emy/Abbreve.git
+git clone git@github.com:emy/Abbreve.git 
 ```
 
 3. Now, you will create a remote which will be used in tracking changes and keeping your local clone as well as your fork up-to-date:
@@ -51,12 +55,12 @@ cd Abbreve
 git remote add abbreve git@github.com:mdn/content.git
 ```
 
-> **Note**: You can give any name to your remote. For this example, we are using `abbreve`
+> **Note**:  You can give any name to your remote. For this example, we are using `abbreve`
 
 Now, you are ready to start making changes.
 
 4. Run `git branch` to confirm that you are on the `main` branch. Then,
-   pull the latest changes and create a new branch (**my-changes** or whatever you want to call it) by doing the following:
+pull the latest changes and create a new branch (**my-changes** or whatever you want to call it) by doing the following:
 
 ```sh
 git checkout main
@@ -74,29 +78,29 @@ npm install
 npm run dev
 ```
 
-6.  Make your desired changes to any of db.json, index.html, etc using your preferred editor. **Bear this in mind when making these changes:**
-
+6. Make your desired changes to any of db.json, index.html, etc using your preferred editor. **Bear this in mind when making these changes:**
     - **Large chunks of work can be difficult to review, so try to group your changes into the smallest logical chunks that make sense, and create a separate pull request for each logical chunk.**
 
-7.  Once you're happy with your changes, add and commit them to your branch,
-    and then push the branch to your fork. Remember, the default name that
-    `git` assigned to the remote that represents your fork is `origin`.
+7. Once you're happy with your changes, add and commit them to your branch,
+and then push the branch to your fork. Remember, the default name that
+`git` assigned to the remote that represents your fork is `origin`.
 
-        ```sh
-        cd ~/abbreve
-        git add .
-        git commit
-        git push -u origin my-work
-        ```
+    ```sh
+    cd ~/abbreve
+    git add .
+    git commit
+    git push -u origin my-work
+    ```
 
-        > **Note**: Do not commit package.json and/or package-lock.json file(s).
+    > **Note**: Do not commit package.json and/or package-lock.json file(s).
 
-8.  Perform a merge to sync your current branch with the upstream branch.
+8. Perform a merge to sync your current branch with the upstream branch.
 
-```bash
+ ```bash
 git fetch upstream
 git merge upstream/main
 ```
+
 
 ### Setting up the project using GUI
 
@@ -127,6 +131,7 @@ npm run dev
 
 8. Push your changes to your remote by clicking the **push** button
 
+
 Now, it's time to make your PR
 
 ## Making pull requests
@@ -153,13 +158,15 @@ Now, it's time to make your PR
 4. Link the issue you have resolved in the Pull Request Template (e.g Closes/Fixes #392).
 5. Use [Conventional commit messages](https://www.conventionalcommits.org/en/v1.0.0/) for your changes.
 6. Do not re-open a pull request that a reviewer has closed.
-   - Make sure to tick the "Allow edits from maintainers" box. This allows us to directly make minor edits / refactors and saves a lot of time.
+    - Make sure to tick the "Allow edits from maintainers" box. This allows us to directly make minor edits / refactors and saves a lot of time.
 
 - If adding a new feature:
   - Provide a convincing reason to add this feature. Ideally, you should open a suggestion issue first and have it approved before working on it.
+  
 - If fixing a bug:
   - The name of your PR should be a summary of the changes you are making. (For example fix: fix non-responsive navbar, feat: add prettier for code formatting)
-    Provide a detailed description of the bug in the PR. Screenshots are nice.
+  Provide a detailed description of the bug in the PR. Screenshots are nice.
+
 
 ## Remarks
 
