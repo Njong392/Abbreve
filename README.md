@@ -1,6 +1,6 @@
 # :tada: Welcome to Abbreve
 
-Abbreve is an open source dictionary for slangs. Writing on the internet is currently the most common way of communication, but keeping up with the abbreviation-style is becoming difficult.
+Abbreve is an open source dictionary for slang. Writing on the internet is currently the most common way of communication, but keeping up with the abbreviation-style is becoming difficult.
 
 Abbreve helps you keep up, by providing meanings to these abbreviations.
 
@@ -42,7 +42,7 @@ Before installation, you need to have the following:
 4. Run `npm install` to add node_modules folder.
 5. To start the server on localhost, run `npm run dev`.
 
->This project uses [Vite](https://vitejs.dev), but that shouldn't overwhelm you. Everything works pretty much the same.
+> This project uses [Vite](https://vitejs.dev), but that shouldn't overwhelm you. Everything works pretty much the same.
 
 6. Make your changes, push your code, and open a pull request.
 
@@ -64,46 +64,47 @@ Follow the steps below to manually add an abbreviation
 1. In the `/public` folder, open the `/server` folder and subsequently, the `/db` folder you find in it. You can see that each slang is a JSON file of its own.
 
 2. To add a new abbreviation, you must create a new file.
-    - The file name should be the slang you want to add. For example, `lgtm.json` is the file for the slang `lgtm`
-    - The file name must be in lowercase. For example, `lgtm.json` not `LGTM.json`
+
+   - The file name should be the slang you want to add. For example, `lgtm.json` is the file for the slang `lgtm`
+   - The file name must be in lowercase. For example, `lgtm.json` not `LGTM.json`
 
 3. Inside the file you created, create a new object to store the defintion of the slang, and/or alternative definitions. Taking `lgtm` as an example again,
 
-    ```JSON
-    {
-        "definition": "Looks Good To Me",
-        "alternatives": "Looks Great To Me, Looks Great To Merge"
-    }
-    ```
+   ```JSON
+   {
+       "definition": "Looks Good To Me",
+       "alternatives": "Looks Great To Me, Looks Great To Merge"
+   }
+   ```
 
-    `definition` is the most common abbreviation for the slang, and `alternatives` is/are other ways people use the slang.
+   `definition` is the most common abbreviation for the slang, and `alternatives` is/are other ways people use the slang.
 
 4. As you can see above, the first letter of each word in both `definition` and `alternatives` is uppercase.
 
 5. If a slang does not have alternatives, add only a `definition`. For example, in the `asap.json` file for the slang `asap`,
 
-    ```JSON
-    {
-        "definition": "As Soon As Possible"
-    }
-    ```
+   ```JSON
+   {
+       "definition": "As Soon As Possible"
+   }
+   ```
 
-    > :information_source: If you encounter any issues with the file naming, kindly use the [CLI option](#2-using-the-cli) instead
+   > :information_source: If you encounter any issues with the file naming, kindly use the [CLI option](#2-using-the-cli) instead
 
 ### 2. Using the CLI
 
-Using our CLI to add slangs is very easy, as it handles all file naming issues and also validates the definitions to ensure that they follow our [naming conventions](#warning-important-naming-conventions).  
-Follow the steps below to add new slangs using our CLI
+Using our CLI to add slang is very easy, as it handles all file naming issues and also validates the definitions to ensure that they follow our [naming conventions](#warning-important-naming-conventions).  
+Follow the steps below to add new slang using our CLI
 
 1. From your terminal, run the `db:entry` script. E.g `npm run db:entry`
 2. Choose the first option (`Add a new abbreviation`)
-    > :bulb: You can choose an option using your up/down arrow keys
+   > :bulb: You can choose an option using your up/down arrow keys
 3. Input the abbreviation you want to add and press `Enter`
 4. After your input, another question pops up, asking if you have alternative definitions. If you do, press `y`, followed by `Enter`. If the slang does not have any alternative definition, press `n` then `Enter`.
-   > If you have other alternatives, enter the alternative and press `Enter` to add. When you are done add *all* your alternatives, press `Enter` without entering anything else
+   > If you have other alternatives, enter the alternative and press `Enter` to add. When you are done add _all_ your alternatives, press `Enter` without entering anything else
    >
    > :information_source: When adding multiple alternatives, do not separate them with a comma like you would do when manually entering into db. Instead, press `Enter` after each alternative entry until you are done with all your entries.
-5. If you have other slangs to add, press `y` and repeat from step 1. Else, press `n` and then `Enter`.
+5. If you have other slang to add, press `y` and repeat from step 1. Else, press `n` and then `Enter`.
 6. Review your changes in the `public/server/db` directory
 
 > If you encounter any error whiles using the CLI, kindly report it [here](https://github.com/Njong392/Abbreve/issues/new)
@@ -116,10 +117,10 @@ The GIF below demonstrates how to use the CLI to add new abbreviations
 
 Before pushing your changes, please check and ensure that all your additions follow the naming conventions listed below:
 
-* The slang must be in lowercase. For example, `lol` and **not** `Lol` or `LOL`
-* The first letter of each word in the definition and alternatives **must** be *capitalized*. For example, `Looks Good To Me` and **not** `Looks good to me` or `looks good to me`
+- The slang must be in lowercase. For example, `lol` and **not** `Lol` or `LOL`
+- The first letter of each word in the definition and alternatives **must** be _capitalized_. For example, `Looks Good To Me` and **not** `Looks good to me` or `looks good to me`
 
-> Only English slangs are accepted as of yet.
+> Only English slang are accepted as of yet.
 
 :bomb: Now, GO CREATE THOSE ISSUES AND PULL REQUESTS!
 
