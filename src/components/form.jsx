@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { LoadingSpinner } from "./loadingSpinner";
 
 const Form = () => {
   const [data, setData] = useState(null);
@@ -6,34 +7,48 @@ const Form = () => {
   const [errorMessage, setErrorMessage] = useState(false);
   const [userInput, setUserInput] = useState("");
   const [isUserInputBlank, setIsUserInputBlank] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   const fetchData = (e) => {
+    setIsLoading(true);
     e.preventDefault();
     const url = `/server/db/${userInput}.json`;
 
     if (userInput.trim().length === 0) {
       setIsUserInputBlank(true);
+      setIsLoading(false);
     } else {
       fetch(`${url}`)
         .then((response) => {
           if (response.status === 404) {
             setIsUserInputBlank(false);
             setErrorMessage(true);
+            setIsLoading(false);
           } else if (!response.ok) {
+            setIsLoading(false);
             throw Error("Resource not found");
           }
           return response.json();
         })
         .then((data) => {
-          setData(data);
-          setError(false);
-          setErrorMessage(false);
-          setIsUserInputBlank(false);
+          // REMOVE --> ONLY FOR TESTING
+          setTimeout(() => {
+            setData(data);
+            setIsLoading(false);
+          }, 3000);
+
+          // UNCOMMENT 👇
+          // setData(data);
+          // setError(false);
+          // setErrorMessage(false);
+          // setIsUserInputBlank(false);
+          // setIsLoading(false);
         })
         .catch((err) => {
           console.log(err.message);
           setErrorMessage(true);
           setIsUserInputBlank(false);
+          setIsLoading(false);
         });
     }
   };
@@ -43,11 +58,13 @@ const Form = () => {
     setData(false);
     setIsUserInputBlank(false);
     setError(false);
+    setIsLoading(false);
   }, [userInput]);
 
   return (
     <div className="bg-dark py-12 px-[14px]">
       <section className="block justify-center md:pb-16 md:flex items-center">
+        {isLoading && <LoadingSpinner />}
         <div className="md:w-1/2 md:pr-20 md:text-left text-center">
           <h2 className="text-purple font-bold text-3xl">
             <span className="text-ash">Start by entering a slang,</span> and our
@@ -89,6 +106,7 @@ const Form = () => {
 
             <button
               onClick={fetchData}
+              disabled={isLoading}
               className="bg-deeppurple text-ash font-bold rounded-xl hover:scale-110 p-2 mt-2 md:mt-0">
               Submit
             </button>
