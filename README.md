@@ -1,7 +1,7 @@
 # :tada: Welcome to Abbreve
 
 
-Abbreve is an open-source dictionary for slangs. Writing on the internet is currently the most common way of communication, but keeping up with the abbreviation style is becoming difficult.
+Abbreve is an open-source dictionary for slang. Writing on the internet is currently the most common way of communication, but keeping up with the abbreviation style is becoming difficult.
 
 
 Abbreve helps you keep up, by providing meanings to these abbreviations.
