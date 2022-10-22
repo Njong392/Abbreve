@@ -8,7 +8,7 @@ Closes #
 - [ ] Added a new feature
 - [ ] Fixed the docs (README.md, CONTRIBTUING.md, etc)
 
-<!--Give a brief outline of changes you made. If you added slangs, which ones? -->
+<!--Give a brief outline of changes you made. If you added slang, which ones? -->
 ### Describe the new changes you added.
 
 <!--Optional, but advised -->

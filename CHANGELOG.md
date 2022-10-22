@@ -39,7 +39,7 @@
 
 ### Bug Fixes
 
-* removed unwanted slangs ([dd93014](https://github.com/Njong392/Abbreve/commit/dd930148bd01427f9aa3bc3858d27b118d6443a4))
+* removed unwanted slang ([dd93014](https://github.com/Njong392/Abbreve/commit/dd930148bd01427f9aa3bc3858d27b118d6443a4))
 
 
 

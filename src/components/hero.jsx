@@ -45,7 +45,7 @@ const Hero = () => {
         <div className="md:w-1/2 md:pr-20 md:text-left text-center">
           <p className="text-purple font-bold text-3xl">
             <span className="text-ash">Abbreve (A-bree-vay)</span> is an open
-            source dictionary for <span className="text-ash">slangs.</span>{" "}
+            source dictionary for <span className="text-ash">slang.</span>{" "}
           </p>
           <p className="text-purple font-bold text-3xl mt-2">
             Curated by the community, for the community.
@@ -100,7 +100,7 @@ const Hero = () => {
           </div>
 
           <p className="mt-5 text-ash">
-            Do you find yourself googling the meaning of slangs like hmu, lgtm,
+            Do you find yourself googling the meaning of slang like hmu, lgtm,
             lfg etc ?
           </p>
 
