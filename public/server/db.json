@@ -1,561 +1,473 @@
-
-{   "lgtm":{
-        "definition":"Looks Good To Me",
-        "alternatives": "Looks Great To Me, Looks Great To Merge"
-    },
-
-    "lfg":{
-        "definition":"Let's Fucking Go",
-        "alternatives" : "Life Feels Good, Looking For Group"
-    },
-
-    "idk":{
-        "definition": "I Don't Know"
-    },
-
-    "imo":{
-        "definition": "In My Opinion"
-    },
-    
-    "imho":{
-        "definition": "In My Honest Opinion"
-    },
-    "rtfm":{
-        "definition": "Read The Fucking Manual"
-    },
-
-    "gtfo":{
-        "definition": "Get The Fuck Out"
-    },
-
-    "wtf":{
-        "definition": "What The Fuck"
-    },
-
-    "ig":{
-        "definition": "I Guess",
-        "alternatives" : "Instagram"
-    },
-
-    "fyi":{
-        "definition": "For Your Information"
-    },
-
-    "iykyk":{
-       "definition": "If You Know You Know"
-    },
-
-    "ifg":{
-        "definition": "I Feel Good"
-    },
-
-    "igtg":{
-        "definition": "I've Got To Go"
-    },
-
-    "icymi":{
-        "definition": "In Case You Missed It"
-    },
-
-    "ikr": {
-        "definition": "I Know, Right?"
-    },
-
-    "kiss":{
-        "definition": "Keep It Simple Stupid",
-        "alternatives": "Keep It Super Simple, Keep It Short And Simple"
-    },
-
-    "hmu":{
-        "definition": "Hit Me Up"
-    },
-    
-    "lol":{
-        "definition": "Laugh Out Loud"
-    },
-
-    "stfu":{
-        "definition": "Shut The Fuck Up"
-    },
-
-    "ngl":{
-        "definition": "Not Gonna Lie"
-    },
-
-    "hru":{
-        "definition": "How Are You"
-    },
-
-    "srly":{
-        "definition": "Seriously"
-    },
-
-    "bff":{
-        "definition": "Best Friend Forever"
-    },
-
-    "tl":{
-        "definition": "Timeline"
-    },
-
-    "cl":{
-        "definition": "Contact List"
-    },
-
-    "nvm":{
-        "definition": "Never Mind"
-    },
-
-    "wyd":{
-        "definition": "What You Doing"
-    },
-    
-    "lmk":{
-        "definition": "Let Me Know"
-    },
-    
-    "idc":{
-        "definition": "I Don't Care"
-    },
-
-    "til":{
-        "definition": "Today I Learn",
-        "alternatives": "Today I Learned"
-    },
-    
-    "brb":{
-        "definition": "Be Right Back"
-    },
-    
-    "byob":{
-        "definition": "Bring Your Own Beer",
-        "alternatives": "Be Your Own Boss"
-    },
-    
-    "tldr":{
-        "definition": "Too Long, Didn't Read"
-    },
-    
-    "ttyl":{
-        "definition": "Talk To You Later"
-    },
-    
-    "tc":{
-        "definition": "Take Care"
-    },
-    
-    "rofl":{
-        "definition": "Rolling On The Floor, Laughing"
-    },
-    
-    "ootd":{
-        "definition": "Outfit Of The Day"
-    },
-    
-    "goat":{
-        "definition": "Greatest Of All Time"
-    },
-    
-    "tfw":{
-        "definition": "The Feeling When"
-    },
-    
-    "fomo":{
-        "definition": "Fear Of Missing Out"
-    },
-    
-    "tia": {
-        "definition": "Thanks In Advance"
-    },
-    
-    "smh": {
-      "definition": "Shaking My Head"
-    },
-
-    "pov": {
-      "definition": "Point Of View"
-    },
-
-    "tbf": {
-      "definition": "To Be Frank",
-      "alternatives": "To Be Fair"
-    },
-
-    "fgs": {
-      "definition": "For God's sake"
-    },
-
-    "tbh": {
-      "definition": "To Be Honest"
-    },
-
-    "asap": {
-      "definition": "As Soon As Possible"
-    },
-
-    "ffs": {
-      "definition": "For Fuck Sake"
-    },
-
-    "ftw": {
-      "definition": "For The Win"
-    },
-
-    "afaik": {
-      "definition": "As Far As I Know"
-    },
-
-    "np": {
-      "definition": "No Problem"
-    },
-
-    "iirc": {
-      "definition": "If I Recall Correctly",
-      "alternatives": "If I Remember Correctly"
-    },
-
-    "jk": {
-      "definition": "Just kidding"
-    },
-
-    "fb": {
-      "definition": "Facebook"
-    },
-
-    "fwiw": {
-      "definition": "For What It's Worth"
-    },
-
-    "irl": {
-      "definition": "In Real Life"
-    },
-
-    "op": {
-      "definition": "Original Poster"
-    },
-
-    "tysm": {
-      "definition": "Thank You So Much"
-    },
-
-    "ty": {
-      "definition": "Thank You"
-    },
-
-    "syl": {
-      "definition": "See You Later"
-    },
-
-    "hbty": {
-      "definition": "Happy Birthday To You"
-    },
-
-    "hbu": {
-      "definition": "How About You"
-    },
-
-    "imy": {
-      "definition": "I Miss You"
-    },
-
-    "ilu": {
-      "definition": "I Love You",
-      "alternatives": "I Like You"
-    },
-
-    "sys": {
-      "definition": "See You Soon"
-    },
-
-    "dygm": {
-      "definition": "Do You Get Me"
-    },
-
-    "wth": {
-      "definition": "What The Hell"
-    },
-
-    "nm": {
-      "definition": "Nothing Much",
-      "alternatives": "Never Mind"
-    },
-
-    "asap": {
-      "definition": "As Soon As Possible"
-    },
-
-    "uk": {
-      "definition": "You Know"
-    },
-
-    "ik": {
-      "definition": "I Know"
-    },
-
-    "hbd": {
-      "definition": "Happy Birthday"
-    },
-
-    "mgl": {
-      "definition": "More Good Life"
-    },
-
-    "foss": {
-      "definition": "Free Open-Source Software"
-    },
-
-    "ss": {
-      "definition": "Screenshot",
-      "alternatives": "Snapshot"
-    },
-
-    "g2g": {
-      "definition": "Got To Go"
-    },
-
-    "ynk": {
-      "definition": "You Never Know"
-    },
-
-    "jk": {
-      "definition": "Just Kidding"
-    },
-
-    "wbu": {
-      "definition": "What About You"
-    },
-
-    "wuwh": {
-      "definition": "Wish You Were Here"
-    },
-
-    "wagmi": {
-      "definition": "We're All Gonna Make It"
-    },
-    "wullnp": {
-      "definition": "Wishing You Long Life And Prosperity"
-    },
-    "dyg": {
-      "definition": "Do You Get?"
+{
+  "lgtm": {
+    "definition": "Looks Good To Me",
+    "alternatives": "Looks Great To Me, Looks Great To Merge"
   },
-  
-    "cmiiw":{
-        "definition": "Correct Me If I'm Wrong"
-    },
-    "b2w":{
-        "definition": "Back To Work"
-    },
-    "afk":{
-        "definition": "Away From Keyboard"
-    },
-    "cydm":{
-        "definition": "Check Your Direct Message"
-    },
-    "ofc":{
-        "definition": "Of Course"
-    },
-    "ama":{
-        "definition": "Ask Me Anything"
-    },
-    "awol":{
-        "definition": "Absent Without Official Leave",
-        "alternatives": "Away Without Leave, Absent Without Leave"
-    },
-    "b4n":{
-        "definition": "Bye For Now"
-    },
-    "bak":{
-        "definition": "Back To Keyboard"
-    },
-    "bau":{
-        "definition": "Business As Usual"
-    },
-    "bitmt":{
-        "definition": "But In The Maintime"
-    },
-    "dilligaf":{
-        "definition": "Do I Look Like I Give A Fuck"
-    },
-    "f2p":{
-        "definition": "Free To Play"
-    },
-    "f2f":{
-        "definition": "Face To Face"
-    },
-    "ffa":{
-        "definition": "Free For All"
-    },
-    "gwhtlc":{
-        "definition": "Glad We Had This Little Chat"
-    },
-    "icam":{
-        "definition": "I Couldn't Agree More"
-    },
-    "wdym": {
-      "definition":"What Do You Mean?"
-    },
-    "eta": {
-      "definition":"Estimated Time Of Arrival"
-    },
-    "dm": {
-      "definition":"Direct Message"
-    }, 
-    "ufo":{
-       "definition":"Unidentified Flying Object"
-    }, 
-    "cfo":{
-       "definition":"Cheif Financial Officer"
-    }, 
-    "pip":{
-       "definition":"Picture In Picture",
-       "alternatives":"Pip Installs Python"
-    },
-    "sms":{
-       "definitions":"Short Message Service"
-    },
-    "nsfw":{
-       "definition":"Not Safe For Work"
-    },
-    "bt":{
-       "definition":"Bad Trip"
-    },
-      "ipnts": {
+  "lfg": {
+    "definition": "Let's Fucking Go",
+    "alternatives": "Life Feels Good, Looking For Group"
+  },
+  "idk": {
+    "definition": "I Don't Know"
+  },
+  "imo": {
+    "definition": "In My Opinion"
+  },
+  "imho": {
+    "definition": "In My Honest Opinion"
+  },
+  "rtfm": {
+    "definition": "Read The Fucking Manual"
+  },
+  "gtfo": {
+    "definition": "Get The Fuck Out"
+  },
+  "wtf": {
+    "definition": "What The Fuck"
+  },
+  "ig": {
+    "definition": "I Guess",
+    "alternatives": "Instagram"
+  },
+  "fyi": {
+    "definition": "For Your Information"
+  },
+  "iykyk": {
+    "definition": "If You Know You Know"
+  },
+  "ifg": {
+    "definition": "I Feel Good"
+  },
+  "igtg": {
+    "definition": "I've Got To Go"
+  },
+  "icymi": {
+    "definition": "In Case You Missed It"
+  },
+  "ikr": {
+    "definition": "I Know, Right?"
+  },
+  "kiss": {
+    "definition": "Keep It Simple Stupid",
+    "alternatives": "Keep It Super Simple, Keep It Short And Simple"
+  },
+  "hmu": {
+    "definition": "Hit Me Up"
+  },
+  "lol": {
+    "definition": "Laugh Out Loud"
+  },
+  "stfu": {
+    "definition": "Shut The Fuck Up"
+  },
+  "ngl": {
+    "definition": "Not Gonna Lie"
+  },
+  "hru": {
+    "definition": "How Are You"
+  },
+  "srly": {
+    "definition": "Seriously"
+  },
+  "bff": {
+    "definition": "Best Friend Forever"
+  },
+  "tl": {
+    "definition": "Timeline"
+  },
+  "cl": {
+    "definition": "Contact List"
+  },
+  "nvm": {
+    "definition": "Never Mind"
+  },
+  "wyd": {
+    "definition": "What You Doing"
+  },
+  "lmk": {
+    "definition": "Let Me Know"
+  },
+  "idc": {
+    "definition": "I Don't Care"
+  },
+  "til": {
+    "definition": "Today I Learn",
+    "alternatives": "Today I Learned"
+  },
+  "brb": {
+    "definition": "Be Right Back"
+  },
+  "byob": {
+    "definition": "Bring Your Own Beer",
+    "alternatives": "Be Your Own Boss"
+  },
+  "tldr": {
+    "definition": "Too Long, Didn't Read"
+  },
+  "ttyl": {
+    "definition": "Talk To You Later"
+  },
+  "tc": {
+    "definition": "Take Care"
+  },
+  "rofl": {
+    "definition": "Rolling On The Floor, Laughing"
+  },
+  "ootd": {
+    "definition": "Outfit Of The Day"
+  },
+  "goat": {
+    "definition": "Greatest Of All Time"
+  },
+  "tfw": {
+    "definition": "The Feeling When"
+  },
+  "fomo": {
+    "definition": "Fear Of Missing Out"
+  },
+  "tia": {
+    "definition": "Thanks In Advance"
+  },
+  "smh": {
+    "definition": "Shaking My Head"
+  },
+  "pov": {
+    "definition": "Point Of View"
+  },
+  "tbf": {
+    "definition": "To Be Frank",
+    "alternatives": "To Be Fair"
+  },
+  "fgs": {
+    "definition": "For God's sake"
+  },
+  "tbh": {
+    "definition": "To Be Honest"
+  },
+  "ffs": {
+    "definition": "For Fuck Sake"
+  },
+  "ftw": {
+    "definition": "For The Win"
+  },
+  "afaik": {
+    "definition": "As Far As I Know"
+  },
+  "np": {
+    "definition": "No Problem"
+  },
+  "iirc": {
+    "definition": "If I Recall Correctly",
+    "alternatives": "If I Remember Correctly"
+  },
+  "fb": {
+    "definition": "Facebook"
+  },
+  "fwiw": {
+    "definition": "For What It's Worth"
+  },
+  "irl": {
+    "definition": "In Real Life"
+  },
+  "op": {
+    "definition": "Original Poster"
+  },
+  "tysm": {
+    "definition": "Thank You So Much"
+  },
+  "ty": {
+    "definition": "Thank You"
+  },
+  "syl": {
+    "definition": "See You Later"
+  },
+  "hbty": {
+    "definition": "Happy Birthday To You"
+  },
+  "hbu": {
+    "definition": "How About You"
+  },
+  "imy": {
+    "definition": "I Miss You"
+  },
+  "ilu": {
+    "definition": "I Love You",
+    "alternatives": "I Like You"
+  },
+  "sys": {
+    "definition": "See You Soon"
+  },
+  "dygm": {
+    "definition": "Do You Get Me"
+  },
+  "wth": {
+    "definition": "What The Hell"
+  },
+  "nm": {
+    "definition": "Nothing Much",
+    "alternatives": "Never Mind"
+  },
+  "asap": {
+    "definition": "As Soon As Possible"
+  },
+  "uk": {
+    "definition": "You Know"
+  },
+  "ik": {
+    "definition": "I Know"
+  },
+  "hbd": {
+    "definition": "Happy Birthday"
+  },
+  "mgl": {
+    "definition": "More Good Life"
+  },
+  "foss": {
+    "definition": "Free Open-Source Software"
+  },
+  "ss": {
+    "definition": "Screenshot",
+    "alternatives": "Snapshot"
+  },
+  "g2g": {
+    "definition": "Got To Go"
+  },
+  "ynk": {
+    "definition": "You Never Know"
+  },
+  "jk": {
+    "definition": "Just Kidding"
+  },
+  "wbu": {
+    "definition": "What About You"
+  },
+  "wuwh": {
+    "definition": "Wish You Were Here"
+  },
+  "wagmi": {
+    "definition": "We're All Gonna Make It"
+  },
+  "wullnp": {
+    "definition": "Wishing You Long Life And Prosperity"
+  },
+  "dyg": {
+    "definition": "Do You Get?"
+  },
+  "cmiiw": {
+    "definition": "Correct Me If I'm Wrong"
+  },
+  "b2w": {
+    "definition": "Back To Work"
+  },
+  "afk": {
+    "definition": "Away From Keyboard"
+  },
+  "cydm": {
+    "definition": "Check Your Direct Message"
+  },
+  "ofc": {
+    "definition": "Of Course"
+  },
+  "ama": {
+    "definition": "Ask Me Anything"
+  },
+  "awol": {
+    "definition": "Absent Without Official Leave",
+    "alternatives": "Away Without Leave, Absent Without Leave"
+  },
+  "b4n": {
+    "definition": "Bye For Now"
+  },
+  "bak": {
+    "definition": "Back To Keyboard"
+  },
+  "bau": {
+    "definition": "Business As Usual"
+  },
+  "bitmt": {
+    "definition": "But In The Maintime"
+  },
+  "dilligaf": {
+    "definition": "Do I Look Like I Give A Fuck"
+  },
+  "f2p": {
+    "definition": "Free To Play"
+  },
+  "f2f": {
+    "definition": "Face To Face"
+  },
+  "ffa": {
+    "definition": "Free For All"
+  },
+  "gwhtlc": {
+    "definition": "Glad We Had This Little Chat"
+  },
+  "icam": {
+    "definition": "I Couldn't Agree More"
+  },
+  "wdym": {
+    "definition": "What Do You Mean?"
+  },
+  "eta": {
+    "definition": "Estimated Time Of Arrival"
+  },
+  "dm": {
+    "definition": "Direct Message"
+  },
+  "ufo": {
+    "definition": "Unidentified Flying Object"
+  },
+  "cfo": {
+    "definition": "Cheif Financial Officer"
+  },
+  "pip": {
+    "definition": "Picture In Picture",
+    "alternatives": "Pip Installs Python"
+  },
+  "sms": {
+    "definitions": "Short Message Service"
+  },
+  "nsfw": {
+    "definition": "Not Safe For Work"
+  },
+  "bt": {
+    "definition": "Bad Trip"
+  },
+  "ipnts": {
     "definition": "I Prefer Not To Speak"
-    },
-    "wya": {
-      "definition": "Where You At?"
-    },
-    "fren": {
-      "definition": "Friend"
-    },
-    "jsyk": {
-      "definition": "Just So You Know"
-    },
-    "dkm": {
-      "definition": "Don't Kill Me",
-      "alternatives": "Dekameter"
-    },
-    "pfp": {
-      "definition": "Profile Picture",
-      "alternatives": "Picture For Proof"
-    },
-    "fyp": {
-      "definition": "For You page",
-      "alternatives": "For Your Pleasure"
-    },
-    "oomf": {
-      "definition": "One Of My Followers",
-      "alternatives": "One Of My Friends"
-    },
-    "asf": {
-      "definition": "As Fuck"
-    },
-    "fml": {
-      "definition": "Fuck My Life"
-    },
-    "tmi": {
-      "definition": "Too Much Information"
-    },
-    "s/o": {
-      "definition": "Shout Out",
-      "alternatives": "Significant Other"
-    },
-    "yt": {
-      "definition": "Whitey",
-      "alternatives": "YouTube"
-    },
-    "omg": {
-      "definition": "Oh My God!"
-    },
-    "ong": {
-      "definition": "On God"
-    },
-    "yktv": {
-      "definition": "You Know The Vibe!"
-    },
-    "yolo": {
-      "definition": "You Only Live Once!"
-    },
-    "iktr": {
-      "definition": "I Know That's Right!"
-    },
-    "dw": {
-      "definition": "Don't Worry",
-      "alternatives": "Dear Wife"
-    },
-    "yk": {
-      "definition": "You're Kidding",
-      "alternatives": "You Know"
-    },
-    "istg": {
-      "definition": "I Swear To God"
-    },
-    "wtaf": {
-      "definition": "What The Actual Fuck"
-    },
-    "ldr": {
-      "definition": "Long Distance Relationship",
-      "alternatives": "Light Dependent Resistor"
-    },
-    "loml": {
-      "definition": "Love Of My Life"
-    },
-    "atp": {
-      "definition": "At This Point",
-      "alternatives": "Adenosine Triphosphate"
-    },
-    "tw": {
-      "definition": "Trigger Warning"
-    },
-    "bipoc": {
-      "definition": "Black, Indigeneous and People Of Colour"
-    },
-    "gm": {
-      "definition": "Good Morning",
-      "alternatives": "General Manager"
-    },
-    "sahm": {
-      "definition": "Stay At Home Mom"
-    }, 
-    "gn": {
-      "definition": "Good Night"
-    }, 
-    "btw": {
-      "definition": "By The Way"
-    }, 
-    "yrr": {
-      "definition": "You Are Right"
-    }, 
-    "ihtg": {
-      "definition": "I Have To Go"
-    }, 
-    "wru": {
-      "definition": "Who Are You"
-    }, 
-    "if": {
-      "definition": "I'm Fine"
-    }, 
-    "it": {
-      "definition": "Information Technology"
-    }, 
-    "is": {
-      "definition": "Internet Services"
-    }, 
-    "ip": {
-      "definition": "Internet Protocol"
-    } 
-    "cs": {
-      "definition": "Computer Science"
-    }, 
-    "cse": {
-      "definition": "Computer Science & Engineering"
-    }, 
-    "isp": {
-      "definition": "Internet Service Provider"
-    }, 
-    "dns": {
-      "definition": "Domain Name Service"
-    } 
-
+  },
+  "wya": {
+    "definition": "Where You At?"
+  },
+  "fren": {
+    "definition": "Friend"
+  },
+  "jsyk": {
+    "definition": "Just So You Know"
+  },
+  "dkm": {
+    "definition": "Don't Kill Me",
+    "alternatives": "Dekameter"
+  },
+  "pfp": {
+    "definition": "Profile Picture",
+    "alternatives": "Picture For Proof"
+  },
+  "fyp": {
+    "definition": "For You page",
+    "alternatives": "For Your Pleasure"
+  },
+  "oomf": {
+    "definition": "One Of My Followers",
+    "alternatives": "One Of My Friends"
+  },
+  "asf": {
+    "definition": "As Fuck"
+  },
+  "fml": {
+    "definition": "Fuck My Life"
+  },
+  "tmi": {
+    "definition": "Too Much Information"
+  },
+  "s/o": {
+    "definition": "Shout Out",
+    "alternatives": "Significant Other"
+  },
+  "yt": {
+    "definition": "Whitey",
+    "alternatives": "YouTube"
+  },
+  "omg": {
+    "definition": "Oh My God!"
+  },
+  "ong": {
+    "definition": "On God"
+  },
+  "yktv": {
+    "definition": "You Know The Vibe!"
+  },
+  "yolo": {
+    "definition": "You Only Live Once!"
+  },
+  "iktr": {
+    "definition": "I Know That's Right!"
+  },
+  "dw": {
+    "definition": "Don't Worry",
+    "alternatives": "Dear Wife"
+  },
+  "yk": {
+    "definition": "You're Kidding",
+    "alternatives": "You Know"
+  },
+  "istg": {
+    "definition": "I Swear To God"
+  },
+  "wtaf": {
+    "definition": "What The Actual Fuck"
+  },
+  "ldr": {
+    "definition": "Long Distance Relationship",
+    "alternatives": "Light Dependent Resistor"
+  },
+  "loml": {
+    "definition": "Love Of My Life"
+  },
+  "atp": {
+    "definition": "At This Point",
+    "alternatives": "Adenosine Triphosphate"
+  },
+  "tw": {
+    "definition": "Trigger Warning"
+  },
+  "bipoc": {
+    "definition": "Black, Indigeneous and People Of Colour"
+  },
+  "gm": {
+    "definition": "Good Morning",
+    "alternatives": "General Manager"
+  },
+  "sahm": {
+    "definition": "Stay At Home Mom"
+  },
+  "gn": {
+    "definition": "Good Night"
+  },
+  "btw": {
+    "definition": "By The Way"
+  },
+  "yrr": {
+    "definition": "You Are Right"
+  },
+  "ihtg": {
+    "definition": "I Have To Go"
+  },
+  "wru": {
+    "definition": "Who Are You"
+  },
+  "if": {
+    "definition": "I'm Fine"
+  },
+  "it": {
+    "definition": "Information Technology"
+  },
+  "is": {
+    "definition": "Internet Services"
+  },
+  "ip": {
+    "definition": "Internet Protocol"
+  },
+  "cs": {
+    "definition": "Computer Science"
+  },
+  "cse": {
+    "definition": "Computer Science & Engineering"
+  },
+  "isp": {
+    "definition": "Internet Service Provider"
+  },
+  "dns": {
+    "definition": "Domain Name Service"
+  }
 }
-
