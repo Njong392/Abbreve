@@ -2,44 +2,80 @@ import { useState, useEffect } from "react";
 
 const Form = () => {
   const [data, setData] = useState(null);
-  const [error, setError] = useState(false);
-  const [errorMessage, setErrorMessage] = useState(false);
+  const [error, setError] = useState(null);
   const [userInput, setUserInput] = useState("");
-  const [isUserInputBlank, setIsUserInputBlank] = useState(false);
 
-  const fetchData = (e) => {
-    e.preventDefault();
-    const url = `/server/db/${userInput.toLowerCase()}.json`;
+  const getDefinitionFromDb = async (query, encodeBeforeSearch = true) => {
+    // We need to encode twice to prevent the browser from decoding the query
+    // before actually fetching the file!
+    const dbFilename = encodeBeforeSearch
+      ? encodeURIComponent(encodeURIComponent(query.toLowerCase()))
+      : encodeURIComponent(query);
+    const url = `/server/db/${dbFilename}.json`;
 
-    if (userInput.trim().length === 0) {
-      setIsUserInputBlank(true);
-    } else {
-      fetch(`${url}`)
-        .then((response) => {
-          if (response.status === 404) {
-            setIsUserInputBlank(false);
-            setErrorMessage(true);
-          } else if (!response.ok) {
-            throw Error("Resource not found");
-          }
-          return response.json();
-        })
-        .then((data) => {
-          setData(data);
-          setError(false);
-          setErrorMessage(false);
-          setIsUserInputBlank(false);
-        })
-        .catch((err) => {
-          console.log(err.message);
-          setErrorMessage(true);
-          setIsUserInputBlank(false);
-        });
+    try {
+      const dbQuery = await fetch(url);
+
+      if (dbQuery.status === 404) {
+        return null;
+      }
+
+      return await dbQuery.json();
+    } catch (err) {
+      console.log(err.message);
+      return undefined;
     }
   };
 
+  const fetchData = async (query) => {
+    let mappings;
+
+    try {
+      const mappingsFile = await fetch("/server/encodedAbbrMappings.json");
+      mappings = await mappingsFile.json();
+    } catch {
+      // mappings file was not found
+    }
+
+    if (query.trim().length === 0) {
+      setError("emptyQuery");
+    } else {
+      let data = await getDefinitionFromDb(query);
+
+      if (data) {
+        setError(null);
+        setData(data);
+        return;
+      }
+
+      if (mappings) {
+        for (const encodedAbbr in mappings) {
+          const slang = mappings[encodedAbbr];
+
+          if (slang == query) {
+            data = await getDefinitionFromDb(encodedAbbr, false);
+
+            if (data) {
+              setError(null);
+              setData(data);
+              return; // Prevent O(n) as early as possible
+            }
+          }
+        }
+      }
+
+      setError(data === null ? "slangNotFound" : "unknown");
+    }
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    await fetchData(userInput);
+  };
+
   const sanitizeInput = (value) => {
-    return value.replace(/[^a-z]/gi, "");
+    return value.trim().toLowerCase();
   };
 
   const handlePaste = (event) => {
@@ -53,10 +89,8 @@ const Form = () => {
   };
 
   useEffect(() => {
-    setErrorMessage("");
-    setData(false);
-    setIsUserInputBlank(false);
-    setError(false);
+    setData(null);
+    setError(null);
   }, [userInput]);
 
   return (
@@ -81,7 +115,10 @@ const Form = () => {
         </div>
 
         <div>
-          <form className="block md:flex items-center gap-3" id="form">
+          <form
+            onSubmit={handleSubmit}
+            className="block md:flex items-center gap-3"
+            id="form">
             <div className="bg-ash h-11 rounded-full flex items-center p-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -108,8 +145,8 @@ const Form = () => {
             </div>
 
             <button
-              onClick={fetchData}
-              className="bg-deeppurple text-ash font-bold rounded-xl hover:scale-110 p-2 mt-2 md:mt-0">
+              className="bg-deeppurple text-ash font-bold rounded-xl hover:scale-110 p-2 mt-2 md:mt-0"
+              type="submit">
               Submit
             </button>
           </form>
@@ -128,13 +165,13 @@ const Form = () => {
             </div>
           )}
 
-          {error && (
+          {error === "unknown" && (
             <div className="text-purple text-sm mt-2">
               Oops. Some connection error occured.
             </div>
           )}
 
-          {isUserInputBlank && (
+          {error === "emptyQuery" && (
             <div className="mt-4">
               <p className="text-purple">
                 Search bar 🔍 is Empty! Please input a slang.
@@ -142,7 +179,7 @@ const Form = () => {
             </div>
           )}
 
-          {errorMessage && (
+          {error === "slangNotFound" && (
             <div className="mt-4">
               <p className="text-purple">
                 This entry does not exist in our records as of yet :(
