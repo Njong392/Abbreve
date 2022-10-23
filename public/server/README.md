@@ -1,11 +1,11 @@
 # USAGE
 
-## Generating Slangs from db.json
+## Generating Slang from db.json
 
 In your terminal run the `db:eject` script: `npm run db:eject`
 > *WARNING*: `db:eject` script should **ONLY** be run if it's content is newer than the definitions in the `db` directory, since by default, all generated definitions in the `db` directory would be cleared before generating new ones.
 
-## Cleaning up Generated Slangs
+## Cleaning up Generated Slang
 
 In your termninal run the `db:cleanup` script: `npm run db:cleanup`
 > *WARNING*: `db:cleanup` script **REMOVES** all abbreviations in the `db` directory! Use with caution
