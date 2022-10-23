@@ -9,7 +9,15 @@ const Form = () => {
   const [isUserInputBlank, setIsUserInputBlank] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
 
+  function clearDataBeforeFetch() {
+    setErrorMessage("");
+    setData(false);
+    setIsUserInputBlank(false);
+    setError(false);
+  }
+
   const fetchData = (e) => {
+    clearDataBeforeFetch();
     setIsLoading(true);
     e.preventDefault();
     const url = `/server/db/${userInput}.json`;
@@ -35,7 +43,7 @@ const Form = () => {
           setTimeout(() => {
             setData(data);
             setIsLoading(false);
-          }, 3000);
+          }, 2000);
 
           // UNCOMMENT 👇
           // setData(data);
@@ -54,17 +62,12 @@ const Form = () => {
   };
 
   useEffect(() => {
-    setErrorMessage("");
-    setData(false);
-    setIsUserInputBlank(false);
-    setError(false);
-    setIsLoading(false);
+    clearDataBeforeFetch();
   }, [userInput]);
 
   return (
     <div className="bg-dark py-12 px-[14px]">
       <section className="block justify-center md:pb-16 md:flex items-center">
-        {isLoading && <LoadingSpinner />}
         <div className="md:w-1/2 md:pr-20 md:text-left text-center">
           <h2 className="text-purple font-bold text-3xl">
             <span className="text-ash">Start by entering a slang,</span> and our
@@ -112,18 +115,19 @@ const Form = () => {
             </button>
           </form>
 
-          {data && (
-            <div className="mt-2 text-purple font-bold text-xl ml-2">
-              <p role="region" aria-live="assertive">
-                {data.definition}
-              </p>
-            </div>
-          )}
+          {isLoading && <LoadingSpinner />}
 
           {data && (
-            <div className="mt-2 text-purple font-bold text-xs ml-2">
-              <p>{data.alternatives}</p>
-            </div>
+            <>
+              <div className="mt-2 text-purple font-bold text-xl ml-2">
+                <p role="region" aria-live="assertive">
+                  {data.definition}
+                </p>
+              </div>
+              <div className="mt-2 text-purple font-bold text-xs ml-2">
+                <p>{data.alternatives}</p>
+              </div>
+            </>
           )}
 
           {error && (
