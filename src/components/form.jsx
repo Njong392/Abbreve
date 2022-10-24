@@ -61,7 +61,9 @@ const Form = () => {
     } catch {
       data = undefined;
     } finally {
-      setError(data === null ? "slangNotFound" : "unknown");
+      if (!data) {
+        setError(data === null ? "slangNotFound" : "unknown");
+      }
     }
   };
 
