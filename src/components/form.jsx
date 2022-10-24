@@ -28,45 +28,39 @@ const Form = () => {
   };
 
   const fetchData = async (query) => {
-    if (!userInput.trim()) {
+    if (query.trim().length === 0) {
+      setError("emptyQuery");
       return;
     }
-    let mappings;
+
+    let data = await getDefinitionFromDb(query);
+
+    if (data) {
+      setError(null);
+      setData(data);
+      return;
+    }
 
     try {
       const mappingsFile = await fetch("/server/encodedAbbrMappings.json");
-      mappings = await mappingsFile.json();
-    } catch {
-      // mappings file was not found
-    }
+      const mappings = await mappingsFile.json();
 
-    if (query.trim().length === 0) {
-      setError("emptyQuery");
-    } else {
-      let data = await getDefinitionFromDb(query);
+      for (const encodedAbbr in mappings) {
+        const slang = mappings[encodedAbbr];
 
-      if (data) {
-        setError(null);
-        setData(data);
-        return;
-      }
+        if (slang == query) {
+          data = await getDefinitionFromDb(encodedAbbr, false);
 
-      if (mappings) {
-        for (const encodedAbbr in mappings) {
-          const slang = mappings[encodedAbbr];
-
-          if (slang == query) {
-            data = await getDefinitionFromDb(encodedAbbr, false);
-
-            if (data) {
-              setError(null);
-              setData(data);
-              return; // Prevent O(n) as early as possible
-            }
+          if (data) {
+            setError(null);
+            setData(data);
+            break; // Prevent O(n) as early as possible
           }
         }
       }
-
+    } catch {
+      data = undefined;
+    } finally {
       setError(data === null ? "slangNotFound" : "unknown");
     }
   };
