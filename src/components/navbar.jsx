@@ -1,7 +1,4 @@
-
 import Logo from "../assets/logo.png";
-import { Link } from "react-scroll";
-
 
 const Navbar = () => {
   return (
@@ -16,7 +13,9 @@ const Navbar = () => {
         </div>
 
         <div className="flex items-center md:flex">
-          <a href="https://github.com/Njong392/Abbreve">
+          <a href="https://github.com/Njong392/Abbreve"
+            target="_blank"
+            rel="noopener noreferrer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -28,19 +27,10 @@ const Navbar = () => {
               />
             </svg>
           </a>
-          <Link
-            to="form"
-            smooth={true}
-            duration={600}
-            className="bg-deeppurple text-ash font-bold rounded-xl p-2 hover:scale-110 outline-none hidden md:block ml-4 cursor-pointer">
-            Get Started{" "}
-          </Link>
         </div>
       </div>
     </nav>
   );
 };
-
-               
 
 export default Navbar;

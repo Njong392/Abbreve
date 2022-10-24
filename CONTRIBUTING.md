@@ -28,7 +28,7 @@ Thank you for taking the time to contribute to our project. Please take a moment
 
 ## Prerequisites
 
-- Open Source Etiquette: If you've never contributed to an open source project before, have a read of [Basic etiquette](https://developer.mozilla.org/en-US/docs/MDN/Contribute/GitHub_beginners) for open source projects.
+- Open Source Etiquette: If you've never contributed to an open source project before, have a read of [Basic etiquette](https://developer.mozilla.org/en-US/docs/MDN/Community/Open_source_etiquette) for open source projects.
 - Basic familiarity with Git and GitHub: If you are also new to these tools, visit [GitHub for complete beginners](https://developer.mozilla.org/en-US/docs/MDN/Contribute/GitHub_beginners) for a comprehensive introduction to them
 - [Node.js](https://nodejs.org/) is installed.
 

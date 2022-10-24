@@ -95,7 +95,7 @@ const Form = () => {
 
   return (
     <div className="bg-dark py-12 px-[14px]">
-      <section className="block justify-center pb-16 md:flex">
+      <section className="block justify-center md:pb-16 md:flex items-center">
         <div className="md:w-1/2 md:pr-20 md:text-left text-center">
           <h2 className="text-purple font-bold text-3xl">
             <span className="text-ash">Start by entering a slang,</span> and our
@@ -105,15 +105,7 @@ const Form = () => {
             *For now, abbreviations are one-way. For example, Idk can only
             translate to 'I don't know', and not the other way round.
           </p>
-
-          <p className="text-sm mt-5 text-ash">
-            Found something odd?{" "}
-            <a href="https://github.com/Njong392/Abbreve">
-              <span className="text-purple">Create a github issue.</span>
-            </a>
-          </p>
         </div>
-
         <div>
           <form
             onSubmit={handleSubmit}
