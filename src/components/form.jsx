@@ -28,6 +28,9 @@ const Form = () => {
   };
 
   const fetchData = async (query) => {
+    if (!userInput.trim()) {
+      return;
+    }
     let mappings;
 
     try {
