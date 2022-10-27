@@ -8,7 +8,7 @@ Abbreve helps you keep up, by providing meanings to these abbreviations.
 
 # :movie_camera: Project Overview
 
-You can check out the live project [here](https://abbreve.vercel.app/)
+You can check out the live project [here](https://www.abbreve.tech/)
 
 All you need to do is start entering a slang in the search bar, and the meaning will be provided. Below the main meaning of the slang could be alternative meanings.
 
@@ -129,4 +129,4 @@ Before pushing your changes, please check and ensure that all your additions fol
 
 This project is licensed with [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
-If you like the [project](https://abbreve.vercel.app/), Don't forget to leave a star :star: . All support is highly appreciated :100:
+If you like the [project](https://www.abbreve.tech/), Don't forget to leave a star :star: . All support is highly appreciated :100:
