@@ -52,7 +52,7 @@ git clone git@github.com:emy/Abbreve.git
 
 ```sh
 cd Abbreve
-git remote add abbreve git@github.com:mdn/content.git
+git remote add abbreve git@github.com:Njong392/Abbreve.git
 ```
 
 > **Note**:  You can give any name to your remote. For this example, we are using `abbreve`
