@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { LoadingSpinner } from "./loadingSpinner";
 
 const Form = () => {
@@ -8,6 +8,8 @@ const Form = () => {
   const [userInput, setUserInput] = useState("");
   const [isUserInputBlank, setIsUserInputBlank] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+  const previousUserInput = useRef(undefined);
+  const hasUserInputChanged = previousUserInput.current !== userInput;
 
   function clearDataBeforeFetch() {
     setErrorMessage("");
@@ -59,6 +61,7 @@ const Form = () => {
           setIsLoading(false);
         });
     }
+    previousUserInput.current = userInput;
   };
 
   useEffect(() => {
@@ -109,7 +112,7 @@ const Form = () => {
 
             <button
               onClick={fetchData}
-              disabled={isLoading}
+              disabled={isLoading || !hasUserInputChanged}
               className="bg-deeppurple text-ash font-bold rounded-xl hover:scale-110 p-2 mt-2 md:mt-0">
               Submit
             </button>
