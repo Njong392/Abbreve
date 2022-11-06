@@ -6,7 +6,7 @@ const Form = () => {
   const [error, setError] = useState(false);
   const [errorMessage, setErrorMessage] = useState(false);
   const [userInput, setUserInput] = useState("");
-  const [isUserInputBlank, setIsUserInputBlank] = useState(false);
+  const [isUserInputBlank, setIsUserInputBlank] = useState(true);
   const [isLoading, setIsLoading] = useState(false);
   const previousUserInput = useRef(undefined);
   const hasUserInputChanged = previousUserInput.current !== userInput;
@@ -19,7 +19,10 @@ const Form = () => {
   }
 
   const fetchData = (e) => {
-    clearDataBeforeFetch();
+    if (hasUserInputChanged) {
+      clearDataBeforeFetch();
+    }
+
     setIsLoading(true);
     e.preventDefault();
     const url = `/server/db/${userInput}.json`;
@@ -61,10 +64,13 @@ const Form = () => {
           setIsLoading(false);
         });
     }
-    previousUserInput.current = userInput;
   };
 
   useEffect(() => {
+    if (!isUserInputBlank) {
+      previousUserInput.current = userInput;
+    }
+
     clearDataBeforeFetch();
   }, [userInput]);
 
