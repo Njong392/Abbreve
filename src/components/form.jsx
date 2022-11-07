@@ -47,8 +47,11 @@ const Form = () => {
           // REMOVE --> ONLY FOR TESTING
           setTimeout(() => {
             setData(data);
+            setError(false);
+            setErrorMessage(false);
+            setIsUserInputBlank(false);
             setIsLoading(false);
-          }, 2000);
+          }, 300);
 
           // UNCOMMENT 👇
           // setData(data);
