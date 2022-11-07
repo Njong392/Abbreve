@@ -1,6 +1,6 @@
 name: New Abbreviation
 description: Want to add a new abbreviation? Suggest here!
-title: 'ABB: <description>'
+title: 'ABBREVIATION: <description>'
 labels: ['abbreviation']
 body:
   - type: textarea
