@@ -1,0 +1,13 @@
+name: New Abbreviation
+description: Want to add a new abbreviation? Suggest here!
+title: 'ABBREVIATION: <description>'
+labels: ['abbreviation']
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What abbreviations do you want to add? Give a short list.
+    validations:
+      required: true
+  
