@@ -44,21 +44,11 @@ const Form = () => {
           return response.json();
         })
         .then((data) => {
-          // REMOVE --> ONLY FOR TESTING
-          setTimeout(() => {
-            setData(data);
-            setError(false);
-            setErrorMessage(false);
-            setIsUserInputBlank(false);
-            setIsLoading(false);
-          }, 300);
-
-          // UNCOMMENT 👇
-          // setData(data);
-          // setError(false);
-          // setErrorMessage(false);
-          // setIsUserInputBlank(false);
-          // setIsLoading(false);
+          setData(data);
+          setError(false);
+          setErrorMessage(false);
+          setIsUserInputBlank(false);
+          setIsLoading(false);
         })
         .catch((err) => {
           console.log(err.message);
