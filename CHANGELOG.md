@@ -1,3 +1,12 @@
+# [0.17.0](https://github.com/Njong392/Abbreve/compare/v0.16.0...v0.17.0) (2022-11-09)
+
+
+### Features
+
+* **abbreviation:** added description for WIP ([#179](https://github.com/Njong392/Abbreve/issues/179)) ([cbeabcc](https://github.com/Njong392/Abbreve/commit/cbeabcc4369ed3bf120690483eb3dc43242a0537))
+
+
+
 # [0.16.0](https://github.com/Njong392/Abbreve/compare/v0.13.1...v0.16.0) (2022-11-01)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * added new abbreviations to structure branch ([#118](https://github.com/Njong392/Abbreve/issues/118)) ([aa7cae2](https://github.com/Njong392/Abbreve/commit/aa7cae2c0936caf44eb9785304321703a4cd9aad))
-
-
-
-## [0.2.2](https://github.com/Njong392/Abbreve/compare/v0.2.1...v0.2.2) (2022-10-08)
-
-
-### Bug Fixes
-
-* removed broken credits link ([5e51196](https://github.com/Njong392/Abbreve/commit/5e51196da3b473198b54b8a00950c6a6386dd6a9))
 
 
 
