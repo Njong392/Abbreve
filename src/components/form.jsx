@@ -90,7 +90,7 @@ const Form = () => {
             <button
               onClick={fetchData}
               className="bg-deeppurple text-ash font-bold rounded-xl hover:scale-110 p-2 mt-2 md:mt-0">
-              Submit
+              Search
             </button>
           </form>
 
