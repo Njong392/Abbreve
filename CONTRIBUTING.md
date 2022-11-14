@@ -45,7 +45,7 @@ Setting up the project and making changes
 
 ```sh
 cd ~/Desktop
-git clone git@github.com:emy/Abbreve.git 
+git clone git@github.com:Njong392/Abbreve.git
 ```
 
 3. Now, you will create a remote which will be used in tracking changes and keeping your local clone as well as your fork up-to-date:
