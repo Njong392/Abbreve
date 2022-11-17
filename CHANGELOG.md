@@ -1,3 +1,12 @@
+## [0.17.1](https://github.com/Njong392/Abbreve/compare/v0.17.0...v0.17.1) (2022-11-14)
+
+
+### Bug Fixes
+
+* fixing url for clonning the porject ([#189](https://github.com/Njong392/Abbreve/issues/189)) ([88a1635](https://github.com/Njong392/Abbreve/commit/88a163529e73daee349ea101708783b96fb9cfc2))
+
+
+
 # [0.17.0](https://github.com/Njong392/Abbreve/compare/v0.16.0...v0.17.0) (2022-11-09)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * UI/UX improvements - moved search box to the top ([#122](https://github.com/Njong392/Abbreve/issues/122)) ([0031b16](https://github.com/Njong392/Abbreve/commit/0031b160f91cc3906d9fd6ed91bed6f66141276a))
-
-
-
-# [0.3.0](https://github.com/Njong392/Abbreve/compare/v0.2.2...v0.3.0) (2022-10-10)
-
-
-### Features
-
-* added new abbreviations to structure branch ([#118](https://github.com/Njong392/Abbreve/issues/118)) ([aa7cae2](https://github.com/Njong392/Abbreve/commit/aa7cae2c0936caf44eb9785304321703a4cd9aad))
 
 
 
