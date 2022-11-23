@@ -1,25 +1,44 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
+import { LoadingSpinner } from "./loadingSpinner";
 
 const Form = () => {
   const [data, setData] = useState(null);
   const [error, setError] = useState(false);
   const [errorMessage, setErrorMessage] = useState(false);
   const [userInput, setUserInput] = useState("");
-  const [isUserInputBlank, setIsUserInputBlank] = useState(false);
+  const [isUserInputBlank, setIsUserInputBlank] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
+  const previousUserInput = useRef(undefined);
+  const hasUserInputChanged = previousUserInput.current !== userInput;
+
+  function clearDataBeforeFetch() {
+    setErrorMessage("");
+    setData(false);
+    setIsUserInputBlank(false);
+    setError(false);
+  }
 
   const fetchData = (e) => {
+    if (hasUserInputChanged) {
+      clearDataBeforeFetch();
+    }
+
+    setIsLoading(true);
     e.preventDefault();
     const url = `/server/db/${userInput}.json`;
 
     if (userInput.trim().length === 0) {
       setIsUserInputBlank(true);
+      setIsLoading(false);
     } else {
       fetch(`${url}`)
         .then((response) => {
           if (response.status === 404) {
             setIsUserInputBlank(false);
             setErrorMessage(true);
+            setIsLoading(false);
           } else if (!response.ok) {
+            setIsLoading(false);
             throw Error("Resource not found");
           }
           return response.json();
@@ -29,20 +48,23 @@ const Form = () => {
           setError(false);
           setErrorMessage(false);
           setIsUserInputBlank(false);
+          setIsLoading(false);
         })
         .catch((err) => {
           console.log(err.message);
           setErrorMessage(true);
           setIsUserInputBlank(false);
+          setIsLoading(false);
         });
     }
   };
 
   useEffect(() => {
-    setErrorMessage("");
-    setData(false);
-    setIsUserInputBlank(false);
-    setError(false);
+    if (!isUserInputBlank) {
+      previousUserInput.current = userInput;
+    }
+
+    clearDataBeforeFetch();
   }, [userInput]);
 
   return (
@@ -89,23 +111,25 @@ const Form = () => {
 
             <button
               onClick={fetchData}
+              disabled={isLoading || !hasUserInputChanged}
               className="bg-deeppurple text-ash font-bold rounded-xl hover:scale-110 p-2 mt-2 md:mt-0">
               Search
             </button>
           </form>
 
-          {data && (
-            <div className="mt-2 text-purple font-bold text-xl ml-2">
-              <p role="region" aria-live="assertive">
-                {data.definition}
-              </p>
-            </div>
-          )}
+          {isLoading && <LoadingSpinner />}
 
           {data && (
-            <div className="mt-2 text-purple font-bold text-xs ml-2">
-              <p>{data.alternatives}</p>
-            </div>
+            <>
+              <div className="mt-2 text-purple font-bold text-xl ml-2">
+                <p role="region" aria-live="assertive">
+                  {data.definition}
+                </p>
+              </div>
+              <div className="mt-2 text-purple font-bold text-xs ml-2">
+                <p>{data.alternatives}</p>
+              </div>
+            </>
           )}
 
           {error && (
