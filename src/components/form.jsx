@@ -86,21 +86,22 @@ const Form = () => {
                 }
               />
             </div>
+            <div className="flex gap-2 md:lg:flex-none ">
+              <button
+                onClick={fetchData}
+                className="bg-deeppurple text-ash font-bold rounded-xl hover:scale-110 p-2 mt-2 md:mt-0">
+                Search
+              </button>
 
-            <button
-              onClick={fetchData}
-              className="bg-deeppurple text-ash font-bold rounded-xl hover:scale-110 p-2 mt-2 md:mt-0">
-              Search
-            </button>
-          </form>
-
-          {data && (
-            <div className="mt-2 text-purple font-bold text-xl ml-2">
-              <p role="region" aria-live="assertive">
-                {data.definition}
-              </p>
+              {data && (
+                <div className="mt-4 md:lg:mt-2 text-purple font-bold text-xl ml-2">
+                  <p role="region" aria-live="assertive">
+                    {data.definition}
+                  </p>
+                </div>
+              )}
             </div>
-          )}
+          </form>
 
           {data && (
             <div className="mt-2 text-purple font-bold text-xs ml-2">
