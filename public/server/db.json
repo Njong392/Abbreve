@@ -336,6 +336,34 @@
   
   "pov": {
     "definition": "Point Of View"
+  },
+
+  "ifyp": {
+    "definition": "I Feel Your Pain"
+  },
+
+  "imu": {
+    "definition": "I Miss You"
+  },
+
+  "wywh": {
+    "definition": "Wish You Were Here"
+  },
+
+  "ssdd": {
+    "definition": "Same Stuff, Different Day"
+  },
+
+  "omdb": {
+    "definition": "Over My Dead Body"
+  },
+
+  "soml": {
+    "definition": "Story Of My Life"
+  },
+
+  "rbtl": {
+    "definition": "Read Between The Lines"
   }
   
 }
