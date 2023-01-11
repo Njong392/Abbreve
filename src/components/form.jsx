@@ -123,7 +123,7 @@ const Form = () => {
 
           {data && (
             <div className="bg-ash shadow-lg border-2 border-deeppurple py-2 pl-2 rounded-lg mt-4">
-              <div className="mt-1 text-purple font-bold text-xl ml-2 dark:text-deeppurple">
+              <div className="mt-1 font-bold text-xl ml-2 text-deeppurple">
                 <p role="region" aria-live="assertive">
                   {data.definition}
                 </p>
