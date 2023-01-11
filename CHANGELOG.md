@@ -1,3 +1,12 @@
+## [0.17.2](https://github.com/Njong392/Abbreve/compare/v0.17.1...v0.17.2) (2023-01-11)
+
+
+### Bug Fixes
+
+* fixed spacing issues on mobile and large view and fixed text siz… ([#207](https://github.com/Njong392/Abbreve/issues/207)) ([37222d0](https://github.com/Njong392/Abbreve/commit/37222d053fa7aa2ad789eb2ed50255b319ff4341))
+
+
+
 ## [0.17.1](https://github.com/Njong392/Abbreve/compare/v0.17.0...v0.17.1) (2022-11-14)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Change letter and add word in README ([#144](https://github.com/Njong392/Abbreve/issues/144)) ([aac3d6c](https://github.com/Njong392/Abbreve/commit/aac3d6c6533044dfc8d82d7c4a945a7c8c1f042f))
-
-
-
-# [0.13.0](https://github.com/Njong392/Abbreve/compare/v0.3.0...v0.13.0) (2022-10-14)
-
-
-### Features
-
-* UI/UX improvements - moved search box to the top ([#122](https://github.com/Njong392/Abbreve/issues/122)) ([0031b16](https://github.com/Njong392/Abbreve/commit/0031b160f91cc3906d9fd6ed91bed6f66141276a))
 
 
 
