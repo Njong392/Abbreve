@@ -9,22 +9,30 @@ import Form from "./form";
 
 const Hero = () => {
   return (
-    <main className="bg-dark md:px-40 py-12 px-[24px] dark:bg-ash">
-      <header className="text-center mt-12">
+    <main className="bg-dark  md:px-20 lg:px-40 py-12 px-[24px] dark:bg-ash">
+      <header className="text-center lg:mt-12">
         <div className="text-4xl md:text-7xl mb-5 relative">
-          <h1 className="text-purple font-bold dark:text-deeppurple">Writing on the internet</h1>
-          <h1 className="text-ash font-bold mt-2 dark:text-dark">is changing. IYKYK</h1>
+          <h1 className="text-purple font-bold dark:text-deeppurple">
+            Writing on the internet
+          </h1>
+          <h1 className="text-ash font-bold mt-2 dark:text-dark">
+            is changing. IYKYK
+          </h1>
           <div className="absolute right-14 bottom-9 lg:visible invisible">
             <div className="w-24 h-4 bg-deeppurple relative -rotate-6">
               <div className="absolute top-[3px]">
-                <p className="text-ash text-sm font-semibold dark:text-dark">If You Know,</p>
+                <p className="text-ash text-sm font-semibold dark:text-dark">
+                  If You Know,
+                </p>
               </div>
             </div>
           </div>
           <div className="absolute right-12 bottom-3 lg:visible invisible">
             <div className="right-8 w-20 h-4 bg-deeppurple relative -rotate-6">
               <div className="absolute top-[3px]">
-                <p className="text-ash text-sm font-semibold dark:text-dark">You Know.</p>
+                <p className="text-ash text-sm font-semibold dark:text-dark">
+                  You Know.
+                </p>
               </div>
             </div>
           </div>
@@ -41,13 +49,16 @@ const Hero = () => {
 
       <Form />
 
-      <section className="block justify-center gap-10 items-center md:flex">
+      <section className="block justify-center  items-center md:flex">
         <div className="md:w-1/2 md:pr-20 md:text-left text-center">
-          <p className="text-purple font-bold text-3xl dark:text-deeppurple">
-            <span className="text-ash dark:text-dark">Abbreve (A-bree-vay)</span> is an open
-            source dictionary for <span className="text-ash dark:text-dark">slang.</span>{" "}
+          <p className="text-purple font-bold text-2xl lg:text-3xl dark:text-deeppurple">
+            <span className="text-ash dark:text-dark">
+              Abbreve (A-bree-vay)
+            </span>{" "}
+            is an open source dictionary for{" "}
+            <span className="text-ash dark:text-dark">slang.</span>{" "}
           </p>
-          <p className="text-purple font-bold text-3xl mt-2 dark:text-deeppurple">
+          <p className="text-purple font-bold text-2xl lg:text-3xl mt-2 dark:text-deeppurple pb-8">
             Curated by the community, for the community.
           </p>
         </div>
@@ -65,16 +76,21 @@ const Hero = () => {
             </div>
           </div>
 
-          <p className="mt-4">
+          <p className="mt-2">
             <span className="text-gray">Replying to</span>{" "}
-            <span className="text-purple dark:text-deeppurple">@DunsinWebDev and @njongemy</span>
+            <span className="text-purple dark:text-deeppurple">
+              @DunsinWebDev and @njongemy
+            </span>
           </p>
           <p className="mt-2 text-ash dark:text-dark">
             idk wtf ur on about... ICYMI IMHO RTFM, KISS, SHIT or GTFO.
           </p>
           <p className="text-sm text-gray">
             18:31 . 07 Sep 22 .{" "}
-            <span className="text-purple dark:text-deeppurple"> Twitter Web App</span>
+            <span className="text-purple dark:text-deeppurple">
+              {" "}
+              Twitter Web App
+            </span>
           </p>
 
           <div className="absolute w-32 border-2 border-purple rounded-lg p-2 -top-14 -right-4 bg-dark rotate-6 invisible lg:visible dark:border-deeppurple">
@@ -85,7 +101,7 @@ const Hero = () => {
         </div>
       </section>
 
-      <section className="block justify-center gap-10 mt-20 items-center md:flex">
+      <section className=" justify-center gap-10 mt-10 items-center flex flex-col lg:flex-row">
         <div className="border-2 p-4 rounded-lg border-purple md:rotate-3 relative md:mt-0 dark:border-deeppurple">
           <div className="flex gap-2 items-center">
             <img src={emy} alt="" className="h-12 w-12 rounded-full" />
@@ -120,14 +136,18 @@ const Hero = () => {
 
           <p className="text-sm text-gray mt-2">
             18:11 . 07 Sep 22 .{" "}
-            <span className="text-purple dark:text-deeppurple"> Twitter for Android</span>
+            <span className="text-purple dark:text-deeppurple">
+              {" "}
+              Twitter for Android
+            </span>
           </p>
         </div>
 
-        <div className="md:w-1/2 md:text-left text-center mt-5 md:mt-0">
-          <h2 className="text-purple font-bold text-3xl dark:text-deeppurple">
-            <span className="text-ash dark:text-dark">Googling</span> in between conversations{" "}
-            <span className="text-ash dark:text-dark">is</span> fast becoming{" "}
+        <div className="md:w-1/2 md:text-left text-center mt-2 md:mt-0">
+          <h2 className="text-purple font-bold text-xl md:text-2xl xmd:text-2xl lg:text-3xl xl:text-3xl dark:text-deeppurple">
+            <span className="text-ash dark:text-dark">Googling</span> in between
+            conversations <span className="text-ash dark:text-dark">is</span>{" "}
+            fast becoming{" "}
             <span className="text-ash dark:text-dark">the new normal.</span>
           </h2>
         </div>

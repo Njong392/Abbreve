@@ -68,16 +68,16 @@ const Form = () => {
   }, [userInput]);
 
   return (
-    <div className="bg-dark py-12 px-[14px] dark:bg-ash">
+    <div className="bg-dark py-5 lg:py-12 px-[14px] dark:bg-ash">
       <section className="block justify-center md:pb-16 md:flex items-center">
         <div className="md:w-1/2 md:pr-20 md:text-left text-center">
-          <h2 className="text-purple font-bold text-3xl dark:text-deeppurple">
+          <h2 className="text-purple font-bold text-xl lg:text-3xl dark:text-deeppurple">
             <span className="text-ash dark:text-dark">
               Start by entering a slang,
             </span>{" "}
             and our dictionary will spit out an abbreviation.{" "}
           </h2>
-          <p className="text-gray text-sm mt-5">
+          <p className="text-gray text-left lg:text-center text-sm mt-5">
             *For now, abbreviations are one-way. For example, Idk can only
             translate to 'I don't know', and not the other way round.
           </p>
@@ -122,16 +122,16 @@ const Form = () => {
           {isLoading && <LoadingSpinner />}
 
           {data && (
-            <>
-              <div className="mt-2 text-purple font-bold text-xl ml-2 dark:text-deeppurple">
+            <div className="bg-ash shadow-lg border-2 border-deeppurple py-2 pl-2 rounded-lg mt-4">
+              <div className="mt-1 font-bold text-xl ml-2 text-deeppurple">
                 <p role="region" aria-live="assertive">
                   {data.definition}
                 </p>
               </div>
-              <div className="mt-2 text-purple font-bold text-xs ml-2 dark:text-deeppurple">
+              <div className="mt-2 text-gray font-bold text-md ml-2 dark:text-gray">
                 <p>{data.alternatives}</p>
               </div>
-            </>
+            </div>
           )}
 
           {error && (
