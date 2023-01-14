@@ -1,3 +1,12 @@
+# [0.18.0](https://github.com/Njong392/Abbreve/compare/v0.17.2...v0.18.0) (2023-01-14)
+
+
+### Features
+
+* added new abbreviations ([#210](https://github.com/Njong392/Abbreve/issues/210)) ([1d451b4](https://github.com/Njong392/Abbreve/commit/1d451b4df69b85e4de80a4c40a73a4256d01d0b3))
+
+
+
 ## [0.17.2](https://github.com/Njong392/Abbreve/compare/v0.17.1...v0.17.2) (2023-01-11)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * **slang:** added k ([#169](https://github.com/Njong392/Abbreve/issues/169)) ([93c5de4](https://github.com/Njong392/Abbreve/commit/93c5de4d8220e988c419c54140bea3e753f7700b))
-
-
-
-## [0.13.1](https://github.com/Njong392/Abbreve/compare/v0.13.0...v0.13.1) (2022-10-18)
-
-
-### Bug Fixes
-
-* Change letter and add word in README ([#144](https://github.com/Njong392/Abbreve/issues/144)) ([aac3d6c](https://github.com/Njong392/Abbreve/commit/aac3d6c6533044dfc8d82d7c4a945a7c8c1f042f))
 
 
 
