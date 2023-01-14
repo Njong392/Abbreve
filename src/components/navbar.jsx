@@ -67,8 +67,9 @@ const Navbar = () => {
           {
             icons?.map(icon => (
               
-              <div className="rounded-lg" key={icon.text} >
-              <button          
+              <div className="rounded-lg">
+              <button  
+              key={icon.text}        
               onClick = {()=> setTheme(icon.text)}
               className={`w-8 h-8 leading-9 text-xl rounded-full m-1 text-ash ${theme === icon.text && `text-deeppurple`}`}>
                 <ion-icon name={icon.icon}></ion-icon>
