@@ -1,22 +1,4 @@
-# [0.18.0](https://github.com/Njong392/Abbreve/compare/v0.17.2...v0.18.0) (2023-01-14)
-
-
-### Features
-
-* added new abbreviations ([#210](https://github.com/Njong392/Abbreve/issues/210)) ([1d451b4](https://github.com/Njong392/Abbreve/commit/1d451b4df69b85e4de80a4c40a73a4256d01d0b3))
-
-
-
-## [0.17.2](https://github.com/Njong392/Abbreve/compare/v0.17.1...v0.17.2) (2023-01-11)
-
-
-### Bug Fixes
-
-* fixed spacing issues on mobile and large view and fixed text siz… ([#207](https://github.com/Njong392/Abbreve/issues/207)) ([37222d0](https://github.com/Njong392/Abbreve/commit/37222d053fa7aa2ad789eb2ed50255b319ff4341))
-
-
-
-## [0.17.1](https://github.com/Njong392/Abbreve/compare/v0.17.0...v0.17.1) (2022-11-14)
+# 0.19.0 (2023-01-15)
 
 
 ### Bug Fixes
@@ -28,6 +10,7 @@
 * error doesn't show up on search ([7f8a34c](https://github.com/danitacodes/Abbreve/commit/7f8a34c0955494defdb69494bc05dc534e41c89c))
 * fixed merge conflicts ([6a2f829](https://github.com/danitacodes/Abbreve/commit/6a2f829cb42c7bab01f27218b777d8f0fb4adc53))
 * fixed navbar background ([d93d6d2](https://github.com/danitacodes/Abbreve/commit/d93d6d27a568c001f178c5011c805fa0d2b18142))
+* fixed spacing issues on mobile and large view and fixed text siz… ([#207](https://github.com/danitacodes/Abbreve/issues/207)) ([37222d0](https://github.com/danitacodes/Abbreve/commit/37222d053fa7aa2ad789eb2ed50255b319ff4341))
 * fixing url for clonning the porject ([#189](https://github.com/danitacodes/Abbreve/issues/189)) ([88a1635](https://github.com/danitacodes/Abbreve/commit/88a163529e73daee349ea101708783b96fb9cfc2))
 * removed broken credits link ([5e51196](https://github.com/danitacodes/Abbreve/commit/5e51196da3b473198b54b8a00950c6a6386dd6a9))
 * removed conflict lines ([e22ad94](https://github.com/danitacodes/Abbreve/commit/e22ad94c9398832060d8b582cb80ccb46ee701cc))
@@ -49,24 +32,6 @@
 ### Features
 
 * **slang:** added k ([#169](https://github.com/Njong392/Abbreve/issues/169)) ([93c5de4](https://github.com/Njong392/Abbreve/commit/93c5de4d8220e988c419c54140bea3e753f7700b))
-
-
-
-## [0.13.1](https://github.com/Njong392/Abbreve/compare/v0.13.0...v0.13.1) (2022-10-18)
-
-
-### Bug Fixes
-
-* Change letter and add word in README ([#144](https://github.com/Njong392/Abbreve/issues/144)) ([aac3d6c](https://github.com/Njong392/Abbreve/commit/aac3d6c6533044dfc8d82d7c4a945a7c8c1f042f))
-
-
-
-# [0.13.0](https://github.com/Njong392/Abbreve/compare/v0.3.0...v0.13.0) (2022-10-14)
-
-
-### Features
-
-* UI/UX improvements - moved search box to the top ([#122](https://github.com/Njong392/Abbreve/issues/122)) ([0031b16](https://github.com/Njong392/Abbreve/commit/0031b160f91cc3906d9fd6ed91bed6f66141276a))
 
 
 
