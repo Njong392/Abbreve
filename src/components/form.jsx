@@ -68,22 +68,24 @@ const Form = () => {
   }, [userInput]);
 
   return (
-    <div className="bg-dark py-12 px-[14px]">
+    <div className="bg-dark py-5 lg:py-12 px-[14px] dark:bg-ash">
       <section className="block justify-center md:pb-16 md:flex items-center">
         <div className="md:w-1/2 md:pr-20 md:text-left text-center">
-          <h2 className="text-purple font-bold text-3xl">
-            <span className="text-ash">Start by entering a slang,</span> and our
-            dictionary will spit out an abbreviation.{" "}
+          <h2 className="text-purple font-bold text-xl lg:text-3xl dark:text-deeppurple">
+            <span className="text-ash dark:text-dark">
+              Start by entering a slang,
+            </span>{" "}
+            and our dictionary will spit out an abbreviation.{" "}
           </h2>
-          <p className="text-gray text-sm mt-5">
+          <p className="text-gray text-left lg:text-center text-sm mt-5">
             *For now, abbreviations are one-way. For example, Idk can only
             translate to 'I don't know', and not the other way round.
           </p>
         </div>
 
         <div className="mt-2 md:mt-0">
-          <form className="block md:flex items-center gap-3" id="form">
-            <div className="bg-ash h-11 rounded-full flex items-center p-3">
+          <form className="block md:flex items-center gap-2" id="form">
+            <div className="bg-ash h-11 rounded-full flex items-center p-3 dark:shadow-lg">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -120,48 +122,50 @@ const Form = () => {
           {isLoading && <LoadingSpinner />}
 
           {data && (
-            <>
-              <div className="mt-2 text-purple font-bold text-xl ml-2">
+            <div className="bg-ash shadow-lg border-2 border-deeppurple py-2 pl-2 rounded-lg mt-4">
+              <div className="mt-1 font-bold text-xl ml-2 text-deeppurple">
                 <p role="region" aria-live="assertive">
                   {data.definition}
                 </p>
               </div>
-              <div className="mt-2 text-purple font-bold text-xs ml-2">
+              <div className="mt-2 text-gray font-bold text-md ml-2 dark:text-gray">
                 <p>{data.alternatives}</p>
               </div>
-            </>
+            </div>
           )}
 
           {error && (
-            <div className="text-purple text-sm mt-2">
+            <div className="text-purple text-sm mt-2 dark:text-deeppurple">
               Oops. Some connection error occured.
             </div>
           )}
 
           {isUserInputBlank && (
             <div className="mt-4">
-              <p className="text-purple">
+              <p className="text-purple dark:text-deeppurple">
                 Search bar 🔍 is Empty! Please input a slang.
               </p>
             </div>
           )}
 
           {errorMessage && (
-            <div className="mt-4">
-              <p className="text-purple">
+            <div className="mt-4 p-3">
+              <p className="text-purple dark:text-deeppurple">
                 This entry does not exist in our records as of yet :(
               </p>
-              <p className="text-ash mt-2">
+              <p className="text-ash mt-2 dark:text-dark">
                 1. You can help us add this by creating a{" "}
                 <a
                   href="https://github.com/Njong392/Abbreve"
-                  className="text-ash text-purple">
+                  className=" text-purple dark:text-deeppurple">
                   github issue
                 </a>
               </p>
-              <p className="text-ash">
+              <p className="text-ash dark:text-dark">
                 2. Or, you could fill out this{" "}
-                <a href="https://t.co/mp86BLYBhq" className="text-purple">
+                <a
+                  href="https://t.co/mp86BLYBhq"
+                  className="text-purple dark:text-deeppurple">
                   feedback form
                 </a>{" "}
                 and we will address the issue

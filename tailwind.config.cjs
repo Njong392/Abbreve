@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: "class",
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -18,6 +19,14 @@ module.exports = {
     animation: {
       breeze: 'breeze 8s alternate-reverse infinite',
       spinner: 'spinner 2s linear infinite',
+    },
+    screens: {
+      sm: '320px',
+      md: '640px',
+      xmd: '840px',
+      lg: '1024px',
+      xl: '1280px',
+      _2k: '2000px',
     },
     extend: {
       keyframes: {
