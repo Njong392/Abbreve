@@ -83,7 +83,7 @@ const Form = () => {
           </p>
         </div>
 
-        <div className="mt-2 md:mt-0">
+        <div className="mt-2 max-w-[22.5rem] md:mt-0">
           <form className="block md:flex items-center gap-2" id="form">
             <div className="bg-ash h-11 rounded-full flex items-center p-3 dark:shadow-lg">
               <svg
