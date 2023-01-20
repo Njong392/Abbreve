@@ -18,8 +18,6 @@
 
 # :movie_camera: Project Overview
 
-![abbreve-transformed](https://user-images.githubusercontent.com/121221252/213610540-f89984c8-afbc-4a8d-a150-aabdd9767bc5.png)
-
 You can check out the live project [here](https://www.abbreve.tech/)
 
 All you need to do is start entering a slang in the search bar, and the meaning will be provided. Below the main meaning of the slang could be alternative meanings.
