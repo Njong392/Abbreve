@@ -137,6 +137,6 @@ Before pushing your changes, please check and ensure that all your additions fol
 
 # :key: License
 
-This project is licensed with [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+This project is licensed with [Apache-2.0 License](https://github.com/Njong392/Abbreve/blob/main/LICENSE.md).
 
 If you like the [project](https://www.abbreve.tech/), Don't forget to leave a star :star: . All support is highly appreciated :100:
