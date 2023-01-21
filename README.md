@@ -1,10 +1,20 @@
+<div id="header" align="center">
+  <img src="https://user-images.githubusercontent.com/121221252/213607973-9773eec3-4400-4039-aba3-4c572a9f7720.png"/><br>
+    <h1> Abbreve </h1>
+    <p><strong><em>"Elevate your language game, decode the slang with ease"</em></strong></p>
+    <!-- to change tagline if necessary -->
+    </div> <br>
+
 # :tada: Welcome to Abbreve
 
++ With the increasing use of online communication, it can be difficult to keep up with the ever-changing shorthand and jargon used in digital conversations. Enter **Abbreve** 
++ Abbreve solves this problem by providing definitions for these abbreviations with just a search, making it easy for you to understand and participate in online conversations with confidence.
++ Abbreve is an open-source dictionary for slang. With Abbreve, you'll never have to feel left out of a conversation or unsure of the meaning of an abbreviation again.
++ The dictionary is constantly updated with new slang and abbreviations, so you can always stay current with the latest internet lingo.
 
-Abbreve is an open-source dictionary for slang. Writing on the internet is currently the most common way of communication, but keeping up with the abbreviation style is becoming difficult.
-
-
-Abbreve helps you keep up, by providing meanings to these abbreviations.
+<div id="centertext" align="center">
+    <h3>Abbreve can be used by anyone, from casual internet users to professionals!</h3>
+</div>
 
 # :movie_camera: Project Overview
 
