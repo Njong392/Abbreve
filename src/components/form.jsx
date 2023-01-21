@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { LoadingSpinner } from "./loadingSpinner";
 
 const Form = () => {
@@ -68,7 +68,7 @@ const Form = () => {
   }, [userInput]);
 
   return (
-    <div className="bg-dark py-5 lg:py-12 px-[14px] dark:bg-ash">
+    <div className="bg-dark py-5 mb-12 md:mb-0 lg:py-12 px-[14px] dark:bg-ash">
       <section className="block justify-center md:pb-16 md:flex items-center">
         <div className="md:w-1/2 md:pr-20 md:text-left text-center">
           <h2 className="text-purple font-bold text-xl lg:text-3xl dark:text-deeppurple">
@@ -85,7 +85,7 @@ const Form = () => {
 
         <div className="mt-2 md:mt-0">
           <form className="block md:flex items-center gap-2" id="form">
-            <div className="bg-ash h-11 rounded-full flex items-center p-3 dark:shadow-lg">
+            <div className="bg-ash h-11 rounded-full flex items-center p-3 mt-4 md:mt-0 dark:shadow-lg">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -114,7 +114,7 @@ const Form = () => {
             <button
               onClick={fetchData}
               disabled={isLoading || !hasUserInputChanged}
-              className="bg-deeppurple text-ash font-bold rounded-xl hover:scale-110 p-2 mt-2 md:mt-0">
+              className="bg-deeppurple text-ash font-bold rounded-xl hover:scale-110 p-2 mt-4 md:mt-0 w-full md:w-auto">
               Search
             </button>
           </form>
