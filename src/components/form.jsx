@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { LoadingSpinner } from "./loadingSpinner";
 
 const Form = () => {
@@ -68,7 +68,7 @@ const Form = () => {
   }, [userInput]);
 
   return (
-    <div className="bg-dark py-5 lg:py-12 px-[14px] dark:bg-ash">
+    <div className="bg-dark py-5 mb-12 md:mb-0 lg:py-12 px-[14px] dark:bg-ash">
       <section className="block justify-center md:pb-16 md:flex items-center">
         <div className="md:w-1/2 md:pr-20 md:text-left text-center">
           <h2 className="text-purple font-bold text-xl lg:text-3xl dark:text-deeppurple">
