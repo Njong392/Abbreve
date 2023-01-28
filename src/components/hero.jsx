@@ -9,9 +9,9 @@ import Form from "./form";
 
 const Hero = () => {
   return (
-    <main className="bg-dark  md:px-20 lg:px-40 py-12 px-[24px] dark:bg-ash">
+    <main className="bg-dark md:px-14 xl:px-20 lg:px-20  py-12 px-[24px] dark:bg-ash">
       <header className="text-center lg:mt-12">
-        <div className="text-4xl md:text-7xl mb-5 relative">
+        <div className="text-4xl md:text-5xl xl:text-7xl lg:text-7xl mb-5 relative">
           <h1 className="text-purple font-bold dark:text-deeppurple">
             Writing on the internet
           </h1>
@@ -39,7 +39,7 @@ const Hero = () => {
         </div>
       </header>
 
-      <div className="hidden md:flex flex-wrap justify-center animate-breeze">
+      <div className="flex flex-wrap justify-center animate-breeze">
         <img src={btw} alt="btw" className="rotate-2 h-[20%] w-[20%]" />
         <img src={fyi} alt="fyi" className="-rotate-3 h-[20%] w-[20%]" />
         <img src={idk} alt="idk" className="rotate-3 h-[20%] w-[20%]" />
@@ -49,8 +49,8 @@ const Hero = () => {
 
       <Form />
 
-      <section className="block justify-center  items-center md:flex">
-        <div className="md:w-1/2 md:pr-20 md:text-left text-center">
+      <section className="block justify-center  items-center md:flex md:flex-col-reverse xl:flex xl:flex-row lg:flex lg:flex-row">
+        <div className="lg:w-1/2 xl:w-1/2 px-10 pt-5 px-0 lg:px-0 xl:px-0 lg:pr-20 lg:text-left md:text-left text-center">
           <p className="text-purple font-bold text-2xl lg:text-3xl dark:text-deeppurple">
             <span className="text-ash dark:text-dark">
               Abbreve (A-bree-vay)
@@ -63,7 +63,7 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="border-2 p-4 rounded-lg border-purple md:rotate-3 relative md:mt-0 dark:border-deeppurple">
+        <div className="border-2 p-4 rounded-lg border-purple lg:rotate-3 xl:rotate-3 relative md:mt-0 dark:border-deeppurple">
           <div className="flex gap-2 items-center">
             <img src={nate} alt="" className="h-12 w-12 rounded-full" />
             <div>
@@ -143,7 +143,7 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="md:w-1/2 md:text-left text-center mt-2 md:mt-0">
+        <div className="lg:w-1/2 lg:text-left text-center mt-2 md:mt-0">
           <h2 className="text-purple font-bold text-xl md:text-2xl xmd:text-2xl lg:text-3xl xl:text-3xl dark:text-deeppurple">
             <span className="text-ash dark:text-dark">Googling</span> in between
             conversations <span className="text-ash dark:text-dark">is</span>{" "}
