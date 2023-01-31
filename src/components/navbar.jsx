@@ -10,11 +10,11 @@ const Navbar = () => {
   const icons = [
     {
       icon: "moon",
-      text: "light",
+      text: "light"
     },
     {
       icon: "sunny",
-      text: "dark",
+      text: "dark"
     }
   ];
 
