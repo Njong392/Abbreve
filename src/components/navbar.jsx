@@ -15,7 +15,7 @@ const Navbar = () => {
     {
       icon: "sunny",
       text: "dark",
-    },
+    }
   ];
 
   useEffect(() => {
