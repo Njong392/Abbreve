@@ -1,3 +1,12 @@
+## [0.19.3](https://github.com/Njong392/Abbreve/compare/v0.19.2...v0.19.3) (2023-02-04)
+
+
+### Bug Fixes
+
+* darkmode doesn't stay on refresh [#218](https://github.com/Njong392/Abbreve/issues/218) ([#236](https://github.com/Njong392/Abbreve/issues/236)) ([62631a5](https://github.com/Njong392/Abbreve/commit/62631a539271c5673f97519bed1d905ccfc2daf7))
+
+
+
 ## [0.19.2](https://github.com/Njong392/Abbreve/compare/v0.18.0...v0.19.2) (2023-01-25)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * fixing url for clonning the porject ([#189](https://github.com/Njong392/Abbreve/issues/189)) ([88a1635](https://github.com/Njong392/Abbreve/commit/88a163529e73daee349ea101708783b96fb9cfc2))
-
-
-
-# [0.17.0](https://github.com/Njong392/Abbreve/compare/v0.16.0...v0.17.0) (2022-11-09)
-
-
-### Features
-
-* **abbreviation:** added description for WIP ([#179](https://github.com/Njong392/Abbreve/issues/179)) ([cbeabcc](https://github.com/Njong392/Abbreve/commit/cbeabcc4369ed3bf120690483eb3dc43242a0537))
 
 
 
