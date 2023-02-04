@@ -51,7 +51,8 @@ Before installation, you need to have the following:
 1. [Fork](https://github.com/Njong392/Abbreve/fork) this repository.
 2. In your terminal, clone your fork using `git clone <link to your fork>`.
 3. Run `cd Abbreve` to navigate to project directory.
-4. Run `npm install` to add node_modules folder.
+4. Run `npm ci` to add node_modules folder. 
+> Running `npm ci` instead of `npm install` reduces the possibility of making unwaranted changes to the `package-lock.json` and `package.json` files. Check the difference and advantages on the [npm docs](https://docs.npmjs.com/cli/v9/commands/npm-ci)
 5. To start the server on localhost, run `npm run dev`.
 
 >This project uses [Vite](https://vitejs.dev), but that shouldn't overwhelm you. Everything works pretty much the same.
