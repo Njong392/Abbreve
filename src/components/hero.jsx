@@ -49,8 +49,8 @@ const Hero = () => {
 
       <Form />
 
-      <section className="block justify-center  items-center md:flex md:flex-col-reverse xl:flex xl:flex-row lg:flex lg:flex-row">
-        <div className="lg:w-1/2 px-10 pt-5 lg:px-0 lg:pr-20 md:text-left text-center">
+      <section className="block justify-center  items-center md:flex md:flex-col-reverse lg:flex lg:flex-row">
+        <div className="lg:w-1/2 px-10 pt-5 lg:px-0 lg:pr-20 md:text-left lg:text-center text-center">
           <p className="text-purple font-bold text-2xl lg:text-3xl dark:text-deeppurple">
             <span className="text-ash dark:text-dark">
               Abbreve (A-bree-vay)

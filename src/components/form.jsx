@@ -69,7 +69,7 @@ const Form = () => {
 
   return (
     <div className="bg-dark py-5 mb-12 md:mb-0 lg:py-12 px-[14px] dark:bg-ash">
-      <section className="block justify-center md:pb-16 md:flex md:flex-col lg:flex xl:flex lg:flex-row xl:flex-row items-center">
+      <section className="block justify-center md:pb-16 md:flex md:flex-col lg:flex lg:flex-row items-center">
         <div className="md:w-full lg:pr-20 lg:w-1/2 flex flex-col">
           <h2 className="lg:text-left text-center text-purple font-bold text-xl md:text-2xl lg:text-3xl  dark:text-deeppurple">
             <span className="text-ash dark:text-dark">
@@ -77,13 +77,13 @@ const Form = () => {
             </span>{" "}
             and our dictionary will spit out an abbreviation.{" "}
           </h2>
-          <p className="text-gray text-leftlg:text-left md:text-center px-0 md:px-10 xmd:px-20 lg:px-0 xl:px-0 text-sm mt-5">
+          <p className="text-gray text-left lg:text-left md:text-center px-0 md:px-10 xmd:px-20 lg:px-0 text-sm mt-5">
             *For now, abbreviations are one-way. For example, Idk can only
             translate to 'I don't know', and not the other way round.
           </p>
         </div>
 
-        <div className="mt-2 lg:mt-0 xl:mt-0 md:mt-4">
+        <div className="mt-2 lg:mt-0 md:mt-4">
           <form
             className="block md:flex items-center justify-start gap-2"
             id="form">
