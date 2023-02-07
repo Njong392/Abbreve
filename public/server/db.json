@@ -470,5 +470,8 @@
   },
   "dns": {
     "definition": "Domain Name Service"
+  },
+  "cul8r": {
+    "definition": "See You Later"
   }
 }
