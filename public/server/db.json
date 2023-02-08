@@ -72,6 +72,10 @@
   "bff": {
     "definition": "Best Friend Forever"
   },
+  "bf": {
+    "definition": "Boy Friend",
+    "alternatives": "Breakfast"
+  },
   "tl": {
     "definition": "Timeline"
   },
