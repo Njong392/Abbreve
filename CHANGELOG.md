@@ -1,3 +1,12 @@
+# [0.20.0](https://github.com/Njong392/Abbreve/compare/v0.19.3...v0.20.0) (2023-02-12)
+
+
+### Features
+
+* **slang:** added rip ([#254](https://github.com/Njong392/Abbreve/issues/254)) ([5e5b229](https://github.com/Njong392/Abbreve/commit/5e5b22969b9353affa3659572787775451bda052))
+
+
+
 ## [0.19.3](https://github.com/Njong392/Abbreve/compare/v0.19.2...v0.19.3) (2023-02-04)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * fixed spacing issues on mobile and large view and fixed text siz… ([#207](https://github.com/Njong392/Abbreve/issues/207)) ([37222d0](https://github.com/Njong392/Abbreve/commit/37222d053fa7aa2ad789eb2ed50255b319ff4341))
-
-
-
-## [0.17.1](https://github.com/Njong392/Abbreve/compare/v0.17.0...v0.17.1) (2022-11-14)
-
-
-### Bug Fixes
-
-* fixing url for clonning the porject ([#189](https://github.com/Njong392/Abbreve/issues/189)) ([88a1635](https://github.com/Njong392/Abbreve/commit/88a163529e73daee349ea101708783b96fb9cfc2))
 
 
 
