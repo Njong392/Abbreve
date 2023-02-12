@@ -1,10 +1,20 @@
+<div id="header" align="center">
+  <img src="https://user-images.githubusercontent.com/121221252/213607973-9773eec3-4400-4039-aba3-4c572a9f7720.png"/><br>
+    <h1> Abbreve </h1>
+    <p><strong><em>"Elevate your language game, decode the slang with ease"</em></strong></p>
+    <!-- to change tagline if necessary -->
+    </div> <br>
+
 # :tada: Welcome to Abbreve
 
++ With the increasing use of online communication, it can be difficult to keep up with the ever-changing shorthand and jargon used in digital conversations. Enter **Abbreve** 
++ Abbreve solves this problem by providing definitions for these abbreviations with just a search, making it easy for you to understand and participate in online conversations with confidence.
++ Abbreve is an open-source dictionary for slang. With Abbreve, you'll never have to feel left out of a conversation or unsure of the meaning of an abbreviation again.
++ The dictionary is constantly updated with new slang and abbreviations, so you can always stay current with the latest internet lingo.
 
-Abbreve is an open-source dictionary for slang. Writing on the internet is currently the most common way of communication, but keeping up with the abbreviation style is becoming difficult.
-
-
-Abbreve helps you keep up, by providing meanings to these abbreviations.
+<div id="centertext" align="center">
+    <h3>Abbreve can be used by anyone, from casual internet users to professionals!</h3>
+</div>
 
 # :movie_camera: Project Overview
 
@@ -41,7 +51,8 @@ Before installation, you need to have the following:
 1. [Fork](https://github.com/Njong392/Abbreve/fork) this repository.
 2. In your terminal, clone your fork using `git clone <link to your fork>`.
 3. Run `cd Abbreve` to navigate to project directory.
-4. Run `npm install` to add node_modules folder.
+4. Run `npm ci` to add node_modules folder. 
+> Running `npm ci` instead of `npm install` reduces the possibility of making unwaranted changes to the `package-lock.json` and `package.json` files. Check the difference and advantages on the [npm docs](https://docs.npmjs.com/cli/v9/commands/npm-ci)
 5. To start the server on localhost, run `npm run dev`.
 
 >This project uses [Vite](https://vitejs.dev), but that shouldn't overwhelm you. Everything works pretty much the same.
@@ -127,6 +138,6 @@ Before pushing your changes, please check and ensure that all your additions fol
 
 # :key: License
 
-This project is licensed with [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+This project is licensed with [Apache-2.0 License](https://github.com/Njong392/Abbreve/blob/main/LICENSE.md).
 
 If you like the [project](https://www.abbreve.tech/), Don't forget to leave a star :star: . All support is highly appreciated :100:
