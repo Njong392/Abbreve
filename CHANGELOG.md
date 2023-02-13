@@ -1,3 +1,12 @@
+# [0.21.0](https://github.com/Njong392/Abbreve/compare/v0.20.0...v0.21.0) (2023-02-13)
+
+
+### Features
+
+* **slang:** Added csl ([#259](https://github.com/Njong392/Abbreve/issues/259)) ([a246e68](https://github.com/Njong392/Abbreve/commit/a246e68b94f3c93fa141ed2fc9ba7ebd36bf2324))
+
+
+
 # [0.20.0](https://github.com/Njong392/Abbreve/compare/v0.19.3...v0.20.0) (2023-02-12)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * added new abbreviations ([#210](https://github.com/Njong392/Abbreve/issues/210)) ([1d451b4](https://github.com/Njong392/Abbreve/commit/1d451b4df69b85e4de80a4c40a73a4256d01d0b3))
-
-
-
-## [0.17.2](https://github.com/Njong392/Abbreve/compare/v0.17.1...v0.17.2) (2023-01-11)
-
-
-### Bug Fixes
-
-* fixed spacing issues on mobile and large view and fixed text siz… ([#207](https://github.com/Njong392/Abbreve/issues/207)) ([37222d0](https://github.com/Njong392/Abbreve/commit/37222d053fa7aa2ad789eb2ed50255b319ff4341))
 
 
 
