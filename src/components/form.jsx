@@ -83,7 +83,7 @@ const Form = () => {
           </p>
         </div>
 
-        <div className="mt-2 lg:mt-0 md:mt-4">
+        <div className="mt-2 lg:mt-0 md:mt-4  lg:mb-24">
           <form
             className="block md:flex items-center justify-start gap-2"
             id="form">
@@ -151,7 +151,7 @@ const Form = () => {
           )}
 
           {errorMessage && (
-            <div className="mt-4 p-3">
+            <div className="mt-4 p-3 lg:absolute">
               <p className="text-purple dark:text-deeppurple">
                 This entry does not exist in our records as of yet :(
               </p>
@@ -163,7 +163,7 @@ const Form = () => {
                   github issue
                 </a>
               </p>
-              <p className="text-ash dark:text-dark">
+              <p className="text-ash dark:text-dark w-3/4">
                 2. Or, you could fill out this{" "}
                 <a
                   href="https://t.co/mp86BLYBhq"
