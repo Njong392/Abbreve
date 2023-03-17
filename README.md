@@ -12,7 +12,7 @@
 + Abbreve is an open-source dictionary for slang. With Abbreve, you'll never have to feel left out of a conversation or unsure of the meaning of an abbreviation again.
 + The dictionary is constantly updated with new slang and abbreviations, so you can always stay current with the latest internet lingo.
 
-<div id="centertext" align="center">
+<div id="centertext" align="left">
     <h3>Abbreve can be used by anyone, from casual internet users to professionals!</h3>
 </div>
 
