@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { LoadingSpinner } from "./loadingSpinner";
+import "./form.css";
 
 const Form = () => {
   const [data, setData] = useState(null);
@@ -87,7 +88,7 @@ const Form = () => {
           <form
             className="block md:flex items-center justify-start gap-2"
             id="form">
-            <div className="bg-ash h-11 rounded-full flex items-center p-3 mt-4 md:mt-0 dark:shadow-lg">
+            <div className=" search h-11 rounded-full flex items-center p-3 mt-4 md:mt-0 dark:shadow-lg ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -105,7 +106,7 @@ const Form = () => {
               <input
                 type="text"
                 placeholder="Search slang full meaning..."
-                className="flex-1 w-[14rem] h-11 rounded-full ml-2 border-none outline-none placeholder:text-gray bg-ash"
+                className="flex-1 w-[14rem] h-11 rounded-full ml-2 border-none outline-none placeholder:text-gray  input-text"
                 value={userInput}
                 onChange={(e) =>
                   setUserInput(e.target.value.toLocaleLowerCase())
