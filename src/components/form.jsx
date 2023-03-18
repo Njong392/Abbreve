@@ -105,7 +105,7 @@ const Form = () => {
               <input
                 type="text"
                 placeholder="Search slang full meaning..."
-                className="flex-1 w-[14rem] h-11 rounded-full ml-2 border-none outline-none placeholder:text-gray bg-ash"
+                className="flex-1 w-[14rem] h-11 rounded-full ml-2 border-none outline-none placeholder:text-gray bg-ash display:flex; align-items:center"
                 value={userInput}
                 onChange={(e) =>
                   setUserInput(e.target.value.toLocaleLowerCase())
