@@ -83,7 +83,7 @@ const Form = () => {
           </p>
         </div>
 
-        <div className="mt-2 lg:mt-0 md:mt-4">
+        <div className="mt-2 lg:mt-0 md:mt-4  lg:mb-24">
           <form
             className="block md:flex items-center justify-start gap-2"
             id="form">
@@ -116,12 +116,10 @@ const Form = () => {
             <button
               onClick={fetchData}
               disabled={isLoading || !hasUserInputChanged}
-              className="bg-deeppurple text-ash font-bold rounded-xl hover:scale-110 p-2 mt-4 md:mt-0 w-full md:w-auto">
-              Search
+              className="bg-deeppurple text-ash font-bold rounded-xl hover:scale-110 p-2 mt-4 md:mt-0 items-center flex justify-center h-[50px] min-w-[100px] w-full md:w-auto">
+              {isLoading ? <LoadingSpinner /> : "Search"}
             </button>
           </form>
-
-          {isLoading && <LoadingSpinner />}
 
           {data && (
             <div className="bg-ash shadow-lg border-2 border-deeppurple py-2 pl-2 rounded-lg mt-4">
@@ -151,7 +149,7 @@ const Form = () => {
           )}
 
           {errorMessage && (
-            <div className="mt-4 p-3">
+            <div className="mt-4 p-3 lg:absolute">
               <p className="text-purple dark:text-deeppurple">
                 This entry does not exist in our records as of yet :(
               </p>
@@ -163,7 +161,7 @@ const Form = () => {
                   github issue
                 </a>
               </p>
-              <p className="text-ash dark:text-dark">
+              <p className="text-ash dark:text-dark w-3/4">
                 2. Or, you could fill out this{" "}
                 <a
                   href="https://t.co/mp86BLYBhq"
