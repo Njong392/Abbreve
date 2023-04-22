@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# This file contains environment variables used in the development environment
+# To add a new variable, add it in this format VAR_NAME = value
+# To use a variable in your code, access it using the process.env.VAR_NAME.
+
+.env
