@@ -1,5 +1,8 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, lazy, Suspense } from "react";
 import { LoadingSpinner } from "./loadingSpinner";
+
+// Import the Loading component only when necessary so as to inprove page load speed.
+const Loading = lazy(() => import('./loadingSpinner)').then(module => ({ default: module.LoadingSpinner })));
 
 const Form = () => {
   const [data, setData] = useState(null);
@@ -105,7 +108,7 @@ const Form = () => {
               <input
                 type="text"
                 placeholder="Search slang full meaning..."
-                className="flex-1 w-[14rem] h-6 rounded-full ml-2 border-none outline-none placeholder:text-gray bg-ash"
+                className="flex-1 w-[14rem] h-6 rounded-full ml-2 border-none outline-none placeholder:text-gray bg-ash pl-4"
                 value={userInput}
                 onChange={(e) =>
                   setUserInput(e.target.value.toLocaleLowerCase())
@@ -117,7 +120,12 @@ const Form = () => {
               onClick={fetchData}
               disabled={isLoading || !hasUserInputChanged}
               className="bg-deeppurple text-ash font-bold rounded-xl hover:scale-110 p-2 mt-4 md:mt-0 items-center flex justify-center h-[50px] min-w-[100px] w-full md:w-auto">
-              {isLoading ? <LoadingSpinner /> : "Search"}
+              {isLoading ?
+                (<Suspense>
+                    <Loading />
+                 </Suspense>)
+                :
+                "Search"}
             </button>
           </form>
 
