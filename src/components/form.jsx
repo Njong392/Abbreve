@@ -1,7 +1,10 @@
 import { useEffect, useRef, useState, lazy, Suspense } from "react";
-
 // Import the Loading component only when necessary so as to inprove page load speed.
-const Loading = lazy(() => import('./loadingSpinner)').then(module => ({ default: module.LoadingSpinner })));
+const Loading = lazy(() =>
+  import("./loadingSpinner").then((module) => ({
+    default: module.LoadingSpinner,
+  }))
+);
 
 const Form = () => {
   const [data, setData] = useState(null);
@@ -119,12 +122,13 @@ const Form = () => {
               onClick={fetchData}
               disabled={isLoading || !hasUserInputChanged}
               className="bg-deeppurple text-ash font-bold rounded-xl hover:scale-110 p-2 mt-4 md:mt-0 items-center flex justify-center h-[50px] min-w-[100px] w-full md:w-auto">
-              {isLoading ?
-                (<Suspense>
-                    <Loading />
-                 </Suspense>)
-                :
-                "Search"}
+              {isLoading ? (
+                <Suspense>
+                  <Loading />
+                </Suspense>
+              ) : (
+                "Search"
+              )}
             </button>
           </form>
 
