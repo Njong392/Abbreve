@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState, lazy, Suspense } from "react";
-import { LoadingSpinner } from "./loadingSpinner";
 
 // Import the Loading component only when necessary so as to inprove page load speed.
 const Loading = lazy(() => import('./loadingSpinner)').then(module => ({ default: module.LoadingSpinner })));
