@@ -1,3 +1,12 @@
+# [0.24.0](https://github.com/Njong392/Abbreve/compare/v0.23.0...v0.24.0) (2023-04-24)
+
+
+### Features
+
+* BAE ([#343](https://github.com/Njong392/Abbreve/issues/343)) ([e9a8cea](https://github.com/Njong392/Abbreve/commit/e9a8cea485f7a2f4380bb259c439bf5b171bae0c))
+
+
+
 # [0.23.0](https://github.com/Njong392/Abbreve/compare/v0.22.0...v0.23.0) (2023-04-24)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * **slang:** added rip ([#254](https://github.com/Njong392/Abbreve/issues/254)) ([5e5b229](https://github.com/Njong392/Abbreve/commit/5e5b22969b9353affa3659572787775451bda052))
-
-
-
-## [0.19.3](https://github.com/Njong392/Abbreve/compare/v0.19.2...v0.19.3) (2023-02-04)
-
-
-### Bug Fixes
-
-* darkmode doesn't stay on refresh [#218](https://github.com/Njong392/Abbreve/issues/218) ([#236](https://github.com/Njong392/Abbreve/issues/236)) ([62631a5](https://github.com/Njong392/Abbreve/commit/62631a539271c5673f97519bed1d905ccfc2daf7))
 
 
 
