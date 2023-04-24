@@ -61,7 +61,7 @@ Before installation, you need to have the following:
 
 ### Adding an Abbreviation
 
-Before adding an abbreviation, please make sure that the new entry does not already exist. You can easily check this by entering the slang on the [live](https://abbreve.vercel.app/) site to see if it gives a result or not.
+Before adding an abbreviation, please make sure that the new entry does not already exist. You can easily check this by entering the slang on the [live](https://abbreve.tech) site to see if it gives a result or not.
 
 > For now, we use [JSON](https://www.w3schools.com/js/js_json_intro.asp) to store the abbreviations. We hope to improve on this as time goes on.
 
