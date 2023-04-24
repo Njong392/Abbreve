@@ -1,3 +1,12 @@
+# [0.23.0](https://github.com/Njong392/Abbreve/compare/v0.22.0...v0.23.0) (2023-04-24)
+
+
+### Features
+
+* SUS ([#344](https://github.com/Njong392/Abbreve/issues/344)) ([f93690b](https://github.com/Njong392/Abbreve/commit/f93690b8781e3d9aaa082eabdc2cc5c51aa8203b))
+
+
+
 # [0.22.0](https://github.com/Njong392/Abbreve/compare/v0.21.0...v0.22.0) (2023-04-24)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * darkmode doesn't stay on refresh [#218](https://github.com/Njong392/Abbreve/issues/218) ([#236](https://github.com/Njong392/Abbreve/issues/236)) ([62631a5](https://github.com/Njong392/Abbreve/commit/62631a539271c5673f97519bed1d905ccfc2daf7))
-
-
-
-## [0.19.2](https://github.com/Njong392/Abbreve/compare/v0.18.0...v0.19.2) (2023-01-25)
-
-
-### Bug Fixes
-
-* change placeholder text color ([#227](https://github.com/Njong392/Abbreve/issues/227)) ([f141c20](https://github.com/Njong392/Abbreve/commit/f141c2008032f88473a87917a5c205a95ede87b3))
 
 
 
