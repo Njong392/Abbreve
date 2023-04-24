@@ -1,3 +1,12 @@
+# [0.22.0](https://github.com/Njong392/Abbreve/compare/v0.21.0...v0.22.0) (2023-04-24)
+
+
+### Features
+
+* GMTA ([#345](https://github.com/Njong392/Abbreve/issues/345)) ([2144688](https://github.com/Njong392/Abbreve/commit/214468801ed22f1e6143de51f2f92e817ebfb80b))
+
+
+
 # [0.21.0](https://github.com/Njong392/Abbreve/compare/v0.20.0...v0.21.0) (2023-02-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * change placeholder text color ([#227](https://github.com/Njong392/Abbreve/issues/227)) ([f141c20](https://github.com/Njong392/Abbreve/commit/f141c2008032f88473a87917a5c205a95ede87b3))
-
-
-
-# [0.18.0](https://github.com/Njong392/Abbreve/compare/v0.17.2...v0.18.0) (2023-01-14)
-
-
-### Features
-
-* added new abbreviations ([#210](https://github.com/Njong392/Abbreve/issues/210)) ([1d451b4](https://github.com/Njong392/Abbreve/commit/1d451b4df69b85e4de80a4c40a73a4256d01d0b3))
 
 
 
