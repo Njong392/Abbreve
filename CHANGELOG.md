@@ -1,3 +1,12 @@
+# [0.25.0](https://github.com/Njong392/Abbreve/compare/v0.24.0...v0.25.0) (2023-04-24)
+
+
+### Features
+
+* IB ([#342](https://github.com/Njong392/Abbreve/issues/342)) ([fda129d](https://github.com/Njong392/Abbreve/commit/fda129dac740974e6b91befe4ead14066004a1ab))
+
+
+
 # [0.24.0](https://github.com/Njong392/Abbreve/compare/v0.23.0...v0.24.0) (2023-04-24)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * **slang:** Added csl ([#259](https://github.com/Njong392/Abbreve/issues/259)) ([a246e68](https://github.com/Njong392/Abbreve/commit/a246e68b94f3c93fa141ed2fc9ba7ebd36bf2324))
-
-
-
-# [0.20.0](https://github.com/Njong392/Abbreve/compare/v0.19.3...v0.20.0) (2023-02-12)
-
-
-### Features
-
-* **slang:** added rip ([#254](https://github.com/Njong392/Abbreve/issues/254)) ([5e5b229](https://github.com/Njong392/Abbreve/commit/5e5b22969b9353affa3659572787775451bda052))
 
 
 
