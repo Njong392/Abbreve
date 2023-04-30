@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="bottom-0 text-center p-2 bg-dark">
         <p className="text-sm mt-5 text-ash">
           Found something odd?{" "}
-          <a href="https://github.com/Njong392/Abbreve">
+          <a href="https://github.com/Njong392/Abbreve" target="_blank">
             <span className="text-purple">Create a github issue.</span>
           </a>
         </p>

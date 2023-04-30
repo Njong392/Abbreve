@@ -2,4 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+::selection {
+    @apply bg-deeppurple text-dark
+}
+::-webkit-scrollbar {
+    @apply h-5 w-3 bg-dark
+}
+::-webkit-scrollbar-thumb {
+    @apply rounded-lg bg-deeppurple
+}
+
 
