@@ -32,7 +32,7 @@ module.exports = {
       keyframes: {
         breeze: {
           '0%': { transform: 'translateX(0%)' },
-          '100%': { transform: 'translateX(5%)' },         
+          '100%': { transform: 'translateX(2%)' },         
         },
         spinner: {
           '0%': { transform: 'translate3d(-50%, -50%, 0) rotate(0deg)' },
