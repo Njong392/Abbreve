@@ -68,7 +68,7 @@ const Form = () => {
   }, [userInput]);
 
   return (
-    <div className="bg-dark py-5 mb-12 md:mb-0 lg:py-12 px-[14px] dark:bg-ash">
+    <div className="bg-dark py-5 md:mb-0 lg:py-12 px-[14px] dark:bg-ash">
       <section className="block justify-center md:pb-16 md:flex md:flex-col lg:flex lg:flex-row items-center">
         <div className="md:w-full lg:pr-20 lg:w-1/2 flex flex-col">
           <h2 className="lg:text-left text-center text-purple font-bold text-xl md:text-2xl lg:text-3xl  dark:text-deeppurple">

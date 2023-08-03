@@ -10,12 +10,12 @@ const Navbar = () => {
   const icons = [
     {
       icon: "moon",
-      text: "light"
+      text: "light",
     },
     {
       icon: "sunny",
-      text: "dark"
-    }
+      text: "dark",
+    },
   ];
 
   useEffect(() => {
@@ -36,7 +36,7 @@ const Navbar = () => {
   }, [theme]);
 
   return (
-    <nav className="px-8  bg-dark">
+    <nav className="px-4 py-4 sm:px-6 lg:px-8 bg-dark">
       <div className="flex justify-between items-center p-2">
         <div className="logo">
           <img
