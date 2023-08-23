@@ -7,7 +7,7 @@ import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 const Navbar = () => {
   const defaultTheme = localStorage.getItem("theme") || "light";
   const defaultToggle =
-    JSON.parse(localStorage.getItem("toggleButton")) || false;
+    JSON.parse(localStorage.getItem("toggleButton")) || true;
 
   const [theme, setTheme] = useState(defaultTheme);
   const [toggleTheme, setToggleTheme] = useState(defaultToggle);
