@@ -9,7 +9,7 @@ import Form from "./form";
 
 const Hero = () => {
   return (
-    <main className="bg-dark md:px-14 dark:bg-ash max-w-screen px-4 py-8 sm:px-6 lg:px-8  lg:bg-snow lg:shadow-md">
+    <main className="bg-dark md:px-14 dark:bg-ash max-w-screen px-4 py-8 sm:px-6 lg:px-8 rounded lg:bg-snow lg:shadow-md">
       <header className="text-center lg:mt-12">
         <div className="text-4xl md:text-5xl lg:text-7xl mb-5 relative">
           <h1 className="text-purple font-extrabold dark:text-deeppurple">
