@@ -1,32 +1,39 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import Logo from "../assets/logo.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   const defaultTheme = localStorage.getItem("theme") || "light";
+  const defaultToggle =
+    JSON.parse(localStorage.getItem("toggleButton")) || false;
+
   const [theme, setTheme] = useState(defaultTheme);
+  const [toggleTheme, setToggleTheme] = useState(defaultToggle);
+
   const element = document.documentElement;
 
-  const icons = [
-    {
-      icon: "moon",
-      text: "light"
-    },
-    {
-      icon: "sunny",
-      text: "dark"
+  const handletheme = () => {
+    if (toggleTheme) {
+      setTheme("dark");
+    } else {
+      setTheme("light");
     }
-  ];
 
+    setToggleTheme(!toggleTheme);
+  };
   useEffect(() => {
     switch (theme) {
       case "dark":
         element.classList.add("dark");
         localStorage.setItem("theme", "dark");
+        localStorage.setItem("toggleButton", JSON.stringify(false));
         break;
       case "light":
         element.classList.remove("dark");
         localStorage.setItem("theme", "light");
+        localStorage.setItem("toggleButton", JSON.stringify(true));
         break;
       default:
         localStorage.removeItem("theme");
@@ -36,7 +43,7 @@ const Navbar = () => {
   }, [theme]);
 
   return (
-    <nav className="px-8  bg-dark">
+    <nav className="px-4 py-4 sm:px-6 lg:px-8 bg-dark">
       <div className="flex justify-between items-center p-2">
         <div className="logo">
           <img
@@ -63,17 +70,13 @@ const Navbar = () => {
             </svg>
           </a>
 
-          {icons?.map((icon) => (
-            <div className="rounded-lg" key={icon.text}>
-              <button
-                onClick={() => setTheme(icon.text)}
-                className={`w-8 h-8 leading-9 text-xl rounded-full m-1 text-ash ${
-                  theme === icon.text && `text-deeppurple`
-                }`}>
-                <ion-icon name={icon.icon}></ion-icon>
-              </button>
-            </div>
-          ))}
+          <div className="rounded-lg">
+            <button
+              onClick={handletheme}
+              className="w-8 h-8 leading-9 text-xl rounded-full m-1 text-deeppurple hover:text-ash hover:scale-110 ">
+              <FontAwesomeIcon icon={toggleTheme ? faMoon : faSun} />
+            </button>
+          </div>
         </div>
       </div>
     </nav>

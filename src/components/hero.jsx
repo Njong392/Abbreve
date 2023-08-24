@@ -9,18 +9,18 @@ import Form from "./form";
 
 const Hero = () => {
   return (
-    <main className="bg-dark md:px-14 lg:px-40  py-12 px-[24px] dark:bg-ash">
+    <main className="bg-dark md:px-14 dark:bg-ash max-w-screen px-4 py-8 sm:px-6 lg:px-8 rounded lg:bg-snow lg:shadow-md">
       <header className="text-center lg:mt-12">
         <div className="text-4xl md:text-5xl lg:text-7xl mb-5 relative">
-          <h1 className="text-purple font-bold dark:text-deeppurple">
+          <h1 className="text-purple font-extrabold dark:text-deeppurple">
             Writing on the internet
           </h1>
-          <h1 className="text-ash font-bold mt-2 dark:text-dark">
+          <h1 className="text-ash font-extrabold mt-2 dark:text-dark">
             is changing. IYKYK
           </h1>
-          <div className="absolute right-14 bottom-9 xl:visible invisible">
-            <div className="w-24 h-4 bg-deeppurple relative -rotate-6">
-              <div className="absolute top-[3px]">
+          <div className="absolute right-28 bottom-9 xl:visible invisible">
+            <div className="w-24 h-4 bg-purple relative -rotate-6">
+              <div className="absolute top-[4px]">
                 <p className="text-ash text-sm font-semibold dark:text-dark">
                   If You Know,
                 </p>
@@ -28,7 +28,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="absolute right-12 bottom-3 xl:visible invisible">
-            <div className="right-8 w-20 h-4 bg-deeppurple relative -rotate-6">
+            <div className="right-9 w-20 h-4 bg-purple relative -rotate-6">
               <div className="absolute top-[3px]">
                 <p className="text-ash text-sm font-semibold dark:text-dark">
                   You Know.
@@ -39,31 +39,31 @@ const Hero = () => {
         </div>
       </header>
 
-      <div className="flex flex-wrap justify-center animate-breeze">
-        <img src={btw} alt="btw" className="rotate-2 h-[20%] w-[20%]" />
-        <img src={fyi} alt="fyi" className="-rotate-3 h-[20%] w-[20%]" />
-        <img src={idk} alt="idk" className="rotate-3 h-[20%] w-[20%]" />
-        <img src={ig} alt="if" className="rotate-6 h-[20%] w-[20%]" />
-        <img src={lfg} alt="lfg" className="-rotate-6 h-[20%] w-[20%]" />
+      <div className="md:flex flex-wrap justify-center animate-breeze sm:hidden ">
+        <img src={btw} alt="btw" className="rotate-2 h-[15%] w-[15%]" />
+        <img src={fyi} alt="fyi" className="-rotate-3 h-[15%] w-[15%]" />
+        <img src={idk} alt="idk" className="rotate-3 h-[15%] w-[15%]" />
+        <img src={ig} alt="if" className="rotate-6 h-[15%] w-[15%]" />
+        <img src={lfg} alt="lfg" className="-rotate-6 h-[15%] w-[15%]" />
       </div>
 
       <Form />
 
       <section className="block justify-center  items-center md:flex md:flex-col-reverse lg:flex lg:flex-row">
-        <div className="lg:w-1/2 px-10 pt-5 lg:px-0 lg:pr-20 md:text-left lg:text-center text-center">
+        <div className="lg:w-1/2 lg:px-10 pt-5">
           <p className="text-purple font-bold text-2xl lg:text-3xl dark:text-deeppurple">
             <span className="text-ash dark:text-dark">
-              Abbreve (A-bree-vay)
+              Abbreve (A-bree-vay) is
             </span>{" "}
-            is an open source dictionary for{" "}
-            <span className="text-ash dark:text-dark">slang.</span>{" "}
+            an open source dictionary{" "}
+            <span className="text-ash dark:text-dark">for slang.</span>{" "}
           </p>
-          <p className="text-purple font-bold text-2xl lg:text-3xl mt-2 dark:text-deeppurple pb-8">
+          <p className="text-ash font-bold text-2xl lg:text-3xl mt-2 dark:text-dark pb-8">
             Curated by the community, for the community.
           </p>
         </div>
 
-        <div className="border-2 p-4 rounded-lg border-purple lg:rotate-3 hover:lg:rotate-0 hover:lg:ease-in-out hover:lg:duration-300 relative md:mt-0 dark:border-deeppurple">
+        <div className="border-2 p-4 rounded-lg border-purple relative md:mt-0 dark:border-deeppurple">
           <div className="flex gap-2 items-center">
             <img src={nate} alt="" className="h-12 w-12 rounded-full" />
             <div>
@@ -102,7 +102,7 @@ const Hero = () => {
       </section>
 
       <section className=" justify-center lg:gap-10 mt-10 items-center flex flex-col lg:flex-row">
-        <div className="border-2 p-4 rounded-lg border-purple lg:rotate-3 hover:lg:rotate-0 hover:lg:ease-in-out hover:lg:duration-300 relative md:mt-0 dark:border-deeppurple">
+        <div className="border-2 p-4 rounded-lg border-purple  relative md:mt-0 dark:border-deeppurple w-96">
           <div className="flex gap-2 items-center">
             <img src={emy} alt="" className="h-12 w-12 rounded-full" />
             <div>
@@ -143,7 +143,7 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="lg:w-1/2 lg:text-left text-center mt-2 md:mt-3 lg:mt-0">
+        <div className="lg:w-1/2 lg:text-left mt-2 md:mt-3 lg:mt-0">
           <h2 className="text-purple font-bold text-xl md:text-2xl xmd:text-2xl lg:text-3xl xl:text-3xl dark:text-deeppurple">
             <span className="text-ash dark:text-dark">Googling</span> in between
             conversations <span className="text-ash dark:text-dark">is</span>{" "}
@@ -157,4 +157,3 @@ const Hero = () => {
 };
 
 export default Hero;
-<div className="h-56 w-56 relative border-2 border-purple"></div>;
