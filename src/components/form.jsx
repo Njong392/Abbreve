@@ -135,14 +135,14 @@ const Form = () => {
           )}
 
           {error && (
-            <div className="text-purple dark:text-deeppurple text-sm mt-2 ">
+            <div className="text-deeppurple dark:text-purple text-sm mt-2 ">
               Oops. Some connection error occured.
             </div>
           )}
 
           {isUserInputBlank && (
             <div className="mt-4">
-              <p className="text-purple dark:text-deeppurple ">
+              <p className="text-deeppurple dark:text-purple ">
                 Search bar 🔍 is Empty! Please input a slang.
               </p>
             </div>
