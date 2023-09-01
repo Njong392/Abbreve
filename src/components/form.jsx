@@ -68,11 +68,11 @@ const Form = () => {
   }, [userInput]);
 
   return (
-    <div className="bg-dark py-5 md:mb-0 lg:py-12 px-[14px] dark:bg-ash">
+    <div className="py-5 md:mb-0 lg:py-12 px-[14px] dark:bg-dark">
       <section className="block justify-center md:pb-16 md:flex md:flex-col lg:flex lg:flex-row items-center">
         <div className="md:w-full lg:pr-20 lg:w-1/2 flex flex-col">
-          <h2 className="lg:text-left text-center text-purple font-bold text-xl md:text-2xl lg:text-3xl  dark:text-deeppurple">
-            <span className="text-ash dark:text-dark">
+          <h2 className="lg:text-left text-center text-deeppurple font-bold text-xl md:text-2xl lg:text-3xl  dark:text-purple">
+            <span className="text-dark dark:text-ash ">
               Start by entering a slang,
             </span>{" "}
             and our dictionary will spit out an abbreviation.{" "}
@@ -105,7 +105,7 @@ const Form = () => {
               <input
                 type="text"
                 placeholder="Search slang full meaning..."
-                className="flex-1 w-[14rem] h-6 ml-2 border-none outline-none placeholder:text-gray bg-ash"
+                className="flex-1 w-[14rem] h-6 ml-2 border-none outline-none placeholder:text-black bg-ash"
                 value={userInput}
                 onChange={(e) =>
                   setUserInput(e.target.value.toLocaleLowerCase())
@@ -135,14 +135,14 @@ const Form = () => {
           )}
 
           {error && (
-            <div className="text-purple text-sm mt-2 dark:text-deeppurple">
+            <div className="text-deeppurple dark:text-purple text-sm mt-2 ">
               Oops. Some connection error occured.
             </div>
           )}
 
           {isUserInputBlank && (
             <div className="mt-4">
-              <p className="text-purple dark:text-deeppurple">
+              <p className="text-deeppurple dark:text-purple ">
                 Search bar 🔍 is Empty! Please input a slang.
               </p>
             </div>
@@ -150,22 +150,22 @@ const Form = () => {
 
           {errorMessage && (
             <div className="mt-4 p-3 lg:absolute">
-              <p className="text-purple dark:text-deeppurple">
+              <p className="text-deeppurple dark:text-purple">
                 This entry does not exist in our records as of yet :(
               </p>
-              <p className="text-ash mt-2 dark:text-dark">
+              <p className="text-dark mt-2 dark:text-ash">
                 1. You can help us add this by creating a{" "}
                 <a
                   href="https://github.com/Njong392/Abbreve"
-                  className=" text-purple dark:text-deeppurple">
+                  className=" text-deeppurple dark:text-purple">
                   github issue
                 </a>
               </p>
-              <p className="text-ash dark:text-dark w-3/4">
+              <p className="text-dark dark:text-ash w-3/4">
                 2. Or, you could fill out this{" "}
                 <a
                   href="https://t.co/mp86BLYBhq"
-                  className="text-purple dark:text-deeppurple">
+                  className="text-deeppurple dark:text-purple">
                   feedback form
                 </a>{" "}
                 and we will address the issue

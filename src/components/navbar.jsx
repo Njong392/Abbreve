@@ -5,42 +5,25 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
-  const defaultTheme = localStorage.getItem("theme") || "light";
-  const defaultToggle =
-    JSON.parse(localStorage.getItem("toggleButton")) || false;
-
-  const [theme, setTheme] = useState(defaultTheme);
-  const [toggleTheme, setToggleTheme] = useState(defaultToggle);
-
+  const deafultTheme = localStorage.getItem("isDarkMode") || false;
+  const [isDarkMode, setIsDarkMode] = useState(deafultTheme);
   const element = document.documentElement;
 
-  const handletheme = () => {
-    if (toggleTheme) {
-      setTheme("dark");
-    } else {
-      setTheme("light");
-    }
-
-    setToggleTheme(!toggleTheme);
-  };
   useEffect(() => {
-    switch (theme) {
-      case "dark":
+    switch (isDarkMode) {
+      case true:
         element.classList.add("dark");
-        localStorage.setItem("theme", "dark");
-        localStorage.setItem("toggleButton", JSON.stringify(false));
+        localStorage.setItem("isDarkMode", true);
         break;
-      case "light":
+      case false:
         element.classList.remove("dark");
-        localStorage.setItem("theme", "light");
-        localStorage.setItem("toggleButton", JSON.stringify(true));
+        localStorage.setItem("isDarkMode", false);
         break;
       default:
-        localStorage.removeItem("theme");
-
+        localStorage.removeItem("isDarkMode");
         break;
     }
-  }, [theme]);
+  }, [isDarkMode]);
 
   return (
     <nav className="px-4 py-4 sm:px-6 lg:px-8 bg-dark">
@@ -72,9 +55,9 @@ const Navbar = () => {
 
           <div className="rounded-lg">
             <button
-              onClick={handletheme}
+              onClick={() => setIsDarkMode(!isDarkMode)}
               className="w-8 h-8 leading-9 text-xl rounded-full m-1 text-deeppurple hover:text-ash hover:scale-110 ">
-              <FontAwesomeIcon icon={toggleTheme ? faMoon : faSun} />
+              <FontAwesomeIcon icon={isDarkMode ? faSun : faMoon} />
             </button>
           </div>
         </div>
@@ -82,5 +65,4 @@ const Navbar = () => {
     </nav>
   );
 };
-
 export default Navbar;
