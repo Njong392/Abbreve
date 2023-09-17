@@ -116,7 +116,7 @@ const Form = () => {
             <button
               onClick={fetchData}
               disabled={isLoading}
-              className="bg-deeppurple text-ash font-bold rounded-xl cursor-pointer hover:scale-110 p-2 mt-4 md:mt-0 items-center flex justify-center h-[50px] min-w-[100px] w-full md:w-auto">
+              className="bg-deeppurple text-ash font-bold rounded-xl cursor-pointer md:hover:scale-110 p-2 mt-4 md:mt-0 items-center flex justify-center h-[50px] min-w-[100px] w-full md:w-auto">
               {isLoading ? <LoadingSpinner /> : "Search"}
             </button>
           </form>
