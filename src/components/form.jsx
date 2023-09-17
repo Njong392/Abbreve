@@ -122,15 +122,17 @@ const Form = () => {
           </form>
 
           {data && (
-            <div className="bg-ash shadow-lg border-2 border-deeppurple py-2 pl-2 rounded-lg mt-4">
-              <div className="mt-1 font-bold text-xl ml-2 text-deeppurple">
+            <div className="bg-ash shadow-lg border-2 border-deeppurple p-2 flex items-center  rounded-lg mt-4">
+              <div className="font-bold w-100 text-xl text-deeppurple">
                 <p role="region" aria-live="assertive">
                   {data.definition}
                 </p>
               </div>
-              <div className="mt-2 text-gray font-bold text-md ml-2 dark:text-gray">
-                <p>{data.alternatives}</p>
-              </div>
+              {data.alternatives && (
+                <div className="mt-2 text-gray font-bold text-md ml-2 dark:text-gray">
+                  <p>{data.alternatives}</p>
+                </div>
+              )}
             </div>
           )}
 
