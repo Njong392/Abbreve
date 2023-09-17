@@ -69,7 +69,8 @@ const Hero = () => {
             <div>
               <a
                 href="https://twitter.com/Nateemerson/status/1567566265719599105?s=20&t=QAOQu1feHo07evNBHFvAIQ"
-                className="text-deeppurple dark:text-purple">
+                className="text-deeppurple dark:text-purple"
+                target="blank">
                 <p className="font-bold">Nate (DojoJOJO)</p>
                 <p className="text-sm">@Nateemerson</p>
               </a>
@@ -108,7 +109,8 @@ const Hero = () => {
             <div>
               <a
                 href="https://twitter.com/njong_emy/status/1567561277135781888?s=20&t=QAOQu1feHo07evNBHFvAIQ"
-                className="text-deeppurple dark:text-purple">
+                className="text-deeppurple dark:text-purple"
+                target="blank">
                 <p className="font-bold">Emy 🦄⛅</p>
                 <p className="text-sm">@njong_emy</p>
               </a>

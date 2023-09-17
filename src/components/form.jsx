@@ -60,16 +60,16 @@ const Form = () => {
   };
 
   useEffect(() => {
-    if (!isUserInputBlank) {
-      previousUserInput.current = userInput;
-    }
+    previousUserInput.current = userInput;
 
-    clearDataBeforeFetch();
+    if (isUserInputBlank) {
+      clearDataBeforeFetch();
+    }
   }, [userInput]);
 
   return (
     <div className="py-5 md:mb-0 lg:py-12 px-[14px] dark:bg-dark">
-      <section className="block justify-center md:pb-16 md:flex md:flex-col lg:flex lg:flex-row items-center">
+      <section className="block justify-center md:pb-16 md:flex md:flex-col lg:flex lg:flex-row lg:items-start md:items-center">
         <div className="md:w-full lg:pr-20 lg:w-1/2 flex flex-col">
           <h2 className="lg:text-left text-center text-deeppurple font-bold text-xl md:text-2xl lg:text-3xl  dark:text-purple">
             <span className="text-dark dark:text-ash ">
@@ -83,7 +83,7 @@ const Form = () => {
           </p>
         </div>
 
-        <div className="mt-2 lg:mt-0 md:mt-4  lg:mb-24">
+        <div className="mt-2 lg:mt-0 md:mt-4 mt-3 lg:mt-0 md:mt-4  md:flex md:flex-col md:items-center lg:block">
           <form
             className="block md:flex items-center justify-start gap-2"
             id="form">
@@ -115,22 +115,24 @@ const Form = () => {
 
             <button
               onClick={fetchData}
-              disabled={isLoading || !hasUserInputChanged}
-              className="bg-deeppurple text-ash font-bold rounded-xl hover:scale-110 p-2 mt-4 md:mt-0 items-center flex justify-center h-[50px] min-w-[100px] w-full md:w-auto">
+              disabled={isLoading}
+              className="bg-deeppurple text-ash font-bold rounded-xl cursor-pointer md:hover:scale-110 p-2 mt-4 md:mt-0 items-center flex justify-center h-[50px] min-w-[100px] w-full md:w-auto">
               {isLoading ? <LoadingSpinner /> : "Search"}
             </button>
           </form>
 
           {data && (
-            <div className="bg-ash shadow-lg border-2 border-deeppurple py-2 pl-2 rounded-lg mt-4">
-              <div className="mt-1 font-bold text-xl ml-2 text-deeppurple">
+            <div className="bg-ash shadow-lg border-2 border-deeppurple p-2 flex items-center  rounded-lg mt-4">
+              <div className="font-bold w-100 text-xl text-deeppurple">
                 <p role="region" aria-live="assertive">
                   {data.definition}
                 </p>
               </div>
-              <div className="mt-2 text-gray font-bold text-md ml-2 dark:text-gray">
-                <p>{data.alternatives}</p>
-              </div>
+              {data.alternatives && (
+                <div className="mt-2 text-gray font-bold text-md ml-2 dark:text-gray">
+                  <p>{data.alternatives}</p>
+                </div>
+              )}
             </div>
           )}
 
@@ -149,23 +151,27 @@ const Form = () => {
           )}
 
           {errorMessage && (
-            <div className="mt-4 p-3 lg:absolute">
+            <div className="mt-4 p-3 lg:absolute md:text-center lg:text-start ">
+              {/* <div className="text"> */}
               <p className="text-deeppurple dark:text-purple">
                 This entry does not exist in our records as of yet :(
               </p>
+              {/* </div> */}
               <p className="text-dark mt-2 dark:text-ash">
                 1. You can help us add this by creating a{" "}
                 <a
                   href="https://github.com/Njong392/Abbreve"
-                  className=" text-deeppurple dark:text-purple">
+                  className=" text-deeppurple dark:text-purple"
+                  target="blank">
                   github issue
                 </a>
               </p>
-              <p className="text-dark dark:text-ash w-3/4">
+              <p className="text-dark dark:text-ash lg:w-3/4">
                 2. Or, you could fill out this{" "}
                 <a
                   href="https://t.co/mp86BLYBhq"
-                  className="text-deeppurple dark:text-purple">
+                  className="text-deeppurple dark:text-purple"
+                  target="blank">
                   feedback form
                 </a>{" "}
                 and we will address the issue

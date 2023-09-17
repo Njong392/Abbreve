@@ -5,8 +5,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
-  const deafultTheme = localStorage.getItem("isDarkMode") || false;
-  const [isDarkMode, setIsDarkMode] = useState(deafultTheme);
+  const [isDarkMode, setIsDarkMode] = useState(
+    localStorage.getItem("isDarkMode") === "true" ? true : false
+  );
   const element = document.documentElement;
 
   useEffect(() => {
@@ -26,7 +27,7 @@ const Navbar = () => {
   }, [isDarkMode]);
 
   return (
-    <nav className="px-4 py-4 sm:px-6 lg:px-8 bg-dark">
+    <nav className="px-4 py-4 sm:px-6 lg:px-8 dark:bg-dark  bg-ash">
       <div className="flex justify-between items-center p-2">
         <div className="logo">
           <img
@@ -56,7 +57,7 @@ const Navbar = () => {
           <div className="rounded-lg">
             <button
               onClick={() => setIsDarkMode(!isDarkMode)}
-              className="w-8 h-8 leading-9 text-xl rounded-full m-1 text-deeppurple hover:text-ash hover:scale-110 ">
+              className="w-8 h-8 leading-9 text-xl rounded-full m-1 text-deeppurple dark:hover:text-ash  hover:scale-110 ">
               <FontAwesomeIcon icon={isDarkMode ? faSun : faMoon} />
             </button>
           </div>
