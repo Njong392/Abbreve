@@ -5,23 +5,17 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
-  const deafultTheme = localStorage.getItem("isDarkMode") || false;
-  const [isDarkMode, setIsDarkMode] = useState(deafultTheme);
+  const defaultTheme = localStorage.getItem("isDarkMode") === "true";
+  const [isDarkMode, setIsDarkMode] = useState(defaultTheme);
   const element = document.documentElement;
 
   useEffect(() => {
-    switch (isDarkMode) {
-      case true:
-        element.classList.add("dark");
-        localStorage.setItem("isDarkMode", true);
-        break;
-      case false:
-        element.classList.remove("dark");
-        localStorage.setItem("isDarkMode", false);
-        break;
-      default:
-        localStorage.removeItem("isDarkMode");
-        break;
+    if (isDarkMode) {
+      element.classList.add("dark");
+      localStorage.setItem("isDarkMode", "true");
+    } else {
+      element.classList.remove("dark");
+      localStorage.setItem("isDarkMode", "false");
     }
   }, [isDarkMode]);
 
