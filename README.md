@@ -18,7 +18,7 @@
 
 # :movie_camera: Project Overview
 
-You can check out the live project [here](https://www.abbreve.tech/)
+You can check out the live project [here](https://abbreve.vercel.app/)
 
 All you need to do is start entering a slang in the search bar, and the meaning will be provided. Below the main meaning of the slang could be alternative meanings.
 
@@ -140,4 +140,4 @@ Before pushing your changes, please check and ensure that all your additions fol
 
 This project is licensed with [Apache-2.0 License](https://github.com/Njong392/Abbreve/blob/main/LICENSE.md).
 
-If you like the [project](https://www.abbreve.tech/), Don't forget to leave a star :star: . All support is highly appreciated :100:
+If you like the [project](https://abbreve.vercel.app/), Don't forget to leave a star :star: . All support is highly appreciated :100:
