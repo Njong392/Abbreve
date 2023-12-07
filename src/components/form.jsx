@@ -6,7 +6,7 @@ const Form = () => {
   const [error, setError] = useState(false);
   const [errorMessage, setErrorMessage] = useState(false);
   const [userInput, setUserInput] = useState("");
-  const [isUserInputBlank, setIsUserInputBlank] = useState(true);
+  const [isUserInputBlank, setIsUserInputBlank] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const previousUserInput = useRef(undefined);
   const hasUserInputChanged = previousUserInput.current !== userInput;
@@ -63,8 +63,6 @@ const Form = () => {
     if (!isUserInputBlank) {
       previousUserInput.current = userInput;
     }
-
-    clearDataBeforeFetch();
   }, [userInput]);
 
   return (
@@ -107,9 +105,10 @@ const Form = () => {
                 placeholder="Search slang full meaning..."
                 className="flex-1 w-[14rem] h-6 ml-2 border-none outline-none placeholder:text-black bg-ash"
                 value={userInput}
-                onChange={(e) =>
-                  setUserInput(e.target.value.toLocaleLowerCase())
-                }
+                onChange={(e) => {
+                  clearDataBeforeFetch();
+                  setUserInput(e.target.value.toLocaleLowerCase());
+                }}
               />
             </div>
 
