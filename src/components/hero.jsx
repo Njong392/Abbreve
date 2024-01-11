@@ -40,11 +40,31 @@ const Hero = () => {
       </header>
 
       <div className="md:flex flex-wrap justify-center animate-breeze sm:hidden ">
-        <img src={btw} alt="btw" className="rotate-2 h-[15%] w-[15%]" />
-        <img src={fyi} alt="fyi" className="-rotate-3 h-[15%] w-[15%]" />
-        <img src={idk} alt="idk" className="rotate-3 h-[15%] w-[15%]" />
-        <img src={ig} alt="if" className="rotate-6 h-[15%] w-[15%]" />
-        <img src={lfg} alt="lfg" className="-rotate-6 h-[15%] w-[15%]" />
+        <img
+          src={btw}
+          alt="btw"
+          className="select-none transition ease-in-out delay-75 hover:-rotate-1 hover:scale-105 rotate-2 h-[15%] w-[15%]"
+        />
+        <img
+          src={fyi}
+          alt="fyi"
+          className="select-none transition ease-in-out delay-75 hover:rotate-0 hover:scale-105 -rotate-3 h-[15%] w-[15%]"
+        />
+        <img
+          src={idk}
+          alt="idk"
+          className="select-none transition ease-in-out delay-75 hover:rotate-0 hover:scale-105 rotate-3 h-[15%] w-[15%]"
+        />
+        <img
+          src={ig}
+          alt="if"
+          className="select-none transition ease-in-out delay-75 hover:rotate-3 hover:scale-105 rotate-6 h-[15%] w-[15%]"
+        />
+        <img
+          src={lfg}
+          alt="lfg"
+          className="select-none transition ease-in-out delay-75 hover:-rotate-3 hover:scale-105 -rotate-6 h-[15%] w-[15%]"
+        />
       </div>
 
       <Form />
