@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer>
-      <div className="bottom-0 text-center p-2 bg-dark">
+      <div className="bottom-0 text-center p-4 bg-dark md:p-2">
         <p className="text-sm mt-5 text-ash">
           Found something odd?{" "}
           <a href="https://github.com/Njong392/Abbreve">
