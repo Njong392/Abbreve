@@ -1,5 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { LoadingSpinner } from "./loadingSpinner";
+const searchParams = new URLSearchParams(window.location.search);
+const prefillVar = searchParams.get("prefill_var");
 
 const Form = () => {
   const [data, setData] = useState(null);
@@ -44,7 +46,6 @@ const Form = () => {
           return response.json();
         })
         .then((data) => {
-          console.log("IN DATA");
           setData(data);
           setError(false);
           setErrorMessage(false);
@@ -80,22 +81,14 @@ const Form = () => {
   }, [userInput]);
 
   useEffect(() => {
-    const searchParams = new URLSearchParams(window.location.search);
-    const prefillVar = searchParams.get("prefill_var");
-
     if (prefillVar) {
       setUserInput(prefillVar);
+      const mockEvent = { preventDefault: () => {} };
+      fetchData(mockEvent);
     } else {
       console.log("No Variable");
     }
-  }, []);
-
-  useEffect(() => {
-    if (userInput) {
-      const mockEvent = { preventDefault: () => {} };
-      fetchData(mockEvent);
-    }
-  }, [userInput]);
+  }, [isUserInputBlank]);
 
   return (
     <div className="py-5 md:mb-0 lg:py-12 px-[14px] dark:bg-dark">
@@ -162,8 +155,6 @@ const Form = () => {
                   onClick={(e) => copyToClipboard(e)}
                   className="text-blue-600 hover:text-blue-800 visited:text-purple-600"
                   style={{ cursor: "pointer" }}>
-                  {" "}
-                  {/* Style added to make it look clickable */}
                   Link "{userInput.toUpperCase()}"
                 </a>
               </div>
