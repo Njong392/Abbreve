@@ -44,6 +44,7 @@ const Form = () => {
           return response.json();
         })
         .then((data) => {
+          console.log("IN DATA");
           setData(data);
           setError(false);
           setErrorMessage(false);
@@ -59,9 +60,40 @@ const Form = () => {
     }
   };
 
+  const copyToClipboard = (e) => {
+    e.preventDefault();
+    const link = `${window.location.origin}/?prefill_var=${userInput}`;
+    navigator.clipboard
+      .writeText(link)
+      .then(() => {
+        console.log("Link copied to clipboard");
+      })
+      .catch((err) => {
+        console.error("Could not copy text: ", err);
+      });
+  };
+
   useEffect(() => {
     if (!isUserInputBlank) {
       previousUserInput.current = userInput;
+    }
+  }, [userInput]);
+
+  useEffect(() => {
+    const searchParams = new URLSearchParams(window.location.search);
+    const prefillVar = searchParams.get("prefill_var");
+
+    if (prefillVar) {
+      setUserInput(prefillVar);
+    } else {
+      console.log("No Variable");
+    }
+  }, []);
+
+  useEffect(() => {
+    if (userInput) {
+      const mockEvent = { preventDefault: () => {} };
+      fetchData(mockEvent);
     }
   }, [userInput]);
 
@@ -126,6 +158,14 @@ const Form = () => {
                 <p role="region" aria-live="assertive">
                   {data.definition}
                 </p>
+                <a
+                  onClick={(e) => copyToClipboard(e)}
+                  className="text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                  style={{ cursor: "pointer" }}>
+                  {" "}
+                  {/* Style added to make it look clickable */}
+                  Link "{userInput.toUpperCase()}"
+                </a>
               </div>
               <div className="mt-2 text-gray font-bold text-md ml-2 dark:text-gray">
                 <p>{data.alternatives}</p>
