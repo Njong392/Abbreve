@@ -85,8 +85,6 @@ const Form = () => {
       setUserInput(prefillVar);
       const mockEvent = { preventDefault: () => {} };
       fetchData(mockEvent);
-    } else {
-      console.log("No Variable");
     }
   }, [isUserInputBlank]);
 
@@ -153,10 +151,7 @@ const Form = () => {
                 </p>
                 <a
                   onClick={(e) => copyToClipboard(e)}
-                  className="text-blue-600 hover:text-blue-800 visited:text-purple-600"
-                  style={{ cursor: "pointer" }}>
-                  Link "{userInput.toUpperCase()}"
-                </a>
+                  className="text-blue-600 hover:text-blue-800 visited:text-purple-600"></a>
               </div>
               <div className="mt-2 text-gray font-bold text-md ml-2 dark:text-gray">
                 <p>{data.alternatives}</p>
