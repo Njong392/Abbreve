@@ -1,5 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { LoadingSpinner } from "./loadingSpinner";
+const searchParams = new URLSearchParams(window.location.search);
+const prefillVar = searchParams.get("prefill_var");
 
 const Form = () => {
   const [data, setData] = useState(null);
@@ -59,11 +61,32 @@ const Form = () => {
     }
   };
 
+  const copyToClipboard = (e) => {
+    e.preventDefault();
+    const link = `${window.location.origin}/?prefill_var=${userInput}`;
+    navigator.clipboard
+      .writeText(link)
+      .then(() => {
+        console.log("Link copied to clipboard");
+      })
+      .catch((err) => {
+        console.error("Could not copy text: ", err);
+      });
+  };
+
   useEffect(() => {
     if (!isUserInputBlank) {
       previousUserInput.current = userInput;
     }
   }, [userInput]);
+
+  useEffect(() => {
+    if (prefillVar) {
+      setUserInput(prefillVar);
+      const mockEvent = { preventDefault: () => {} };
+      fetchData(mockEvent);
+    }
+  }, [isUserInputBlank]);
 
   return (
     <div className="py-5 md:mb-0 lg:py-12 px-[14px] dark:bg-dark">
@@ -126,6 +149,9 @@ const Form = () => {
                 <p role="region" aria-live="assertive">
                   {data.definition}
                 </p>
+                <a
+                  onClick={(e) => copyToClipboard(e)}
+                  className="text-blue-600 hover:text-blue-800 visited:text-purple-600"></a>
               </div>
               <div className="mt-2 text-gray font-bold text-md ml-2 dark:text-gray">
                 <p>{data.alternatives}</p>
