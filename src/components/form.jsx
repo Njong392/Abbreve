@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { LoadingSpinner } from "./loadingSpinner";
+import copyImage from "../assets/copy.png";
 const searchParams = new URLSearchParams(window.location.search);
 const prefillVar = searchParams.get("prefill_var");
 
@@ -143,22 +144,40 @@ const Form = () => {
             </button>
           </form>
 
+          <style>
+            {`
+              .copy-button {
+                cursor: pointer;
+                background: url(${copyImage}) no-repeat center/contain;
+                border: none;
+                display: inline-block;
+                float: right;
+                width: 50px; 
+                height: 30px; 
+                padding: 0;
+                transition: transform .1s ease;
+              }
+              .copy-button:hover {
+                transform: scale(1.15); 
+              }
+            `}
+          </style>
+
           {data && (
             <div className="bg-ash shadow-lg border-2 border-deeppurple py-2 pl-2 rounded-lg mt-4">
               <div className="mt-1 font-bold text-xl ml-2 text-deeppurple">
                 <p role="region" aria-live="assertive">
                   {data.definition}
+                  <button
+                    onClick={(e) => copyToClipboard(e)}
+                    className="copy-button"></button>
                 </p>
-                <a
-                  onClick={(e) => copyToClipboard(e)}
-                  className="text-blue-600 hover:text-blue-800 visited:text-purple-600"></a>
               </div>
               <div className="mt-2 text-gray font-bold text-md ml-2 dark:text-gray">
                 <p>{data.alternatives}</p>
               </div>
             </div>
           )}
-
           {error && (
             <div className="text-deeppurple dark:text-purple text-sm mt-2 ">
               Oops. Some connection error occured.
