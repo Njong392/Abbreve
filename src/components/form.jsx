@@ -144,25 +144,6 @@ const Form = () => {
             </button>
           </form>
 
-          <style>
-            {`
-              .copy-button {
-                cursor: pointer;
-                background: url(${copyImage}) no-repeat center/contain;
-                border: none;
-                display: inline-block;
-                float: right;
-                width: 50px; 
-                height: 30px; 
-                padding: 0;
-                transition: transform .1s ease;
-              }
-              .copy-button:hover {
-                transform: scale(1.15); 
-              }
-            `}
-          </style>
-
           {data && (
             <div className="bg-ash shadow-lg border-2 border-deeppurple py-2 pl-2 rounded-lg mt-4">
               <div className="mt-1 font-bold text-xl ml-2 text-deeppurple">
@@ -170,7 +151,13 @@ const Form = () => {
                   {data.definition}
                   <button
                     onClick={(e) => copyToClipboard(e)}
-                    className="copy-button"></button>
+                    className="group relative inline-block float-right w-12 h-7 p-0 border-none focus:outline-none">
+                    <img
+                      src={copyImage}
+                      alt="Copy"
+                      className="absolute inset-0 w-full h-full object-contain group-hover:scale-110 transition-transform duration-100 ease-out"
+                    />
+                  </button>
                 </p>
               </div>
               <div className="mt-2 text-gray font-bold text-md ml-2 dark:text-gray">
@@ -178,6 +165,7 @@ const Form = () => {
               </div>
             </div>
           )}
+
           {error && (
             <div className="text-deeppurple dark:text-purple text-sm mt-2 ">
               Oops. Some connection error occured.
