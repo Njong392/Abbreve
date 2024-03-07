@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { LoadingSpinner } from "./loadingSpinner";
 import copyImage from "../assets/copy.png";
+import copyImageSuccess from "../assets/copySuccess.png";
 const searchParams = new URLSearchParams(window.location.search);
 const prefillVar = searchParams.get("prefill_var");
 
@@ -13,6 +14,7 @@ const Form = () => {
   const [isLoading, setIsLoading] = useState(false);
   const previousUserInput = useRef(undefined);
   const hasUserInputChanged = previousUserInput.current !== userInput;
+  const [copyStatus, setImageSrc] = useState(copyImage);
 
   function clearDataBeforeFetch() {
     setErrorMessage("");
@@ -69,6 +71,8 @@ const Form = () => {
       .writeText(link)
       .then(() => {
         console.log("Link copied to clipboard");
+        setImageSrc(copyImageSuccess);
+        setTimeout(() => setImageSrc(copyImage), 2000);
       })
       .catch((err) => {
         console.error("Could not copy text: ", err);
@@ -151,11 +155,11 @@ const Form = () => {
                   {data.definition}
                   <button
                     onClick={(e) => copyToClipboard(e)}
-                    className="group relative inline-block float-right w-12 h-7 p-0 border-none focus:outline-none">
+                    className="group relative inline-block float-right w-12 h-7 p-0 border-none focus:outline-none transition-transform duration-100 ease-out">
                     <img
-                      src={copyImage}
+                      src={copyStatus}
                       alt="Copy"
-                      className="absolute inset-0 w-full h-full object-contain group-hover:scale-110 transition-transform duration-100 ease-out"
+                      className="absolute inset-0 w-full h-full object-contain group-hover:scale-110 pressed:translate-y-1"
                     />
                   </button>
                 </p>
