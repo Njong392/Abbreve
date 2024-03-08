@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { LoadingSpinner } from "./loadingSpinner";
+import copyImage from "../assets/copy.png";
 const searchParams = new URLSearchParams(window.location.search);
 const prefillVar = searchParams.get("prefill_var");
 
@@ -12,6 +13,8 @@ const Form = () => {
   const [isLoading, setIsLoading] = useState(false);
   const previousUserInput = useRef(undefined);
   const hasUserInputChanged = previousUserInput.current !== userInput;
+  const [copyStatus, setImageSrc] = useState(copyImage);
+  const [isCopied, setIsCopied] = useState(false);
 
   function clearDataBeforeFetch() {
     setErrorMessage("");
@@ -68,6 +71,9 @@ const Form = () => {
       .writeText(link)
       .then(() => {
         console.log("Link copied to clipboard");
+        setImageSrc(copyImage);
+        setIsCopied(true);
+        setTimeout(() => setIsCopied(false), 2000);
       })
       .catch((err) => {
         console.error("Could not copy text: ", err);
@@ -148,10 +154,22 @@ const Form = () => {
               <div className="mt-1 font-bold text-xl ml-2 text-deeppurple">
                 <p role="region" aria-live="assertive">
                   {data.definition}
+                  <button
+                    onClick={(e) => copyToClipboard(e)}
+                    className="group relative inline-block float-right w-12 h-7 p-0 border-none focus:outline-none transition-transform duration-100 ease-out">
+                    {isCopied ? (
+                      <span className="absolute inset-0 flex items-center justify-center font-bold text-sm px-1 -ml-5 -mt-3">
+                        Copied
+                      </span>
+                    ) : (
+                      <img
+                        src={copyStatus}
+                        alt="Copy"
+                        className="absolute inset-0 w-full h-full object-contain group-hover:scale-110"
+                      />
+                    )}
+                  </button>
                 </p>
-                <a
-                  onClick={(e) => copyToClipboard(e)}
-                  className="text-blue-600 hover:text-blue-800 visited:text-purple-600"></a>
               </div>
               <div className="mt-2 text-gray font-bold text-md ml-2 dark:text-gray">
                 <p>{data.alternatives}</p>
