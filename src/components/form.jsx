@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { LoadingSpinner } from "./loadingSpinner";
 import copyImage from "../assets/copy.png";
-import copyImageSuccess from "../assets/copySuccess.png";
 const searchParams = new URLSearchParams(window.location.search);
 const prefillVar = searchParams.get("prefill_var");
 
@@ -15,6 +14,7 @@ const Form = () => {
   const previousUserInput = useRef(undefined);
   const hasUserInputChanged = previousUserInput.current !== userInput;
   const [copyStatus, setImageSrc] = useState(copyImage);
+  const [isCopied, setIsCopied] = useState(false);
 
   function clearDataBeforeFetch() {
     setErrorMessage("");
@@ -71,8 +71,9 @@ const Form = () => {
       .writeText(link)
       .then(() => {
         console.log("Link copied to clipboard");
-        setImageSrc(copyImageSuccess);
-        setTimeout(() => setImageSrc(copyImage), 2000);
+        setImageSrc(copyImage);
+        setIsCopied(true);
+        setTimeout(() => setIsCopied(false), 2000);
       })
       .catch((err) => {
         console.error("Could not copy text: ", err);
@@ -156,11 +157,17 @@ const Form = () => {
                   <button
                     onClick={(e) => copyToClipboard(e)}
                     className="group relative inline-block float-right w-12 h-7 p-0 border-none focus:outline-none transition-transform duration-100 ease-out">
-                    <img
-                      src={copyStatus}
-                      alt="Copy"
-                      className="absolute inset-0 w-full h-full object-contain group-hover:scale-110 pressed:translate-y-1"
-                    />
+                    {isCopied ? (
+                      <span className="absolute inset-0 flex items-center justify-center font-bold text-sm px-1 -ml-5 -mt-3">
+                        Copied
+                      </span>
+                    ) : (
+                      <img
+                        src={copyStatus}
+                        alt="Copy"
+                        className="absolute inset-0 w-full h-full object-contain group-hover:scale-110"
+                      />
+                    )}
                   </button>
                 </p>
               </div>
