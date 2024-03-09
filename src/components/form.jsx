@@ -150,7 +150,7 @@ const Form = () => {
           </form>
 
           {data && (
-            <div className="bg-ash shadow-lg border-2 border-deeppurple py-2 pl-2 rounded-lg mt-4">
+            <div className="bg-ash shadow-lg border-2 border-deeppurple py-2 px-2 rounded-lg mt-4">
               <div className="mt-1 font-bold text-xl ml-2 text-deeppurple">
                 <p role="region" aria-live="assertive">
                   {data.definition}
@@ -158,7 +158,7 @@ const Form = () => {
                     onClick={(e) => copyToClipboard(e)}
                     className="group relative inline-block float-right w-12 h-7 p-0 border-none focus:outline-none transition-transform duration-100 ease-out">
                     {isCopied ? (
-                      <span className="absolute inset-0 flex items-center justify-center font-bold text-sm px-1 -ml-5 -mt-3">
+                      <span className="absolute inset-0 flex items-center justify-center font-bold text-sm px-1 -ml-5 h-full">
                         Copied
                       </span>
                     ) : (
