@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { LoadingSpinner } from "./loadingSpinner";
 import copyImage from "../assets/copy.png";
 const searchParams = new URLSearchParams(window.location.search);
-const prefillVar = searchParams.get("prefill_var");
+const prefillVar = searchParams.get("share");
 
 const Form = () => {
   const [data, setData] = useState(null);
@@ -13,7 +13,6 @@ const Form = () => {
   const [isLoading, setIsLoading] = useState(false);
   const previousUserInput = useRef(undefined);
   const hasUserInputChanged = previousUserInput.current !== userInput;
-  const [copyStatus, setImageSrc] = useState(copyImage);
   const [isCopied, setIsCopied] = useState(false);
 
   function clearDataBeforeFetch() {
@@ -66,12 +65,11 @@ const Form = () => {
 
   const copyToClipboard = (e) => {
     e.preventDefault();
-    const link = `${window.location.origin}/?prefill_var=${userInput}`;
+    const link = `${window.location.origin}/?share=${userInput}`;
     navigator.clipboard
       .writeText(link)
       .then(() => {
         console.log("Link copied to clipboard");
-        setImageSrc(copyImage);
         setIsCopied(true);
         setTimeout(() => setIsCopied(false), 2000);
       })
@@ -163,8 +161,8 @@ const Form = () => {
                       </span>
                     ) : (
                       <img
-                        src={copyStatus}
-                        alt="Copy"
+                        src={copyImage}
+                        alt="Copy Link"
                         className="absolute inset-0 w-full h-full object-contain group-hover:scale-110"
                       />
                     )}
