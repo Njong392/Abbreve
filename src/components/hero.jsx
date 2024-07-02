@@ -122,7 +122,7 @@ const Hero = () => {
       </section>
 
       <section className=" justify-center lg:gap-10 mt-10 items-center flex flex-col lg:flex-row">
-        <div className="border-2 p-4 rounded-lg border-deeppurple  relative md:mt-0 dark:border-purple w-96">
+        <div className="border-2 p-4 rounded-lg border-deeppurple  relative md:mt-0 dark:border-purple lg:w-96">
           <div className="flex gap-2 items-center">
             <img src={emy} alt="" className="h-12 w-12 rounded-full" />
             <div>
