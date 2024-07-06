@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { LoadingSpinner } from "./loadingSpinner";
 import copyImage from "../assets/copy.png";
 const searchParams = new URLSearchParams(window.location.search);
@@ -14,6 +14,7 @@ const Form = () => {
   const previousUserInput = useRef(undefined);
   const hasUserInputChanged = previousUserInput.current !== userInput;
   const [isCopied, setIsCopied] = useState(false);
+  const userInputRef = useRef(null);
 
   function clearDataBeforeFetch() {
     setErrorMessage("");
@@ -92,6 +93,21 @@ const Form = () => {
     }
   }, [isUserInputBlank]);
 
+  const handleClearInput = useCallback(() => {
+    setUserInput("");
+    userInputRef.current?.focus();
+  }, []);
+
+  const hadleKeyDownOnClear = useCallback(
+    (e) => {
+      if (e.keyCode === 13) {
+        handleClearInput();
+        e.preventDefault();
+      }
+    },
+    [handleClearInput]
+  );
+
   return (
     <div className="py-5 md:mb-0 lg:py-12 px-[14px] dark:bg-dark">
       <section className="block justify-center md:pb-16 md:flex md:flex-col lg:flex lg:flex-row items-center">
@@ -112,7 +128,7 @@ const Form = () => {
           <form
             className="block md:flex items-center justify-start gap-2"
             id="form">
-            <div className="bg-ash h-11 rounded-full flex items-center p-3 mt-4 md:mt-0 dark:shadow-lg border-solid border-2 border-deeppurple">
+            <div className="bg-ash h-11 rounded-full flex items-center p-3 mt-4 md:mt-0 dark:shadow-lg border-solid border-2 border-deeppurple relative">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -130,13 +146,30 @@ const Form = () => {
               <input
                 type="text"
                 placeholder="Search slang full meaning..."
-                className="flex-1 w-[14rem] h-6 ml-2 border-none outline-none placeholder:text-black bg-ash"
+                className="flex-1 w-[14rem] h-6 ml-2 border-none outline-none placeholder:text-black bg-ash mr-6"
                 value={userInput}
+                ref={userInputRef}
                 onChange={(e) => {
                   clearDataBeforeFetch();
                   setUserInput(e.target.value.toLocaleLowerCase());
                 }}
               />
+              {userInput.length ? (
+                <svg
+                  viewBox="0 0 10 10"
+                  width="0.75em"
+                  height="0.75em"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  onClick={handleClearInput}
+                  onKeyDown={hadleKeyDownOnClear}
+                  tabIndex="0"
+                  className="text-deeppurple absolute right-4 cursor-pointer outline-offset-2">
+                  <path d="M1,1 9,9 M9,1 1,9">
+                    <title>clear</title>
+                  </path>
+                </svg>
+              ) : null}
             </div>
 
             <button
