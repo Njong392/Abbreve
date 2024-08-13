@@ -95,6 +95,7 @@ const Form = () => {
 
   const handleClearInput = useCallback(() => {
     setUserInput("");
+    setData("");
     userInputRef.current?.focus();
   }, []);
 
