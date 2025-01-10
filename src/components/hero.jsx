@@ -165,9 +165,9 @@ const Hero = () => {
 
         <div className="lg:w-1/2 lg:text-left mt-2 md:mt-3 lg:mt-0">
           <h2 className="text-deeppurple font-bold text-xl md:text-2xl xmd:text-2xl lg:text-3xl xl:text-3xl dark:text-purple">
-            <span className="text-dark dark:text-ash">Googling</span> in between
+            <span className="text-dark dark:text-ash">Googling</span> during
             conversations <span className="text-dark dark:text-ash ">is</span>{" "}
-            fast becoming{" "}
+            quickly becoming{" "}
             <span className="text-dark dark:text-ash ">the new normal.</span>
           </h2>
         </div>
