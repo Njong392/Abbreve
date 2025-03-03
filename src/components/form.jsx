@@ -95,8 +95,9 @@ const Form = () => {
 
   const handleClearInput = useCallback(() => {
     setUserInput("");
+    clearDataBeforeFetch();
     userInputRef.current?.focus();
-  }, []);
+  }, [clearDataBeforeFetch]);
 
   const hadleKeyDownOnClear = useCallback(
     (e) => {
