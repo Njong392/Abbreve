@@ -57,7 +57,7 @@ const Hero = () => {
         />
         <img
           src={ig}
-          alt="if"
+          alt="ig"
           className="select-none transition ease-in-out delay-75 hover:rotate-3 hover:scale-105 rotate-6 h-[15%] w-[15%]"
         />
         <img
